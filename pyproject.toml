@@ -9,6 +9,7 @@ packages = [{include = "swegov_opendata"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+lxml = "^4.9.3"
 
 
 [build-system]
