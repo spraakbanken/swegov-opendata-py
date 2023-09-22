@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "swegov-opendata"
+version = "0.1.0"
+description = ""
+authors = ["Kristoffer Andersson <kristoffer.andersson@gu.se>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "swegov_opendata"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
