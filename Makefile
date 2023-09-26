@@ -74,7 +74,7 @@ fmt:
 
 .PHONY: check-fmt
 check-fmt:
-	${INVENV} black --check src tests
+	${INVENV} black --check swegov_opendata tests
 
 .PHONY: lint
 lint:
