@@ -451,7 +451,7 @@ def collect_texts(elem) -> str:
             result = f" {result} {child_text} "
     if tail := elem.tail:
         result = f"{result} {tail} "
-    print(f"collect_texts: {result=}")
+    # print(f"collect_texts: {result=}")
     return result
 
 
