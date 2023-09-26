@@ -15,6 +15,7 @@ lxml = "^4.9.3"
 [tool.poetry.group.dev.dependencies]
 pytest = "^7"
 pytest-cov = "^4"
+watchfiles = "^0.20.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -116,6 +116,13 @@ def preprocess_xml(xml_string, filename, testfile=False):
     textelem = etree.SubElement(docelem, "text")
     textelem.set("datatyp", "huvuddokument")
 
+    dokbilaga = tree.find("dokbilaga")
+    if len(dokbilaga) > 0:
+        for bilaga in dokbilaga:
+            for child in bilaga:
+                if child.tag.startswith("fil"):
+                    textelem.set(child.tag, str(child.text))
+
     search_document = tree.find("dokument")
 
     # The html node contains the main text. Files without <html> may have other text nodes
@@ -200,10 +207,9 @@ def preprocess_xml(xml_string, filename, testfile=False):
         textelem.set("intressent_parti", "|" + "|".join(party) + "|")
 
     # Combine "datum" and "datumtid"
-    docattrs = list(docelem.attrib.keys())
-    if "datumtid" in docattrs:
+    if "datumtid" in docelem.attrib:
         docelem.set("datum", docelem.attrib["datumtid"])
-        docattrs.attrib.pop("datumtid")
+        docelem.attrib.pop("datumtid")
     for textelem in docelem.iter("text"):
         textattrs = list(textelem.attrib.keys())
         if "datumtid" in textattrs:
@@ -215,6 +221,7 @@ def preprocess_xml(xml_string, filename, testfile=False):
     if (year < 1900) or (year > this_year):
         textelem.attrib.pop("datum")
 
+    clean_element(textelem)
     # Return new XML
     tree = etree.ElementTree(docelem)
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
@@ -222,46 +229,14 @@ def preprocess_xml(xml_string, filename, testfile=False):
 
 def process_html(elem, textelem, filename, testfile=False):
     """Process the actual text content of the document."""
-    def clean_html(text):
-        # Remove chars between 0-31 and 127-159, but keep 10 (line break).
-        # TODO: does this have any effect?
-        text = re.sub(r'&#(' + "|".join(str(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]) + ');', "", text)
-        chars = [chr(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]]
-        text = text.translate(dict((ord(c), None) for c in chars))
-        # Remove control and formatting chars
-        text = "".join(c for c in text if unicodedata.category(c)[0:2] != "Cc")
-        text = "".join(c for c in text if unicodedata.category(c)[0:2] != "Cf")
-        # Replace "special" spaces with ordinary spaces
-        text = re.sub(u"\u00A0", " ", text)
-        text = re.sub(u"\u2006", " ", text)
-        # Remove long rows of underscores
-        text = re.sub(r"__+", "", text)
-        # Remove some more dirt
-        text = re.sub("<\!\[if ! IE\]>", "", text)
-        text = re.sub("<\!--\[if lte IE 7\]>", "", text)
-        text = re.sub("<\!--\[if gte IE 8\]>", "", text)
-        text = re.sub("<\!\[if \!vml\]>", "", text)
-        text = re.sub("<\!\[if \!supportMisalignedColumns\]>", "", text)
-        text = re.sub("<\!\[if \!supportLineBreakNewLine\]>", "", text)
-        text = re.sub("<\!\[endif\]-->", "", text)
-        text = re.sub("<\!\[endif\]>", "", text)
-        text = re.sub("<\!\[if \!supportEmptyParas\]>", "", text)
-        text = re.sub(r"<\/?NOBR>", "", text)
-        text = re.sub("&nbsp;", "", text)
-        # Replace br tags with line breaks
-        text = re.sub(r"<(br|BR)( [^>]*)?\/?>", "\n", text)
 
-        # Remove soft hyphens
-        text = re.sub(u"\u00AD", "", text)
-        # Escape all tags that are not html. "INGENBILD" is not html but is not escaped so it can be removed more easily.
-        # text = re.sub(r"<(\/?(?!(?:!--|\!DOCTYPE|ingenbild|INGENBILD|a|A|abbr|ABBR|acronym|ACRONYM|address|ADDRESS|applet|APPLET|area|AREA|article|ARTICLE|aside|ASIDE|audio|AUDIO|b|B|base|BASE|basefont|BASEFONT|bdi|BDI|bdo|BDO|big|BIG|blockquote|BLOCKQUOTE|body|BODY|br|BR|button|BUTTON|canvas|CANVAS|caption|CAPTION|center|CENTER|cite|CITE|code|CODE|col|COL|colgroup|COLGROUP|datalist|DATALIST|dd|DD|del|DEL|details|DETAILS|dfn|DFN|dialog|DIALOG|dir|DIR|div|DIV|dl|DL|dt|DT|em|EM|embed|EMBED|fieldset|FIELDSET|figcaption|FIGCAPTION|figure|FIGURE|font|FONT|footer|FOOTER|form|FORM|frame|FRAME|frameset|FRAMESET|h1|H1|h2|H2|h3|H3|h4|H4|h5|H5|h6|H6|head|HEAD|header|HEADER|hr|HR|html|HTML|i|I|iframe|IFRAME|img|IMG|input|INPUT|ins|INS|kbd|KBD|keygen|KEYGEN|label|LABEL|legend|LEGEND|li|LI|link|LINK|main|MAIN|map|MAP|mark|MARK|menu|MENU|menuitem|MENUITEM|meta|META|meter|METER|nav|NAV|noframes|NOFRAMES|noscript|NOSCRIPT|object|OBJECT|ol|OL|optgroup|OPTGROUP|option|OPTION|output|OUTPUT|p|P|param|PARAM|pre|PRE|progress|PROGRESS|q|Q|rp|RP|rt|RT|ruby|RUBY|s|S|samp|SAMP|script|SCRIPT|section|SECTION|select|SELECT|small|SMALL|source|SOURCE|span|SPAN|strike|STRIKE|strong|STRONG|style|STYLE|sub|SUB|summary|SUMMARY|sup|SUP|table|TABLE|tbody|TBODY|td|TD|textarea|TEXTAREA|tfoot|TFOOT|th|TH|thead|THEAD|time|TIME|title|TITLE|tr|TR|track|TRACK|tt|TT|u|U|ul|UL|var|VAR|video|VIDEO|wbr|WBR)(?:\b|\s))(?:[^>\/][^>]*)*)>", r"&lt;\1&gt;", text)
-        return text
 
     contents = xml.sax.saxutils.unescape(elem.text)
     if not isinstance(contents, str):
         contents = contents.decode("UTF-8")
 
-    cleaned_content = clean_html(contents)
+    # cleaned_content = clean_html(contents)
+    cleaned_content = contents
     if not cleaned_content:
         return False
 
@@ -287,7 +262,7 @@ def process_html(elem, textelem, filename, testfile=False):
         write_xml(etree.tostring(contentsxml, encoding="utf-8"), "test_orig.xml")
 
     # Remove tags but keep contents
-    etree.strip_tags(contentsxml, ["table", "thead", "tbody", "form", "caption", "a", "link", "span", "em",
+    strip_tags(contentsxml, ["table", "thead", "tbody", "form", "caption", "a", "link", "span", "em",
                                    "strong", "sub", "sup", "b", "i", "u", "nobr", "ul", "ol", "colgroup", "col", "tt",
                                    "dir", "del", "ins", "s", "label", "pre", "spanstyle", "metricconverterproductid",
                                    "spanclass", "bstyle", "istyle", "brclear", "brstyle", "comment", "img", "hr",
@@ -343,11 +318,10 @@ def process_html(elem, textelem, filename, testfile=False):
 
     # Remove unnecessary whitespace
     for element in contentsxml.iter():
-        if element.tail is not None and not element.tail.strip():
-            element.tail = None
-        if element.text and not element.text.strip():
-            element.text = None
-
+        if element.tail is not None:
+            element.tail = trimmed_tail if (trimmed_tail := element.tail.strip()) else None
+        if element.text is not None:
+            element.text = trimmed_text if (trimmed_text := element.text.strip()) else None
     # Remove empty tags
     for element in contentsxml.xpath(".//*[not(node())]"):
         element.getparent().remove(element)
@@ -363,6 +337,74 @@ def process_html(elem, textelem, filename, testfile=False):
     for element in contentsxml:
         textelem.append(element)
     return True
+
+
+def strip_tags(elem, tags_to_remove: list[str]) -> None:
+    for child in elem:
+        if child.tag in tags_to_remove:
+            if child_text := collect_texts(child):
+                elem.text = child_text if elem.text is None else f" {elem.text} {child_text} "
+            elem.remove(child)
+        else:
+            strip_tags(child, tags_to_remove)
+
+def collect_texts(elem) -> str:
+    result = elem.text or " "
+    for child in elem:
+        if child_text := collect_texts(child):
+            result = f" {result} {child_text} "
+    if tail := elem.tail:
+        result = f"{result} {tail} "
+    print(f"collect_texts: {result=}")
+    return result
+
+
+def clean_html(text):
+
+     # Replace "special" spaces with ordinary spaces
+    text = re.sub("[\u00A0\u2006 \n]+", " ", text)
+    # Remove chars between 0-31 and 127-159, but keep 10 (line break).
+    # TODO: does this have any effect?
+    text = re.sub(r'&#(' + "|".join(str(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]) + ');', "", text)
+    chars = [chr(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]]
+    text = text.translate({ord(c): None for c in chars})
+    # Remove control and formatting chars
+    text = "".join(c for c in text if unicodedata.category(c)[:2] != "Cc")
+    text = "".join(c for c in text if unicodedata.category(c)[:2] != "Cf")
+
+    # text = re.sub(u"\u2006", " ", text)
+    # Remove long rows of underscores
+    text = re.sub(r"__+", "", text)
+    # Remove some more dirt
+    text = re.sub("<\!\[if ! IE\]>", "", text)
+    text = re.sub("<\!--\[if lte IE 7\]>", "", text)
+    text = re.sub("<\!--\[if gte IE 8\]>", "", text)
+    text = re.sub("<\!\[if \!vml\]>", "", text)
+    text = re.sub("<\!\[if \!supportMisalignedColumns\]>", "", text)
+    text = re.sub("<\!\[if \!supportLineBreakNewLine\]>", "", text)
+    text = re.sub("<\!\[endif\]-->", "", text)
+    text = re.sub("<\!\[endif\]>", "", text)
+    text = re.sub("<\!\[if \!supportEmptyParas\]>", "", text)
+    text = re.sub(r"<\/?NOBR>", "", text)
+    text = re.sub("&nbsp;", "", text)
+    # Replace br tags with line breaks
+    text = re.sub(r"<(br|BR)( [^>]*)?\/?>", "\n", text)
+
+    # Remove soft hyphens
+    text = re.sub(u"\u00AD", "", text)
+    # Escape all tags that are not html. "INGENBILD" is not html but is not escaped so it can be removed more easily.
+    # text = re.sub(r"<(\/?(?!(?:!--|\!DOCTYPE|ingenbild|INGENBILD|a|A|abbr|ABBR|acronym|ACRONYM|address|ADDRESS|applet|APPLET|area|AREA|article|ARTICLE|aside|ASIDE|audio|AUDIO|b|B|base|BASE|basefont|BASEFONT|bdi|BDI|bdo|BDO|big|BIG|blockquote|BLOCKQUOTE|body|BODY|br|BR|button|BUTTON|canvas|CANVAS|caption|CAPTION|center|CENTER|cite|CITE|code|CODE|col|COL|colgroup|COLGROUP|datalist|DATALIST|dd|DD|del|DEL|details|DETAILS|dfn|DFN|dialog|DIALOG|dir|DIR|div|DIV|dl|DL|dt|DT|em|EM|embed|EMBED|fieldset|FIELDSET|figcaption|FIGCAPTION|figure|FIGURE|font|FONT|footer|FOOTER|form|FORM|frame|FRAME|frameset|FRAMESET|h1|H1|h2|H2|h3|H3|h4|H4|h5|H5|h6|H6|head|HEAD|header|HEADER|hr|HR|html|HTML|i|I|iframe|IFRAME|img|IMG|input|INPUT|ins|INS|kbd|KBD|keygen|KEYGEN|label|LABEL|legend|LEGEND|li|LI|link|LINK|main|MAIN|map|MAP|mark|MARK|menu|MENU|menuitem|MENUITEM|meta|META|meter|METER|nav|NAV|noframes|NOFRAMES|noscript|NOSCRIPT|object|OBJECT|ol|OL|optgroup|OPTGROUP|option|OPTION|output|OUTPUT|p|P|param|PARAM|pre|PRE|progress|PROGRESS|q|Q|rp|RP|rt|RT|ruby|RUBY|s|S|samp|SAMP|script|SCRIPT|section|SECTION|select|SELECT|small|SMALL|source|SOURCE|span|SPAN|strike|STRIKE|strong|STRONG|style|STYLE|sub|SUB|summary|SUMMARY|sup|SUP|table|TABLE|tbody|TBODY|td|TD|textarea|TEXTAREA|tfoot|TFOOT|th|TH|thead|THEAD|time|TIME|title|TITLE|tr|TR|track|TRACK|tt|TT|u|U|ul|UL|var|VAR|video|VIDEO|wbr|WBR)(?:\b|\s))(?:[^>\/][^>]*)*)>", r"&lt;\1&gt;", text)
+    return text.strip()
+
+def clean_text(text: str) -> str:
+    return clean_html(text)
+
+def clean_element(elem) -> None:
+    """Cleans an element."""
+    for node in elem:
+        node.text = clean_html(node.text)
+        if node.tail is not None:
+            node.tail = clean_html(node.tail)
 
 
 ################################################################################

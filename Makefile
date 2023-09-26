@@ -54,3 +54,5 @@ test:
 test-w-coverage:
 	${INVENV} pytest -vv ${cov} --cov-report=${cov_report} ${all_tests}
 
+watch-test:
+	${INVENV} watchfiles "pytest -vvv tests" swegov_opendata tests

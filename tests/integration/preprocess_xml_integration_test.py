@@ -3,7 +3,7 @@ from typing import Tuple
 
 from lxml import etree
 
-from swegov_opendata.preprocess import preprocess_xml
+from swegov_opendata.preprocess import clean_text, preprocess_xml
 
 import pytest
 
@@ -25,10 +25,15 @@ def test_preprocess_xml(example1: Tuple[str, Path]):
 
 
 def assert_elem_equal(left, right):
+    print(f"- {left.tag=}\n-{right.tag=}")
+    print(f"- {left.text=}\n-{right.text=}")
     assert left.tag == right.tag
-    assert left.text == right.text
+    if trimmed_text := clean_text(right.text):
+        assert left.text == trimmed_text
+    else:
+        assert left.text.strip() == right.text.strip()
     assert left.tail == right.tail
-    assert left.attrib == right.attrib
+    assert dict(left.attrib) == dict(right.attrib)
     assert len(left) == len(right)
     for c1, c2 in zip(left, right):
         assert_elem_equal(c1, c2)
