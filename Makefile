@@ -34,6 +34,9 @@ help:
 	@echo "check-fmt"
 	@echo "		check formatting for all python files"
 
+	@echo "lint"
+	@echo "		lint all code"
+
 dev: install-dev
 install-dev:
 	poetry install
@@ -69,3 +72,7 @@ fmt:
 .PHONY: check-fmt
 check-fmt:
 	${INVENV} black --check src tests
+
+.PHONY: lint
+lint:
+	${INVENV} ruff swegov_opendata tests

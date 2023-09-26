@@ -18,6 +18,13 @@ pytest-cov = "^4"
 watchfiles = "^0.20.0"
 black = "^23.9.1"
 
+
+[tool.poetry.group.ci]
+optional = true
+
+[tool.poetry.group.ci.dependencies]
+ruff = "^0.0.291"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

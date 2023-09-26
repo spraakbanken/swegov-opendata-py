@@ -493,8 +493,7 @@ def clean_html(text):
 
     # Remove soft hyphens
     text = re.sub("\u00AD", "", text)
-    # Escape all tags that are not html. "INGENBILD" is not html but is not escaped so it can be removed more easily.
-    # text = re.sub(r"<(\/?(?!(?:!--|\!DOCTYPE|ingenbild|INGENBILD|a|A|abbr|ABBR|acronym|ACRONYM|address|ADDRESS|applet|APPLET|area|AREA|article|ARTICLE|aside|ASIDE|audio|AUDIO|b|B|base|BASE|basefont|BASEFONT|bdi|BDI|bdo|BDO|big|BIG|blockquote|BLOCKQUOTE|body|BODY|br|BR|button|BUTTON|canvas|CANVAS|caption|CAPTION|center|CENTER|cite|CITE|code|CODE|col|COL|colgroup|COLGROUP|datalist|DATALIST|dd|DD|del|DEL|details|DETAILS|dfn|DFN|dialog|DIALOG|dir|DIR|div|DIV|dl|DL|dt|DT|em|EM|embed|EMBED|fieldset|FIELDSET|figcaption|FIGCAPTION|figure|FIGURE|font|FONT|footer|FOOTER|form|FORM|frame|FRAME|frameset|FRAMESET|h1|H1|h2|H2|h3|H3|h4|H4|h5|H5|h6|H6|head|HEAD|header|HEADER|hr|HR|html|HTML|i|I|iframe|IFRAME|img|IMG|input|INPUT|ins|INS|kbd|KBD|keygen|KEYGEN|label|LABEL|legend|LEGEND|li|LI|link|LINK|main|MAIN|map|MAP|mark|MARK|menu|MENU|menuitem|MENUITEM|meta|META|meter|METER|nav|NAV|noframes|NOFRAMES|noscript|NOSCRIPT|object|OBJECT|ol|OL|optgroup|OPTGROUP|option|OPTION|output|OUTPUT|p|P|param|PARAM|pre|PRE|progress|PROGRESS|q|Q|rp|RP|rt|RT|ruby|RUBY|s|S|samp|SAMP|script|SCRIPT|section|SECTION|select|SELECT|small|SMALL|source|SOURCE|span|SPAN|strike|STRIKE|strong|STRONG|style|STYLE|sub|SUB|summary|SUMMARY|sup|SUP|table|TABLE|tbody|TBODY|td|TD|textarea|TEXTAREA|tfoot|TFOOT|th|TH|thead|THEAD|time|TIME|title|TITLE|tr|TR|track|TRACK|tt|TT|u|U|ul|UL|var|VAR|video|VIDEO|wbr|WBR)(?:\b|\s))(?:[^>\/][^>]*)*)>", r"&lt;\1&gt;", text)
+
     return text.strip()
 
 
