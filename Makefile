@@ -28,6 +28,12 @@ help:
 	@echo "test-w-coverage"
 	@echo "		run given test(s) with coverage information (default: all_tests='tests')"
 
+	@echo "fmt"
+	@echo "		format all python files"
+
+	@echo "check-fmt"
+	@echo "		check formatting for all python files"
+
 dev: install-dev
 install-dev:
 	poetry install
@@ -56,3 +62,10 @@ test-w-coverage:
 
 watch-test:
 	${INVENV} watchfiles "pytest -vvv tests" swegov_opendata tests
+
+fmt:
+	${INVENV} black swegov_opendata tests
+
+.PHONY: check-fmt
+check-fmt:
+	${INVENV} black --check src tests
