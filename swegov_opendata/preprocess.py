@@ -1,4 +1,3 @@
-
 """Script for creating original/xml files for all rd-corpora."""
 
 from datetime import datetime
@@ -54,7 +53,9 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
             continue
 
         print(f"\nProcessing {zippath}")
-        corpus_source_dir = Path("material") / corpus_id / "source" / Path(zippath.stem).stem
+        corpus_source_dir = (
+            Path("material") / corpus_id / "source" / Path(zippath.stem).stem
+        )
         make_corpus_config(corpus_id, name, descr, Path("material") / corpus_id)
 
         total_size = 0
@@ -87,7 +88,10 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
 
             # If adding the latest result would lead to the file size going over the limit, save
             if xmlstring and total_size + this_size > MAX_SIZE:
-                write_xml(b"\n".join(result), corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml")
+                write_xml(
+                    b"\n".join(result),
+                    corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml",
+                )
                 total_size = 0
                 result = []
                 counter += 1
@@ -95,11 +99,16 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
             if xmlstring:
                 result.append(xmlstring)
             total_size += this_size
-            processed_zip_dict[str(zipobj.filename)] = f"{corpus_source_dir.parts[-1]}-{counter}.xml"
+            processed_zip_dict[
+                str(zipobj.filename)
+            ] = f"{corpus_source_dir.parts[-1]}-{counter}.xml"
 
         # Save last file
         if result:
-            write_xml(b"\n".join(result), corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml")
+            write_xml(
+                b"\n".join(result),
+                corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml",
+            )
 
         if not testfile:
             processed_json[str(zippath.name)] = processed_zip_dict
@@ -142,7 +151,12 @@ def preprocess_xml(xml_string, filename, testfile=False):
                 if elem.tag in ["images"]:
                     continue
                 # Assign document attrs to docelem and the rest to textelem
-                elif elem.tag in ["dok_id", "dokumentstatus_url_xml", "dokument_url_text", "dokument_url_html"]:
+                elif elem.tag in [
+                    "dok_id",
+                    "dokumentstatus_url_xml",
+                    "dokument_url_text",
+                    "dokument_url_html",
+                ]:
                     docelem.set(elem.tag, elem.text)
                 else:
                     textelem.set(elem.tag, elem.text)
@@ -150,11 +164,11 @@ def preprocess_xml(xml_string, filename, testfile=False):
     # Collect more metadata (attributes outside of "dokument") and look for other text nodes
     intressenter = []
     interesting_textnodes = [
-        'anforande > anf_text',
-        'forslag > lydelse',
-        'forslag > lydelse2',
-        'uppgift > text',
-        'utskottsforslag > votering_sammanfattning_html'
+        "anforande > anf_text",
+        "forslag > lydelse",
+        "forslag > lydelse2",
+        "uppgift > text",
+        "utskottsforslag > votering_sammanfattning_html",
     ]
     for elem in tree.iter():
         # Skip dokument, html and text since they are already processed; ignore comments
@@ -230,7 +244,6 @@ def preprocess_xml(xml_string, filename, testfile=False):
 def process_html(elem, textelem, filename, testfile=False):
     """Process the actual text content of the document."""
 
-
     contents = xml.sax.saxutils.unescape(elem.text)
     if not isinstance(contents, str):
         contents = contents.decode("UTF-8")
@@ -243,13 +256,39 @@ def process_html(elem, textelem, filename, testfile=False):
     # print(cleaned_content)
     # print("\n-----\n")
     contents = "<text>" + cleaned_content + "</text>"
-    contentsxml = html.fromstring(contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True))
-
+    contentsxml = html.fromstring(
+        contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True)
+    )
 
     # Remove some attributes and tags
-    etree.strip_attributes(contentsxml, ["style", "class", "cellpadding", "cellspacing", "colspan", "images" ".",
-                                         "align", "valign", "name", "rowspan"])
-    etree.strip_elements(contentsxml, ["style", "STYLE", "meta", "META", "ingenbild", "INGENBILD", "script", "SCRIPT"])
+    etree.strip_attributes(
+        contentsxml,
+        [
+            "style",
+            "class",
+            "cellpadding",
+            "cellspacing",
+            "colspan",
+            "images" ".",
+            "align",
+            "valign",
+            "name",
+            "rowspan",
+        ],
+    )
+    etree.strip_elements(
+        contentsxml,
+        [
+            "style",
+            "STYLE",
+            "meta",
+            "META",
+            "ingenbild",
+            "INGENBILD",
+            "script",
+            "SCRIPT",
+        ],
+    )
 
     # Check text length
     orig_text_length = 0
@@ -262,13 +301,60 @@ def process_html(elem, textelem, filename, testfile=False):
         write_xml(etree.tostring(contentsxml, encoding="utf-8"), "test_orig.xml")
 
     # Remove tags but keep contents
-    strip_tags(contentsxml, ["table", "thead", "tbody", "form", "caption", "a", "link", "span", "em",
-                                   "strong", "sub", "sup", "b", "i", "u", "nobr", "ul", "ol", "colgroup", "col", "tt",
-                                   "dir", "del", "ins", "s", "label", "pre", "spanstyle", "metricconverterproductid",
-                                   "spanclass", "bstyle", "istyle", "brclear", "brstyle", "comment", "img", "hr",
-                                   "fontsize", "aname", "metricconverter", "astyle", "personname", "spanlang", "date",
-                                   "font", "fontcolor", "ahref", "textovervagande", "rubrikavvikandemening"])
-
+    strip_tags(
+        contentsxml,
+        [
+            "table",
+            "thead",
+            "tbody",
+            "form",
+            "caption",
+            "a",
+            "link",
+            "span",
+            "em",
+            "strong",
+            "sub",
+            "sup",
+            "b",
+            "i",
+            "u",
+            "nobr",
+            "ul",
+            "ol",
+            "colgroup",
+            "col",
+            "tt",
+            "dir",
+            "del",
+            "ins",
+            "s",
+            "label",
+            "pre",
+            "spanstyle",
+            "metricconverterproductid",
+            "spanclass",
+            "bstyle",
+            "istyle",
+            "brclear",
+            "brstyle",
+            "comment",
+            "img",
+            "hr",
+            "fontsize",
+            "aname",
+            "metricconverter",
+            "astyle",
+            "personname",
+            "spanlang",
+            "date",
+            "font",
+            "fontcolor",
+            "ahref",
+            "textovervagande",
+            "rubrikavvikandemening",
+        ],
+    )
 
     # Replace divs with more meaningful tags
     for element in list(contentsxml.iter("div")):
@@ -279,9 +365,12 @@ def process_html(elem, textelem, filename, testfile=False):
                 continue
 
     # Replace some tags with p
-    for element in list(contentsxml.iter("title", "h1", "h2", "h3", "h4", "h5", "h6", "li", "tr", "td", "th")):
+    for element in list(
+        contentsxml.iter(
+            "title", "h1", "h2", "h3", "h4", "h5", "h6", "li", "tr", "td", "th"
+        )
+    ):
         element.tag = "p"
-
 
     # Remove nested pages (but keep contents)
     for outer_page_elem in contentsxml.xpath("//page[.//page]"):
@@ -319,9 +408,13 @@ def process_html(elem, textelem, filename, testfile=False):
     # Remove unnecessary whitespace
     for element in contentsxml.iter():
         if element.tail is not None:
-            element.tail = trimmed_tail if (trimmed_tail := element.tail.strip()) else None
+            element.tail = (
+                trimmed_tail if (trimmed_tail := element.tail.strip()) else None
+            )
         if element.text is not None:
-            element.text = trimmed_text if (trimmed_text := element.text.strip()) else None
+            element.text = (
+                trimmed_text if (trimmed_text := element.text.strip()) else None
+            )
     # Remove empty tags
     for element in contentsxml.xpath(".//*[not(node())]"):
         element.getparent().remove(element)
@@ -343,10 +436,13 @@ def strip_tags(elem, tags_to_remove: list[str]) -> None:
     for child in elem:
         if child.tag in tags_to_remove:
             if child_text := collect_texts(child):
-                elem.text = child_text if elem.text is None else f" {elem.text} {child_text} "
+                elem.text = (
+                    child_text if elem.text is None else f" {elem.text} {child_text} "
+                )
             elem.remove(child)
         else:
             strip_tags(child, tags_to_remove)
+
 
 def collect_texts(elem) -> str:
     result = elem.text or " "
@@ -360,12 +456,17 @@ def collect_texts(elem) -> str:
 
 
 def clean_html(text):
-
-     # Replace "special" spaces with ordinary spaces
+    # Replace "special" spaces with ordinary spaces
     text = re.sub("[\u00A0\u2006 \n]+", " ", text)
     # Remove chars between 0-31 and 127-159, but keep 10 (line break).
     # TODO: does this have any effect?
-    text = re.sub(r'&#(' + "|".join(str(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]) + ');', "", text)
+    text = re.sub(
+        r"&#("
+        + "|".join(str(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)])
+        + ");",
+        "",
+        text,
+    )
     chars = [chr(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]]
     text = text.translate({ord(c): None for c in chars})
     # Remove control and formatting chars
@@ -391,13 +492,15 @@ def clean_html(text):
     text = re.sub(r"<(br|BR)( [^>]*)?\/?>", "\n", text)
 
     # Remove soft hyphens
-    text = re.sub(u"\u00AD", "", text)
+    text = re.sub("\u00AD", "", text)
     # Escape all tags that are not html. "INGENBILD" is not html but is not escaped so it can be removed more easily.
     # text = re.sub(r"<(\/?(?!(?:!--|\!DOCTYPE|ingenbild|INGENBILD|a|A|abbr|ABBR|acronym|ACRONYM|address|ADDRESS|applet|APPLET|area|AREA|article|ARTICLE|aside|ASIDE|audio|AUDIO|b|B|base|BASE|basefont|BASEFONT|bdi|BDI|bdo|BDO|big|BIG|blockquote|BLOCKQUOTE|body|BODY|br|BR|button|BUTTON|canvas|CANVAS|caption|CAPTION|center|CENTER|cite|CITE|code|CODE|col|COL|colgroup|COLGROUP|datalist|DATALIST|dd|DD|del|DEL|details|DETAILS|dfn|DFN|dialog|DIALOG|dir|DIR|div|DIV|dl|DL|dt|DT|em|EM|embed|EMBED|fieldset|FIELDSET|figcaption|FIGCAPTION|figure|FIGURE|font|FONT|footer|FOOTER|form|FORM|frame|FRAME|frameset|FRAMESET|h1|H1|h2|H2|h3|H3|h4|H4|h5|H5|h6|H6|head|HEAD|header|HEADER|hr|HR|html|HTML|i|I|iframe|IFRAME|img|IMG|input|INPUT|ins|INS|kbd|KBD|keygen|KEYGEN|label|LABEL|legend|LEGEND|li|LI|link|LINK|main|MAIN|map|MAP|mark|MARK|menu|MENU|menuitem|MENUITEM|meta|META|meter|METER|nav|NAV|noframes|NOFRAMES|noscript|NOSCRIPT|object|OBJECT|ol|OL|optgroup|OPTGROUP|option|OPTION|output|OUTPUT|p|P|param|PARAM|pre|PRE|progress|PROGRESS|q|Q|rp|RP|rt|RT|ruby|RUBY|s|S|samp|SAMP|script|SCRIPT|section|SECTION|select|SELECT|small|SMALL|source|SOURCE|span|SPAN|strike|STRIKE|strong|STRONG|style|STYLE|sub|SUB|summary|SUMMARY|sup|SUP|table|TABLE|tbody|TBODY|td|TD|textarea|TEXTAREA|tfoot|TFOOT|th|TH|thead|THEAD|time|TIME|title|TITLE|tr|TR|track|TRACK|tt|TT|u|U|ul|UL|var|VAR|video|VIDEO|wbr|WBR)(?:\b|\s))(?:[^>\/][^>]*)*)>", r"&lt;\1&gt;", text)
     return text.strip()
 
+
 def clean_text(text: str) -> str:
     return clean_html(text)
+
 
 def clean_element(elem) -> None:
     """Cleans an element."""
@@ -410,6 +513,7 @@ def clean_element(elem) -> None:
 ################################################################################
 # Auxiliaries
 ################################################################################
+
 
 def make_corpus_config(corpus_id, name, descr, path):
     """Write Sparv corpus config file for sub corpus."""
@@ -448,5 +552,3 @@ def write_json(data, filepath):
     dirpath.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
-

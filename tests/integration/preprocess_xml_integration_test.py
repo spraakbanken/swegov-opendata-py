@@ -37,4 +37,3 @@ def assert_elem_equal(left, right):
     assert len(left) == len(right)
     for c1, c2 in zip(left, right):
         assert_elem_equal(c1, c2)
-
