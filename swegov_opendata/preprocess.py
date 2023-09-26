@@ -1,11 +1,11 @@
 """Script for creating original/xml files for all rd-corpora."""
 
-from datetime import datetime
 import json
 import re
 import unicodedata
 import xml.sax.saxutils
 import zipfile
+from datetime import datetime
 from pathlib import Path
 
 from lxml import etree, html
@@ -20,7 +20,7 @@ PROCESSED_JSON = "processed.json"
 MAX_SIZE = 10 * 1024 * 1024  # Max size in bytes for output XML files
 
 
-def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
+def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C901
     """Preprocess corpora.
 
     corpora: List that specifies which corpora (corpus-IDs) to process (default: all)
@@ -115,10 +115,10 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
             write_json(processed_json, PROCESSED_JSON)
 
 
-def preprocess_xml(xml_string, filename, testfile=False):
+def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     """Extract meta data and html from f."""
     p = etree.XMLParser(huge_tree=True)
-    tree = etree.fromstring(xml_string, p)
+    tree = etree.fromstring(xml_string, p)  # noqa: S320
 
     # Create new element and build document
     docelem = etree.Element("dokument")
@@ -176,7 +176,7 @@ def preprocess_xml(xml_string, filename, testfile=False):
             continue
         # Collect "intressent" metadata and process later
         elif elem.tag == "intressent":
-            children = dict((c.tag, c.text) for c in elem.getchildren())
+            children = {c.tag: c.text for c in elem.getchildren()}
             name = children.get("namn", "")
             party = (children.get("partibet", "") or "").upper()
             if name and party:
@@ -241,7 +241,7 @@ def preprocess_xml(xml_string, filename, testfile=False):
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
 
 
-def process_html(elem, textelem, filename, testfile=False):
+def process_html(elem, textelem, filename, *, testfile=False):  # noqa: C901
     """Process the actual text content of the document."""
 
     contents = xml.sax.saxutils.unescape(elem.text)
@@ -384,7 +384,7 @@ def process_html(elem, textelem, filename, testfile=False):
             p_elem.attrib.pop(attr)
 
     # Decompose anything that's not "text", "page" or "p"
-    allowed_tags = set(["kasta", "div", "text", "page", "p"])
+    allowed_tags = {"kasta", "div", "text", "page", "p"}
     forbidden_tags = set()
     for element in contentsxml.iter():
         if element.tag not in allowed_tags:
@@ -462,12 +462,12 @@ def clean_html(text):
     # TODO: does this have any effect?
     text = re.sub(
         r"&#("
-        + "|".join(str(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)])
+        + "|".join(str(i) for i in [*range(10), *range(11, 32), *range(127, 160)])
         + ");",
         "",
         text,
     )
-    chars = [chr(i) for i in [*range(0, 10), *range(11, 32), *range(127, 160)]]
+    chars = [chr(i) for i in [*range(10), *range(11, 32), *range(127, 160)]]
     text = text.translate({ord(c): None for c in chars})
     # Remove control and formatting chars
     text = "".join(c for c in text if unicodedata.category(c)[:2] != "Cc")

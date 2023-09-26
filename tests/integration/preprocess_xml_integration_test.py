@@ -1,11 +1,10 @@
 from pathlib import Path
 from typing import Tuple
 
+import pytest
 from lxml import etree
 
 from swegov_opendata.preprocess import clean_text, preprocess_xml
-
-import pytest
 
 
 @pytest.fixture(name="example1")
@@ -35,5 +34,5 @@ def assert_elem_equal(left, right):
     assert left.tail == right.tail
     assert dict(left.attrib) == dict(right.attrib)
     assert len(left) == len(right)
-    for c1, c2 in zip(left, right):
+    for c1, c2 in zip(left, right, strict=True):
         assert_elem_equal(c1, c2)

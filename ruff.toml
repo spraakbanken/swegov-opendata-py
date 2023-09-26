@@ -29,6 +29,6 @@ unfixable = ["B"]
 
 # Ignore `E402` (import violations) in all `__init__.py` files, and in `path/to/file.py`.
 [per-file-ignores]
-"tests/*" = ["D100","D101","D102","D103","D104","S101"]
+"tests/*" = ["D100","D101","D102","D103","D104","S101", "S320"]
 "swegov_opendata/corpusinfo.py" = ["E501"]
 "__init__.py" = ["E402"]
