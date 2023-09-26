@@ -34,5 +34,5 @@ def assert_elem_equal(left, right):
     assert left.tail == right.tail
     assert dict(left.attrib) == dict(right.attrib)
     assert len(left) == len(right)
-    for c1, c2 in zip(left, right, strict=True):
+    for c1, c2 in zip(left, right):  # noqa: B905
         assert_elem_equal(c1, c2)
