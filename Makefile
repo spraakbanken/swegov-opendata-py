@@ -37,6 +37,9 @@ help:
 	@echo "lint"
 	@echo "		lint all code"
 
+	@echo "type-check"
+	@echo "		type-check all code"
+
 dev: install-dev
 install-dev:
 	poetry install
@@ -76,3 +79,8 @@ check-fmt:
 .PHONY: lint
 lint:
 	${INVENV} ruff swegov_opendata tests
+
+# type-check the code
+.PHONY: type-check
+type-check:
+	${INVENV} mypy --config-file mypy.ini swegov_opendata tests
