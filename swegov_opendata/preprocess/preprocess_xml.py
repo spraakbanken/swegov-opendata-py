@@ -2,9 +2,11 @@
 
 import re
 import unicodedata
+import xml.sax.saxutils
 from datetime import datetime
 
 from lxml import etree
+from swegov_opendata.lxml_extension.cleaning import clean_element
 
 from swegov_opendata.preprocess.preprocess_html import process_html
 
@@ -12,7 +14,7 @@ from swegov_opendata.preprocess.preprocess_html import process_html
 # http://making-security-measurable.1364806.n2.nabble.com/Parsing-large-9-5mb-XML-files-with-lxml-td7580657.html
 
 
-def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
+def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:  # noqa: C901
     """Extract meta data and html from f."""
     p = etree.XMLParser(huge_tree=True)
     tree = etree.fromstring(xml_string, p)  # noqa: S320
@@ -23,7 +25,7 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     textelem.set("datatyp", "huvuddokument")
 
     dokbilaga = tree.find("dokbilaga")
-    if dokbilaga and len(dokbilaga) > 0:
+    if dokbilaga is not None:
         for bilaga in dokbilaga:
             for child in bilaga:
                 if child.tag.startswith("fil"):
@@ -40,7 +42,9 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     for elem in search_document:
         # Process contents
         if elem.tag == "html":
-            process_html(elem, textelem, filename, testfile=testfile)
+            contents = xml.sax.saxutils.unescape(elem.text)
+
+            process_html(contents, textelem, filename, testfile=testfile)
         # Skip "text" element (if it exists, it contains the same text as <html>)
         elif elem.tag == "text":
             continue
@@ -138,57 +142,3 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     # Return new XML
     tree = etree.ElementTree(docelem)
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
-
-
-def clean_html(text):
-    # Replace "special" spaces with ordinary spaces
-    text = re.sub("[\u00A0\u2006 \n]+", " ", text)
-    # Remove chars between 0-31 and 127-159, but keep 10 (line break).
-    # TODO: does this have any effect?
-    text = re.sub(
-        r"&#("
-        + "|".join(str(i) for i in [*range(10), *range(11, 32), *range(127, 160)])
-        + ");",
-        "",
-        text,
-    )
-    chars = [chr(i) for i in [*range(10), *range(11, 32), *range(127, 160)]]
-    text = text.translate({ord(c): None for c in chars})
-    # Remove control and formatting chars
-    text = "".join(c for c in text if unicodedata.category(c)[:2] != "Cc")
-    text = "".join(c for c in text if unicodedata.category(c)[:2] != "Cf")
-
-    # text = re.sub(u"\u2006", " ", text)
-    # Remove long rows of underscores
-    text = re.sub(r"__+", "", text)
-    # Remove some more dirt
-    text = re.sub("<\!\[if ! IE\]>", "", text)
-    text = re.sub("<\!--\[if lte IE 7\]>", "", text)
-    text = re.sub("<\!--\[if gte IE 8\]>", "", text)
-    text = re.sub("<\!\[if \!vml\]>", "", text)
-    text = re.sub("<\!\[if \!supportMisalignedColumns\]>", "", text)
-    text = re.sub("<\!\[if \!supportLineBreakNewLine\]>", "", text)
-    text = re.sub("<\!\[endif\]-->", "", text)
-    text = re.sub("<\!\[endif\]>", "", text)
-    text = re.sub("<\!\[if \!supportEmptyParas\]>", "", text)
-    text = re.sub(r"<\/?NOBR>", "", text)
-    text = re.sub("&nbsp;", "", text)
-    # Replace br tags with line breaks
-    text = re.sub(r"<(br|BR)( [^>]*)?\/?>", "\n", text)
-
-    # Remove soft hyphens
-    text = re.sub("\u00AD", "", text)
-
-    return text.strip()
-
-
-def clean_text(text: str) -> str:
-    return clean_html(text)
-
-
-def clean_element(elem) -> None:
-    """Cleans an element."""
-    for node in elem:
-        node.text = clean_html(node.text)
-        if node.tail is not None:
-            node.tail = clean_html(node.tail)

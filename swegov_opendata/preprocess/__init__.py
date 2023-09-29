@@ -6,7 +6,8 @@ import zipfile
 from pathlib import Path
 
 from swegov_opendata.corpusinfo import corpusinfo
-from swegov_opendata.preprocess.preprocess_xml import clean_text, preprocess_xml
+from swegov_opendata.lxml_extension.cleaning import clean_text
+from swegov_opendata.preprocess import preprocess_xml
 from swegov_opendata.serialization import write_json, write_xml
 from swegov_opendata.sparv.config import make_corpus_config
 

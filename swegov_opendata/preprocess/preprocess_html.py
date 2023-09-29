@@ -1,31 +1,30 @@
 """Script for creating original/xml files for all rd-corpora."""
 
-import xml.sax.saxutils
 
 from lxml import etree, html
 
 from swegov_opendata.serialization import write_xml
+from swegov_opendata.lxml_extension.mutation import strip_tags
 
 
-def process_html(elem, textelem, filename, *, testfile=False):  # noqa: C901
+def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa: C901
     """Process the actual text content of the document."""
 
-    contents = xml.sax.saxutils.unescape(elem.text)
-    if not isinstance(contents, str):
-        contents = contents.decode("UTF-8")
+    contentsxml = build_elem(contents)
 
-    # cleaned_content = clean_html(contents)
-    cleaned_content = contents
-    if not cleaned_content:
-        return False
+    extract_metadata(contentsxml, textelem)
+    for element in contentsxml:
+        if (
+            element.tag == "div"
+            and "class" in element.attrib
+            and element.attrib["class"] == "sfstoc"
+        ):
+            print("removed <div class='sfstoc'>")
+            # print_tree(element)
+            contentsxml.remove(element)
+            # print_tree(contentsxml)
 
-    # print(cleaned_content)
-    # print("\n-----\n")
-    contents = "<text>" + cleaned_content + "</text>"
-    contentsxml = html.fromstring(
-        contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True)
-    )
-
+            break
     # Remove some attributes and tags
     etree.strip_attributes(
         contentsxml,
@@ -123,12 +122,12 @@ def process_html(elem, textelem, filename, *, testfile=False):  # noqa: C901
     )
 
     # Replace divs with more meaningful tags
-    for element in list(contentsxml.iter("div")):
-        if "id" in element.attrib:
-            if element.attrib["id"].startswith("page_"):
-                element.tag = "page"
-                element.attrib["id"] = element.attrib["id"][5:]
-                continue
+
+    for element in contentsxml.iter("div"):
+        if "id" in element.attrib and element.attrib["id"].startswith("page_"):
+            element.tag = "page"
+            element.attrib["id"] = element.attrib["id"][5:]
+            continue
 
     # Replace some tags with p
     for element in list(
@@ -198,24 +197,25 @@ def process_html(elem, textelem, filename, *, testfile=False):  # noqa: C901
     return True
 
 
-def strip_tags(elem, tags_to_remove: list[str]) -> None:
-    for child in elem:
-        if child.tag in tags_to_remove:
-            if child_text := collect_texts(child):
-                elem.text = (
-                    child_text if elem.text is None else f" {elem.text} {child_text} "
-                )
-            elem.remove(child)
-        else:
-            strip_tags(child, tags_to_remove)
+def build_elem(contents: str) -> etree._Element:
+    if not isinstance(contents, str):
+        contents = contents.decode("UTF-8")
+
+    # print(cleaned_content)
+    # print("\n-----\n")
+    contents = f"<text>{contents}</text>"
+    return html.fromstring(
+        contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True)
+    )
 
 
-def collect_texts(elem) -> str:
-    result = elem.text or " "
-    for child in elem:
-        if child_text := collect_texts(child):
-            result = f" {result} {child_text} "
-    if tail := elem.tail:
-        result = f"{result} {tail} "
-    # print(f"collect_texts: {result=}")
-    return result
+def extract_metadata(contentsxml, textelem) -> None:
+    metadata_key = ""
+    for child in contentsxml:
+        if child.tag == "b" and child.text in ["Ändringsregister", "Källa"]:
+            metadata_key = child.text
+
+        if metadata_key and child.tag == "a":
+            value = child.attrib["href"]
+            textelem.set(metadata_key.lower(), value)
+            metadata_key = ""
