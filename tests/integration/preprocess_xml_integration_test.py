@@ -16,6 +16,7 @@ def fixture_example1(assets_path: Path) -> Tuple[str, Path]:
 def test_preprocess_xml(example1: Tuple[str, Path]):
     output = preprocess_xml(example1[0], example1[1])
     actual = etree.fromstring(output)
+
     expected_path = example1[1].with_stem(f"{example1[1].stem}.expected")
     expected_source = expected_path.read_text(encoding="utf-8")
     expected = etree.fromstring(expected_source)
