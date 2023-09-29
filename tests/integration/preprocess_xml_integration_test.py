@@ -4,7 +4,7 @@ from typing import Tuple
 import pytest
 from lxml import etree
 
-from swegov_opendata.preprocess import clean_text, preprocess_xml
+from swegov_opendata.preprocess.preprocess_xml import clean_text, preprocess_xml
 
 
 @pytest.fixture(name="example1")
