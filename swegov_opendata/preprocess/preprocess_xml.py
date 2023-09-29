@@ -1,14 +1,10 @@
 """Script for creating original/xml files for all rd-corpora."""
 
-import json
 import re
 import unicodedata
-import xml.sax.saxutils
-import zipfile
 from datetime import datetime
-from pathlib import Path
 
-from lxml import etree, html
+from lxml import etree
 
 from swegov_opendata.preprocess.preprocess_html import process_html
 
@@ -27,13 +23,15 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     textelem.set("datatyp", "huvuddokument")
 
     dokbilaga = tree.find("dokbilaga")
-    if len(dokbilaga) > 0:
+    if dokbilaga and len(dokbilaga) > 0:
         for bilaga in dokbilaga:
             for child in bilaga:
                 if child.tag.startswith("fil"):
                     textelem.set(child.tag, str(child.text))
 
     search_document = tree.find("dokument")
+    if search_document is None:
+        raise ValueError("Can't find <dokument> in file {filename}")
 
     # The html node contains the main text. Files without <html> may have other text nodes
     if search_document.find("html") is None:
@@ -77,7 +75,7 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
             continue
         # Collect "intressent" metadata and process later
         elif elem.tag == "intressent":
-            children = {c.tag: c.text for c in elem.getchildren()}
+            children = {c.tag: c.text for c in elem}
             name = children.get("namn", "")
             party = (children.get("partibet", "") or "").upper()
             if name and party:
@@ -124,12 +122,12 @@ def preprocess_xml(xml_string, filename, *, testfile=False):  # noqa: C901
     # Combine "datum" and "datumtid"
     if "datumtid" in docelem.attrib:
         docelem.set("datum", docelem.attrib["datumtid"])
-        docelem.attrib.pop("datumtid")
+        docelem.attrib.pop("datumtid", "")
     for textelem in docelem.iter("text"):
         textattrs = list(textelem.attrib.keys())
         if "datumtid" in textattrs:
             textelem.set("datum", textelem.attrib["datumtid"])
-            textelem.attrib.pop("datumtid")
+            textelem.attrib.pop("datumtid", "")
     # Remove invalid dates (year out of range)
     year = int(textelem.get("datum")[:4])
     this_year = int(datetime.today().strftime("%Y"))
@@ -194,26 +192,3 @@ def clean_element(elem) -> None:
         node.text = clean_html(node.text)
         if node.tail is not None:
             node.tail = clean_html(node.tail)
-
-
-################################################################################
-# Auxiliaries
-################################################################################
-
-
-def write_xml(text, xmlpath):
-    """Wrap 'text' in a file tag and save as 'xmlpath'."""
-    corpus_source_dir = Path(xmlpath).parent
-    corpus_source_dir.mkdir(exist_ok=True, parents=True)
-    text = b"<file>\n" + text + b"\n</file>"
-    with open(xmlpath, "wb") as f:
-        f.write(text)
-    print(f"  File {xmlpath} written")
-
-
-def write_json(data, filepath):
-    """Write json data to filepath."""
-    dirpath = Path(filepath).parent
-    dirpath.mkdir(parents=True, exist_ok=True)
-    with open(filepath, "w") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)

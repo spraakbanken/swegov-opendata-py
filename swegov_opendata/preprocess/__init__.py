@@ -6,9 +6,12 @@ import zipfile
 from pathlib import Path
 
 from swegov_opendata.corpusinfo import corpusinfo
-from swegov_opendata.preprocess.preprocess_xml import preprocess_xml
+from swegov_opendata.preprocess.preprocess_xml import clean_text, preprocess_xml
 from swegov_opendata.serialization import write_json, write_xml
 from swegov_opendata.sparv.config import make_corpus_config
+
+__all__ = ["clean_text"]
+
 
 # Parsing large XML files:
 # http://making-security-measurable.1364806.n2.nabble.com/Parsing-large-9-5mb-XML-files-with-lxml-td7580657.html
@@ -41,9 +44,11 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
 
         # Get corpus name
         m = re.match(r"(\S+)-\d{4}-.+", zippath.name)
-        prefix = m.group(1)
+        if not m:
+            raise RuntimeError(f"Don't know how to handle the path '{zippath.name}'")
+        prefix = m[1]
         if prefix not in corpusinfo:
-            raise Exception(f"File {prefix} seems to be a new corpus!")
+            raise RuntimeError(f"File {prefix} seems to be a new corpus!")
         corpus_id, name, descr = corpusinfo[prefix]
 
         # Process only if in 'corpora'
@@ -66,16 +71,17 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
         for zipobj in zipf.filelist:
             # print(zipobj.filename)
 
-            if testfile:
-                if zipobj.filename != testfile:
-                    continue
+            if testfile and zipobj.filename != testfile:
+                continue
 
             # Skip if already processed
             if processed_zip_dict.get(str(zipobj.filename)) and not testfile:
                 print(f"  Skipping file '{zipobj.filename}' (already processed)")
 
             filecontents = zipf.read(zipobj)
-            xmlstring = preprocess_xml(filecontents, zipobj.filename, testfile=testfile)
+            xmlstring = preprocess_xml(
+                filecontents, zipobj.filename, testfile=testfile is not None
+            )
 
             if testfile:
                 if xmlstring:
