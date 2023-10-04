@@ -7,9 +7,13 @@ license = "MIT"
 readme = "README.md"
 packages = [{include = "swegov_opendata"}]
 
+[tool.poetry.scripts]
+rd-preprocess = "swegov_opendata.presentation.console.main:app"
+
 [tool.poetry.dependencies]
 python = "^3.9"
 lxml = "^4.9.3"
+typer = "^0.9.0"
 
 
 [tool.poetry.group.dev.dependencies]

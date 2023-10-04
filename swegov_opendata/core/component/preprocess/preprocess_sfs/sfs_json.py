@@ -1,10 +1,12 @@
 import json
-from typing import Optional
+import sys
+from typing import Optional, Tuple, Union
 
 from lxml import etree, html
 
+from swegov_opendata.lxml_extension import attrib_equals, attrib_startswith
 from swegov_opendata.lxml_extension.cleaning import clean_element
-from swegov_opendata.lxml_extension.printing import print_tree
+from swegov_opendata.lxml_extension.printing import elem_open_as_str, print_tree
 from swegov_opendata.serialization import write_xml
 
 
@@ -64,12 +66,18 @@ def process_sfs_html(  # noqa: C901
     testfile=False,
 ):
     """Process the actual text content of the document."""
-
+    contents = contents.replace('"', '"')
+    contents = contents.replace("\r\n", " ")
     contentsxml = build_elem(contents)
+    # print(etree.tostring(contentsxml), file=sys.stderr)
 
-    print_tree(contentsxml)
     if contentsxml[0].tag == "div" and attrib_equals(contentsxml[0], "class", "dok"):
-        raise RuntimeError('found <div class="dok">')
+        convert_div_dok(contentsxml[0], textelem)
+    else:
+        convert_sfs_standard(contentsxml, textelem, filename, testfile=testfile)
+
+
+def convert_sfs_standard(contentsxml, textelem, filename, *, testfile: bool = False):
     extract_metadata(contentsxml, textelem)
     for element in contentsxml:
         if (
@@ -169,26 +177,27 @@ def process_sfs_html(  # noqa: C901
     # Replace divs with more meaningful tags
     page_nr = 1
     for element in contentsxml.iter("div"):
+        print(elem_open_as_str(element))
         # print_tree(element)
-        if "id" in element.attrib and element.attrib["id"].startswith("page_"):
+        if attrib_startswith(element, "id", "page_"):
             element.tag = "page"
             element.attrib["id"] = element.attrib["id"][5:]
             continue
-        if "class" in element.attrib and element.attrib["class"] == ("pageWrap"):
+        if attrib_equals(element, "class", "pageWrap"):
+            raise RuntimeError("found pageWrap")
             element.tag = "page"
-            element.attrib["id"] = page_nr
+            element.attrib["id"] = str(page_nr)
             page_nr += 1
             continue
-
         prev = None
         prev_text = None
         for child in element:
-            print("=== before ===")
-            print_tree(child)
+            # print("=== before ===")
+            # print_tree(child)
             if prev is not None and child.tag == "br":
                 prev.append(child)
-                print("=== after ===")
-                print_tree(prev)
+                # print("=== after ===")
+                # print_tree(prev)
                 continue
             if prev_text:
                 child.text = merge_text(prev_text, child.text)
@@ -196,13 +205,13 @@ def process_sfs_html(  # noqa: C901
             if child.tag == "h3" and child.attrib.get("name") == "overgang":
                 prev_text = child.tail
                 child.tail = None
-                print("=== after tail ===")
-                print(f"{prev_text=}")
-                print_tree(child)
+                # print("=== after tail ===")
+                # print(f"{prev_text=}")
+                # print_tree(child)
 
             to_paragraph(child)
-            print("=== after ===")
-            print_tree(child)
+            # print("=== after ===")
+            # print_tree(child)
             prev = child
 
     # Remove some attributes and tags
@@ -290,8 +299,8 @@ def process_sfs_html(  # noqa: C901
         for child in element:
             if not is_empty(child):
                 textelem.append(child)
-    print("=== whole tree ===")
-    print_tree(textelem)
+    # print("=== whole tree ===")
+    # print_tree(textelem)
     return True
 
 
@@ -366,3 +375,158 @@ def merge_text(t1: Optional[str], t2: Optional[str]) -> Optional[str]:
     if t1 is None:
         return None if t2 is None else t2
     return t1 if t2 is None else f"{t1} {t2}"
+
+
+def convert_div_dok(contentsxml: etree._Element, textelem: etree._Element) -> None:
+    print(f">>> convert_div_dok {elem_open_as_str(contentsxml)}")
+    page_nr = 1
+    for element in contentsxml:
+        if element.tag == "style":
+            continue
+        if element.tag == "div" and attrib_equals(element, "class", "pageWrap"):
+            page = div_dok_extract_page(element)
+            page.attrib["id"] = str(page_nr)
+            page_nr += 1
+            print(f"=== convert_div_dok {elem_open_as_str(page)}")
+            textelem.append(page)
+    print(f"<<< convert_div_dok {elem_open_as_str(contentsxml)}")
+
+
+def div_dok_extract_page(elem: etree._Element) -> etree._Element:
+    print(f">>> div_dok_extract_page {elem_open_as_str(elem)}")
+    page = etree.Element("page")
+
+    if elem[0].tag == "div" and attrib_equals(elem[0], "class", "sida"):
+        elem = elem[0]
+    # elem = elem[0]
+    for child in elem:
+        paragraphs = div_dok_extract_paragraphs(child)
+        for paragraph in paragraphs:
+            print_tree(paragraph)
+            page.append(paragraph)
+    print(f"{len(elem)=}")
+    print(f"{len(page)=}")
+    print(
+        f"<<< div_dok_extract_page {elem_open_as_str(elem)}: {elem_open_as_str(page)}"
+    )
+    return page
+
+
+def div_dok_extract_paragraphs(elem: etree._Element) -> list[etree._Element]:
+    print(f">>> div_dok_extract_paragraphs {elem_open_as_str(elem)}")
+    print_tree(elem)
+    paragraphs = []
+    if elem.tag == "div":
+        if len(elem) == 0:
+            print(
+                f"=== div_dok_extract_paragraphs {elem_open_as_str(elem)}: no children"
+            )
+            return paragraphs
+        for i, child in enumerate(elem):
+            print(
+                f"=== div_dok_extract_paragraphs {elem_open_as_str(elem)} === child {i}: {elem_open_as_str(child)}"
+            )
+            # print_tree(child)
+            child_p = extract_paragraph_recursive(child)
+            print_tree(child_p)
+            paragraphs.append(child_p)
+    elif elem.tag == "p":
+        print(f"=== div_dok_extract_paragraphs {elem_open_as_str(elem)} === ")
+        elem_p = extract_paragraph_recursive(elem)
+        print_tree(elem_p)
+        paragraphs.append(elem_p)
+        # div_dok_extract_paragraph(elem, paragraphs)
+    print(
+        f"<<< div_dok_extract_paragraphs {elem_open_as_str(elem)}: {[elem_open_as_str(p) for p in paragraphs]}"
+    )
+    return paragraphs
+
+
+def div_dok_extract_paragraph(elem, paragraphs):
+    print(f"div_dok_extract_paragraph {elem_open_as_str(elem)}")
+    paragraph = etree.Element("p")
+    paragraph.text = elem.text
+    prev = paragraph
+    for child in elem:
+        print_tree(child)
+        for text_or_elem in div_dok_extract_text_br_and_tail(child):
+            if isinstance(text_or_elem, str):
+                prev.text = merge_text(prev.text, text_or_elem)
+            else:
+                paragraph.append(text_or_elem)
+                prev = text_or_elem
+        # prev.text = merge_text(prev.text, child.text)
+        # if child.tag == "br":
+        #     print("found <br>")
+        #     prev = etree.SubElement(paragraph, "br")
+        # else:
+        #     prev.tail = merge_text(prev.tail, child.tail)
+    prev.tail = merge_text(prev.tail, elem.tail)
+    paragraphs.append(paragraph)
+
+
+def div_dok_extract_text_and_br(paragraph: etree._Element, elem: etree._Element):
+    print(f"div_dok_extract_text_and_br {elem_open_as_str(elem)}")
+    if len(elem) == 0:
+        paragraph.text = merge_text(paragraph.text, elem.text)
+    else:
+        for child in elem:
+            pass
+
+
+def div_dok_extract_text_br_and_tail(
+    elem: etree._Element,
+) -> list[Union[str, etree._Element]]:
+    print(f"div_dok_extract_text_br_and_tail {elem_open_as_str(elem)}")
+    result = []
+    prev_text = elem.text
+    prev_tail = None
+    for child in elem:
+        if child.tag == "br":
+            result.append(prev_text)
+            prev_text = None
+            result.append(etree.Element("br"))
+        else:
+            prev_text = merge_text(prev_text, child.text)
+            prev_text = merge_text(prev_text, child.tail)
+        print(f"{result=}")
+
+    prev_text = merge_text(prev_text, elem.tail)
+    if prev_text is not None:
+        result.append(prev_text)
+    print(f"{result=}")
+
+    return result
+
+
+def extract_paragraph_recursive(elem: etree._Element) -> etree._Element:
+    print(f">>> extract_paragraph_recursive {elem_open_as_str(elem)}")
+    if elem.tag == "table":
+        return etree.Element("table", attrib={"class": "removed"})
+    tag = "br" if elem.tag == "br" else "p"
+    parapraph = etree.Element(tag)
+    parapraph.text = elem.text
+    parapraph.tail = elem.tail
+    prev = parapraph
+    for child in elem:
+        child_p = extract_paragraph_recursive(child)
+        if child_p.tag == "br":
+            parapraph.append(child_p)
+            prev = child_p
+        elif child_p.tag == "p":
+            print("=== paragraph")
+            print_tree(parapraph)
+            print("=== child_p")
+            print_tree(child_p)
+            print("=== ")
+            if len(parapraph) == 0:
+                prev.text = merge_text(prev.text, child_p.text)
+            else:
+                prev.tail = merge_text(prev.tail, child_p.text)
+            parapraph.extend(child_p)
+            prev = parapraph[-1] if len(parapraph) > 0 else prev
+
+    print(
+        f"<<< extract_paragraph_recursive {elem_open_as_str(elem)}: {elem_open_as_str(parapraph)}"
+    )
+    return parapraph

@@ -62,12 +62,17 @@ tests := tests
 test:
 	${INVENV} pytest -vv ${tests}
 
+.PHONY: watch-test
+watch-test:
+	${INVENV} watchfiles "pytest -vvv tests" swegov_opendata tests
+
 .PHONY: test-w-coverage
 test-w-coverage:
 	${INVENV} pytest -vv ${cov} --cov-report=${cov_report} ${all_tests}
 
-watch-test:
-	${INVENV} watchfiles "pytest -vvv tests" swegov_opendata tests
+.PHONY: watch-test-w-coverage
+watch-test-w-coverage:
+	${INVENV} watchfiles "pytest -vv ${cov} --cov-report=${cov_report} ${all_tests}" swegov_opendata tests
 
 fmt:
 	${INVENV} black swegov_opendata tests
