@@ -311,7 +311,12 @@ jobs:
    # https://github.com/marketplace/actions/alls-green#why used for branch protection checks
   check:
     if: always()
-    needs: [lint, coverage, type-check, check-fmt]
+    needs:
+      - lint
+      - coverage
+      - type-check
+      - check-fmt
+      - audit
     runs-on: ubuntu-latest
     steps:
       - name: Decide whether the needed jobs succeeded or failed
