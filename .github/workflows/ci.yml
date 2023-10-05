@@ -318,5 +318,5 @@ jobs:
         uses: re-actors/alls-green@release/v1
         with:
           jobs: ${{ toJSON(needs) }}
-          # allowed-failures: type-check, lint
+          allowed-failures: type-check
 
