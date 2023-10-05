@@ -32,7 +32,7 @@ jobs:
       #       check-out repo and set-up python
       #----------------------------------------------
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up python ${{ env.MINIMUM_PYTHON_VERSION }}
         id: setup-python
         uses: actions/setup-python@v4
@@ -94,7 +94,7 @@ jobs:
       #       check-out repo and set-up python
       #----------------------------------------------
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up python ${{ env.MINIMUM_PYTHON_VERSION }}
         id: setup-python
         uses: actions/setup-python@v4
@@ -155,7 +155,7 @@ jobs:
       #       check-out repo and set-up python
       #----------------------------------------------
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up python ${{ env.MINIMUM_PYTHON_VERSION }}
         id: setup-python
         uses: actions/setup-python@v4
@@ -221,7 +221,7 @@ jobs:
       #       check-out repo and set-up python
       #----------------------------------------------
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up python ${{ matrix.python-version }}
         id: setup-python
         uses: actions/setup-python@v4
@@ -275,6 +275,25 @@ jobs:
           # flags: unittests
           # name: codecov-umbrella
           verbose: true
+  audit:
+    name: Audit dependencies
+    runs-on: ubuntu-latest
+    steps:
+      #----------------------------------------------
+      #       check-out repo and set-up python
+      #----------------------------------------------
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up python ${{ env.MINIMUM_PYTHON_VERSION }}
+        id: setup-python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.MINIMUM_PYTHON_VERSION }}
+      - name: gh-action-pip-audit
+        uses: pypa/gh-action-pip-audit@v1.0.8
+        with:
+          inputs: .
+
 
 
    # https://github.com/marketplace/actions/alls-green#why used for branch protection checks
