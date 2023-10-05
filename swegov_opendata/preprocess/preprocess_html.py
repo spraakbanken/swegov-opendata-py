@@ -3,8 +3,8 @@
 
 from lxml import etree, html
 
-from swegov_opendata.serialization import write_xml
 from swegov_opendata.lxml_extension.mutation import strip_tags
+from swegov_opendata.serialization import write_xml
 
 
 def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa: C901

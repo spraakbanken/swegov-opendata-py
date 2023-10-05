@@ -1,13 +1,11 @@
 """Script for creating original/xml files for all rd-corpora."""
 
-import re
-import unicodedata
 import xml.sax.saxutils
 from datetime import datetime
 
 from lxml import etree
-from swegov_opendata.lxml_extension.cleaning import clean_element
 
+from swegov_opendata.lxml_extension.cleaning import clean_element
 from swegov_opendata.preprocess.preprocess_html import process_html
 
 # Parsing large XML files:

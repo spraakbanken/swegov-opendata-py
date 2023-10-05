@@ -5,6 +5,7 @@ from lxml import etree, html
 
 from swegov_opendata.lxml_extension.cleaning import clean_element
 from swegov_opendata.lxml_extension.printing import print_tree
+from swegov_opendata.serialization import write_xml
 
 
 def preprocess_json(source: str) -> bytes:
@@ -55,13 +56,13 @@ def preprocess_json(source: str) -> bytes:
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
 
 
-def process_sfs_html(
+def process_sfs_html(  # noqa: C901
     contents: str,
     textelem,
     filename: str,
     *,
     testfile=False,
-):  # noqa: C901
+):
     """Process the actual text content of the document."""
 
     contentsxml = build_elem(contents)

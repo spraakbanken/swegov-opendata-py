@@ -31,7 +31,7 @@ def assert_elem_equal(left, right):
     # assert len(left) == len(
     #     right
     # ), f"<{left.tag} len(left) != len(right) [{len(left)} != {len(right)}]"
-    for c1, c2 in itertools.zip_longest(left, right):  # noqa: B905
+    for c1, c2 in itertools.zip_longest(left, right):
         if c1 is None and c2 is None:
             assert False, "both is None"
         assert c1 is not None, f"right is longer c2={debug_tree(c2)}"
