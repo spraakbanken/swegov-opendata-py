@@ -1,5 +1,6 @@
 import re
 import unicodedata
+from typing import Optional
 
 
 def clean_html(text):
@@ -48,7 +49,7 @@ def clean_text(text: str) -> str:
     return clean_html(text)
 
 
-def clean_text_opt(text: str | None) -> str | None:
+def clean_text_opt(text: Optional[str]) -> Optional[str]:
     return None if text is None else clean_html(text)
 
 
