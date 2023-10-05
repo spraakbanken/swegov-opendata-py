@@ -28,7 +28,7 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
     # Remove some attributes and tags
     etree.strip_attributes(
         contentsxml,
-        [
+        *[
             "style",
             "class",
             "cellpadding",
@@ -57,7 +57,7 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
 
     # Check text length
     orig_text_length = 0
-    for i in etree.ElementTextIterator(contentsxml):
+    for i in etree.ElementTextIterator(contentsxml):  # type: ignore[attr-defined]
         orig_text_length += len(i)
     if not orig_text_length:
         return False
@@ -161,7 +161,7 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
 
     # Check text length to see that nothing was lost
     text_length = 0
-    for i in etree.ElementTextIterator(contentsxml):
+    for i in etree.ElementTextIterator(contentsxml):  # type: ignore[attr-defined]
         text_length += len(i)
     if text_length != orig_text_length:
         diff = orig_text_length - text_length
@@ -204,9 +204,8 @@ def build_elem(contents: str) -> etree._Element:
     # print(cleaned_content)
     # print("\n-----\n")
     contents = f"<text>{contents}</text>"
-    return html.fromstring(
-        contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True)
-    )
+    html_parser = etree.HTMLParser(remove_comments=True, remove_pis=True)
+    return html.fromstring(contents, parser=html_parser)  # type: ignore [arg-type]
 
 
 def extract_metadata(contentsxml, textelem) -> None:
