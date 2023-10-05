@@ -289,10 +289,22 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.MINIMUM_PYTHON_VERSION }}
+      #----------------------------------------------
+      #  -----  install & configure poetry  -----
+      #----------------------------------------------
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: ${{ env.POETRY_VERSION }}
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: 'Generate requirements.txt'
+        run: |
+          poetry export -f requirements.txt --output requirements.txt
       - name: gh-action-pip-audit
         uses: pypa/gh-action-pip-audit@v1.0.8
         with:
-          inputs: .
+          inputs: requirements.txt
 
 
 
