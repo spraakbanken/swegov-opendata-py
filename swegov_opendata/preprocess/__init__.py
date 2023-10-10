@@ -5,11 +5,12 @@ import re
 import zipfile
 from pathlib import Path
 
+from swegov_opendata.core.component.sparv.config import make_corpus_config
+from swegov_opendata.core.component.sparv.xml_source_writer import XmlSourceWriter
 from swegov_opendata.corpusinfo import corpusinfo
 from swegov_opendata.lxml_extension.cleaning import clean_text
 from swegov_opendata.preprocess import preprocess_xml
 from swegov_opendata.serialization import write_json, write_xml
-from swegov_opendata.sparv.config import make_corpus_config
 
 __all__ = ["clean_text"]
 
@@ -19,7 +20,6 @@ __all__ = ["clean_text"]
 
 RAWDIR = "rawdata"
 PROCESSED_JSON = "processed.json"
-MAX_SIZE = 10 * 1024 * 1024  # Max size in bytes for output XML files
 
 
 def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C901
@@ -62,10 +62,10 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
         )
         make_corpus_config(corpus_id, name, descr, Path("material") / corpus_id)
 
-        total_size = 0
-        result = []
         processed_zip_dict = processed_json.get(str(zippath.name), {})
-        counter = len(processed_zip_dict.values()) + 1
+        source_writer = XmlSourceWriter(
+            target_dir=corpus_source_dir, counter=len(processed_zip_dict) + 1
+        )
 
         # Iterate through files in zip file
         zipf = zipfile.ZipFile(zippath)
@@ -88,32 +88,12 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
                 if xmlstring:
                     write_xml(xmlstring, "test.xml")
                 exit()
+            source_writer.write(xmlstring)
 
-            this_size = len(xmlstring)
-
-            # If adding the latest result would lead to the file size going over the limit, save
-            if xmlstring and total_size + this_size > MAX_SIZE:
-                write_xml(
-                    b"\n".join(result),
-                    corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml",
-                )
-                total_size = 0
-                result = []
-                counter += 1
-
-            if xmlstring:
-                result.append(xmlstring)
-            total_size += this_size
-            processed_zip_dict[
-                str(zipobj.filename)
-            ] = f"{corpus_source_dir.parts[-1]}-{counter}.xml"
+            processed_zip_dict[str(zipobj.filename)] = source_writer.current_filename
 
         # Save last file
-        if result:
-            write_xml(
-                b"\n".join(result),
-                corpus_source_dir / f"{corpus_source_dir.parts[-1]}-{counter}.xml",
-            )
+        source_writer.flush()
 
         if not testfile:
             processed_json[str(zippath.name)] = processed_zip_dict
