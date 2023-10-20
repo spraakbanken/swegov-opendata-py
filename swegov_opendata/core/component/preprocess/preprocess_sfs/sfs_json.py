@@ -2,6 +2,8 @@ import json
 import sys
 from typing import Optional, Tuple, Union
 
+from bs4 import BeautifulSoup
+import bs4
 from lxml import etree, html
 
 from swegov_opendata.lxml_extension import attrib_equals, attrib_startswith
@@ -50,7 +52,7 @@ def preprocess_json(source: str) -> bytes:
             upphavd_at, _remaining = dokuppg["text"].split(" ", 1)
             textelem.set("upphavd", upphavd_at)
 
-    process_sfs_html(dokument["html"], textelem, filename="unknown")
+    process_sfs_html_with_soup(dokument["html"], textelem, filename="unknown")
 
     clean_element(textelem)
     # Return new XML
@@ -68,13 +70,65 @@ def process_sfs_html(  # noqa: C901
     """Process the actual text content of the document."""
     contents = contents.replace('"', '"')
     contents = contents.replace("\r\n", " ")
+    # Special case
+    # contents = contents.replace("<e ", "&lt;e ")
     contentsxml = build_elem(contents)
     # print(etree.tostring(contentsxml), file=sys.stderr)
 
+    # contentsxml = contentsxml[2]
+    # assert contentsxml.tag == "body"
     if contentsxml[0].tag == "div" and attrib_equals(contentsxml[0], "class", "dok"):
         convert_div_dok(contentsxml[0], textelem)
     else:
         convert_sfs_standard(contentsxml, textelem, filename, testfile=testfile)
+
+
+def process_sfs_html_with_soup(  # noqa: C901
+    contents: str,
+    textelem,
+    filename: str,
+    *,
+    testfile=False,
+):
+    """Process the actual text content of the document."""
+    contents = contents.replace('"', '"')
+    contents = contents.replace("\r\n", " ")
+    # Special case
+    # contents = contents.replace("<e ", "&lt;e ")
+    contentsxml = build_soup(contents)
+    # print(etree.tostring(contentsxml), file=sys.stderr)
+    contentsxml = contentsxml.contents[0]
+    print(f"{contentsxml=}")
+    for child in contentsxml.children:
+        # contentsxml = contentsxml.contents[0]
+        print(f"{child=}")
+        # assert contentsxml.tag == "body"
+        # print(f"{contentsxml.contents[0]=}")
+        print(f"{child.name=}")
+        print(f"{child.attrs.get('class')=}")
+        if child.name == "div" and "dok" in child.attrs.get("class"):
+            convert_div_dok_with_soup(child, textelem)
+        else:
+            convert_sfs_standard_with_soup(
+                contentsxml, textelem, filename, testfile=testfile
+            )
+
+
+def convert_sfs_standard_with_soup(
+    contentsxml: BeautifulSoup,
+    textelem: etree._Element,
+    filename,
+    *,
+    testfile: bool = False,
+) -> None:
+    extract_metadata_with_soup(contentsxml, textelem)
+    for element in contentsxml.children:
+        if element.name == "div" and element.attrs.get("class") == "sfstoc":
+            print("skipping <div class='sfstoc'> ...")
+            continue
+
+        if "id" in element.attrs and element.attrs["id"].startswith("page_"):
+            pass
 
 
 def convert_sfs_standard(contentsxml, textelem, filename, *, testfile: bool = False):
@@ -339,10 +393,16 @@ def build_elem(contents: str) -> etree._Element:
 
     # print(cleaned_content)
     # print("\n-----\n")
+    # contents = f"<html><head /><body>{contents}</body></html>"
     contents = f"<text>{contents}</text>"
     return html.fromstring(
         contents, parser=etree.HTMLParser(remove_comments=True, remove_pis=True)
     )
+
+
+def build_soup(contents: str) -> BeautifulSoup:
+    contents = f"<text>{contents}</text>"
+    return BeautifulSoup(contents, "html.parser")
 
 
 def extract_metadata(contentsxml, textelem) -> None:
@@ -353,6 +413,20 @@ def extract_metadata(contentsxml, textelem) -> None:
 
         if metadata_key and child.tag == "a":
             value = child.attrib["href"]
+            textelem.set(metadata_key.lower(), value)
+            metadata_key = ""
+
+
+def extract_metadata_with_soup(
+    contentsxml: BeautifulSoup, textelem: etree._Element
+) -> None:
+    metadata_key = ""
+    for child in contentsxml.children:
+        if child.name == "b" and child.string in ["Ändringsregister", "Källa"]:
+            metadata_key = child.string
+
+        if metadata_key and child.name == "a":
+            value = child.attrs["href"]
             textelem.set(metadata_key.lower(), value)
             metadata_key = ""
 
@@ -375,6 +449,159 @@ def merge_text(t1: Optional[str], t2: Optional[str]) -> Optional[str]:
     if t1 is None:
         return None if t2 is None else t2
     return t1 if t2 is None else f"{t1} {t2}"
+
+
+def soup_elem_open_as_str(elem: BeautifulSoup) -> str:
+    return f"<{elem.name}>"
+
+
+def convert_div_dok_with_soup(
+    contentsxml: BeautifulSoup, textelem: etree._Element
+) -> None:
+    print(f">>> convert_div_dok_with_soup {soup_elem_open_as_str(contentsxml)}")
+    page_nr = 1
+    for element in contentsxml.children:
+        if element.name == "style":
+            continue
+        if (
+            element.name == "div"
+            and "class" in element.attrs
+            and "pageWrap" in element.attrs["class"]
+        ):
+            page = div_dok_extract_page_with_soup(element)
+            page.attrib["id"] = str(page_nr)
+            page_nr += 1
+            print(f"=== convert_div_dok_with_soup {elem_open_as_str(page)}")
+            textelem.append(page)
+    print(f"<<< convert_div_dok_with_soup {soup_elem_open_as_str(contentsxml)}")
+
+
+def soup_attrib_equals(
+    elem: BeautifulSoup, name: str, value: Union[str, list[str]]
+) -> bool:
+    if isinstance(value, str):
+        value = [value]
+    return name in elem.attrs and elem.attrs[name] == value
+
+
+def div_dok_extract_page_with_soup(elem: BeautifulSoup) -> etree._Element:
+    print(f">>> div_dok_extract_page_with_soup {soup_elem_open_as_str(elem)}")
+    print(f"{elem=}")
+    page = etree.Element("page")
+
+    if elem.contents[0].name == "div" and soup_attrib_equals(
+        elem.contents[0], "class", "sida"
+    ):
+        print("skipping <div class='sida'> ...")
+        elem = elem.contents[0]
+    # elem = elem[0]
+    for child in elem:
+        if isinstance(child, bs4.Tag):
+            paragraphs = div_dok_extract_paragraphs_with_soup(child)
+            for paragraph in paragraphs:
+                print_tree(paragraph)
+                page.append(paragraph)
+        else:
+            print(f"skipping {type(child)} {child!r} ...")
+    print(f"{len(elem)=}")
+    print(f"{len(page)=}")
+    print(
+        f"<<< div_dok_extract_page_with_soup {soup_elem_open_as_str(elem)}: {elem_open_as_str(page)}"
+    )
+    return page
+
+
+def div_dok_extract_paragraphs_with_soup(elem: BeautifulSoup) -> list[etree._Element]:
+    print(f">>> div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)}")
+    print(f"{elem=}")
+    # print_tree(elem)
+    paragraphs = []
+    if elem.name == "div":
+        if len(elem) == 0:
+            print(
+                f"=== div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)}: no children"
+            )
+            return paragraphs
+        for i, child in enumerate(elem):
+            if isinstance(child, bs4.Tag):
+                print(
+                    f"=== div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)} === child {i}: {soup_elem_open_as_str(child)}"
+                )
+                # print_tree(child)
+                child_p = extract_paragraph_recursive_with_soup(child)
+                print_tree(child_p)
+                paragraphs.append(child_p)
+            else:
+                print(f"skipping {type(child)} {child!r} ...")
+    elif elem.name == "p":
+        print(
+            f"=== div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)} === "
+        )
+        elem_p = extract_paragraph_recursive_with_soup(elem)
+        print_tree(elem_p)
+        paragraphs.append(elem_p)
+        # div_dok_extract_paragraph(elem, paragraphs)
+    print(
+        f"<<< div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)}: {[elem_open_as_str(p) for p in paragraphs]}"
+    )
+    return paragraphs
+
+
+def extract_paragraph_recursive_with_soup(elem: BeautifulSoup) -> etree._Element:
+    print(f">>> extract_paragraph_recursive_with_soup {soup_elem_open_as_str(elem)}")
+    if elem.name == "table":
+        return etree.Element("table", attrib={"class": "removed"})
+    tag = "br" if elem.name == "br" else "p"
+    paragraph = etree.Element(tag)
+    # paragraph.text = elem.text
+    # paragraph.tail = elem.tail
+    prev = None
+    for child in elem:
+        print(
+            f"=== extract_paragraph_recursive_with_soup {soup_elem_open_as_str(elem)}: {type(child)} {child!r}"
+        )
+        # print("=== paragraph")
+        print_tree(paragraph)
+        print("^^^ paragraph")
+        if prev is None:
+            print("prev = None")
+        else:
+            print_tree(prev)
+        print("^^^ prev")
+        if isinstance(child, bs4.Tag):
+            child_p = extract_paragraph_recursive_with_soup(child)
+            if child_p.tag == "br":
+                paragraph.append(child_p)
+                prev = child_p
+            elif child_p.tag == "p":
+                print("=== paragraph")
+                print_tree(paragraph)
+                print("=== child_p")
+                print_tree(child_p)
+                print("=== ")
+                if prev is None:
+                    paragraph.text = merge_text(paragraph.text, child_p.text)
+                elif len(paragraph) == 0:
+                    prev.text = merge_text(prev.text, child_p.text)
+                else:
+                    prev.tail = merge_text(prev.tail, child_p.text)
+                    paragraph.extend(child_p)
+                    prev = paragraph[-1] if len(paragraph) > 0 else prev
+        elif isinstance(child, bs4.NavigableString):
+            if prev is None:
+                if paragraph.text is None:
+                    paragraph.text = str(child)
+                else:
+                    paragraph.tail = str(child)
+            else:
+                prev.tail = merge_text(prev.tail, str(child))
+
+    print("<<< paragraph")
+    print_tree(paragraph)
+    print(
+        f"<<< extract_paragraph_recursive_with_soup {soup_elem_open_as_str(elem)}: {elem_open_as_str(paragraph)}"
+    )
+    return paragraph
 
 
 def convert_div_dok(contentsxml: etree._Element, textelem: etree._Element) -> None:
@@ -504,29 +731,32 @@ def extract_paragraph_recursive(elem: etree._Element) -> etree._Element:
     if elem.tag == "table":
         return etree.Element("table", attrib={"class": "removed"})
     tag = "br" if elem.tag == "br" else "p"
-    parapraph = etree.Element(tag)
-    parapraph.text = elem.text
-    parapraph.tail = elem.tail
-    prev = parapraph
+    paragraph = etree.Element(tag)
+    paragraph.text = elem.text
+    paragraph.tail = elem.tail
+    prev = paragraph
     for child in elem:
+        print(
+            f"=== extract_paragraph_recursive {elem_open_as_str(elem)}: {elem_open_as_str(child)}"
+        )
         child_p = extract_paragraph_recursive(child)
         if child_p.tag == "br":
-            parapraph.append(child_p)
+            paragraph.append(child_p)
             prev = child_p
         elif child_p.tag == "p":
             print("=== paragraph")
-            print_tree(parapraph)
+            print_tree(paragraph)
             print("=== child_p")
             print_tree(child_p)
             print("=== ")
-            if len(parapraph) == 0:
+            if len(paragraph) == 0:
                 prev.text = merge_text(prev.text, child_p.text)
             else:
                 prev.tail = merge_text(prev.tail, child_p.text)
-            parapraph.extend(child_p)
-            prev = parapraph[-1] if len(parapraph) > 0 else prev
+            paragraph.extend(child_p)
+            prev = paragraph[-1] if len(paragraph) > 0 else prev
 
     print(
-        f"<<< extract_paragraph_recursive {elem_open_as_str(elem)}: {elem_open_as_str(parapraph)}"
+        f"<<< extract_paragraph_recursive {elem_open_as_str(elem)}: {elem_open_as_str(paragraph)}"
     )
-    return parapraph
+    return paragraph

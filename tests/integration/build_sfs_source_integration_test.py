@@ -1,13 +1,10 @@
 from pathlib import Path
-from typing import Tuple
 
 import pytest
 from lxml import etree
 
 from swegov_opendata.core.component.preprocess.preprocess_sfs import build_sparv_source
 from swegov_opendata.lxml_extension import print_tree
-from swegov_opendata.lxml_extension.cleaning import clean_element
-from swegov_opendata.preprocess.preprocess_sfs import preprocess_json
 from tests.integration.preprocess_xml_integration_test import assert_elem_equal
 
 

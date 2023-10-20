@@ -1,16 +1,15 @@
-from lxml import etree
 import pytest
+from bs4 import BeautifulSoup
+from lxml import etree
 
 from swegov_opendata.core.component.preprocess.preprocess_sfs.sfs_json import (
     div_dok_extract_page,
-    div_dok_extract_paragraph,
-    div_dok_extract_text_and_br,
-    div_dok_extract_text_br_and_tail,
+    div_dok_extract_page_with_soup,
     extract_paragraph_recursive,
+    extract_paragraph_recursive_with_soup,
 )
-from swegov_opendata.lxml_extension import print_tree, cleaning
+from swegov_opendata.lxml_extension import cleaning, print_tree
 from tests.etree_asserts import assert_elem_equal, assert_elem_equal_no_trim
-
 
 # def test_div_dok_extract_paragraph():
 #     elem = etree.fromstring(
@@ -96,8 +95,54 @@ def test_extract_paragraph_recursive(source: str, expected: str):
     assert_elem_equal_no_trim(actual, expected)
 
 
+@pytest.mark.parametrize(
+    "source, expected",
+    [
+        (
+            """<p class="line" style="font-size: 0.65em">Från Riksgäldskontor</p>""",
+            """<p>Från Riksgäldskontor</p>""",
+        ),
+        (
+            """<span class="line" style="font-size: 0.65em">Från Riksgäldskontor</span>""",
+            """<p>Från Riksgäldskontor</p>""",
+        ),
+        (
+            """<span class="line" style="font-size: 0.65em">Från<br /> Riksgäldskontor</span>""",
+            """<p>Från<br /> Riksgäldskontor</p>""",
+        ),
+        (
+            """<p><span class="line" style="font-size: 0.65em">Från<br /> Riksgäldskontor</span></p>""",
+            """<p>Från<br /> Riksgäldskontor</p>""",
+        ),
+        (
+            """<p style="margin-left: 40px"><span class="line" style="font-size: 0.65em">Från Riksgäldskontor utgående riksdags- och revisionskostnader,
+             aflöriingar, för<br /> </span><span class="line" style="font-size: 0.85em">valtningsutgifter m. m. §§
+             21—31.</span></p>""",
+            """<p>Från Riksgäldskontor utgående riksdags- och revisionskostnader,
+             aflöriingar, för<br />  valtningsutgifter m. m. §§
+             21—31.</p>""",
+        ),
+    ],
+)
+def test_extract_paragraph_recursive_with_soup(source: str, expected: str):
+    print("arrange")
+    elem = BeautifulSoup(source, "html.parser")
+    elem = elem.contents[0]
+    print(f"{elem=}")
+
+    print("act")
+    actual = extract_paragraph_recursive_with_soup(elem)
+
+    print("assert")
+    print_tree(actual)
+    expected = etree.fromstring(expected)
+    print("assert:expected")
+    print_tree(expected)
+    assert_elem_equal_no_trim(actual, expected)
+
+
 PAGE_SOURCES = [
-    """<div class="pageWrap"><div class="sida">  <div class="block" style="top:197px;left:198px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.2em">REGLEMENTE</span></p> </div>    <div class="block" style="top:342px;left:288px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.0em">FÖR</span></p> </div>    <div class="block" style="top:467px;left:75px">  <p><span class="line " style="font-size:1.2em">RIKSGÄLDS-KONTORET,</span></p> </div>    <div class="block" style="top:606px;left:141px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.0em">utfärda (It vid slutet af 1887 års riksdag.</span></p> </div>    <div class="block" style="top:773px;left:316px">  </div>    <div class="block" style="top:779px;left:271px">  </div>  </div></div>""",  # noqa: E501
+    """<div class="pageWrap"><div class="sida">  <div class="block" style="top:197px;left:198px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.2em">REGLEMENTE</span></p> </div>    <div class="block" style="top:342px;left:288px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.0em">FÖR</span></p> </div>    <div class="block" style="top:467px;left:75px">  <p><span class="line " style="font-size:1.2em">RIKSGÄLDS-KONTORET,</span></p> </div>    <div class="block" style="top:606px;left:141px">  <p style="margin-left:3px;"><span class="line " style="font-size:1.0em">utfärda (It vid slutet af 1887 års riksdag.</span></p> </div>    <div class="block" style="top:773px;left:316px">  </div>    <div class="block" style="top:779px;left:271px">  </div>  </div></div>""",
     """<div class="pageWrap">
     <div class="sida">
       <div class="block" style="top: 131px; left: 99px">
@@ -273,7 +318,7 @@ PAGE_SOURCES = [
       </div>""",
 ]
 EXPECTED_SOURCES = [
-    """<page><p>REGLEMENTE</p> <p>FÖR</p> <p>RIKSGÄLDS-KONTORET,</p> <p>utfärda (It vid slutet af 1887 års riksdag.</p> </page>""",  # noqa: E501
+    """<page><p>REGLEMENTE</p> <p>FÖR</p> <p>RIKSGÄLDS-KONTORET,</p> <p>utfärda (It vid slutet af 1887 års riksdag.</p> </page>""",
     """<page>
         <p>
           Till låneunderstöd för enskilda jernvägar har 1881 års Rikslag
@@ -373,16 +418,16 @@ EXPECTED_SOURCES = [
 
 
 @pytest.mark.parametrize(
-    "source, expected",
+    "example_index",
     [
-        (PAGE_SOURCES[0], EXPECTED_SOURCES[0]),
-        (PAGE_SOURCES[1], EXPECTED_SOURCES[1]),
-        (PAGE_SOURCES[2], EXPECTED_SOURCES[2]),
+        0,
+        1,
+        2,
     ],
 )
-def test_div_dok_extract_page(source: str, expected: str):
+def test_div_dok_extract_page(example_index: int):
     print("arrange")
-    elem = etree.fromstring(source)
+    elem = etree.fromstring(PAGE_SOURCES[example_index])
     # print_tree(elem)
 
     print("act")
@@ -390,7 +435,34 @@ def test_div_dok_extract_page(source: str, expected: str):
     cleaning.clean_element(actual)
     print("assert")
     print_tree(actual, verbose=True)
-    expected = etree.fromstring(expected)
+    expected = etree.fromstring(EXPECTED_SOURCES[example_index])
+    print("assert:expected")
+    print_tree(expected, verbose=True)
+    assert_elem_equal(actual, expected)
+
+
+@pytest.mark.parametrize(
+    "example_index",
+    [
+        0,
+        1,
+        2,
+    ],
+)
+def test_div_dok_extract_page_with_soup(example_index: int):
+    print("arrange")
+    elem = BeautifulSoup(PAGE_SOURCES[example_index], "html.parser")
+    elem = elem.contents[0]
+    print(f"{elem=}")
+    # elem = etree.fromstring(source)
+    # print_tree(elem)
+
+    print("act")
+    actual = div_dok_extract_page_with_soup(elem)
+    cleaning.clean_element(actual)
+    print("assert")
+    print_tree(actual, verbose=True)
+    expected = etree.fromstring(EXPECTED_SOURCES[example_index])
     print("assert:expected")
     print_tree(expected, verbose=True)
     assert_elem_equal(actual, expected)
