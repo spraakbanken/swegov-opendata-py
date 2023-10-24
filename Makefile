@@ -3,7 +3,7 @@
 .default: help
 
 ifeq (${VIRTUAL_ENV},)
-  INVENV = poetry run
+  INVENV = rye run
 else
   INVENV =
 endif
@@ -42,16 +42,16 @@ help:
 
 dev: install-dev
 install-dev:
-	poetry install
+	rye sync
 
 install:
-	poetry install --only main --sync
+	rye sync --no-dev
 
 # setup CI environment
 install-ci: install-dev
-	poetry install --only ci
+	rye sync --features=ci
 
-default_cov := "--cov=${PROJECT}"
+default_cov := "--cov=src/${PROJECT}"
 cov_report := "term-missing"
 cov := ${default_cov}
 
@@ -64,7 +64,7 @@ test:
 
 .PHONY: watch-test
 watch-test:
-	${INVENV} watchfiles "pytest -vvv tests" swegov_opendata tests
+	${INVENV} watchfiles "pytest -vvv tests" src tests
 
 .PHONY: test-w-coverage
 test-w-coverage:
@@ -72,20 +72,20 @@ test-w-coverage:
 
 .PHONY: watch-test-w-coverage
 watch-test-w-coverage:
-	${INVENV} watchfiles "pytest -vv ${cov} --cov-report=${cov_report} ${all_tests}" swegov_opendata tests
+	${INVENV} watchfiles "pytest -vv ${cov} --cov-report=${cov_report} ${all_tests}" src tests pyproject.toml
 
 fmt:
-	${INVENV} black swegov_opendata tests
+	${INVENV} black src tests
 
 .PHONY: check-fmt
 check-fmt:
-	${INVENV} black --check swegov_opendata tests
+	${INVENV} black --check src tests
 
 .PHONY: lint
 lint:
-	${INVENV} ruff swegov_opendata tests
+	rye run lint:ruff
 
 # type-check the code
 .PHONY: type-check
 type-check:
-	${INVENV} mypy --config-file mypy.ini swegov_opendata tests
+	${INVENV} mypy --config-file mypy.ini src tests

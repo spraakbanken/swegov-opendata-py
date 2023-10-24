@@ -159,8 +159,17 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 poetry.lock
+requirements.lock
+requirements-dev.lock
+
+# ruff
+/.ruff_cache
 
 /data/
 
 # generated files
 /tests/assets/gen/
+
+# Editors
+# vscode
+/.vscode/

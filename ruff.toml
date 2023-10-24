@@ -1,12 +1,12 @@
 # Enable flake8-bugbear (`B`) rules.
 select = [
   "A",
-#   "ANN",
+  #   "ANN",
   "B",
   "BLE",
   "C4",
   "C90",
-#   "D",
+  #   "D",
   "E",
   "F",
   "FBT",
@@ -18,7 +18,7 @@ select = [
 
 # Never enforce `E501` (line length violations).
 # ignore = ["E501"]
-ignore = ["ANN101", "ANN102","D203", "D213"]
+ignore = ["ANN101", "ANN102", "D203", "D213"]
 
 line-length = 97
 
@@ -29,6 +29,17 @@ unfixable = ["B"]
 
 # Ignore `E402` (import violations) in all `__init__.py` files, and in `path/to/file.py`.
 [per-file-ignores]
-"tests/*" = ["B011","RUF001","D100","D101","D102","D103","D104","S101", "S320"]
+"tests/*" = [
+  "B011",
+  "RUF001",
+  "D100",
+  "D101",
+  "D102",
+  "D103",
+  "D104",
+  "S101",
+  "S320",
+  "E501",
+]
 "swegov_opendata/corpusinfo.py" = ["E501"]
 "__init__.py" = ["E402"]
