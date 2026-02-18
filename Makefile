@@ -57,8 +57,8 @@ help:
 	@echo ""
 
 PLATFORM := `uname -o`
-REPO := "<REPO-NAME-HERE>"
-PROJECT_SRC := "<SRC-FOLDER-HERE>"
+REPO := spraakbanken/swegov-opendata-py
+PROJECT_SRC := src/swegov_opendata
 
 ifeq (${VIRTUAL_ENV},)
   VENV_NAME = .venv
