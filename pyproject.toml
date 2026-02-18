@@ -16,7 +16,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = [{ include-group = "test" }]
+dev = [{ include-group = "lint" }, { include-group = "test" }]
 lint = [
   "ruff>=0.15.1",
   "ty>=0.0.17",
