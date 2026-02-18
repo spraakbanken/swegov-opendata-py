@@ -2,34 +2,30 @@
 name = "swegov-opendata"
 version = "0.1.0"
 description = "Preprocessing of Swedish riksdagens öppna data (open data)"
-authors = [
-    { name = "Kristoffer Andersson", email = "kristoffer.andersson@gu.se" },
-]
-dependencies = ["lxml>=4.9.3", "typer>=0.9.0", "beautifulsoup4>=4.12.2"]
 readme = "README.md"
-requires-python = ">= 3.9"
+requires-python = ">= 3.10"
 license = { text = "MIT" }
+authors = [
+  { name = "Språkbanken Text", email = "sb-info@svenska.gu.se" },
+]
+dependencies = [
+  "beautifulsoup4>=4.12.2",
+  "lxml>=4.9.3",
+  "trafilatura>=2.0.0",
+  "typer>=0.9.0",
+]
 
-[project.optional-dependencies]
-ci = ["ruff>=0.1.1"]
+[dependency-groups]
+dev = [{ include-group = "test" }]
+lint = [
+  "ruff>=0.15.1",
+  "ty>=0.0.17",
+]
+test = [
+  "pytest>=8.4.2",
+  "pytest-cov>=7.0.0",
+]
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
-[tool.rye]
-managed = true
-dev-dependencies = [
-    "pytest>=7.4.2",
-    "pytest-cov>=4.1.0",
-    "watchfiles>=0.21.0",
-    "black>=23.10.1",
-    "mypy>=1.6.1",
-    "types-lxml>=2023.10.21",
-]
-
-[tool.hatch.metadata]
-allow-direct-references = true
-
-[tool.rye.scripts]
-"lint:ruff" = "ruff check src tests"
+requires = ["uv_build>=0.10,<0.11"]
+build-backend = "uv_build"
