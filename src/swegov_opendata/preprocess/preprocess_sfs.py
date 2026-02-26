@@ -1,5 +1,4 @@
 import json
-from typing import Optional
 
 from lxml import etree, html
 
@@ -56,7 +55,7 @@ def preprocess_json(source: str) -> bytes:
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
 
 
-def process_sfs_html(  # noqa: C901
+def process_sfs_html(
     contents: str,
     textelem,
     filename: str,
@@ -64,7 +63,6 @@ def process_sfs_html(  # noqa: C901
     testfile=False,
 ):
     """Process the actual text content of the document."""
-
     contentsxml = build_elem(contents)
 
     print_tree(contentsxml)
@@ -214,7 +212,7 @@ def process_sfs_html(  # noqa: C901
             "cellpadding",
             "cellspacing",
             "colspan",
-            "images" ".",
+            "images.",
             "align",
             "valign",
             "name",
@@ -305,9 +303,7 @@ def strip_tags(elem, tags_to_remove: list[str]) -> None:
     for child in elem:
         if child.tag in tags_to_remove:
             if child_text := collect_texts(child):
-                elem.text = (
-                    child_text if elem.text is None else f" {elem.text} {child_text} "
-                )
+                elem.text = child_text if elem.text is None else f" {elem.text} {child_text} "
             elem.remove(child)
         else:
             strip_tags(child, tags_to_remove)
@@ -362,7 +358,7 @@ def to_paragraph(elem) -> None:
     elem.tail = None
 
 
-def merge_text(t1: Optional[str], t2: Optional[str]) -> Optional[str]:
+def merge_text(t1: str | None, t2: str | None) -> str | None:
     if t1 is None:
         return None if t2 is None else t2
     return t1 if t2 is None else f"{t1} {t2}"

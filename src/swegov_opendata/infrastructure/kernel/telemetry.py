@@ -1,12 +1,11 @@
-from dataclasses import dataclass
 import logging
+from dataclasses import dataclass
 from logging.config import dictConfig
-from typing import Union
 
 
 @dataclass()
 class TelemetryConfig:
-    level: Union[str, int]
+    level: str | int
 
 
 def configure_logging(config: TelemetryConfig) -> None:
@@ -21,7 +20,7 @@ def configure_logging(config: TelemetryConfig) -> None:
                 },
                 "standard": {
                     "class": "swegov_opendata.infrastructure.kernel.telemetry.ExFormatter",
-                    "format": "%(asctime)s-%(levelname)s-%(name)s(%(lineno)d): %(message)s",  # noqa: E501
+                    "format": "%(asctime)s-%(levelname)s-%(name)s(%(lineno)d): %(message)s",
                     # "format": "%(asctime)s-%(levelname)s-%(name)s-%(process)d::%(module)s|%(lineno)s:: %(message)s",  # noqa: E501
                 },
             },

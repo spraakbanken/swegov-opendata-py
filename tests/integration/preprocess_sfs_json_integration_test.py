@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import Tuple
 
 import pytest
 from lxml import etree
@@ -9,12 +8,12 @@ from tests.integration.preprocess_xml_integration_test import assert_elem_equal
 
 
 @pytest.fixture(name="example1")
-def fixture_example1(assets_path: Path) -> Tuple[str, Path]:
+def fixture_example1(assets_path: Path) -> tuple[str, Path]:
     example1_path = assets_path / "sfs-1976-257.json"
     return (example1_path.read_text(encoding="utf-8"), example1_path)
 
 
-def test_preprocess_sfs_json(example1: Tuple[str, Path]):
+def test_preprocess_sfs_json(example1: tuple[str, Path]):
     actual_source = preprocess_json(example1[0])
     # print(f"{actual_source}")
     actual = etree.fromstring(actual_source)

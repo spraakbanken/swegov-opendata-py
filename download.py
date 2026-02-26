@@ -2,12 +2,13 @@
 
 import html
 import re
-import urllib.request
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
 URL = "https://data.riksdagen.se/Data/Dokument/"
 RAWDIR = "rawdata"
+
 
 def download():
     r = urllib.request.urlopen(URL)
@@ -15,14 +16,14 @@ def download():
 
     urls = re.findall(r'"//data\.riksdagen\.se/dataset/dokument/\S+\.xml\.zip"', html_page)
     if not urls:
-        raise("No URLs found according to pattern on https://data.riksdagen.se/Data/Dokument/")
+        raise ("No URLs found according to pattern on https://data.riksdagen.se/Data/Dokument/")
 
     urls = ["https:" + html.unescape(u).strip('"') for u in urls]
 
     for url in urls:
-        name = url.split('/')[-1]
+        name = url.split("/")[-1]
         filepath = Path(RAWDIR) / name
-        encoded_url = "/".join(url.split('/')[:-1]) + "/" + urllib.parse.quote(name)
+        encoded_url = "/".join(url.split("/")[:-1]) + "/" + urllib.parse.quote(name)
         if filepath.is_file():
             print(f"Skipping {filepath}")
             continue

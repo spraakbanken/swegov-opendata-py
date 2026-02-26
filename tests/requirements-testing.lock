@@ -28,8 +28,12 @@ exceptiongroup==1.3.1 ; python_full_version < '3.11'
     # via pytest
 htmldate==1.9.4
     # via trafilatura
+ijson==3.5.0
+    # via json-arrays
 iniconfig==2.3.0
     # via pytest
+json-arrays==0.15.0
+    # via swegov-opendata
 justext==3.0.2
     # via trafilatura
 lxml==6.0.2
@@ -45,6 +49,8 @@ markdown-it-py==4.0.0
     # via rich
 mdurl==0.1.2
     # via markdown-it-py
+orjson==3.11.7
+    # via json-arrays
 packaging==26.0
     # via pytest
 pluggy==1.6.0
@@ -62,6 +68,8 @@ python-dateutil==2.9.0.post0
     # via
     #   dateparser
     #   htmldate
+python-json-logger==4.0.0
+    # via swegov-opendata
 pytz==2025.2
     # via dateparser
 regex==2026.1.15
@@ -81,7 +89,7 @@ tomli==2.4.0 ; python_full_version <= '3.11'
     # via
     #   coverage
     #   pytest
-trafilatura==2.0.0
+trafilatura @ git+https://github.com/spraakbanken/trafilatura@b10d67bdfb5df5fe75e11e2eb3012618c7003087
     # via swegov-opendata
 ty==0.0.17
 typer==0.24.0

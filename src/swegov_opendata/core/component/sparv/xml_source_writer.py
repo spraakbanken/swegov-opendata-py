@@ -1,6 +1,5 @@
 import logging
 from pathlib import Path
-from typing import Optional
 
 logger = logging.getLogger(__name__)
 
@@ -9,7 +8,7 @@ class XmlSourceWriter:
     MAX_SIZE = 10 * 1024 * 1024  # Max size in bytes for output XML files
 
     def __init__(
-        self, *, target_dir: Path, output_stub: Optional[str] = None, counter: int = 1
+        self, *, target_dir: Path, output_stub: str | None = None, counter: int = 1
     ) -> None:
         self.target_dir = target_dir
         self.output_stub = output_stub or str(target_dir.parts[-1])
@@ -46,7 +45,7 @@ class XmlSourceWriter:
         """Wrap 'text' in a file tag and save as 'xmlpath'."""
         corpus_source_dir = Path(xmlpath).parent
         corpus_source_dir.mkdir(exist_ok=True, parents=True)
-        with open(xmlpath, "wb") as f:
+        with Path(xmlpath).open("wb") as f:
             f.write(b"<file>\n")
             for text in texts:
                 f.write(text)

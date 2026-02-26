@@ -22,7 +22,7 @@ RAWDIR = "rawdata"
 PROCESSED_JSON = "processed.json"
 
 
-def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C901
+def preprocess_corpora(corpora=None, skip_files=None, testfile=None):
     """Preprocess corpora.
 
     corpora: List that specifies which corpora (corpus-IDs) to process (default: all)
@@ -32,7 +32,7 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
     # Get previously processed data
     processed_json = {}
     if Path(PROCESSED_JSON).is_file():
-        with open(PROCESSED_JSON) as f:
+        with Path(PROCESSED_JSON).open() as f:
             processed_json = json.load(f)
 
     for zippath in Path(RAWDIR).iterdir():
@@ -57,9 +57,7 @@ def preprocess_corpora(corpora=None, skip_files=None, testfile=None):  # noqa: C
             continue
 
         print(f"\nProcessing {zippath}")
-        corpus_source_dir = (
-            Path("material") / corpus_id / "source" / Path(zippath.stem).stem
-        )
+        corpus_source_dir = Path("material") / corpus_id / "source" / Path(zippath.stem).stem
         make_corpus_config(corpus_id, name, descr, Path("material") / corpus_id)
 
         processed_zip_dict = processed_json.get(str(zippath.name), {})

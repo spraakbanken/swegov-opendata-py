@@ -10,10 +10,15 @@ authors = [
 ]
 dependencies = [
   "beautifulsoup4>=4.12.2",
+  "json-arrays[orjson]>=0.15.0",
   "lxml>=4.9.3",
+  "python-json-logger>=4.0.0",
   "trafilatura>=2.0.0",
   "typer>=0.9.0",
 ]
+
+[project.scripts]
+preprocess-rd = "swegov_opendata.presentation.console.main:app"
 
 [dependency-groups]
 dev = [{ include-group = "lint" }, { include-group = "test" }]
@@ -29,3 +34,6 @@ test = [
 [build-system]
 requires = ["uv_build>=0.10,<0.11"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+trafilatura = { git = "https://github.com/spraakbanken/trafilatura", branch = "main" }

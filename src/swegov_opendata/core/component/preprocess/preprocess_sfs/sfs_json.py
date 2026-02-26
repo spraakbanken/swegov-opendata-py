@@ -1,9 +1,7 @@
 import json
-import sys
-from typing import Optional, Tuple, Union
 
-from bs4 import BeautifulSoup
 import bs4
+from bs4 import BeautifulSoup
 from lxml import etree, html
 
 from swegov_opendata.lxml_extension import attrib_equals, attrib_startswith
@@ -60,7 +58,7 @@ def preprocess_json(source: str) -> bytes:
     return etree.tostring(tree, pretty_print=True, encoding="utf-8")
 
 
-def process_sfs_html(  # noqa: C901
+def process_sfs_html(
     contents: str,
     textelem,
     filename: str,
@@ -83,7 +81,7 @@ def process_sfs_html(  # noqa: C901
         convert_sfs_standard(contentsxml, textelem, filename, testfile=testfile)
 
 
-def process_sfs_html_with_soup(  # noqa: C901
+def process_sfs_html_with_soup(
     contents: str,
     textelem,
     filename: str,
@@ -109,9 +107,7 @@ def process_sfs_html_with_soup(  # noqa: C901
         if child.name == "div" and "dok" in child.attrs.get("class"):
             convert_div_dok_with_soup(child, textelem)
         else:
-            convert_sfs_standard_with_soup(
-                contentsxml, textelem, filename, testfile=testfile
-            )
+            convert_sfs_standard_with_soup(contentsxml, textelem, filename, testfile=testfile)
 
 
 def convert_sfs_standard_with_soup(
@@ -277,7 +273,7 @@ def convert_sfs_standard(contentsxml, textelem, filename, *, testfile: bool = Fa
             "cellpadding",
             "cellspacing",
             "colspan",
-            "images" ".",
+            "images.",
             "align",
             "valign",
             "name",
@@ -368,9 +364,7 @@ def strip_tags(elem, tags_to_remove: list[str]) -> None:
     for child in elem:
         if child.tag in tags_to_remove:
             if child_text := collect_texts(child):
-                elem.text = (
-                    child_text if elem.text is None else f" {elem.text} {child_text} "
-                )
+                elem.text = child_text if elem.text is None else f" {elem.text} {child_text} "
             elem.remove(child)
         else:
             strip_tags(child, tags_to_remove)
@@ -417,9 +411,7 @@ def extract_metadata(contentsxml, textelem) -> None:
             metadata_key = ""
 
 
-def extract_metadata_with_soup(
-    contentsxml: BeautifulSoup, textelem: etree._Element
-) -> None:
+def extract_metadata_with_soup(contentsxml: BeautifulSoup, textelem: etree._Element) -> None:
     metadata_key = ""
     for child in contentsxml.children:
         if child.name == "b" and child.string in ["Ändringsregister", "Källa"]:
@@ -445,7 +437,7 @@ def to_paragraph(elem) -> None:
     elem.tail = None
 
 
-def merge_text(t1: Optional[str], t2: Optional[str]) -> Optional[str]:
+def merge_text(t1: str | None, t2: str | None) -> str | None:
     if t1 is None:
         return None if t2 is None else t2
     return t1 if t2 is None else f"{t1} {t2}"
@@ -455,9 +447,7 @@ def soup_elem_open_as_str(elem: BeautifulSoup) -> str:
     return f"<{elem.name}>"
 
 
-def convert_div_dok_with_soup(
-    contentsxml: BeautifulSoup, textelem: etree._Element
-) -> None:
+def convert_div_dok_with_soup(contentsxml: BeautifulSoup, textelem: etree._Element) -> None:
     print(f">>> convert_div_dok_with_soup {soup_elem_open_as_str(contentsxml)}")
     page_nr = 1
     for element in contentsxml.children:
@@ -476,9 +466,7 @@ def convert_div_dok_with_soup(
     print(f"<<< convert_div_dok_with_soup {soup_elem_open_as_str(contentsxml)}")
 
 
-def soup_attrib_equals(
-    elem: BeautifulSoup, name: str, value: Union[str, list[str]]
-) -> bool:
+def soup_attrib_equals(elem: BeautifulSoup, name: str, value: str | list[str]) -> bool:
     if isinstance(value, str):
         value = [value]
     return name in elem.attrs and elem.attrs[name] == value
@@ -489,9 +477,7 @@ def div_dok_extract_page_with_soup(elem: BeautifulSoup) -> etree._Element:
     print(f"{elem=}")
     page = etree.Element("page")
 
-    if elem.contents[0].name == "div" and soup_attrib_equals(
-        elem.contents[0], "class", "sida"
-    ):
+    if elem.contents[0].name == "div" and soup_attrib_equals(elem.contents[0], "class", "sida"):
         print("skipping <div class='sida'> ...")
         elem = elem.contents[0]
     # elem = elem[0]
@@ -534,9 +520,7 @@ def div_dok_extract_paragraphs_with_soup(elem: BeautifulSoup) -> list[etree._Ele
             else:
                 print(f"skipping {type(child)} {child!r} ...")
     elif elem.name == "p":
-        print(
-            f"=== div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)} === "
-        )
+        print(f"=== div_dok_extract_paragraphs_with_soup {soup_elem_open_as_str(elem)} === ")
         elem_p = extract_paragraph_recursive_with_soup(elem)
         print_tree(elem_p)
         paragraphs.append(elem_p)
@@ -633,9 +617,7 @@ def div_dok_extract_page(elem: etree._Element) -> etree._Element:
             page.append(paragraph)
     print(f"{len(elem)=}")
     print(f"{len(page)=}")
-    print(
-        f"<<< div_dok_extract_page {elem_open_as_str(elem)}: {elem_open_as_str(page)}"
-    )
+    print(f"<<< div_dok_extract_page {elem_open_as_str(elem)}: {elem_open_as_str(page)}")
     return page
 
 
@@ -645,9 +627,7 @@ def div_dok_extract_paragraphs(elem: etree._Element) -> list[etree._Element]:
     paragraphs = []
     if elem.tag == "div":
         if len(elem) == 0:
-            print(
-                f"=== div_dok_extract_paragraphs {elem_open_as_str(elem)}: no children"
-            )
+            print(f"=== div_dok_extract_paragraphs {elem_open_as_str(elem)}: no children")
             return paragraphs
         for i, child in enumerate(elem):
             print(
@@ -703,7 +683,7 @@ def div_dok_extract_text_and_br(paragraph: etree._Element, elem: etree._Element)
 
 def div_dok_extract_text_br_and_tail(
     elem: etree._Element,
-) -> list[Union[str, etree._Element]]:
+) -> list[str | etree._Element]:
     print(f"div_dok_extract_text_br_and_tail {elem_open_as_str(elem)}")
     result = []
     prev_text = elem.text

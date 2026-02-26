@@ -12,10 +12,10 @@ from swegov_opendata.preprocess.preprocess_html import process_html
 # http://making-security-measurable.1364806.n2.nabble.com/Parsing-large-9-5mb-XML-files-with-lxml-td7580657.html
 
 
-def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:  # noqa: C901
+def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:
     """Extract meta data and html from f."""
     p = etree.XMLParser(huge_tree=True)
-    tree = etree.fromstring(xml_string, p)  # noqa: S320
+    tree = etree.fromstring(xml_string, p)
 
     # Create new element and build document
     docelem = etree.Element("dokument")
@@ -52,7 +52,7 @@ def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:  # noqa: C
                 if elem.tag in ["images"]:
                     continue
                 # Assign document attrs to docelem and the rest to textelem
-                elif elem.tag in [
+                if elem.tag in [
                     "dok_id",
                     "dokumentstatus_url_xml",
                     "dokument_url_text",
@@ -76,7 +76,7 @@ def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:  # noqa: C
         if elem.tag in ["dokument", "html", "text"] or type(elem) == etree._Comment:
             continue
         # Collect "intressent" metadata and process later
-        elif elem.tag == "intressent":
+        if elem.tag == "intressent":
             children = {c.tag: c.text for c in elem}
             name = children.get("namn", "")
             party = (children.get("partibet", "") or "").upper()
@@ -94,8 +94,7 @@ def preprocess_xml(xml_string, filename, *, testfile=False) -> bytes:  # noqa: C
                 for child in list(parent):
                     if child != elem and child.text:
                         attrname = child.tag
-                        if attrname.startswith("anf_"):
-                            attrname = attrname[4:]
+                        attrname = attrname.removeprefix("anf_")
                         textelem.set(attrname, child.text.strip())
 
     # Check if docelem contains any text

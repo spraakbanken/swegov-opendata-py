@@ -13,9 +13,10 @@ logger = logging.getLogger(__name__)
 def create_app() -> typer.Typer:
     app = typer.Typer(callback=set_app_context)
 
-    from swegov_opendata.presentation.console.commands import sfs
+    from swegov_opendata.presentation.console.commands import rd, sfs
 
     app.add_typer(sfs.app, name="sfs")
+    app.add_typer(rd.app, name="rd")
     return app
 
 

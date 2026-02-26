@@ -1,15 +1,13 @@
 """Script for creating original/xml files for all rd-corpora."""
 
-
 from lxml import etree, html
 
 from swegov_opendata.lxml_extension.mutation import strip_tags
 from swegov_opendata.serialization import write_xml
 
 
-def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa: C901
+def process_html(contents: str, textelem, filename, *, testfile=False):
     """Process the actual text content of the document."""
-
     contentsxml = build_elem(contents)
 
     extract_metadata(contentsxml, textelem)
@@ -34,7 +32,7 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
             "cellpadding",
             "cellspacing",
             "colspan",
-            "images" ".",
+            "images.",
             "align",
             "valign",
             "name",
@@ -131,9 +129,7 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
 
     # Replace some tags with p
     for element in list(
-        contentsxml.iter(
-            "title", "h1", "h2", "h3", "h4", "h5", "h6", "li", "tr", "td", "th"
-        )
+        contentsxml.iter("title", "h1", "h2", "h3", "h4", "h5", "h6", "li", "tr", "td", "th")
     ):
         element.tag = "p"
 
@@ -173,13 +169,9 @@ def process_html(contents: str, textelem, filename, *, testfile=False):  # noqa:
     # Remove unnecessary whitespace
     for element in contentsxml.iter():
         if element.tail is not None:
-            element.tail = (
-                trimmed_tail if (trimmed_tail := element.tail.strip()) else None
-            )
+            element.tail = trimmed_tail if (trimmed_tail := element.tail.strip()) else None
         if element.text is not None:
-            element.text = (
-                trimmed_text if (trimmed_text := element.text.strip()) else None
-            )
+            element.text = trimmed_text if (trimmed_text := element.text.strip()) else None
     # Remove empty tags
     for element in contentsxml.xpath(".//*[not(node())]"):
         element.getparent().remove(element)
