@@ -1,20 +1,23 @@
-import logging
 import re
 import sys
 from dataclasses import dataclass
 from pathlib import Path
 
+import structlog
+from tqdm import tqdm
+
 from swegov_opendata.core.component.preprocess import preprocess_rd, preprocess_sfs
 from swegov_opendata.core.component.sparv.config import make_corpus_config
 from swegov_opendata.corpusinfo import corpusinfo
 
-logger = logging.getLogger(__name__)
+logger = structlog.get_logger(name=__name__)
 
 
 @dataclass()
 class PreprocessCorpuraOption:
     input: Path
     output: Path
+    processed_files: dict
 
 
 def preprocess_corpura(corpora: str | list[str], options: PreprocessCorpuraOption) -> None:
@@ -38,15 +41,20 @@ def preprocess_sfs_corpus(options: PreprocessCorpuraOption) -> None:
 
 
 def preprocess_rd_corpora(corpora: list[str], options: PreprocessCorpuraOption) -> None:
+    log = logger.bind(output=str(options.output), input=str(options.input))
     options.output /= options.input.stem
-    logger.debug(
-        "preprocess RD corpora from %s, outputting to %s", options.input, options.output
+    log.debug("preprocess RD corpora from %s, outputting to %s", options.input, options.output)
+    dataset_dir = find_dataset_dir(options.input) or options.input
+
+    log = log.bind(dir=str(dataset_dir))
+    if dataset_dir is options.input:
+        log.warning("did not find 'output', using input as is")
+    preprocess_dataset_dir(
+        options.input,
+        corpora=corpora,
+        output=options.output,
+        processed_files=options.processed_files,
     )
-    if dataset_dir := find_dataset_dir(options.input):
-        preprocess_dataset_dir(dataset_dir, corpora=corpora, output=options.output)
-    else:
-        logger.warning("did not find 'output', using input as is")
-        preprocess_dataset_dir(options.input, corpora=corpora, output=options.output)
 
 
 def find_dataset_dir(dir_path: Path) -> Path | None:
@@ -60,13 +68,20 @@ def find_dataset_dir(dir_path: Path) -> Path | None:
     return None
 
 
-def preprocess_dataset_dir(dataset_dir: Path, *, corpora: list[str], output: Path) -> None:
-    print(f"{dataset_dir=}")
-
-    for path in dataset_dir.iterdir():
+def preprocess_dataset_dir(
+    dataset_dir: Path, *, corpora: list[str], output: Path, processed_files: dict
+) -> None:
+    # print(f"{dataset_dir=}")
+    log = logger.bind(dir=str(dataset_dir))
+    for path in tqdm(
+        list(dataset_dir.iterdir()), desc=f"Reading dir '{dataset_dir}", file=sys.stdout
+    ):
         # print(f"{path=}")
+        log = log.bind(path=str(path))
         if path.is_dir():
-            preprocess_dataset_dir(path, corpora=corpora, output=output)
+            preprocess_dataset_dir(
+                path, corpora=corpora, output=output, processed_files=processed_files
+            )
         elif path.is_file() and path.suffix == ".zip":
             if prefix := _find_prefix(path.stem):
                 prefix = prefix.strip()
@@ -76,7 +91,7 @@ def preprocess_dataset_dir(dataset_dir: Path, *, corpora: list[str], output: Pat
                     if corpora and corpus["id"] not in corpora:
                         print(f"skipping corpus '{corpus['id']}' ...", file=sys.stderr)
                         continue
-                    print(f"  processing {path} ...", file=sys.stderr)
+                    # print(f"  processing {path} ...", file=sys.stderr)
                     corpus_source_base = Path(path.stem).stem
                     corpus_source_dir = output / corpus["id"] / "source" / corpus_source_base
                     make_corpus_config(
@@ -85,15 +100,21 @@ def preprocess_dataset_dir(dataset_dir: Path, *, corpora: list[str], output: Pat
                         corpus["descriptions"],
                         output / corpus["id"],
                     )
-                    preprocess_rd.build_sparv_source(path, corpus_source_dir=corpus_source_dir)
-                else:
-                    print(
-                        f"Found no corpus with prefix '{prefix}', skipping ...", file=sys.stderr
+                    if str(path) not in processed_files:
+                        processed_files[str(path)] = {}
+                    # processed_files_path = processed_files[str(path)]
+                    preprocess_rd.build_sparv_source(
+                        path,
+                        corpus_source_dir=corpus_source_dir,
+                        processed_files=processed_files,
                     )
+                    # raise RuntimeError("stop")
+                else:
+                    log.warning("Found no corpus with prefix '%s', skipping ...", prefix)
                     continue
-                    # raise RuntimeError(f"Found no corpus with prefix '{prefix}'")
-            else:
-                print(f"{path=}")
+                # raise RuntimeError(f"Found no corpus with prefix '{prefix}'")
+            # print(f"{path=}")
+            # return
 
 
 PREFIX = re.compile(r"([a-zA-ZåäöÅÄÖ -]+)-\d{4}")

@@ -1,56 +1,77 @@
 import gzip
-import logging
+import sys
+import typing as t
 import zipfile
 from pathlib import Path
 
-import trafilatura
+import structlog
 from json_arrays import jsonlib
-from orjson import JSONDecodeError
+from tqdm import tqdm
 
+from swegov_opendata.core.component.preprocess.preprocess_rd import rd_json
 from swegov_opendata.core.component.sparv.xml_source_writer import XmlSourceWriter
 
-logger = logging.getLogger(__name__)
+logger = structlog.get_logger(name=__name__)
 
 
-def build_sparv_source(path: Path, corpus_source_dir: Path):
+def load_metadata_from_path(path: Path) -> dict[str, t.Any]:
+    logger.info("loading metadata from '%s'", path)
+    metadata_src = path.read_bytes()
+    return jsonlib.loads(metadata_src)
+
+
+def build_sparv_source(path: Path, corpus_source_dir: Path, processed_files: dict):
     corpus_source_dir.mkdir(parents=True, exist_ok=True)
-    source_writer = XmlSourceWriter(target_dir=corpus_source_dir)
+    processed_zip_dict = processed_files[str(path)]
+    source_writer = XmlSourceWriter(
+        target_dir=corpus_source_dir, counter=len(processed_zip_dict) + 1
+    )
 
-    logger.debug("reading a file", extra={"file_path": path})
     zipf = zipfile.ZipFile(path)
-    for i, zippath in enumerate(zipf.filelist):
-        if i > 0:
-            break
-        filecontents = zipf.read(zippath)
-        filecontents = filecontents.decode("utf-8-sig")
-        try:
-            dokumentstatus_page = jsonlib.loads(filecontents)
-        except JSONDecodeError as exc:
-            logger.error(
-                "failed to decode JSON from '%s' in the zipfile '%s'",
-                zippath.filename,
-                path,
-                extra={"filecontents": filecontents},
-            )
-            raise RuntimeError("failed to read JSON") from exc
-        dokumentstatus = dokumentstatus_page["dokumentstatus"]
-        # logger.debug("dokumentstatus=%s", dokumentstatus)
-        dokument = dokumentstatus["dokument"]
-        html = dokument["html"]
-        logger.debug(
-            "html[..]=%s", html[115000:160000], extra={"zippath": zippath.filename, "path": path}
-        )
-        document = trafilatura.extract_with_metadata(
-            html, output_format="xml", include_formatting=True, favor_recall=True
-        )
-        logger.warning("document=%s", document)
-        return
-        # if xmlstring is None:
-        #     logger.warning("failed to extract html from '%s'", zippath)
-        # else:
-        #     logger.debug("xmlstring=%s", xmlstring)
-        #     source_writer.write(xmlstring.encode("utf-8"))
-    source_writer.flush()
+    log = logger.bind(zipfile=str(path))
+    log.info("building sparv source from %s", path, extra={"len_zipf": len(zipf.filelist)})
+    metadata_path = path.with_stem(f"{Path(path.stem).stem}").with_suffix(".metadata.json")
+    metadata = load_metadata_from_path(metadata_path)
+    try:
+        for zippath in tqdm(zipf.filelist, desc=f"Reading zip file '{path}'", file=sys.stdout):
+            if processed_zip_dict.get(str(zippath.filename)):
+                log.debug("skipping file '%s' (already processed)", zippath.filename)
+                continue
+            log.debug("reading %s from %s", zippath.filename, path)
+            # if i > 0:
+            #     break
+            filecontents = zipf.read(zippath)
+            try:
+                xmlstring = rd_json.preprocess_json(
+                    filecontents, metadata, logger=log.bind(path_in_zipfile=zippath.filename)
+                )
+            except Exception:
+                log.error(
+                    "preprocessing json failed, writing file to assets",
+                    path_in_zipfile=zippath.filename,
+                )
+                Path(f"assets/{Path(path.stem).stem}-{zippath.filename}").write_bytes(
+                    filecontents
+                )
+                jsonlib.dump_to_file(metadata, Path("assets") / metadata_path.name)
+                raise
+
+            if xmlstring is None:
+                log.warning(
+                    "failed to extract html, writing file to assets/no-extract",
+                    path_in_zipfile=zippath.filename,
+                )
+                Path(f"assets/no-extract/{Path(path.stem).stem}-{zippath.filename}").write_bytes(
+                    filecontents
+                )
+                jsonlib.dump_to_file(metadata, Path("assets/no-extract") / metadata_path.name)
+            else:
+                # logger.debug("xmlstring=%s", xmlstring)
+                source_writer.write(xmlstring)
+                processed_zip_dict[str(zippath.filename)] = str(source_writer.current_path)
+            # break
+    finally:
+        source_writer.flush()
 
 
 def read_text(path: Path) -> str:

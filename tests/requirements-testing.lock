@@ -5,7 +5,9 @@ annotated-doc==0.0.4
 babel==2.18.0
     # via courlan
 beautifulsoup4==4.14.3
-    # via swegov-opendata
+    # via
+    #   swegov-opendata
+    #   types-lxml
 certifi==2026.1.4
     # via trafilatura
 charset-normalizer==3.4.4
@@ -22,6 +24,8 @@ courlan==1.3.2
     # via trafilatura
 coverage==7.13.4
     # via pytest-cov
+cssselect==1.4.0
+    # via types-lxml
 dateparser==1.3.0
     # via htmldate
 exceptiongroup==1.3.1 ; python_full_version < '3.11'
@@ -62,7 +66,9 @@ pygments==2.19.2
     #   pytest
     #   rich
 pytest==9.0.2
-    # via pytest-cov
+    # via
+    #   pytest-cov
+    #   syrupy
 pytest-cov==7.0.0
 python-dateutil==2.9.0.post0
     # via
@@ -83,6 +89,7 @@ six==1.17.0
     # via python-dateutil
 soupsieve==2.8.3
     # via beautifulsoup4
+syrupy==5.1.0
 tld==0.13.1
     # via courlan
 tomli==2.4.0 ; python_full_version <= '3.11'
@@ -94,10 +101,16 @@ trafilatura @ git+https://github.com/spraakbanken/trafilatura@b10d67bdfb5df5fe75
 ty==0.0.17
 typer==0.24.0
     # via swegov-opendata
+types-html5lib==1.1.11.20251117
+    # via types-lxml
+types-lxml==2026.2.16
+types-webencodings==0.5.0.20251108
+    # via types-html5lib
 typing-extensions==4.15.0
     # via
     #   beautifulsoup4
     #   exceptiongroup
+    #   types-lxml
 tzdata==2025.3 ; sys_platform == 'win32'
     # via tzlocal
 tzlocal==5.3.1
