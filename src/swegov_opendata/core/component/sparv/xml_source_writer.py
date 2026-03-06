@@ -1,7 +1,8 @@
-import logging
 from pathlib import Path
 
-logger = logging.getLogger(__name__)
+import structlog
+
+logger = structlog.get_logger(name=__name__)
 
 
 class XmlSourceWriter:
@@ -20,6 +21,10 @@ class XmlSourceWriter:
     def current_filename(self) -> str:
         return f"{self.output_stub}-{self.counter}.xml"
 
+    @property
+    def current_path(self) -> Path:
+        return self.target_dir / self.current_filename
+
     def write(self, xmlstring: bytes) -> None:
         this_size = len(xmlstring)
 
@@ -27,7 +32,7 @@ class XmlSourceWriter:
         if xmlstring and self.total_size + this_size > self.MAX_SIZE:
             self.write_xml(
                 self.result,
-                self.target_dir / self.current_filename,
+                self.current_path,
             )
             self.total_size = 0
             self.result = []
@@ -39,16 +44,20 @@ class XmlSourceWriter:
 
     def flush(self) -> None:
         if len(self.result) > 0:
-            self.write_xml(self.result, self.target_dir / self.current_filename)
+            self.write_xml(self.result, self.current_path)
 
     def write_xml(self, texts: list[bytes], xmlpath: Path):
         """Wrap 'text' in a file tag and save as 'xmlpath'."""
         corpus_source_dir = Path(xmlpath).parent
         corpus_source_dir.mkdir(exist_ok=True, parents=True)
+        logger.debug("Writing XML to '%s'", xmlpath)
+        bytes_written = 0
         with Path(xmlpath).open("wb") as f:
-            f.write(b"<file>\n")
+            bytes_written += f.write(b"<file>\n")
             for text in texts:
-                f.write(text)
-                f.write(b"\n")
-            f.write(b"</file>\n")
-        logger.info("  File %s written", xmlpath)
+                bytes_written += f.write(text)
+                bytes_written += f.write(b"\n")
+            bytes_written += f.write(b"</file>\n")
+        logger.info(
+            "Written XML '%s' (%d bytes written)", xmlpath, bytes_written, xmlpath=str(xmlpath)
+        )

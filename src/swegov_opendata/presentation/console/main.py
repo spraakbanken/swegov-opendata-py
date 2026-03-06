@@ -1,11 +1,10 @@
 import logging
+from pathlib import Path
 
 import typer
 
-from swegov_opendata.infrastructure.kernel.telemetry import (
-    TelemetryConfig,
-    configure_logging,
-)
+from swegov_opendata.infrastructure.kernel import telemetry
+from swegov_opendata.infrastructure.kernel.telemetry import TelemetryConfig
 
 logger = logging.getLogger(__name__)
 
@@ -20,13 +19,24 @@ def create_app() -> typer.Typer:
     return app
 
 
+_PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
+
+
 def set_app_context(ctx: typer.Context, *, debug: bool = False):
     ctx.obj = {"debug": debug}
-    configure_logging(TelemetryConfig(level="DEBUG" if debug else "WARN"))
+    # telemetry.configure_logging(
+    telemetry.configure_telemetry(
+        TelemetryConfig(
+            level="DEBUG" if debug else "WARN",
+            project_name="swegov_opendata",
+            project_root=_PROJECT_ROOT,
+        )
+    )
 
 
 app = create_app()
 
 
 if __name__ == "__main__":
-    app()
+    print(f"{_PROJECT_ROOT=}")
+    # app()gcc

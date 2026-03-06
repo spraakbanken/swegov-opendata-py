@@ -4,15 +4,19 @@ version = "0.1.0"
 description = "Preprocessing of Swedish riksdagens öppna data (open data)"
 readme = "README.md"
 requires-python = ">= 3.10"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
   { name = "Språkbanken Text", email = "sb-info@svenska.gu.se" },
 ]
 dependencies = [
   "beautifulsoup4>=4.12.2",
+  "bunyan-formatter>=1.0.1",
   "json-arrays[orjson]>=0.15.0",
   "lxml>=4.9.3",
+  "pydantic>=2.12.5",
   "python-json-logger>=4.0.0",
+  "structlog>=25.5.0",
+  "tqdm>=4.67.3",
   "trafilatura>=2.0.0",
   "typer>=0.9.0",
 ]
@@ -29,6 +33,8 @@ lint = [
 test = [
   "pytest>=8.4.2",
   "pytest-cov>=7.0.0",
+  "syrupy>=5.1.0",
+  "types-lxml>=2026.2.16",
 ]
 
 [build-system]
