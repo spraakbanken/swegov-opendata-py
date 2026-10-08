@@ -10,6 +10,13 @@ class Intressent(pydantic.BaseModel, frozen=True):
     ordning: str
     intressent_id: str | None
 
+    @pydantic.field_validator("namn", mode="before")
+    @classmethod
+    def ensure_string(cls, value: t.Any) -> t.Any:
+        if value is None:
+            return ""
+        return value
+
 
 class DokIntressent(pydantic.BaseModel):
     intressent: list[Intressent]

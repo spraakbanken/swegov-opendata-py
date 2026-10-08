@@ -34,7 +34,18 @@ def build_sparv_source(path: Path, corpus_source_dir: Path, processed_files: dic
     metadata = load_metadata_from_path(metadata_path)
     try:
         for zippath in tqdm(zipf.filelist, desc=f"Reading zip file '{path}'", file=sys.stdout):
-            if processed_zip_dict.get(str(zippath.filename)):
+            log = log.bind(path_in_zipfile=zippath.filename)
+            if zippath.filename not in processed_zip_dict:
+                processed_zip_dict[zippath.filename] = {}
+            processed_zipfile_dict = processed_zip_dict[zippath.filename]
+            if isinstance(processed_zipfile_dict, str):
+                processed_zip_dict[zippath.filename] = {
+                    "status": "ok",
+                    "output": processed_zipfile_dict,
+                    "message": "ok",
+                }
+                processed_zipfile_dict = processed_zip_dict[zippath.filename]
+            if processed_zipfile_dict.get("status") == "ok":
                 log.debug("skipping file '%s' (already processed)", zippath.filename)
                 continue
             log.debug("reading %s from %s", zippath.filename, path)
@@ -42,33 +53,38 @@ def build_sparv_source(path: Path, corpus_source_dir: Path, processed_files: dic
             #     break
             filecontents = zipf.read(zippath)
             try:
-                xmlstring = rd_json.preprocess_json(
-                    filecontents, metadata, logger=log.bind(path_in_zipfile=zippath.filename)
-                )
-            except Exception:
+                xmlstring = rd_json.preprocess_json(filecontents, metadata, logger=log)
+            except Exception as exc:
                 log.error(
                     "preprocessing json failed, writing file to assets",
-                    path_in_zipfile=zippath.filename,
                 )
-                Path(f"assets/{Path(path.stem).stem}-{zippath.filename}").write_bytes(
-                    filecontents
-                )
+                example_path = Path(f"assets/{Path(path.stem).stem}-{zippath.filename}")
+                example_path.write_bytes(filecontents)
                 jsonlib.dump_to_file(metadata, Path("assets") / metadata_path.name)
+                processed_zipfile_dict["status"] = "error"
+                processed_zipfile_dict["output"] = str(example_path)
+                processed_zipfile_dict["message"] = str(exc)
                 raise
 
             if xmlstring is None:
                 log.warning(
                     "failed to extract html, writing file to assets/no-extract",
-                    path_in_zipfile=zippath.filename,
                 )
-                Path(f"assets/no-extract/{Path(path.stem).stem}-{zippath.filename}").write_bytes(
-                    filecontents
+                example_path = Path(
+                    f"assets/no-extract/{Path(path.stem).stem}-{zippath.filename}"
                 )
+                example_path.write_bytes(filecontents)
                 jsonlib.dump_to_file(metadata, Path("assets/no-extract") / metadata_path.name)
+                processed_zipfile_dict["status"] = "no-content"
+                processed_zipfile_dict["output"] = str(example_path)
+                processed_zipfile_dict["message"] = "failed to extract html"
             else:
                 # logger.debug("xmlstring=%s", xmlstring)
                 source_writer.write(xmlstring)
                 processed_zip_dict[str(zippath.filename)] = str(source_writer.current_path)
+                processed_zipfile_dict["status"] = "ok"
+                processed_zipfile_dict["output"] = str(source_writer.current_path)
+                processed_zipfile_dict["message"] = "ok"
             # break
     finally:
         source_writer.flush()

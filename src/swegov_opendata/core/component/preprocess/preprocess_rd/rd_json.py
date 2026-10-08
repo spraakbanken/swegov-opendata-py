@@ -5,6 +5,7 @@ import trafilatura
 from json_arrays import jsonlib
 from lxml import etree
 from orjson import JSONDecodeError
+from resiliparse.extract import html2text
 from structlog import BoundLogger
 from trafilatura.settings import Document
 
@@ -18,9 +19,23 @@ from swegov_opendata.core.component.swegov_opendata.dokument.uppgift import DokU
 
 def extract_elem(raw_text: str) -> etree.Element | None:
     document = trafilatura.extract_with_metadata(
-        raw_text, output_format="xml", include_formatting=True, favor_recall=True
+        raw_text,
+        output_format="xml",
+        include_formatting=True,
+        favor_recall=True,
     )
     # logger.warning("\ndocument=%s", _to_string(document))
+    if document is None:
+        try:
+            minimal_html = html2text.extract_plain_text(
+                raw_text, preserve_formatting="minimal_html", alt_texts=True
+            )
+        except TypeError:
+            return None
+        # doc = f"<doc><main>{minimal_html}</main></doc>"
+        # print(f"{doc=}", file=sys.stderr)
+        return etree.fromstring(minimal_html, parser=etree.HTMLParser())
+
     return etree.fromstring(document.text) if document is not None else None
 
 
@@ -61,10 +76,10 @@ def preprocess_json(
     if elem is None:
         return None
     fingerprint = elem.get("fingerprint")
-    # print(f"{etree.tostring(elem)=}")
+    # print(f"{etree.tostring(elem)=}", file=sys.stderr)
     # print(f"{len(elem)=}")
     for child in elem:
-        if child.tag == "main":
+        if child.tag == "main" or child.tag == "body":
             textelem = child
         else:
             log.debug("child=%s", LazyStr(lambda x: str(etree.tostring(x)), child))
