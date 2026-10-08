@@ -2,12 +2,18 @@
 #    uv export --dev --format=requirements-txt --no-hashes --no-emit-project --output-file=tests/requirements-testing.lock
 annotated-doc==0.0.4
     # via typer
+annotated-types==0.7.0
+    # via pydantic
 babel==2.18.0
     # via courlan
 beautifulsoup4==4.14.3
     # via
     #   swegov-opendata
     #   types-lxml
+brotli==1.2.0
+    # via fastwarc
+bunyan-formatter==1.0.1
+    # via swegov-opendata
 certifi==2026.1.4
     # via trafilatura
 charset-normalizer==3.4.4
@@ -15,11 +21,14 @@ charset-normalizer==3.4.4
     #   htmldate
     #   trafilatura
 click==8.3.1
-    # via typer
+    # via
+    #   fastwarc
+    #   typer
 colorama==0.4.6 ; sys_platform == 'win32'
     # via
     #   click
     #   pytest
+    #   tqdm
 courlan==1.3.2
     # via trafilatura
 coverage==7.13.4
@@ -30,6 +39,8 @@ dateparser==1.3.0
     # via htmldate
 exceptiongroup==1.3.1 ; python_full_version < '3.11'
     # via pytest
+fastwarc==0.15.2
+    # via resiliparse
 htmldate==1.9.4
     # via trafilatura
 ijson==3.5.0
@@ -61,6 +72,10 @@ pluggy==1.6.0
     # via
     #   pytest
     #   pytest-cov
+pydantic==2.12.5
+    # via swegov-opendata
+pydantic-core==2.41.5
+    # via pydantic
 pygments==2.19.2
     # via
     #   pytest
@@ -80,6 +95,8 @@ pytz==2025.2
     # via dateparser
 regex==2026.1.15
     # via dateparser
+resiliparse==0.15.2
+    # via swegov-opendata
 rich==14.3.2
     # via typer
 ruff==0.15.1
@@ -89,6 +106,8 @@ six==1.17.0
     # via python-dateutil
 soupsieve==2.8.3
     # via beautifulsoup4
+structlog==25.5.0
+    # via swegov-opendata
 syrupy==5.1.0
 tld==0.13.1
     # via courlan
@@ -96,6 +115,10 @@ tomli==2.4.0 ; python_full_version <= '3.11'
     # via
     #   coverage
     #   pytest
+tqdm==4.67.3
+    # via
+    #   fastwarc
+    #   swegov-opendata
 trafilatura @ git+https://github.com/spraakbanken/trafilatura@b10d67bdfb5df5fe75e11e2eb3012618c7003087
     # via swegov-opendata
 ty==0.0.17
@@ -110,7 +133,13 @@ typing-extensions==4.15.0
     # via
     #   beautifulsoup4
     #   exceptiongroup
+    #   pydantic
+    #   pydantic-core
+    #   structlog
     #   types-lxml
+    #   typing-inspection
+typing-inspection==0.4.2
+    # via pydantic
 tzdata==2025.3 ; sys_platform == 'win32'
     # via tzlocal
 tzlocal==5.3.1

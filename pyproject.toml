@@ -15,6 +15,7 @@ dependencies = [
   "lxml>=4.9.3",
   "pydantic>=2.12.5",
   "python-json-logger>=4.0.0",
+  "resiliparse>=0.15.2",
   "structlog>=25.5.0",
   "tqdm>=4.67.3",
   "trafilatura>=2.0.0",
@@ -40,6 +41,9 @@ test = [
 [build-system]
 requires = ["uv_build>=0.10,<0.11"]
 build-backend = "uv_build"
+
+[tool.uv]
+exclude-newer = "P7D"
 
 [tool.uv.sources]
 trafilatura = { git = "https://github.com/spraakbanken/trafilatura", branch = "main" }
