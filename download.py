@@ -16,7 +16,9 @@ def download():
 
     urls = re.findall(r'"//data\.riksdagen\.se/dataset/dokument/\S+\.xml\.zip"', html_page)
     if not urls:
-        raise ("No URLs found according to pattern on https://data.riksdagen.se/Data/Dokument/")
+        raise RuntimeError(
+            "No URLs found according to pattern on https://data.riksdagen.se/Data/Dokument/"
+        )
 
     urls = ["https:" + html.unescape(u).strip('"') for u in urls]
 
