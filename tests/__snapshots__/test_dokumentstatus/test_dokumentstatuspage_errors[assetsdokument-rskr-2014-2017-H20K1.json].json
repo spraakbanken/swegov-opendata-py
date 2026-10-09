@@ -1,0 +1,88 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H20K1",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/073AA3B8-7C4E-4084-951A-E3B3D8EB35ED')",
+          "filnamn": "RSKR_201415__1.pdf",
+          "filstorlek": "54090",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "Riksdagsskrivelse 2014/15:1"
+        },
+        {
+          "dok_id": "H20K1",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/65BE6422-896E-425C-B60F-FC5ED6BFE39A')",
+          "filnamn": "RSKR_201415__1.doc",
+          "filstorlek": "25812",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "Riksdagsskrivelse 2014/15:1"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": {
+      "referens": [
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "SkU2",
+          "ref_dok_dokumentnamn": "Betänkande",
+          "ref_dok_id": "H201SkU2",
+          "ref_dok_rm": "2014/15",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": null,
+          "ref_dok_typ": "bet",
+          "referenstyp": "behandlas_i",
+          "uppgift": "2014/15:SkU2"
+        }
+      ]
+    },
+    "dokument": {
+      "beteckning": "1",
+      "datum": "2014-11-05",
+      "debattnamn": "Riksdagsskrivelse",
+      "dok_id": "H20K1",
+      "doktyp": "rskr",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/H20K1')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/H20K1/text')",
+      "dokumentnamn": "Riksdagsskrivelse",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/H20K1')",
+      "hangar_id": "3084009",
+      "html": "<div class=\"pconf\">\r\n<STYLE type=\"text/css\">\r\n\r\nbody {margin-top: 0px;margin-left: 0px;}\r\n\r\n#page_1 {position:relative; overflow: hidden;z:b;margin:71px 0px 545px 113px ;padding: 0px;border: none;width: 715px;}\r\n\r\n#page_1 #dimg1z{position:absolute;top:93px;left:0px;z-index:-1;width:534px;height:1px;font-size: 1px !important;line-height:nHeight;}\r\n#page_1 #dimg1 #img1  {width:534px;height:1px;}\r\n\r\n\r\n\r\n\r\n.ft0{font:  14px 'Verdana' !important;line-height: 35px !important;}\r\n.ft1{font:  12px 'Verdana' !important;line-height: 22px !important;}\r\n.ft2{font:  12px 'Verdana' !important;line-height: 18px !important;}\r\n.ft3{font:  12px 'Verdana' !important;line-height: 20px !important;}\r\n.ft4{font: italic  12px 'Verdana' !important;line-height: 19px !important;}\r\n\r\n.p0{text-align: left;padding-left: 4px;padding-right: 479px;margin-top: 0px;margin-bottom: 0px !important;}\r\n.p1{text-align: left;padding-left: 4px;margin-top:  136px;margin-bottom: 0px !important;}\r\n.p2{text-align: left;padding-left: 4px;margin-top: 16px;margin-bottom: 0px !important;}\r\n.p3{text-align: left;padding-left: 4px;padding-right: 221px;margin-top: 48px;margin-bottom: 0px !important;}\r\n.p4{text-align: left;padding-left: 4px;margin-top: 12px;margin-bottom: 0px !important;}\r\n.p5{text-align: left;padding-left: 4px;margin-top: 48px;margin-bottom: 0px !important;}\r\n.p6{text-align: left;padding-left: 246px;margin-top: 21px;margin-bottom: 0px !important;}\r\n\r\n\r\n\r\n\r\ndiv.pconf{margin-left:-100px;margin-top:-20px;}\r\n</STYLE>\r\n\r\n\r\n\r\n<DIV id=\"page_1\">\r\n<DIV id=\"dimg1\">\r\n<INGENBILD zsrc=\"H20K11x1.jpg/\" id=\"img1\">\r\n</DIV>\r\n\r\n\r\n<P class=\"p0 ft0\">Riksdagsskrivelse 2014/15:1</P>\r\n<P class=\"p1 ft1\">Regeringen</P>\r\n<P class=\"p2 ft2\">Finansdepartementet</P>\r\n<P class=\"p3 ft3\">Med överlämnande av skatteutskottets betänkande 2014/15:SkU2 Informationsutbytesavtal med Macao SAR får jag anmäla att riksdagen denna dag bifallit utskottets förslag till riksdagsbeslut.</P>\r\n<P class=\"p4 ft2\">Stockholm den 5 november 2014</P>\r\n<P class=\"p5 ft4\">Urban Ahlin</P>\r\n<P class=\"p6 ft4\">Claes Mårtensson</P>\r\n</DIV>\r\n</div>",
+      "htmlformat": "html-ec",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "1",
+      "organ": "SkU",
+      "pretext": null,
+      "publicerad": "2014-11-05T00:00:00.000000",
+      "relaterat_id": "",
+      "rm": "2014/15",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "RIM",
+      "sourceid": "",
+      "status": "",
+      "subtitel": "",
+      "subtyp": "",
+      "systemdatum": "2014-11-06T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Riksdagsskrivelse 2014/15:1",
+      "typ": "rskr",
+      "typrubrik": "Riksdagsskrivelse 2014/15:1",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

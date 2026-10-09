@@ -20,7 +20,7 @@ pydantic-core==2.41.5
     # via pydantic
 pygments==2.19.2
     # via pytest
-pytest==9.0.2
+pytest==9.1.1
     # via
     #   pytest-cov
     #   syrupy

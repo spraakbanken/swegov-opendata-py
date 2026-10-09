@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "",
+      "datum": "2019-06-17",
+      "debattnamn": "Övrigt kammaren",
+      "dok_id": "H6C100481CF4-6666-4E69-B983-F82883C4D56B",
+      "doktyp": "kam-zz",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H6C100481CF4-6666-4E69-B983-F82883C4D56B')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H6C100481CF4-6666-4E69-B983-F82883C4D56B/text')",
+      "dokumentnamn": "Övrigt kammaren",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H6C100481CF4-6666-4E69-B983-F82883C4D56B')",
+      "hangar_id": "5131038",
+      "html": "<h2>Fastställande av dag för riksmötets start 2019/20</h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "",
+      "organ": "",
+      "pretext": null,
+      "publicerad": "2022-05-07T13:29:19.000000",
+      "relaterat_id": "",
+      "rm": "2018/19",
+      "rubriker": null,
+      "slutnummer": "",
+      "source": "MHS",
+      "sourceid": "",
+      "status": "inträffat",
+      "subtitel": "",
+      "subtyp": "zz",
+      "systemdatum": "2022-05-07T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Fastställande av dag för riksmötets start 2019/20",
+      "typ": "kammakt",
+      "typrubrik": "",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442205070011526121_aud.mp3",
+          "datum": "2019-06-17T09:00:16.000000",
+          "debateurl": "/sv/webb-tv/video/ovrigt-kammaren/faststallande-av-dag-for-riksmotets-start-2019/20_H6C100481CF4-6666-4E69-B983-F82883C4D56B",
+          "debatt_rm": "2018/19",
+          "debatt_typ": "Övrigt",
+          "debattsekunder": 17,
+          "dok_beteckning": "Fastställande av dag för riksmötets star",
+          "dok_id": "H6C100481CF4-6666-4E69-B983-F82883C4D56B",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442205070011526121_480p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2022-05-07T13:29:19.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442205070011526121.jpg",
+          "url": "VOD1/PAL169/2442205070011526121",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:PAL169/2442205070011526121.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

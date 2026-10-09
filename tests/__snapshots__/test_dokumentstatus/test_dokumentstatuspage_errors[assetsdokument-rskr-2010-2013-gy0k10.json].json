@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "GY0K10",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/37321C87-76B6-4A48-B51E-18B8CC27B7C0')",
+          "filnamn": "RSKR_201011__10_-.doc",
+          "filstorlek": "26624",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "Riksdagsskrivelse"
+        },
+        {
+          "dok_id": "GY0K10",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/192E7CEB-F866-4F2B-A4FB-9ECCC3B7D671')",
+          "filnamn": "rskr_201011__10_-.pdf",
+          "filstorlek": "97278",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "Bilaga: rskr_201011__10_-"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "10",
+      "datum": "2010-11-17",
+      "debattnamn": "Riksdagsskrivelse",
+      "dok_id": "GY0K10",
+      "doktyp": "rskr",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/GY0K10')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/GY0K10/text')",
+      "dokumentnamn": "Riksdagsskrivelse",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/GY0K10')",
+      "hangar_id": "2439399",
+      "html": "\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\">\r\n<head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n  <meta name=\"GENERATOR\" content=\"upCast/5.5.3 (Java; I) [infinity-loop]\" />\r\n  <meta http-equiv=\"GENERATOR\" content=\"upCast/5.5.3 (Java; I) [infinity-loop]\" />\r\n  <title>Riksdagsskrivelse</title>\r\n  <meta name=\"Author\" content=\"fs0920aa\" />\r\n  <!--  Document Comment: v3.43 080701 1430 -->\r\n  <!--  Operator: dockonvert -->\r\n  <meta name=\"lastChanged\" content=\"Wed, 17 Nov 2010 16:38:00 CET\" />\r\n  <!--  Company : Riksdagen -->\r\n  <link rel=\"STYLESHEET\" type=\"text/css\" href=\"RSKR_201011__10_-.rskr.visual.css\" />\r\n</head>\r\n<body>\r\n    <table style=\"border-bottom-style: none; border-left-style: none; border-right-style: none; border-collapse: collapse; border-top-style: none; margin-left: -1.23mm; margin-right: auto; table-layout: fixed; width: 147.51mm;\">\r\n      <colgroup><col width=\"482\"/><col width=\"76\"/></colgroup>\r\n      <tbody>\r\n        <tr>\r\n          <td valign=\"top\" colspan=\"1\" style=\"border-bottom-style: hidden; border-bottom-color: #000000; border-left-style: hidden; border-left-color: #000000; border-right-style: hidden; border-right-color: #000000; border-top-style: hidden; border-top-color: #000000; padding-bottom: 0.0mm; padding-left: 1.23mm; padding-right: 1.23mm; padding-top: 0.0mm; vertical-align: top; width: 127.5mm;\">\r\n            <p class=\"RSKRbeteckning\" style=\"margin-top: 4.23mm;\">Riksdagsskrivelse</p>\r\n            <p class=\"RSKRbeteckning\">2010/11:10</p>\r\n          </td>\r\n          <td valign=\"top\" colspan=\"1\" style=\"border-bottom-style: hidden; border-bottom-color: #000000; border-left-style: hidden; border-left-color: #000000; border-right-style: hidden; border-right-color: #000000; border-top-style: hidden; border-top-color: #000000; padding-bottom: 0.0mm; padding-left: 1.23mm; padding-right: 1.23mm; padding-top: 0.0mm; vertical-align: top; width: 20.0mm;\">\r\n          </td>\r\n        </tr>\r\n        <tr>\r\n          <td valign=\"top\" colspan=\"2\" style=\"border-bottom-width: 0.25pt; border-bottom-style: solid; border-bottom-color: #000000; border-left-style: hidden; border-left-color: #000000; border-right-style: hidden; border-right-color: #000000; border-top-style: hidden; border-top-color: #000000; padding-bottom: 0.0mm; padding-left: 1.23mm; padding-right: 1.23mm; padding-top: 0.0mm; vertical-align: top; width: 147.51mm;\">\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n    <p class=\"Mottagare1\">Regeringen</p>\r\n    <p class=\"Mottagare2\">Näringsdepartementet</p>\r\n    <p class=\"Normal\">Med överlämnande av näringsutskottets betänkande 2010/11:NU5 Vertikala konkurrensbegränsande avtal får jag anmäla att riksdagen denna dag bifallit utskottets förslag till riksdagsbeslut.</p>\r\n    <p class=\"Stockholm\">Stockholm den 17 november 2010</p>\r\n    <table style=\"border-bottom-style: none; border-left-style: none; border-right-style: none; border-collapse: collapse; border-top-style: none; margin-left: -1.23mm; margin-right: auto; table-layout: fixed; width: 128.0mm;\">\r\n      <colgroup><col width=\"242\"/><col width=\"242\"/></colgroup>\r\n      <tbody>\r\n        <tr>\r\n          <td valign=\"top\" colspan=\"1\" style=\"border-bottom-style: hidden; border-bottom-color: #000000; border-left-style: hidden; border-left-color: #000000; border-right-style: hidden; border-right-color: #000000; border-top-style: hidden; border-top-color: #000000; padding-bottom: 0.0mm; padding-left: 1.23mm; padding-right: 1.23mm; padding-top: 0.0mm; vertical-align: top; width: 64.0mm;\">\r\n            <p class=\"Avs_Talman\">Per Westerberg</p>\r\n          </td>\r\n          <td valign=\"top\" colspan=\"1\" style=\"border-bottom-style: hidden; border-bottom-color: #000000; border-left-style: hidden; border-left-color: #000000; border-right-style: hidden; border-right-color: #000000; border-top-style: hidden; border-top-color: #000000; padding-bottom: 0.0mm; padding-left: 1.23mm; padding-right: 1.23mm; padding-top: 0.0mm; vertical-align: top; width: 64.0mm;\">\r\n            <p class=\"Avs_Tjänsteman\">Ulf Christoffersson</p>\r\n          </td>\r\n        </tr>\r\n      </tbody>\r\n    </table>\r\n",
+      "htmlformat": "",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "10",
+      "organ": "",
+      "pretext": null,
+      "publicerad": "2010-11-17T16:41:54.000000",
+      "relaterat_id": "",
+      "rm": "2010/11",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "",
+      "sourceid": "",
+      "status": "",
+      "subtitel": "",
+      "subtyp": "",
+      "systemdatum": "2010-11-17T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Riksdagsskrivelse",
+      "typ": "rskr",
+      "typrubrik": "Riksdagsskrivelse 2010/11:10",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

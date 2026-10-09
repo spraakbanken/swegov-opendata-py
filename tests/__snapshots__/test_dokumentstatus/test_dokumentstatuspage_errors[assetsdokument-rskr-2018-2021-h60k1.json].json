@@ -1,0 +1,88 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H60K1",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/DE474C0D-478A-41BC-9BE4-0EDE7E3752CD')",
+          "filnamn": "RSKR_201819__1.pdf",
+          "filstorlek": "51212",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "Riksdagsskrivelse 2018/19:1"
+        },
+        {
+          "dok_id": "H60K1",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/A7E2A977-5E3A-4D65-A8CC-9540C11CE149')",
+          "filnamn": "RSKR_201819__1.doc",
+          "filstorlek": "27125",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "Riksdagsskrivelse 2018/19:1"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": {
+      "referens": [
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "FiU7",
+          "ref_dok_dokumentnamn": "Betänkande",
+          "ref_dok_id": "H601FiU7",
+          "ref_dok_rm": "2018/19",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": null,
+          "ref_dok_typ": "bet",
+          "referenstyp": "behandlas_i",
+          "uppgift": "2018/19:FiU7"
+        }
+      ]
+    },
+    "dokument": {
+      "beteckning": "1",
+      "datum": "2018-10-24",
+      "debattnamn": "Riksdagsskrivelse",
+      "dok_id": "H60K1",
+      "doktyp": "rskr",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/H60K1')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/H60K1/text')",
+      "dokumentnamn": "Riksdagsskrivelse",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/H60K1')",
+      "hangar_id": "5008038",
+      "html": "<div class=\"pconf\">\r\n<STYLE type=\"text/css\">\r\n\r\nbody {margin-top: 0px;margin-left: 0px;}\r\n\r\n#page_1 {position:relative; overflow: hidden;z:b;margin:30px 0px 521px 113px ;padding: 0px;border: none;width: 715px;}\r\n\r\n#page_1 #p1dimg1 {position:absolute;top:0px;left:0px;z-index:-1;width:644px;height:121px;}\r\n#page_1 #p1dimg1 #p1img1 {width:644px;height:121px;}\r\n\r\n\r\n\r\n\r\n.dclr {clear:both;float:none;height:1px;margin:0px;padding:0px;overflow:hidden;}\r\n\r\n.ft0{font:  16px 'Verdana' !important;line-height: 34px !important;}\r\n.ft1{font:  12px 'Verdana' !important;line-height: 21px !important;}\r\n.ft2{font:  12px 'Verdana' !important;line-height: 19px !important;}\r\n.ft3{font: italic  12px 'Verdana' !important;line-height: 19px !important;}\r\n\r\n.p0{text-align: left;padding-left: 4px;padding-right: 484px;margin-top: 49px;margin-bottom: 0px !important;}\r\n.p1{text-align: left;padding-left: 4px;margin-top:  117px;margin-bottom: 0px !important;}\r\n.p2{text-align: left;padding-left: 4px;margin-top: 17px;margin-bottom: 0px !important;}\r\n.p3{text-align: left;padding-left: 4px;padding-right: 240px;margin-top: 47px;margin-bottom: 0px !important;}\r\n.p4{text-align: left;padding-left: 4px;margin-top: 14px;margin-bottom: 0px !important;}\r\n.p5{text-align: left;padding-left: 4px;margin-top: 66px;margin-bottom: 0px !important;}\r\n.p6{text-align: left;padding-left: 246px;margin-top: 21px;margin-bottom: 0px !important;}\r\n\r\n\r\n\r\n\r\ndiv.pconf{margin-left:-100px;margin-top:-20px;}\r\n</STYLE>\r\n\r\n\r\n\r\n<DIV id=\"page_1\">\r\n<DIV id=\"p1dimg1\">\r\n<INGENBILD zsrc=\"H60K11x1.jpg/\" id=\"p1img1\">\r\n</DIV>\r\n\r\n\r\n<DIV class=\"dclr\"></DIV>\r\n<P class=\"p0 ft0\">Riksdagsskrivelse 2018/19:1</P>\r\n<P class=\"p1 ft1\">Regeringen</P>\r\n<P class=\"p2 ft2\">Finansdepartementet</P>\r\n<P class=\"p3 ft2\">Med överlämnande av finansutskottets betänkande 2018/19:FiU7 Skyldighet för vissa offentliga funktionärer att anmäla innehav av finansiella instrument får jag anmäla att riksdagen denna dag bifallit utskottets förslag till riksdagsbeslut.</P>\r\n<P class=\"p4 ft2\">Stockholm den 24 oktober 2018</P>\r\n<P class=\"p5 ft3\">Andreas Norlén</P>\r\n<P class=\"p6 ft3\">Claes Mårtensson</P>\r\n</DIV>\r\n</div>",
+      "htmlformat": "html-ec",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "1",
+      "organ": "FiU",
+      "pretext": null,
+      "publicerad": "2018-10-24T00:00:00.000000",
+      "relaterat_id": "",
+      "rm": "2018/19",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "RIM",
+      "sourceid": "",
+      "status": "",
+      "subtitel": "",
+      "subtyp": "",
+      "systemdatum": "2018-11-13T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Riksdagsskrivelse 2018/19:1",
+      "typ": "rskr",
+      "typrubrik": "Riksdagsskrivelse 2018/19:1",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

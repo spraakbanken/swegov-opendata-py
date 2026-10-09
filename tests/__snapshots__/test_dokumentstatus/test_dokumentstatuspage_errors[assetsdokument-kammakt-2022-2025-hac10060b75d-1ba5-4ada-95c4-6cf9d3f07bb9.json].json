@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "0060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9",
+      "datum": "2023-02-22",
+      "debattnamn": "Övrigt kammaren",
+      "dok_id": "HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9",
+      "doktyp": "kam-zz",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9/text')",
+      "dokumentnamn": "Övrigt kammaren",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9')",
+      "hangar_id": "5167475",
+      "html": "<h2>Justering av protokoll</h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": null,
+      "organ": "kamm",
+      "pretext": null,
+      "publicerad": "2023-02-22T09:02:20.000000",
+      "relaterat_id": null,
+      "rm": "2022/23",
+      "rubriker": null,
+      "slutnummer": null,
+      "source": "MHS",
+      "sourceid": null,
+      "status": "inträffat",
+      "subtitel": null,
+      "subtyp": "zz",
+      "systemdatum": "2023-02-22T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Justering av protokoll",
+      "typ": "kammakt",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/HD/2442302220031905721_aud.mp3",
+          "datum": "2023-02-22T08:00:04.000000",
+          "debateurl": "/sv/webb-tv/video/ovrigt-kammaren/justering-av-protokoll_HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9",
+          "debatt_rm": "2022/23",
+          "debatt_typ": "Övrigt",
+          "debattsekunder": 7,
+          "dok_beteckning": "Justering av protokoll",
+          "dok_id": "HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/HD/2442302220031905721_720p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2023-02-22T09:02:20.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442302220031905721.jpg",
+          "url": "VOD1/HD/2442302220031905721",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:HD/2442302220031905721.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "20251028ss2",
+      "datum": "2025-10-28",
+      "debattnamn": "Session",
+      "dok_id": "HDC220251028ss2",
+      "doktyp": "sam-ss",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/HDC220251028ss2')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HDC220251028ss2/text')",
+      "dokumentnamn": "Session",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HDC220251028ss2')",
+      "hangar_id": "5254212",
+      "html": "<p>På tisdag kväll äger utdelningen av Nordiska rådets priser rum i riksdagen för särskilt inbjudna gäster. Rådet delar ut fem priser varje år: Nordiska rådets barn- och ungdomslitteraturpris, filmpris, litteraturpris, musikpris och miljöpris.</p>\r\n<p>Konferencier under kvällen är Stina Ekblad.</p>\r\n<ul>\r\n<li><strong>Tid:</strong> Klockan 18–19. Sändningen börjar 17.50. Då anländer gästerna till Andrakammarsalen.</li>\r\n<li><strong>Plats:</strong> Andrakammarsalen</li>\r\n</ul>\r\n<div class=\"fact sky-20\">\r\n<h2>Om Nordiska rådets session</h2>\r\n<p>I år är Sverige ordförandeland i Nordiska rådet. Nordiska rådets årliga session arrangeras därför i Sveriges riksdag den 27–30 oktober.</p>\r\n<p><a href=\"https://www.riksdagen.se/sv/aktuellt/nordiska-radets-session-i-stockholm-2025/\">Nordiska rådets session i Stockholm 2025 </a></p>\r\n</div>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "2",
+      "organ": null,
+      "pretext": null,
+      "publicerad": "2025-10-01T15:47:19.000000",
+      "relaterat_id": null,
+      "rm": "2025/26",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "cms2023",
+      "sourceid": "cms739c8b9d-f55f-4e6d-9afb-312db64c799asv",
+      "status": null,
+      "subtitel": null,
+      "subtyp": "ss",
+      "systemdatum": "2025-10-24T00:00:00.000000",
+      "tempbeteckning": "HDC220251028ss",
+      "text": null,
+      "titel": "Nordiska rådets session: Prisutdelning",
+      "typ": "samtr",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": null,
+          "datum": "2025-10-28T01:00:00.000000",
+          "debateurl": "/sv/webb-tv/video/session/nordiska-radets-session-prisutdelning_HDC220251028ss2",
+          "debatt_rm": "2025/26",
+          "debatt_typ": "Redaktionellt",
+          "debattsekunder": 6027,
+          "dok_beteckning": null,
+          "dok_id": "hdc220251028ss2",
+          "downloadurl": "https://mhdownload.riksdagen.se/externt/ext-1080p-2fil/2442510290051050521_1080p.mp4",
+          "inspelningstyp": "rdf-generic",
+          "source": "Rim",
+          "systemdatum": "2025-10-31T09:41:49.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442510290051050521.jpg",
+          "url": "https://mamstream.riksdagen.se/externt/_definst_/smil:ext-1080p-2fil/2442510290051050521.smil/playlist.m3u8",
+          "videofileurl": "https://mamstream.riksdagen.se/externt/_definst_/smil:ext-1080p-2fil/2442510290051050521.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

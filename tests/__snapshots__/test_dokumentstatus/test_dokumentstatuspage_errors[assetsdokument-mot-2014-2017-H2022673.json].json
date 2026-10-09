@@ -1,0 +1,83 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2014-11-10T16:46:45.000000",
+          "hangar_id": null,
+          "kod": "INL",
+          "namn": "Inlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": null
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "2673",
+      "datum": "2014-11-10",
+      "debattnamn": "Motion",
+      "dok_id": "H2022673",
+      "doktyp": "mot",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H2022673')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H2022673/text')",
+      "dokumentnamn": "Motion",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H2022673')",
+      "hangar_id": "3113479",
+      "html": "Motionen utgår.",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "2673",
+      "organ": null,
+      "pretext": null,
+      "publicerad": "2014-11-10T00:00:00.000000",
+      "relaterat_id": null,
+      "rm": "2014/15",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "Filur",
+      "sourceid": "ee9a6a46-0bcf-4bd8-a993-c1bb99427d1a",
+      "status": "Utgår",
+      "subtitel": null,
+      "subtyp": null,
+      "systemdatum": "2015-07-07T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Motionen utgår",
+      "typ": "mot",
+      "typrubrik": "Motion 2014/15:2673",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": "H2022673",
+          "kod": "statustext",
+          "namn": "statustext",
+          "systemdatum": "2017-09-05T13:19:36.000000",
+          "text": "Motionen är inlämnad"
+        }
+      ]
+    },
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

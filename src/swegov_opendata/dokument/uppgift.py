@@ -1,27 +1,22 @@
+import datetime
 import typing as t
 
 import pydantic
 
+from swegov_opendata import shared
+
 
 class Uppgift(pydantic.BaseModel):
+    systemdatum: datetime.datetime | None = None
     dok_id: str | None = None
     kod: str
     namn: str
-    systemdatum: str | None = None
     text: str | None
+
+    model_config = pydantic.ConfigDict(extra="forbid")
 
 
 class DokUppgift(pydantic.BaseModel):
-    uppgift: list[Uppgift]
+    uppgift: t.Annotated[list[Uppgift], pydantic.BeforeValidator(shared.ensure_list)]
 
-    @pydantic.field_validator("uppgift", mode="before")
-    @classmethod
-    def ensure_list(cls, value: t.Any) -> t.Any:
-        def _create_uppgift_from_dict(v: t.Any) -> Uppgift:
-            if isinstance(v, Uppgift):
-                return v
-            return Uppgift.model_validate(v)
-
-        if not isinstance(value, list):
-            return [_create_uppgift_from_dict(value)]
-        return [_create_uppgift_from_dict(v) for v in value]
+    model_config = pydantic.ConfigDict(extra="forbid")

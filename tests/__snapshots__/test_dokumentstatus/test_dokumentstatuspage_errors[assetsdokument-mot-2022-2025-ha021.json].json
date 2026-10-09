@@ -1,0 +1,334 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2022-09-30T16:03:49.000000",
+          "hangar_id": null,
+          "kod": "INL",
+          "namn": "Inlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-10-07T18:49:00.000000",
+          "hangar_id": null,
+          "kod": "Granskad",
+          "namn": "Granskad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-10-11T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "B",
+          "namn": "Bordlagd",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-10-12T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "HÄN",
+          "namn": "Hänvisad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "HA021",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/6DB768FB-2543-49AA-A068-F532E7BEFC21')",
+          "filnamn": "mot_202223__1.pdf",
+          "filstorlek": "119881",
+          "filtyp": "pdf",
+          "subtitel": "av Lotta Johnsson Fornarve m.fl. (V)",
+          "titel": "med anledning av skr. 2021/22:236 Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer"
+        },
+        {
+          "dok_id": "HA021",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/5519F501-19AB-444D-B87B-3C03BE757BAC')",
+          "filnamn": "mot_202223__1.docx",
+          "filstorlek": "84059",
+          "filtyp": "docx",
+          "subtitel": "av Lotta Johnsson Fornarve m.fl. (V)",
+          "titel": "med anledning av skr. 2021/22:236 Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer"
+        }
+      ]
+    },
+    "dokforslag": {
+      "forslag": [
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör verka för att fler länder ökar sitt kärnstöd till det multilaterala biståndet, och detta tillkännager riksdagen för regeringen.",
+          "lydelse2": null,
+          "nummer": 1,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att jämställdhetsperspektivet måste omsättas i praktiken genom hela det svenska multilaterala utvecklingssamarbetet och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 2,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör ha som mål att minst 50 procent av det multilaterala biståndet ska gå till flickor och kvinnor och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 3,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör verka för att EU, relevanta FN-organ, Världsbanken och de regionala utvecklingsbankerna förstärker sitt jämställdhetsarbete med målet att minst 50 procent av allt utvecklingssamarbete ska gå till flickor och kvinnor och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 4,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör säkerställa att andelen multilateralt bistånd som avsätts för arbete med sexuell och reproduktiv hälsa och rättigheter (SRHR) uppgår till minst 10 procent av det multilaterala biståndet och verka inom EU och FN för att övriga biståndsgivare följer Sveriges exempel, och detta tillkännager riksdagen för regeringen.",
+          "lydelse2": null,
+          "nummer": 5,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör öka stödet till sexuell och reproduktiv hälsa och rättigheter (SRHR) i det humanitära biståndet och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 6,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör verka för effektiv finansiering till civilsamhället genom multilaterala organisationer och i den internationella givarsamordningen och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 7,
+          "utskottet": "Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2022/23:UU3",
+          "behandlas_i_punkt": null,
+          "beteckning": null,
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": "UU",
+          "kammarbeslutstyp": null,
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen ställer sig bakom det som anförs i motionen om att Sverige såväl som enskilt land som medlem i EU och FN ska verka för att allt multilateralt utvecklingsbistånd ska följa biståndseffektivitetsagendan, utgå från respektive mottagarlands egna behov, respektera dess suveränitet och inte förknippas med ekonomiska villkor och tillkännager detta för regeringen.",
+          "lydelse2": null,
+          "nummer": 8,
+          "utskottet": "Avslag"
+        }
+      ]
+    },
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0122987223112",
+          "namn": "Lotta Johnsson Fornarve",
+          "ordning": "1",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0802091197024",
+          "namn": "Andrea Andersson Tay",
+          "ordning": "2",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0627450126815",
+          "namn": "Kajsa Fredholm",
+          "ordning": "3",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0411459873625",
+          "namn": "Hanna Gunnarsson",
+          "ordning": "4",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0682989845822",
+          "namn": "Håkan Svenneling",
+          "ordning": "5",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0150118366721",
+          "namn": "Linda W Snecker",
+          "ordning": "6",
+          "partibet": "V",
+          "roll": "undertecknare"
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": {
+      "referens": [
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "UU3",
+          "ref_dok_dokumentnamn": "Betänkande",
+          "ref_dok_id": "HA01UU3",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": "bet",
+          "ref_dok_titel": "Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer",
+          "ref_dok_typ": "bet",
+          "referenstyp": "behandlas_i",
+          "uppgift": "2022/23:UU3"
+        }
+      ]
+    },
+    "dokument": {
+      "beteckning": "1",
+      "datum": "2022-09-30",
+      "debattnamn": "Motion",
+      "dok_id": "HA021",
+      "doktyp": "mot",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/HA021')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HA021/text')",
+      "dokumentnamn": "Motion",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HA021')",
+      "hangar_id": "5147523",
+      "html": "<style><!-- \r\n /********************************************************************************************************/\r\n/* Styles for D:\\Logs\\DocumentConverter\\\\Output_a43af40a-710a-42af-b9f5-8a300e709ded\\HTML\\Dokument.html */\r\n/* Generated by Aspose.Words for .NET 15.3.0.0                                                          */\r\n/********************************************************************************************************/\r\n\r\n@page Section1 { size:595.3pt 841.9pt; margin:35.45pt 85.05pt }\r\ndiv.Section1 { page:Section1 }\r\ndiv.pconf body { t-i:17pt; line-height:15pt; font-family:'Verdana'; font-size: 0.90em }\r\ndiv.pconf h1, h2, h3, h4, h5, h6, p { margin:0pt }\r\ndiv.pconf li, table { margin-top:0pt; margin-bottom:0pt }\r\ndiv.pconf h1 { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em; font-weight:normal }\r\ndiv.pconf h2 { margin-top:30pt; margin-left:28.8pt; margin-bottom:0pt; t-i:-28.8pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 1.00em; font-weight:normal }\r\ndiv.pconf h3 { margin-top:18pt; margin-left:36pt; margin-bottom:0pt; t-i:-36pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\ndiv.pconf h4 { margin-top:18pt; margin-left:43.2pt; margin-bottom:0pt; t-i:-43.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\ndiv.pconf h5 { margin-top:15pt; margin-left:50.4pt; margin-bottom:0pt; t-i:-50.4pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:bold; font-style:normal }\r\ndiv.pconf h6 { margin-top:15pt; margin-left:57.6pt; margin-bottom:0pt; t-i:-57.6pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.Heading7 { margin-top:15pt; margin-left:64.8pt; margin-bottom:0pt; t-i:-64.8pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.Heading8 { margin-top:15pt; margin-left:72pt; margin-bottom:0pt; t-i:-72pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.Heading9 { margin-top:0pt; margin-left:79.2pt; margin-bottom:0pt; t-i:-79.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.BalloonText { margin-bottom:0pt; t-i:17pt; line-height:normal; font-family:'Segoe UI'; font-size: 0.90em }\r\n.Beteckning { margin-top:18pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:auto; page-break-after:auto; line-height:19.5pt; font-size: 1.05em }\r\n.BlockText, .Inramatstycke { margin-right:56.7pt; margin-left:56.7pt; margin-bottom:0pt; t-i:0pt; text-align:nojustify; line-height:15pt; border-top-style:solid; border-top-width:0.75pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-top:10pt; padding-right:10pt; padding-left:10pt; padding-bottom:10pt; font-size: 0.90em; font-style:italic }\r\n.Citaticitat { margin-top:7.5pt; margin-left:34pt; margin-bottom:0pt; t-i:0pt; line-height:12pt; font-size: 0.90em }\r\n.Citaticitatmedindrag { margin-top:0pt; margin-left:34pt; margin-bottom:7.5pt; t-i:17pt; line-height:12pt; font-size: 0.90em }\r\n.Citatmedindrag { margin-top:0pt; margin-left:17pt; margin-bottom:0pt; t-i:17pt; line-height:12pt; font-size: 0.90em }\r\n.CommentSubject { margin-bottom:0pt; t-i:17pt; line-height:normal; font-size: 0.90em; font-weight:bold }\r\n.CommentText { margin-bottom:0pt; t-i:17pt; line-height:normal; font-size: 0.90em }\r\n.FSHTitel, .Dokumentrubrik { margin-top:4pt; margin-bottom:4pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:20pt; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-bottom:3pt; font-size: 1.05em }\r\n.FSHLogo { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em }\r\n.FSHNormL { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; border-top-style:solid; border-top-width:1.5pt; border-top-color:#000000; padding-top:3pt; font-size: 0.90em }\r\n.FSHNormal { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.FSHNormalS5 { margin-top:11.5pt; margin-bottom:26pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-size: 0.95em; font-weight:bold }\r\n.FSHRub1, .Rubrik1S5 { margin-top:135pt; margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:16pt; font-size: 1.00em }\r\n.FSHRub2, .Rubrik1A4 { margin-top:50pt; margin-bottom:5pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:24pt; font-size: 1.05em }\r\n.Footer { margin-top:4pt; margin-bottom:0pt; t-i:0pt; text-align:center; line-height:normal; font-size: 0.90em }\r\n.FootnoteText { margin-top:0pt; margin-bottom:0pt; t-i:0pt; line-height:12pt; font-size: 0.90em }\r\n.Yrkandehnv, .Frslagspunkthnv { margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; font-size: 0.90em }\r\n.Frslagsrubrik { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Frslagstext, .Hemstlatt, .Yrkande { margin-top:4pt; margin-left:19.85pt; margin-bottom:0pt; t-i:-19.85pt; line-height:15pt; font-size: 0.90em }\r\n.Header { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em }\r\n.KantRubrikS5H { margin-top:6pt; margin-right:2.85pt; margin-bottom:0pt; t-i:0pt; text-align:right; line-height:8pt; font-size: 0.90em }\r\n.KantRubrikS5Hrad2 { margin-top:0pt; margin-right:2.85pt; margin-bottom:0pt; t-i:0pt; text-align:right; line-height:10pt; font-size: 0.90em }\r\n.KantRubrikS5V { margin-top:6pt; margin-right:0pt; margin-bottom:0pt; t-i:0pt; text-align:left; line-height:8pt; font-size: 0.90em }\r\n.KantRubrikS5Vrad2 { margin-top:0pt; margin-right:0pt; margin-bottom:0pt; t-i:0pt; text-align:left; line-height:10pt; font-size: 0.90em }\r\n.KantrubrikH { margin-top:4pt; margin-right:0pt; margin-bottom:0pt; t-i:0pt; text-align:right; line-height:15pt; font-size: 0.90em }\r\n.KantrubrikV { margin-top:4pt; margin-left:0pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em }\r\n.Klla { margin-top:0pt; margin-bottom:0pt; t-i:0pt; line-height:12pt; font-size: 0.90em }\r\n.Lagtext { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em }\r\n.Lagtextindrag { margin-top:4pt; margin-bottom:0pt; t-i:14.2pt; line-height:normal; font-size: 0.90em }\r\n.Lagtextrubrik { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em; font-style:italic; letter-spacing:1pt }\r\n.List { margin-top:7.5pt; margin-left:17pt; margin-bottom:7.5pt; t-i:-17pt; line-height:15pt; font-size: 0.90em }\r\n.ListBullet, .PunktlistaBomb { margin-top:4pt; margin-left:14.2pt; margin-bottom:0pt; t-i:-14.2pt; line-height:15pt; font-size: 0.90em }\r\n.ListNumber, .PunktlistaNummer { margin-top:4pt; margin-left:14.2pt; margin-bottom:0pt; t-i:-14.2pt; line-height:15pt; font-size: 0.90em }\r\n.ListParagraph { margin-left:36pt; margin-bottom:0pt; t-i:17pt; line-height:15pt; font-size: 0.90em }\r\n.ListaGemener { margin-top:7.5pt; margin-left:17pt; margin-bottom:7.5pt; t-i:-17pt; line-height:15pt; font-size: 0.90em }\r\n.ListaLinje { margin-top:7.5pt; margin-left:19pt; margin-bottom:7.5pt; t-i:-19pt; line-height:15pt; font-size: 0.90em }\r\n.ListaNummer { margin-top:7.5pt; margin-left:17pt; margin-bottom:7.5pt; t-i:-17pt; line-height:15pt; font-size: 0.90em }\r\n.ListaPunkt { margin-top:7.5pt; margin-left:17pt; margin-bottom:7.5pt; t-i:-17pt; line-height:15pt; font-size: 0.90em }\r\n.MotionTIllRiksdagen { margin-top:18pt; margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-size: 1.05em }\r\n.Motionr { margin-top:14pt; margin-bottom:31.5pt; t-i:0pt; page-break-inside:avoid; line-height:15pt; font-size: 1.00em; font-weight:bold; font-style:normal }\r\n.NormalIndent { margin-left:65.2pt; margin-bottom:0pt; t-i:17pt; line-height:15pt; font-size: 0.90em }\r\n.Normalutanindragellerluft { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.Normal00 { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:normal; font-size: 0.90em }\r\n.NormalA4fot { margin-top:12pt; margin-bottom:0pt; t-i:0pt; text-align:center; line-height:normal; font-size: 0.90em }\r\n.NormalA4sidnr { margin-top:4pt; margin-bottom:12pt; t-i:0pt; text-align:center; line-height:normal; font-size: 0.90em }\r\n.NormalS5sidnrH { margin-top:4pt; margin-right:2.85pt; margin-bottom:0pt; t-i:0pt; text-align:right; line-height:normal; font-size: 0.90em }\r\n.NormalS5sidnrV { margin-top:4pt; margin-right:0pt; margin-bottom:0pt; t-i:0pt; text-align:left; line-height:normal; font-size: 0.90em }\r\n.PlainText { margin-bottom:0pt; t-i:0pt; line-height:12pt; font-family:'Verdana'; font-size: 0.90em }\r\n.Strecklista, .PunktlistaTankstreck { margin-top:4pt; margin-left:14.2pt; margin-bottom:0pt; t-i:-14.2pt; line-height:15pt; font-size: 0.90em }\r\n.Quote { margin-top:7.5pt; margin-left:17pt; margin-bottom:0pt; t-i:0pt; line-height:12pt; font-size: 0.90em }\r\n.R1 { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.R2 { margin-top:30pt; margin-left:28.8pt; margin-bottom:0pt; t-i:-28.8pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 1.00em }\r\n.R3 { margin-top:18pt; margin-left:36pt; margin-bottom:0pt; t-i:-36pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\n.Rubrik1numrerat { margin-top:41pt; margin-left:0pt; margin-bottom:0pt; t-i:0pt; page-break-inside:auto; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Rubrik2numrerat { margin-top:30pt; margin-left:0pt; margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 1.00em }\r\n.Rubrik3numrerat { margin-top:18pt; margin-left:0pt; margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\n.Rubrik4numrerat { margin-top:18pt; margin-left:0pt; margin-bottom:0pt; t-i:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:17pt; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.RubrikFrslagTIllRiksdagsbeslut { margin-top:41pt; margin-left:21.6pt; margin-bottom:15pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.RubrikInnehllsf { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.RubrikSammanf { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Salutation { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Streckkod { margin-top:12pt; margin-bottom:0pt; t-i:0pt; text-align:center; line-height:normal; font-family:IDAutomationHC39S; font-size: 1.00em }\r\n.Subtitle { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\n.TOC1 { margin-top:4pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC2 { margin-top:4pt; margin-left:14.2pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC3 { margin-top:4pt; margin-left:28.35pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC4 { margin-top:4pt; margin-left:42.55pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC5 { margin-top:4pt; margin-left:56.7pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC6 { margin-top:4pt; margin-left:56.7pt; margin-bottom:0pt; t-i:0pt; line-height:15pt; font-size: 0.90em }\r\n.TOC7 { margin-top:15pt; margin-left:56.7pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.TOC8 { margin-top:15pt; margin-left:56.7pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.TOC9 { margin-top:15pt; margin-left:56.7pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.TOCHeading { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Tabellunderrubrik { margin-top:0pt; margin-bottom:0pt; t-i:0pt; page-break-after:avoid; line-height:15pt; font-size: 0.90em; font-weight:normal; font-style:italic }\r\n.Tabellrubrik { margin-top:7.5pt; margin-bottom:0pt; t-i:0pt; page-break-after:avoid; line-height:15pt; font-size: 0.90em; font-weight:bold }\r\n.Title { margin-top:41pt; margin-left:21.6pt; margin-bottom:0pt; t-i:14.2pt; page-break-inside:avoid; page-break-after:avoid; line-height:19.5pt; font-family:'Verdana'; font-size: 1.05em }\r\n.Underskriftdatum { margin-top:24pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt; font-size: 0.90em; font-style:normal }\r\n.Underskrifter { margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt; font-size: 0.90em; font-style:italic }\r\nspan.BallongtextChar { font-family:'Segoe UI'; font-size: 0.90em }\r\nspan.BeteckningChar { font-size:19.5pt }\r\nspan.CommentReference { font-size:8pt }\r\nspan.FSHRub2Char, span.Rubrik1A4Char { font-size:24pt }\r\nspan.FotnotstextChar { font-size:10pt }\r\nspan.Hyperlink { text-decoration:underline; color:#0563c1 }\r\nspan.InledningChar { font-family:'Verdana'; font-size: 1.00em; font-weight:bold }\r\nspan.IntenseReference { font-weight:normal; font-style:normal; font-variant:normal; text-decoration:none; text-transform:none; letter-spacing:0pt; vertical-align:0pt; color:#000000; display:inline }\r\nspan.KommentarerChar { font-size:10pt }\r\nspan.KommentarsmneChar { font-size:10pt; font-weight:bold }\r\nspan.MotionTIllRiksdagenChar { font-size:19.5pt }\r\nspan.OformateradtextChar { font-family:'Verdana'; font-size: 0.90em }\r\nspan.PlaceholderText { color:#f4b083 }\r\nspan.Rubrik1Char { font-family:'Verdana'; font-size: 1.05em }\r\nspan.Rubrik2Char { font-family:'Verdana'; font-size: 1.00em }\r\nspan.Rubrik3Char { font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\nspan.Rubrik4Char { font-family:'Verdana'; font-size: 0.90em; font-style:italic }\r\nspan.Rubrik5Char { font-family:'Verdana'; font-weight:bold }\r\nspan.Rubrik6Char { font-family:'Verdana'; font-style:italic }\r\nspan.Rubrik7Char { font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\nspan.Rubrik8Char { font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\nspan.Rubrik9Char { font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\nspan.RubrikChar { font-family:'Verdana'; font-size: 1.00em; font-weight:bold }\r\nspan.SidfotChar { font-size:11.5pt }\r\nspan.UnderrubrikChar { font-family:'Verdana'; font-size: 0.90em; font-weight:bold }\r\n.TableGrid {  }\r\n\r\n.pconf{width: 450px;margin-left:5px;overflow:visable;font-family:Verdana, Geneva, sans-serif;} \r\n .sidhuvud_publikation, .sidhuvud_beteckning{font-size:133%}\r\n.MotionarLista {font-size:122%}\r\n\r\n--></style><div class=\"pconf\"><span class=\"sidhuvud_publikation\">Motion till riksdagen</span><br/>\r\n<span class=\"sidhuvud_beteckning\">2022/23:1</span><br/>\r\n<span class=\"MotionarLista\">av Lotta Johnsson Fornarve m.fl. (V)</span><br/>\r\n<h1>med anledning av skr. 2021/22:236 Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer</h1>\r\n<hr class=\"sidhuvud_linje\"/>\r\n\r\n\r\n\t\t<div class=\"Section1\">\r\n\t\t\t<p class=\"Rubrik1numrerat\" style=\"margin-left:0pt; margin-bottom:15pt; t-i:0pt\">\r\n\t\t\t\t<span>1</span><span style=\"font:7.0pt 'Verdana'\">   </span><a name=\"_Toc106800475\"><span>Förslag till riksdagsbeslut</span></a>\r\n\t\t\t</p>\r\n\t\t\t<ol type=\"1\" style=\"margin:0pt; padding-left:0pt\">\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör verka för att fler länder ökar sitt kärnstöd till det multilaterala biståndet, och detta tillkännager riksdagen för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att jämställdhetsperspektivet måste omsättas i praktiken genom hela det svenska multilaterala utvecklingssamarbetet och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör ha som mål att minst 50 procent av det multilaterala biståndet ska gå till flickor och kvinnor och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att Sverige bör verka för att EU, relevanta FN-organ, Världsbanken och de regionala utvecklingsbankerna förstärker sitt jämställdhetsarbete med målet att minst 50 procent av allt utvecklingssamarbete ska gå till flickor och kvinnor och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör säkerställa att andelen multilateralt bistånd som avsätts för arbete med sexuell och reproduktiv hälsa och rättigheter (SRHR) uppgår till minst 10 procent av det multilaterala biståndet och verka inom EU och FN för att övriga biståndsgivare följer Sveriges exempel, och detta tillkännager riksdagen för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör öka stödet till sexuell och reproduktiv hälsa och rättigheter (SRHR) i det humanitära biståndet och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att regeringen bör verka för effektiv finansiering till civilsamhället genom multilaterala organisationer och i den internationella givarsamordningen och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class=\"Frslagstext\" style=\"margin-left:14pt; t-i:0pt; padding-left:5.85pt; font-family:'Verdana'; font-size: 0.90em\">\r\n\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size: 0.90em\">Riksdagen ställer sig bakom det som anförs i motionen om att Sverige såväl som enskilt land som medlem i EU och FN ska verka för att allt multilateralt utvecklingsbistånd ska följa biståndseffektivitetsagendan, utgå från respektive mottagarlands egna behov, respektera dess suveränitet och inte förknippas med ekonomiska villkor och tillkännager detta för regeringen.</span>\r\n\t\t\t\t</li>\r\n\t\t\t</ol>\r\n\t\t\t<p class=\"Rubrik1numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>2</span><span style=\"font:7.0pt 'Verdana'\">   </span><span style=\"-aw-bookmark-end:_Toc106800475\"></span><a name=\"MotionsStart\"></a><a name=\"_Toc106800476\"><span>Ett starkt stöd för svenskt bistånd</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span style=\"-aw-bookmark-end:_Toc106800476\"></span><span>Vänsterpartiet vill se en rättvis och jämlik värld där alla människor har samma möjlig</span><span>­</span><span>heter och frihet att leva det liv de vill. Vi vill se en värld för nuvarande och kommande generation</span><span>er</span><span> som inte överskrider planetens gränser. En värld där alla människor kan leva i frihet från fattigdom, frihet från orättvisor, frihet från våld, frihet från rasism, frihet till våra kroppar och till vår kärlek och frihet att se våra barn växa upp i trygghet och få den kunskap och det stöd de behöver för att bli det bästa de kan. Vi vill att alla människor ska kunna ha ett arbetsliv där vi förverkligar oss själva och där vi får en god lön och pension. Varje människas frihet hänger samman med alla människors frihet, med ett samhälle som tillåter och gör den möjlig. Det är i rättvisa och jämlika samhällen människors frihet växer sig som starkast. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Utvecklingen i världen går i mångt och mycket åt fel håll.</span><span> Under många år har antalet demokratier i världen minskat, visar data från </span><span>Varieties</span><span> </span><span>of</span><span> </span><span>Democracy</span><span> (V</span><span>‑</span><span>Dem). I dag lever två tredjedelar av världens befolkning i vad som kan betecknas som en auktoritär stat</span><span>,</span><span> och demokratiska länder är numera i minoritet. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Jämställdheten i världen har också gått tillbaka i flera länder. Ett tydligt exempel är att kvinnor förvägras rätten att själva bestämma över sina kroppar, genom förbud och inskränkningar av rätten till fri abort.</span><span> I spåren av coronapandemin har nästan alla länder gått bakåt vad gäller mänsklig utveckling. För andra året i rad har det globala Human Development Index (HDI) sjunkit. I sin rapport Human Development </span><span>Report </span><span>2021</span><span>/20</span><span>22 pekar UNDP ut tre avgörande delar av vad man beskriver som ett nytt ”osäkerhets</span><span>­</span><span>komplex”</span><span>:</span><span> trycket på de planetära resurserna och ojämlikheten, de därpå följande genomgripande samhällsomvandlingarna samt den alltmer intensifierade polariseringen. Sammantaget skapar det en mycket svårtydd och oförutsägbar utveckling. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Fattigdomen, ojämlikheten och ojämställdheten får konsekvenser. Reaktionära, patriarkala och rasistiska strömningar, ofta med stöd av en ekonomisk elit, skördar framgångar genom att rikta udden mot de redan mest utsatta och förstöra miljön och klimatet. Extrema väderhändelser som torka och översvämningar slår redan i dag hårt mot människor i stora delar av världen och klimatfrågan är en av de frågor som oroar människor allra mest. De länder som släpper ut mest växthusgaser är de som drabbas lindrigast av växthuseffekten. I stället är det utvecklingsländer som kommer att få bära 75–80 procent av klimatförändringens skador och kostnader, enligt Världsbanken. De fattiga och redan utsatta i världen drabbas värst av värme, torka, översvämningar, sjukdomar och bristande vattenkvalitet. I denna tid behövs en kraftfull politik för jämlikhet, rättvisa och hållbar global utveckling.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I skrivelsen ger den avgående regeringen en redovisning av utvecklingssamarbetet och det humanitära biståndet genom multilaterala organisationer med fokus på åren 2019 och 2020. Vänsterpartiet har i mångt och mycket delat den avgående regeringens uppfattning om biståndet. Sverige har i stora delar ett bra bistånd som håller hög klass. Samtidigt har det funnits en hel del motsägelser där vi varit tydliga med att kritisera regeringen. Det handlar bl</span><span>.a.</span><span> om oviljan att stå bakom offentlig land-för-land-rapporter</span><span>­</span><span>ing på EU-nivå, de stora avräkningarna i biståndsbudgeten, motståndet att häva patentet på vaccin mot covid-19 under pandemin, fortsatta åtstramningar av de svenska asyl</span><span>­</span><span>lagarna, exportsatsningar riktade till diktaturer, oviljan att införa lagstiftning om före</span><span>­</span><span>tags ansvar för mänskliga rättigheter och den otillräckliga lagstiftningen för att begränsa vapenexport till diktaturer.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Vi är dock mycket oroade över den kommande utvecklingen av svenskt bistånd. I </span><span style=\"letter-spacing:-0.05pt\">skrivande stund är det inte klart hur Sveriges nya regering kommer att se ut. Men mycket</span><span> tyder på att svenskt bistånd är direkt hotat. Både Moderaterna och Sverigedemokraterna vill överge enprocentsmålet och i</span><span> </span><span>stället sänka biståndet drastiskt. Sverigedemokrater</span><span>­</span><span>nas mål är att halvera biståndet. Sverige har en viktig roll i att tillsammans med de som tror på en multilateral världsordning motarbeta en negativ utveckling och i</span><span> </span><span>stället stärka stödet för bistånd och för de multilaterala organisationer som arbetar med frågorna. Det </span><span style=\"letter-spacing:-0.05pt\">blir betydligt svårare med en regering som undergräver förtroendet för biståndssystemet.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>2.1</span><span style=\"font:7.0pt 'Verdana'\">   </span><span>Det multilaterala biståndet är centralt</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>Det är nu sju år sedan FN:s medlemsstater antog Agenda 2030 och de globala målen. De kanske viktigaste aspekterna av Agenda 2030 är att målen är universella och omfattar alla jordens stater och invånare och har ett tydligt jämlikhetsperspektiv.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Precis som nämns i skrivelsen är de multilaterala organisationerna centrala i arbetet för att uppnå de globala målen och för att samordna och följa upp Agenda 2030. Sam</span><span>­</span><span>tidigt är det långt kvar innan målen är uppnådda.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Sverige är en stor givare av multilateralt bistånd. År 2020 kanaliserades 67 procent av det totala svenska biståndet genom multilaterala organisationer. Det innebär </span><span>ca</span><span> </span><span>39 miljarder kronor. Sverige är ofta bland de största givarna till flera av FN:s utvecklings</span><span>­</span><span>fonder och program. Bland de FN-organ som får mest svenskt bistånd finns UNDP, Unicef och UNHCR. Det finns en lång historia av starka relationer mellan Sverige och FN med dess institutioner samt en hög tilltro till deras förmåga att bedriva utvecklings</span><span>­</span><span>arbete.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Precis som det går att läsa i skrivelsen är det multilaterala systemet under press globalt. Det multilaterala samarbetet och biståndet utmanas av nationalistiska och reaktionära strömningar runt</span><span> </span><span>om i världen. Det gäller även här hemma i Sverige. De senaste åren har biståndsorganisationer varnat för en global trend med ett svagare engagemang i multilaterala samarbeten och att givarländerna i högre grad talar om att stävja nationella behov före bistånd. Ytterligare en trend tycks vara ett mer politiserat bistånd, där utvecklingspolitik kopplats närmare givarländernas geopolitiska ambitioner. Det är sammantaget en mycket oroande utveckling. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Samtidigt har vi en mycket allvarlig situation i världen. Enligt den tidigare nämnda Human Development Report 2021</span><span>/20</span><span>22 ser </span><span>nio</span><span> av </span><span>tio </span><span>länder en historisk tillbakagång i mänsklig</span><span> </span><span>utveckling. Rapporten menar att världen i nuläget är närmast oförmögen att ta itu med grundorsakerna till de problem vi ser och att man i</span><span> </span><span>stället tvingas fokusera på </span><span>att hantera akuta kriser. En ökad polarisering och otrygghet minskar möjligheterna </span><span>till</span><span> kollektiv handling och gemensamt ansvarstagande. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Det multilaterala biståndet är beroende av medlemsstaternas bidrag. Biståndet genom multilaterala organisationer utgör ca</span><span> </span><span>45 procent av det samlade internationella biståndet. År 2020 var Sverige den sjätte största givaren av multilateralt bistånd.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Kärnstödet behövs för att det multilaterala biståndet ska kunna bedrivas långsiktigt och effektivt. Kärnstöd är dessutom mer demokratiskt då organens beslutsfattande församlingar styr över budgetar i stället för de länder som betalar mest. Ett tydligt exempel är coronapandemin, som krävde ett stort mått av flexibilitet och akuta insatser.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I skrivelsen går att läsa hur Sverige genom påverkansarbete har verkat för</span><span> att</span><span> vissa prioriteringar ska få genomslag i multilaterala sammanhang. Vänsterpartiet instämmer i de prioriteringarna, som bl.a. handlar om demokrati, SRHR, klimat och miljö. Det finns även ett behov av att öka stödet globalt för att gynna kärnstödet.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span style=\"letter-spacing:-0.05pt\">Finansieringen av FN:s verksamhet bör reformeras för att gynna kärnstödet. Sverige har som ett av få länder fortsatt att ge ett betydande kärnstöd till flera av de multilaterala </span><span style=\"letter-spacing:-0.15pt\">biståndsgivarna och lyfts ofta fram som en positiv förebild för finansiering av FN</span><span style=\"letter-spacing:-0.15pt\">‑</span><span style=\"letter-spacing:-0.15pt\">organen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Sverige bör verka för att fler länder ökar sitt kärnstöd till det multilaterala biståndet. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>2.2</span><span style=\"font:7.0pt 'Verdana'\">   </span><span>En feministisk utvecklings- och biståndspolitik</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>Kränkningar av kvinnors rättigheter är det vanligaste och mest omfattande brottet mot de mänskliga rättigheterna. Världen över begränsas kvinnors liv av diskriminerande lagstiftningar och samhällsnormer. Könsdiskriminering är en stor orsak till fattigdom, och kvinnor</span><span>,</span><span> som oftast har det verkliga försörjningsansvaret för familjen</span><span>,</span><span> saknar ofta de mest basala rättigheterna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I skrivelsen går att läsa hur 2020 i</span><span> </span><span>stället för att bli ett märkesår för jämställdheten präglades av en tillbakagång för den globala jämställdheten. En orsak var att corona</span><span>­</span><span>pandemin slog allra hårdast mot bl.a. kvinnor och flickor</span><span>, m</span><span>en också ett aktivt motstånd mot kvinnors, flickors och hbtqi-personers mänskliga rättigheter.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Kvinnors rättigheter är en nyckel till utveckling. Att öka kvinnors möjligheter till utbildning och försörjning bidrar till att förbättra den enskilda kvinnans ställning och främja jämställdhet i stort och bidrar dessutom till hela samhällets utveckling. Vänster</span><span>­</span><span>partiet är glada över att den avgående regeringen har valt att prioritera jämställdhets</span><span>­</span><span>arbetet högt när det kommer till utvecklingspolitiken. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span style=\"letter-spacing:-0.05pt\">För att det viktiga arbete som gjorts inte ska rinna ut i sanden är det centralt att den nya regeringen tar vid. Moderaterna har tillsammans med Kristdemokraterna tidigare uppgett att man inte ställer sig bakom en feministisk utrikes- och utvecklingspolitik. Det är mycket olyckligt. Även om man säger sig värna jämställdhet i den internationella politiken är man mycket otydlig kring hur detta ska gå till. Moderaternas Ulf Kristersson motsätter sig exempelvis enskilda strategier för jämställdhet i utrikespolitiken (Diakonias partiledarenkät 2022).</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>För Vänsterpartiet är det självklart att den svenska utvecklingspolitiken ska utgå från ett tydligt jämställdhetsperspektiv. Vi vänder oss mot den ovilja man från Moderaterna och Kristdemokraterna har att konkretisera vad man avser med att värna jämställdhet i utrikespolitiken. Vänsterpartiet menar att Sverige, i en värld där kvinnor systematiskt diskrimineras och åsidosätts, bör ha som målsättning att avsätta hälften av biståndet </span><span>eller mer till flickor och kvinnor. Det är på samma sätt viktigt att det skapas tydliga sätt att följa hur stor andel av biståndet som går till flickor och kvinnor respektive pojkar och män i internationella organisationer.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Jämställdhetsperspektivet måste omsättas i praktiken genom hela de</span><span>t</span><span> svenska </span><span>multi</span><span>­</span><span>laterala </span><span>utvecklings</span><span>samarbetet</span><span>. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Sverige bör ha som mål att minst 50 procent av </span><span>det multilaterala </span><span>biståndet ska gå till flickor och kvinnor. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Sverige bör verka för att EU, relevanta FN-organ, Världsbanken och de regionala utvecklingsbankerna förstärker sitt jämställdhetsarbete med målet att minst 50 procent av allt utvecklingssamarbete ska gå till flickor och kvinnor. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik3numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>2.2.1</span><span style=\"font:7.0pt 'Verdana'\">  </span><span>Sexuell och reproduktiv hälsa och rättigheter </span><span>(</span><span>SRHR</span><span>)</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>SRHR måste också prioriteras i vårt utvecklingssamarbete. </span><span>E</span><span>nligt skrivelsen </span><span>utgjorde </span><span>det samlade svenska stödet för SRHR </span><span>3,2 miljarder kronor </span><span>år 2020, vilket motsvarade 6,1 procent av det totala biståndet. Behovet av ett ökat engagemang för att t.ex. för</span><span>­</span><span>hindra mödradödlighet</span><span> och</span><span> öka tillgången till sexualundervisning och moderna preven</span><span>­</span><span>tivmedel är mycket stort</span><span>, i</span><span>nte minst </span><span>p</span><span>å grund av</span><span> att sådant ofta tvingats stå tillbaka under coronapandemin. Vänsterpartiet menar att minst 10</span><span> </span><span>procent av </span><span>Sveriges totala </span><span>biståndsbudget ska öronmärkas för SRHR – ett mål som även International </span><span>Parliamen</span><span>­</span><span>tarians</span><span>’ Conference on the Implementation of the ICPD Programme of Action (IPCI) ställde sig bakom i sin slutdeklaration Stockholm Statement </span><span>of</span><span> </span><span>Commitment</span><span>.</span><span> Samma målsättning bör gälla för de medel som går till multilateralt bistånd.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Regeringen bör </span><span>säkerställa att</span><span> andelen </span><span>multilateralt </span><span>bistånd som avsätts för arbete med sexuell och reproduktiv hälsa och rättigheter (SRHR) </span><span>uppgår </span><span>till minst 10</span><span> </span><span>procent av de</span><span>t multilaterala </span><span>bistånd</span><span>et</span><span> </span><span>samt</span><span> verka inom EU och FN för att övriga biståndsgivare följer Sveriges exempel. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Ett område med växande utmaningar är arbetet med SRHR-frågor i humanitära kriser. Vi ser i dag ett tydligt samband mellan väpnade konflikter och ökad mödra</span><span>­</span><span>dödlighet, barnäktenskap och sexualiserat våld. I dag pågår flera utdragna konflikter runt</span><span> </span><span>om i världen och fler människor än någonsin tidigare befinner sig i dag på flykt. Vi ser också att människor lever på flykt under allt längre tid. Så många som 20,7 miljoner människor beräkna</span><span>de</span><span>s leva i utdragna flyktingsituationer under UNHCR:s mandat, och 5,7 miljoner under UNRWA:s mandat under 2020. I genomsnitt varar en utdragen flyk</span><span>­</span><span>tingsituation i 26 år, enligt UNHCR. Behoven är enorma i konfliktområden och i flyktingläger. Det handlar om att motarbeta barnäktenskap och sexualiserat våld och säkra tillgången till preventivmedel, säkra aborter och mödravård. Flera organisationer, exempelvis UNFPA och International </span><span>Planned</span><span> </span><span>Parenthood</span><span> Federation (IPPF), har börjat ställa om sin verksamhet för att förstärka sitt arbete med SRHR i humanitära kriser. Den svenska avgående regeringen har betonat frågan vid flera tillfällen och inkluderat SRHR i den nya strategin för Sveriges humanitära bistånd för 2021–2025. Strategin betonar att ”otillräcklig tillgång till SRHR-tjänster i humanitära kriser får allvarliga negativa konse</span><span>­</span><span>kvenser” och att ”behovet av sexuell och reproduktiv hälsa och rättigheter (SRHR) ska beaktas i alla humanitära kriser”. Vänsterpartiet menar att en ny regering måste säker</span><span>­</span><span>ställa Sveriges engagemang för SRHR inom det humanitära biståndet. Stödet till SRHR </span><span style=\"letter-spacing:-0.15pt\">bör dessutom utökas och integreras än mer tydligt i strategin för att förenkla uppföljningen</span><span> av SRHR-insatser.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Regeringen bör öka stödet till sexuell och reproduktiv hälsa och rättigheter (SRHR) i det humanitära biståndet. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>2.3</span><span style=\"font:7.0pt 'Verdana'\">   </span><span>Ett minskat demokratiskt utrymme</span><span> och stöd till civilsamhället</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>I en oroande tid måste Sverige vara en konsekvent och tydlig försvarare av mänskliga rättigheter och demokrati. Dessa perspektiv måste alltid genomsyra vår utvecklings</span><span>­</span><span>politik.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Amnesty konstaterar i sin årsrapport om situationen för de mänskliga rättigheterna 2020/21 att pandemin har blottat en systematisk ojämlikhet över hela världen där etniska minoriteter, hälso- och sjukvårdsarbetare och kvinnor hör till dem som drabbats värst. Framväxten av en alltmer demoniserande politik märks världen över. Kinas systema</span><span>­</span><span>tiska övergrepp mot uigurer är ett exempel, den iranska regimens brutala våld mot protesterna mot mordet på Jina Mahsa Amini ett annat.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Mot bakgrund av de ökande hoten mot människorätts- och miljöförsvarare är det mycket viktigt att Sverige påverkar andra givare och multilaterala organisationer att ge tydligt och långsiktigt stöd till civilsamhällets utsatta aktörer.</span><span> </span><span>Det är särskilt viktigt att stödja de organisationer inom civilsamhället som arbetar med att stärka kvinnor och flickor samt hbtq</span><span>-</span><span>personers rättigheter</span><span>.</span><span> Stödet ska utgå från organisationernas egna analyser, behov och agendor.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<a name=\"_Hlk115425750\"><span>Regeringen bör verka för effektiv finansiering till civilsamhället </span><span>genom</span><span> multilaterala organisationer och i den internationella givarsamordningen. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik1numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>3</span><span style=\"font:7.0pt 'Verdana'\">   </span><span style=\"-aw-bookmark-end:_Hlk115425750\"></span><span>En biståndspolitik för rättvisa, jämställdhet och hållbar utveckling</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>Under lång tid har Vänsterpartiet varit pådrivande för att Sverige ska uppnå målet att 1</span><span> </span><span>procent av BNI ska avsättas för internationellt utvecklingssamarbete. Sverige har nått </span><span style=\"letter-spacing:-0.1pt\">det målet</span><span style=\"letter-spacing:-0.1pt\">,</span><span style=\"letter-spacing:-0.1pt\"> och nu är det dags att gå vidare; behovet av ett fungerande och effektivt bistånd</span><span> är stort. Därför bör enprocentsmålet göras till ett enprocentsgolv som utvecklingssam</span><span>­</span><span>arbetet inte får understiga.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Vänsterpartiets utgångspunkt för bistånd är den internationella solidariteten. Vi menar därför att utvecklingssamarbetet ska utgå från mottagarnas prioriteringar, inte från egenintressen i givarländer eller som ett maktmedel mot mottagarna. Vänsterpartiet menar att en förutsättning för en framgångsrik fattigdomsbekämpning är att det politiska och ekonomiska självbestämmandet i mottagarländerna ökar. Varje land har sin egen historia och sin egen unika situation och det finns således aldrig en enda väg till utveck</span><span>­</span><span>ling. Av den s.k. biståndseffektivitetsagendan, som antogs i Paris 2005 och sedan upp</span><span>­</span><span>daterats i Accra, Busan och Mexiko City, framgår att mottagarländernas inflytande över utvecklingssamarbetet måste öka. Biståndsgivarna har lovat att förändra attityder och metoder för att anpassa sitt bistånd bättre till varje enskilt samarbetsland. Mottagar</span><span>­</span><span>länderna måste med andra ord äga sin egen utveckling.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Tyvärr måste vi konstatera att utvecklingen på flera håll går i rakt motsatt riktning. Givarländernas avräkningar för kostnader för flyktingmottagande har ökat kraftigt de senaste åren och EU driver på för att använda bistånd till militär verksamhet och har i allt större utsträckning börjat använda bistånd för att pressa fattiga länder att stoppa människor på flykt. Samtidigt driver flera EU-länder på för en bredare definition av privatsektorbistånd som riskerar att leda till att biståndspengar går till företag i rika länder i stället för till fattiga människor i fattiga länder. Det är gamla och omoderna sätt att bedriva bistånd, som har prövats och som har misslyckats. Ägarskap är en fråga om demokrati, men också om effektivitet.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Ägarskap är dessutom centralt för att biståndspolitiken ska genomsyras av ett rättighetsperspektiv och utgå från fattigas perspektiv på utveckling samt sträva mot målet att skapa förutsättningar för bättre levnadsvillkor för människor som lever i fattigdom och förtryck. En effektiv biståndspolitik kräver att mottagaren äger sin egen utveckling. Det är de människor som känner fattigdomen och orättvisorna i sin vardag som behöver sätta dagordningen för biståndet. Därför måste besluten om landets utveckling tas av invånarna själva – detta är grunden för demokrati. Vänsterpartiet menar att det är centralt att befolkningen i de fattiga länderna tillåts att formulera sina egna mål och visioner och styra sin egen utveckling. Vår uppfattning har stöd i bistånds</span><span>­</span><span>effektivitetsagendan samt de övriga internationella och svenska riktlinjer som styr biståndet. Dessa överenskommelser behöver ett kraftfullt försvar i dag.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Sverige ska som enskilt land såväl som medlem i EU och FN verka för att allt </span><span>multi</span><span>­</span><span>lateralt </span><span>utvecklingsbistånd ska följa biståndseffektivitetsagendan, utgå från respektive mottagarlands egna behov, respektera dess suveränitet och inte förknippas med ekono</span><span>­</span><span>miska villkor. Detta bör riksdagen ställa sig bakom och ge regeringen till känna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2numrerat\" style=\"margin-left:0pt; t-i:0pt\">\r\n\t\t\t\t<span>3.1</span><span style=\"font:7.0pt 'Verdana'\">   </span><span>Avräkningarna</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanindragellerluft\">\r\n\t\t\t\t<span>Rysslands folkrättsvidriga invasion av Ukraina har chockat hela världen. Mer än en fjärdedel av Ukrainas befolkning </span><span>har </span><span>tvingats på flykt. Människor tvingas lämna sina hus och hem, familjer splittras, antalet våldtäkter ökar och gravida tvingas föda sina barn i skyddsrum och på tunnelbanestationer. Sverige och resten av Europa måste gemensamt ta ansvar för att välkomna de människor som nu flyr den ryska attacken.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Den avgående regeringen har valt att finansiera mottagandet av människor som flyr Ukraina genom avräkningar i biståndsbudgeten. I april 2022 infördes ett utbetalningstak på biståndet på 9,2 m</span><span>iljarder </span><span>kr</span><span>onor</span><span> för att möjliggöra ökade asylavräkningar. Detta har sedan sänkts i flera steg och ligger sedan augusti i år på 4,9 m</span><span>iljarder </span><span>kr</span><span>onor</span><span> (press</span><span>­</span><span>meddelande från regeringen </span><span>den </span><span>18 augusti 2022). Det innebär dock fortfarande en stor minskning av den befintliga biståndsbudgeten och att det så viktiga enprocentsmålet undergrävs. Beslutet innebär att Sida tvingas bryta överenskommelser med både multilaterala organisationer och främst civilsamhällesorganisationer, men också att resurserna för viktiga frågor såsom mänskliga rättigheter, demokrati och rättsstatens principer minskar. Osäkra prognoser för avräkningarna leder dessutom till en stor ryckighet i biståndsbudgeten som motverkar den långsiktighet som så väl behövs. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Med ett ansträngt klimatnödläge, en pandemi som fortfarande pågår runt</span><span> </span><span>om i världen, enorma globala klyftor, brist på grundläggande demokratiska rättigheter i många länder och brist på basala nödvändigheter såsom rent vatten och mödravård är behoven av bistånd enorma.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Vänsterpartiet kommer att återkomma till frågan om avräkningar i syfte att värna biståndet. Sverige har alla möjligheter att vara en fristad för människor på flykt från bl.a. Rysslands anfallskrig, utan att behöva göra avkall på det internationella biståndet. Vi vill bl.a. se ett förändrat regelverk inom OECD-</span><span>Dac</span><span> i syfte att skärpa möjligheterna till avräkningar för inhemskt flyktingmottagande och en ökad transparens vad gäller de svenska avräkningarna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p style=\"-aw-sdt-tag:CC_Underskrifter; -aw-sdt-title:CC_Underskrifter\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p style=\"-aw-sdt-tag:CC_Underskrifter; -aw-sdt-title:CC_Underskrifter\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<table cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse; margin-left:0pt; width:100%\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Lotta Johnsson Fornarve (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Andrea Andersson Tay (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Kajsa Fredholm (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Hanna Gunnarsson (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Håkan Svenneling (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t\t<td style=\"padding-left:5.4pt; padding-right:5.4pt; vertical-align:bottom; width:1%\">\r\n\t\t\t\t\t\t<p class=\"Underskrifter\" style=\"margin-top:15pt; margin-bottom:3pt; t-i:0pt; page-break-inside:avoid; line-height:15pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-style:italic\">Linda Westerlund Snecker (V)</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t<p>\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t</div>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "1",
+      "organ": "UU",
+      "pretext": null,
+      "publicerad": "2022-09-30T00:00:00.000000",
+      "relaterat_id": null,
+      "rm": "2022/23",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "Filur",
+      "sourceid": "7a4bffe6-9c85-4d42-a403-be8bd8b3e44b",
+      "status": "Klar",
+      "subtitel": "av Lotta Johnsson Fornarve m.fl. (V)",
+      "subtyp": "Kommittémotion",
+      "systemdatum": "2023-03-15T00:00:00.000000",
+      "tempbeteckning": "V003",
+      "text": null,
+      "titel": "med anledning av skr. 2021/22:236 Resultatskrivelse om utvecklingssamarbete och humanitärt bistånd genom multilaterala organisationer",
+      "typ": "mot",
+      "typrubrik": "Motion 2022/23:1 av Lotta Johnsson Fornarve m.fl. (V)",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": "HA021",
+          "kod": "motgrund",
+          "namn": "Motionsgrund",
+          "systemdatum": "2023-03-15T16:29:45.000000",
+          "text": "Skrivelse 2021/22:236"
+        },
+        {
+          "dok_id": "HA021",
+          "kod": "motkat",
+          "namn": "Motionskategori",
+          "systemdatum": "2023-03-15T16:29:45.000000",
+          "text": "Följdmotion"
+        },
+        {
+          "dok_id": "HA021",
+          "kod": "tilldelat",
+          "namn": "Tilldelat",
+          "systemdatum": "2023-03-15T16:29:45.000000",
+          "text": "Utrikesutskottet"
+        },
+        {
+          "dok_id": "HA021",
+          "kod": "statustext",
+          "namn": "statustext",
+          "systemdatum": "2023-03-15T16:56:13.000000",
+          "text": "Ärendet är avslutat"
+        }
+      ]
+    },
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "0005CF43-FCC4-436A-A7D4-112B03D70BEE",
+      "datum": "2015-01-13",
+      "debattnamn": "Övrigt kammaren",
+      "dok_id": "H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE",
+      "doktyp": "kam-zz",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE/text')",
+      "dokumentnamn": "Övrigt kammaren",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE')",
+      "hangar_id": "5141196",
+      "html": "<h2>Avsägelse</h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "",
+      "organ": "kamm",
+      "pretext": null,
+      "publicerad": "2022-07-05T18:06:34.000000",
+      "relaterat_id": "",
+      "rm": "2014/15",
+      "rubriker": null,
+      "slutnummer": "",
+      "source": "MHS",
+      "sourceid": "",
+      "status": "inträffat",
+      "subtitel": "",
+      "subtyp": "zz",
+      "systemdatum": "2022-07-05T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Avsägelse",
+      "typ": "kammakt",
+      "typrubrik": "",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442207050017796121_aud.mp3",
+          "datum": "2015-01-13T12:00:13.000000",
+          "debateurl": "/sv/webb-tv/video/ovrigt-kammaren/avsagelse_H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE",
+          "debatt_rm": "2014/15",
+          "debatt_typ": "Övrigt",
+          "debattsekunder": 10,
+          "dok_beteckning": "Avsägelse",
+          "dok_id": "H2C10005CF43-FCC4-436A-A7D4-112B03D70BEE",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442207050017796121_480p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2022-07-05T18:06:34.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442207050017796121.jpg",
+          "url": "VOD1/PAL169/2442207050017796121",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:PAL169/2442207050017796121.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

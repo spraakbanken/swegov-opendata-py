@@ -1,0 +1,75 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "besvaradav"
+        },
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "stalldtill"
+        },
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "undertecknare"
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "42",
+      "datum": "2002-10-15",
+      "debattnamn": "Skriftlig fråga",
+      "dok_id": "GQ1142",
+      "doktyp": "fr",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/GQ1142')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/GQ1142/text')",
+      "dokumentnamn": "Skriftlig fråga",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/GQ1142')",
+      "hangar_id": "2331495",
+      "html": "<I><FONT FACE=\"Verdana,Tahoma\" SIZE=2><P>den 15 oktober</P></I><B><P>Fråga 2002/03:42</B> av <I>Cecilia Nilsson Wigström</I> (fp) till statsrådet Britta Lejon om  neutrala myndigheter</P><P><A NAME=\"Temp\"></A>Riksskatteverket har under valrörelsen på landets biografer samt i Z-TV, Kanal 5 och MTV kört reklamfilm med slutklämmen \"Eller så betalar man skatt\". Filmen visar några ungdomar som cyklar runt i en förort där sopor ligger överallt, fotbollsplanen är helt förfallen och det är lervälling på gatorna. En förfallen miljö visas upp och det hela avslutas med \"Eller så betalar man skatt\". Det övertydliga budskapet är att betalar man inte skatt så förfaller samhället. Det är viktigt att få upp skatteviljan bland ungdomar. Den argumentation som kampanjen valt för att uppnå detta medför dock, rent logiskt, att ett ytterligare budskap förs ut, nämligen att ju mer skatten sänks ju mer förfaller samhället. </P><P>RSV:s intentioner må vara hur bra som helst, men när regeringen i valrörelsen har gått hårt ut för att värva väljare genom att skrämma medborgarna för skattesänkningar är det inte bra att ett statligt verk går ut med samma budskap. För demokratin i Sverige är det viktigt att statliga myndigheter och verk, även oavsiktligt, håller sig partipolitiskt neutrala. Ett annat exempel där så inte varit fallet är Vägverket som i centrala Göteborg delat ut röda rosor tre veckor innan valet för att be om ursäkt för förseningar på grund av ombyggnader. </P><P>Min fråga till demokratiministern lyder:</P><P>På vilket sätt avser ministern att agera för att statliga verk och myndigheter uppträder och agerar politiskt neutralt<A NAME=\"PassTempLäge\"></A>?</P></FONT>",
+      "htmlformat": "",
+      "images": null,
+      "metadata": "",
+      "mottagare": "statsrådet Britta Lejon",
+      "nummer": "42",
+      "organ": "fp",
+      "pretext": null,
+      "publicerad": "2002-10-15T00:00:00.000000",
+      "relaterat_id": "",
+      "rm": "2002/03",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "",
+      "sourceid": "",
+      "status": "",
+      "subtitel": "Nilsson Wigström, Cecilia (fp)",
+      "subtyp": "",
+      "systemdatum": "2009-03-31T00:00:00.000000",
+      "tempbeteckning": "fp",
+      "text": null,
+      "titel": "neutrala myndigheter",
+      "typ": "fr",
+      "typrubrik": "Skriftlig fråga 2002/03:42 av Nilsson Wigström, Cecilia (fp)",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

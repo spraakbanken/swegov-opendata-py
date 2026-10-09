@@ -1,0 +1,189 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H20N2EA7C2",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/DD82A762-2BD0-4D4E-8357-D2EA0BBFBAF7')",
+          "filnamn": "RIF_Kommenterad_dagordning_9_10_oktober.pdf",
+          "filstorlek": "361247",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_Kommenterad_dagordning_9_10_oktober"
+        },
+        {
+          "dok_id": "H20N2EA7C3",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/6AA65CF4-AC64-424D-9DF9-07AAD3B7C04B')",
+          "filnamn": "RIF_radspm_uppfoljning_org_brott_dp_8.pdf",
+          "filstorlek": "230890",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_radspm_uppfoljning_org_brott_dp_8"
+        },
+        {
+          "dok_id": "H20N2EA7C4",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/C60D3B77-B228-43FA-8740-6CAD7FB77452')",
+          "filnamn": "RIF_radspm_BG_RO_Schengenanslutning_dp_10.pdf",
+          "filstorlek": "244544",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_radspm_BG_RO_Schengenanslutning_dp_10"
+        },
+        {
+          "dok_id": "H20N2EA7C5",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/A4E5A118-14D2-451E-B11A-80856D0ECBF2')",
+          "filnamn": "RIF_radspm_EPPO_dp_12.pdf",
+          "filstorlek": "289904",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_radspm_EPPO_dp_12"
+        },
+        {
+          "dok_id": "H20N2EA7C6",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/6910F21E-9AF3-47E7-8545-734F66399532')",
+          "filnamn": "RIF_radspm_dataskyddsforordningen_dp_13.pdf",
+          "filstorlek": "225507",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_radspm_dataskyddsforordningen_dp_13"
+        },
+        {
+          "dok_id": "H20N2EA7C7",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/7FAD8C14-7300-4A7C-9CEF-EBF53D8A8B36')",
+          "filnamn": "RIF_radspm_oskuldspresumtion_dp_14.pdf",
+          "filstorlek": "200860",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "RIF_radspm_oskuldspresumtion_dp_14"
+        },
+        {
+          "dok_id": "H20N2EA7C8",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/58467296-2179-4245-99C3-353E54F99973')",
+          "filnamn": "TTE_Kommenterad_dagordning_8_oktober.pdf",
+          "filstorlek": "348939",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Kommenterad_dagordning_8_oktober"
+        },
+        {
+          "dok_id": "H20N2EA7C9",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/F9056272-82CE-4C88-93B2-641A0F8E36D3')",
+          "filnamn": "TTE_Radspm_europeiska_gemensamma_luftrummet_SES_dp_4.pdf",
+          "filstorlek": "224287",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Radspm_europeiska_gemensamma_luftrummet_SES_dp_4"
+        },
+        {
+          "dok_id": "H20N2EA7CA",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/1461C4ED-C728-4FAA-9423-64D01585700E')",
+          "filnamn": "TTE_Radspm_RPS_dp_5.pdf",
+          "filstorlek": "259773",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Radspm_RPS_dp_5"
+        },
+        {
+          "dok_id": "H20N2EA7CB",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/27D7986F-EB94-428D-9060-A1289AB3C342')",
+          "filnamn": "TTE_Radspm_jarnvägspaketet_dp_6.pdf",
+          "filstorlek": "299336",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Radspm_jarnvägspaketet_dp_6"
+        },
+        {
+          "dok_id": "H20N2EA7CC",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/21CB5A1B-3774-4B09-8B60-32F9B2D106E5')",
+          "filnamn": "TTE_Radspm_CBE_direktivet_dp_7.pdf",
+          "filstorlek": "307795",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Radspm_CBE_direktivet_dp_7"
+        },
+        {
+          "dok_id": "H20N2EA7CD",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/1DE000F1-B774-406C-A168-4BDEBA4C241B')",
+          "filnamn": "TTE_Radspm_forordning_om_hamntjanster_dp_8.pdf",
+          "filstorlek": "248306",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "TTE_Radspm_forordning_om_hamntjanster_dp_8"
+        },
+        {
+          "dok_id": "H20N2EA7CE",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/9F01B4D0-5DBF-433E-B3A0-0990CCB67976')",
+          "filnamn": "Dagordning för rådet rättsliga och inrikes frågor.HTM",
+          "filstorlek": "5552",
+          "filtyp": "htm",
+          "subtitel": null,
+          "titel": "Dagordning för rådet rättsliga och inrikes frågor"
+        },
+        {
+          "dok_id": "H20N2EA7CF",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/22F042AB-ED5A-4588-909A-286D65B6F1BC')",
+          "filnamn": "Dagordning för rådet transport, telekommunikation och energi.HTM",
+          "filstorlek": "4061",
+          "filtyp": "htm",
+          "subtitel": null,
+          "titel": "Dagordning för rådet transport, telekommunikation och energi"
+        },
+        {
+          "dok_id": "H20N2EA985",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/62B2E9F9-5834-4D63-99EF-FD3D9353E6A3')",
+          "filnamn": "RIF, komplettering till kommenterad dagordning, dp. 9.doc",
+          "filstorlek": "63488",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "RIF, komplettering till kommenterad dagordning, dp. 9"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "1",
+      "datum": "2014-10-03",
+      "debattnamn": "Kallelse och föredragningslista",
+      "dok_id": "H20L1",
+      "doktyp": "kf-lista",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H20L1')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H20L1/text')",
+      "dokumentnamn": "Kallelse och föredragningslista",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H20L1')",
+      "hangar_id": "3057599",
+      "html": "<h2>EU-nämnden</h2>\r\n<h3>Kallelse och föredragningslista 2014/15:1</h3><br>\r\nMöte: Sammanträde med EU-nämnden<br>\r\nDatum: 2014-10-03 kl. 08:00<br>\r\nPlats: Skandiasalen (N3)<br>\r\n<br><h3>Föredragningslista</h3>\r\n<ol class=\"pabid1\"><li style=\"list-style-type: decimal;\"><b>Rättsliga och inrikes frågor<br></b>Justitieminister Beatrice Ask<br>Återrapport från möte i rådet den 5-6 juni<br>Återrapport från informellt ministermöte den 8-9 juli<br>Information och samråd inför möte i rådet den 9-10 oktober<li style=\"list-style-type: decimal;\">(ca. 08.40) <span style=\"text-decoration: underline; \"><b>Transport</b></span><b>, telekommunikation och energi<br></b>Statsrådet Catharina Elmsäter-Svärd<br>Återrapport från möte i rådet den 5 juni<br>Återrapport från informellt ministermöte den 16-17 september<br>Information och samråd inför möte i rådet den 8 oktober<li style=\"list-style-type: decimal;\"><b>Justering<br></b>     ? protokoll från sammanträdet den 26 september<br>     ? stenografiska uppteckningar från sammanträdet den 19 september<li style=\"list-style-type: decimal;\"><b>(ev.) Övrigt</b><br><br><b>Anm.: </b>Nästa sammanträde med ny nämnd äger rum <span style=\"text-decoration: underline; \"><b>onsdagen den 8 oktober kl. 09.00</b></span> i Skandiasalen (N3)<br>* Konstituerande sammanträde</ol>",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "1",
+      "organ": "EUN",
+      "pretext": null,
+      "publicerad": "2014-09-30T16:52:37.000000",
+      "relaterat_id": null,
+      "rm": "2014/15",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "eunsamdok",
+      "sourceid": null,
+      "status": null,
+      "subtitel": "EU-nämndens sammanträde 2014-10-03",
+      "subtyp": null,
+      "systemdatum": "2014-09-30T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Kallelse och föredragningslista 2014/15:1",
+      "typ": "kf-lista",
+      "typrubrik": "Kallelse och föredragningslista 2014/15:1 EU-nämndens sammanträde 2014-10-03",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

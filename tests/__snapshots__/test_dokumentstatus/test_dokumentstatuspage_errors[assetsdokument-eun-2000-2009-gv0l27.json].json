@@ -1,0 +1,171 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "GV0N15819",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/0E43F9E7-A1D2-4C68-B346-99DB1CB9EE58')",
+          "filnamn": "Kommenterad dagordning JoF.doc",
+          "filstorlek": "87552",
+          "filtyp": "doc",
+          "subtitel": "Till p. 1 (Jordbruk och fiske)",
+          "titel": "Kommenterad dagordning JoF"
+        },
+        {
+          "dok_id": "GW0N1A2023",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/C957D85B-EEF4-4D8A-85B4-70E11EE3817E')",
+          "filnamn": "03 RådsPM Eurovinjett.doc",
+          "filstorlek": "79872",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "03 RådsPM Eurovinjett"
+        },
+        {
+          "dok_id": "GW0N1A2024",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/E5D0D6D4-697E-463B-B1D1-A5DEFD96DBD6')",
+          "filnamn": "04 RådsPM mobilt arbete.doc",
+          "filstorlek": "76288",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "04 RådsPM mobilt arbete"
+        },
+        {
+          "dok_id": "GW0N1A2025",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/5E41E353-8A5B-4DB5-9803-E8708F0A5B40')",
+          "filnamn": "05 RådsPM ITS-plan.doc",
+          "filstorlek": "67072",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "05 RådsPM ITS-plan"
+        },
+        {
+          "dok_id": "GW0N1A2026",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/8494F717-4553-4559-94FB-5402C7F98EA3')",
+          "filnamn": "06 a b rådsPM SESAR.doc",
+          "filstorlek": "76800",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "06 a b rådsPM SESAR"
+        },
+        {
+          "dok_id": "GW0N1A2027",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/BE5E9D4C-CB34-4451-BEF0-F4EF7B90F48A')",
+          "filnamn": "07 rådsPM EU-Canada luftfartsavtal rev.doc",
+          "filstorlek": "64512",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "07 rådsPM EU-Canada luftfartsavtal rev"
+        },
+        {
+          "dok_id": "GW0N1A2028",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/96B1324E-07BD-4541-B835-852436C6151D')",
+          "filnamn": "08 RådsPM Fartygspassagerarförordningen.doc",
+          "filstorlek": "79360",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "08 RådsPM Fartygspassagerarförordningen"
+        },
+        {
+          "dok_id": "GW0N1A2029",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/B563EF13-CE97-4587-B4EB-41128634FA50')",
+          "filnamn": "09 RådsPM sjöfartspolitiken 2018.doc",
+          "filstorlek": "74240",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "09 RådsPM sjöfartspolitiken 2018"
+        },
+        {
+          "dok_id": "GW0N1A202A",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/CF73760D-0D2B-4411-9E4E-FAF361E5A79F')",
+          "filnamn": "10 RådsPM sjöfartsområde utan hinder.doc",
+          "filstorlek": "74240",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "10 RådsPM sjöfartsområde utan hinder"
+        },
+        {
+          "dok_id": "GW0N1A202B",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/99CA439F-6AF6-4FD1-A86D-75432157914B')",
+          "filnamn": "11 RådsPM tillgängligt infosamhälle.doc",
+          "filstorlek": "72192",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "11 RådsPM tillgängligt infosamhälle"
+        },
+        {
+          "dok_id": "GW0N1A202C",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/28B2157F-BA04-461F-B030-1E1E1F20E3D4')",
+          "filnamn": "12 RådsPM ICT and economic downturn.doc",
+          "filstorlek": "67584",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "12 RådsPM ICT and economic downturn"
+        },
+        {
+          "dok_id": "GW0N1A202D",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/279B383A-25CC-4EE7-AB79-23D125469D5F')",
+          "filnamn": "Kommenterad dagordning TTE 090330-31.doc",
+          "filstorlek": "147456",
+          "filtyp": "doc",
+          "subtitel": null,
+          "titel": "Kommenterad dagordning TTE 090330-31"
+        },
+        {
+          "dok_id": "GW0N1A41B8",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/02CA1117-6707-43B6-ADE8-743C42550307')",
+          "filnamn": "Dagordning för rådet Transport, telekommunikation och energi (transport och telekommunikation).HTM",
+          "filstorlek": "9103",
+          "filtyp": "htm",
+          "subtitel": null,
+          "titel": "Dagordning för rådet Transport, telekommunikation och energi (transport och telekommunikation)"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "27",
+      "datum": "2008-03-14",
+      "debattnamn": null,
+      "dok_id": "GV0L27",
+      "doktyp": "kf-lista",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/GV0L27')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GV0L27/text')",
+      "dokumentnamn": null,
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GV0L27')",
+      "hangar_id": "2414694",
+      "html": "\r\n  <body>\r\n    <div class=\"eun_kallelse\">\r\n      <h2>EU-nämnden</h2>\r\n      <h3>Kallelse och föredragningslista 2007/08:27</h3>\r\n      <br>\r\n      Möte: Sammanträde med EU-nämnden<br>\r\n      Datum: 2008-03-14 kl. 09.30<br>\r\n      Plats: Skandiasalen (N3)<br><br><b>Föredragningslista</b><br><br>1.\r\nJordbruk och fiske<br>Jordbruksminister Eskil Erlandsson<br>Återrapport från ministerrådsmötet <br>den 18 februari 2008<br>Information och samråd inför <br>ministerrådsmöte den 17 mars 2008<br><br>2.\r\n(ca.10.00) Mål vid EG-domstolen<br>Departementsrådet Anna Falk<br><br>3.\r\nJustering av dels protokoll från sammanträdena den 7 och 12 mars, dels stenografiska uppteckningar från sammanträdena den 22 och 25 februari<br><br><br>4.\r\nÖvriga frågor<br><br><br><b>Anmärkningar</b><br>Anm.: Nästa sammanträde äger rum tisdagen <br>           den 18 mars och behandlar:<br>           * Återrapportering från Europeiska rådet <br><br>            Fredagen den 4 april behandlas:<br>            * Transport<br></div>\r\n  ",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "27",
+      "organ": "EUN",
+      "pretext": null,
+      "publicerad": "2008-03-19T09:19:09.000000",
+      "relaterat_id": null,
+      "rm": "2007/08",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "EUNSYS",
+      "sourceid": null,
+      "status": null,
+      "subtitel": "EU-nämndens sammanträde 2008-03-14",
+      "subtyp": null,
+      "systemdatum": "2008-03-19T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Kallelse och föredragningslista 2007/08:27",
+      "typ": "kf-lista",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

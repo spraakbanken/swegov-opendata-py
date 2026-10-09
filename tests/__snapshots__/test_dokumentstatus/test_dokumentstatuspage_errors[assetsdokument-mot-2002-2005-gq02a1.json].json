@@ -1,0 +1,173 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2002-10-10T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "HÄN",
+          "namn": "Hänvisning",
+          "ordning": "2",
+          "process": "hanvisning",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2002-10-08T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "B",
+          "namn": "Bordläggning",
+          "ordning": "1",
+          "process": "hanvisning",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2002-10-07T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "INL",
+          "namn": "Inlämning",
+          "ordning": "13",
+          "process": "hantering",
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": null,
+    "dokforslag": {
+      "forslag": [
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2002/03:AU1",
+          "behandlas_i_punkt": null,
+          "beteckning": "1",
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": null,
+          "kammarbeslutstyp": "Acklamation",
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om en utvärdering av den öppna samordningsmetoden utifrån demokratihänsyn.",
+          "lydelse2": null,
+          "nummer": 1,
+          "utskottet": " Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2002/03:AU1",
+          "behandlas_i_punkt": null,
+          "beteckning": "2",
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": null,
+          "kammarbeslutstyp": "Acklamation",
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om ett program för tillväxt och konkurrenskraft baserat på kunskap.",
+          "lydelse2": null,
+          "nummer": 2,
+          "utskottet": " Avslag"
+        },
+        {
+          "andringsforfattning": null,
+          "avsnitt": null,
+          "behandlas_i": "2002/03:AU1",
+          "behandlas_i_punkt": null,
+          "beteckning": "3",
+          "grundforfattning": null,
+          "hangar_id": null,
+          "intressent": null,
+          "kammarbeslutstyp": "Acklamation",
+          "kammaren": "Avslag",
+          "lydelse": "Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om att andelen visstidsanställningar skall minska.",
+          "lydelse2": null,
+          "nummer": 3,
+          "utskottet": " Avslag"
+        }
+      ]
+    },
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0841428824218",
+          "namn": "Camilla Sköld Jansson",
+          "ordning": "1",
+          "partibet": "V",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0926555793514",
+          "namn": "Anders Wiklund",
+          "ordning": "2",
+          "partibet": "V",
+          "roll": "undertecknare"
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "A1",
+      "datum": "2002-10-07",
+      "debattnamn": null,
+      "dok_id": "GQ02A1",
+      "doktyp": "mot",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/GQ02A1')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GQ02A1/text')",
+      "dokumentnamn": null,
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GQ02A1')",
+      "hangar_id": "2242441",
+      "html": "\r\n\r\n<div class=\"sidhuvud_publikation\">Motion till riksdagen</div>\r\n<div class=\"sidhuvud_beteckning\">2002/03:A1</div>\r\n<div class=\"MotionarLista\">av Camilla Sköld Jansson och Anders Wiklund (v)</div>\r\n<h1>med anledning av skr. 2001/02:187 Sveriges genomförande av EU:s sysselsättningsstrategi</h1>\r\n<hr class=\"sidhuvud_linje\">\r\n\r\n    <h1 class=\"Hemstl95rubrik\">Förslag till riksdagsbeslut</h1>\r\n    <ol class=\"OL-decimal\">\r\n      <li>\r\n        <p class=\"Hemstl95att44HemstPunkt44HemstPunktFlera44Hemst228llansPunkt44F246rslagstext\">Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om en utvärdering av den öppna samordningsmetoden utifrån demokratihänsyn.</p>\r\n      </li>\r\n      <li>\r\n        <p class=\"Hemstl95att44HemstPunkt44HemstPunktFlera44Hemst228llansPunkt44F246rslagstext\">Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om ett program för tillväxt och konkurrenskraft baserat på kunskap.</p>\r\n      </li>\r\n      <li>\r\n        <p class=\"Hemstl95att44HemstPunkt44HemstPunktFlera44Hemst228llansPunkt44F246rslagstext\">Riksdagen tillkännager för regeringen som sin mening vad i motionen anförs om att andelen visstidsanställningar skall minska.</p>\r\n      </li>\r\n    </ol>\r\n    <h1 class=\"heading321\">Öppna samordningsmetoden</h1>\r\n    <p class=\"Normal44BeslutDnr\">Sysselsättningsstrategin bygger på ett mellanstatligt samarbete. Sysselsättningspolitiken är nationell och ansvaret för utformning och genomförande ligger på respektive medlemsland. I enlighet med Amsterdamfördraget bygger samarbetet på vad som kommit att kallas öppna samordningsmetoden. Metoden omfattar gemensamma målsättningar och riktlinjer samt övervakning och uppföljning med hjälp av indikatorer och rekommendationer. I skrivelsen uttalar regeringen en positiv inställning till öppna samordningsmetoden vilken beskrivs som betydelsefull.</p>\r\n    <p class=\"Normal32Indent44Normal95indrag44Normal32Indrag\">Vänsterpartiet menar att det är viktigt att värna det nationella självbestämmandet och vi instämmer i uppfattningen att sysselsättningspolitiken ska vara en nationell angelägenhet. Vi har dock en problematiserande inställning till öppna samordningsmetoden. Den är, som namnet anger, en metod för samordning och inte för samarbete. Metoden har dessutom brister när det gäller insyn och processen är otydlig som grund för ansvarsutkrävande.</p>\r\n    <p class=\"Normal32Indent44Normal95indrag44Normal32Indrag\">Den öppna samordningsmetoden är en av frågorna som ska diskuteras inom ramen för EU:s framtidsdebatt. Vi menar att en närmare analys av metoden bör göras utifrån demokratiaspekter. Detta bör riksdagen ge regeringen till känna.</p>\r\n    <h1 class=\"heading321\">Kunskapsbaserad ekonomi</h1>\r\n    <p class=\"Normal44BeslutDnr\">I Lissabon beslutade Europeiska rådet om ett nytt strategiskt mål för unionen: att bli världens mest konkurrenskraftiga och dynamiska kunskapsbaserade ekonomi ... Vänsterpartiet välkomnar målsättningen om en konkurrenskraft byggd på kunskap. Enligt Vänsterpartiet förstärker en sådan målsättning politikens betydelse och talar för behov av långsiktighet, behov av statligt ansvar för forskning och teknikutveckling, att arbetskraften ses som en resurs att utveckla, och att trygga anställningar, goda utvecklande arbetsmiljöer och bra löner utgör viktiga förutsättningar. Detta är en annan väg än att bygga konkurrenskraft på minskad offentlig sektor, sämre arbetsrätt, tillfälliga anställningar osv.</p>\r\n    <p class=\"Normal32Indent44Normal95indrag44Normal32Indrag\">Positiva förslag har bland annat kommit från arbetsgruppen Framtid för svensk industri (Bennetgruppen). Satsningar på t.ex. Nanoteknik förenar tillväxt med ekologiskt hållbar utveckling. Gruppen betonar också bättre integration och mångfald som en viktig del i att öka konkurrenskraften.</p>\r\n    <p class=\"Normal32Indent44Normal95indrag44Normal32Indrag\">Vi menar att ett kraftfullt, samlat initiativ bör tas och att ett brett politiskt program bör utarbetas där strategier för kunskap som konkurrenskraft utvecklas. Detta bör riksdagen ge regeringen till känna.</p>\r\n    <h1 class=\"heading321\">Jämställdhet</h1>\r\n    <p class=\"Normal44BeslutDnr\">Vi kan konstatera att Sverige har en hög förvärvsfrekvens bland kvinnor och att den offentliga sektorn är en viktig orsak till detta. Arbetet med att bryta könssegregeringen ska därför gå hand i hand med ett försvar av offentlig verksamhet. Kvinnor har också oftare tillfälliga och otrygga anställningar. Flexibilitet i ekonomin får inte innebära ökade sociala klyftor och könsdiskriminerande anställningsformer. Flexibiliteten måste i stället utgå från ett bättre system för vuxenutbildning, individuell kompetensutveckling etc., och kombineras med minskat antal visstidsanställningar, ökade möjligheter att prova nya yrken och branscher och bättre möjligheter att pendla i utvidgade arbetsmarknadsregioner som alternativ till krav på ofrivilligt byte av bostadsort. En likvärdig skola med god offentlig service i hela Sverige minskar tröskeleffekter i ekonomin.</p>\r\n    <p class=\"Normal32Indent44Normal95indrag44Normal32Indrag\">Personal med tillfälliga anställningar har sämre påverkansmöjligheter och ges mindre personalutbildning. Otryggheten hämmar kreativiteten och minskar utrymmet för utvecklande kritik från löntagarna. För att förstärka tillväxtmöjligheter baserat på kunskap måste fler människor få tillsvidareanställningar. Andelen otrygga anställningar måste minska i enlighet med den politiska överenskommelse som gjorts mellan regeringen, Vänsterpartiet och Miljöpartiet. Detta bör riksdagen ge regeringen till känna.</p>\r\n    <table border=\"0\" summary=\"(unspecified contents)\">\r\n    <colgroup><col width=\"198\" /><col width=\"203\" /></colgroup>\r\n      <tr>\r\n        <td valign=\"top\">\r\n          <p class=\"UnderskriftDatum\">Stockholm den 7 oktober 2002</p>\r\n        </td>\r\n        <td valign=\"top\" />\r\n      </tr>\r\n      <tr>\r\n        <td valign=\"top\">\r\n          <p class=\"Underskrifter\">Camilla Sköld Jansson (v)</p>\r\n        </td>\r\n        <td valign=\"top\">\r\n          <p class=\"Underskrifter\">Anders Wiklund (v)</p>\r\n        </td>\r\n      </tr>\r\n    </table>\r\n\r\n\r\n<LINK href=\"/debatt/dokument.css\" type=\"text/css\" rel=\"stylesheet\">\r\n\r\n<label id=\"statussida\"><br>\r\n<label id=\"div_debug\" class=\"liten\">\r\n\r\n<div id=\"divOCL\" class=\"liten\"></div></label></label>\r\n",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "1",
+      "organ": "AU",
+      "pretext": null,
+      "publicerad": "2002-10-07T00:00:00.000000",
+      "relaterat_id": null,
+      "rm": "2002/03",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "webbnav",
+      "sourceid": "{A5331EDE-DA90-11D6-AE58-0001030924C1}",
+      "status": null,
+      "subtitel": "av Camilla Sköld Jansson och Anders Wiklund (v)",
+      "subtyp": "Enskild motion",
+      "systemdatum": "2005-11-03T00:00:00.000000",
+      "tempbeteckning": "v3",
+      "text": null,
+      "titel": "med anledning av skr. 2001/02:187 Sveriges genomförande av EU:s sysselsättningsstrategi",
+      "typ": "mot",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": null,
+          "kod": "motkat",
+          "namn": "Motionskategori",
+          "systemdatum": null,
+          "text": "Följdmotion"
+        },
+        {
+          "dok_id": null,
+          "kod": "motgrund",
+          "namn": "Motionsgrund",
+          "systemdatum": null,
+          "text": "Regeringsskrivelse 2001/02:187"
+        },
+        {
+          "dok_id": null,
+          "kod": "tilldelat",
+          "namn": "Tilldelat",
+          "systemdatum": null,
+          "text": "Arbetsmarknadsutskottet"
+        }
+      ]
+    },
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}
