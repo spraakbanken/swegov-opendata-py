@@ -44,7 +44,7 @@ _DOKUMENT_TYP_MAP: dict[str, str] = {
 }
 
 
-class DokumentTyp(str, enum.Enum):
+class DokumentTyp(enum.StrEnum):
     Bet = "bet"
     Diarie = "diarie"
     Dir = "dir"

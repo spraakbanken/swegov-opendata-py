@@ -6,7 +6,7 @@ import pydantic
 from swegov_opendata import shared
 
 
-class FilTyp(str, enum.Enum):
+class FilTyp(enum.StrEnum):
     Doc = "doc"
     Docx = "docx"
     Htm = "htm"

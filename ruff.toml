@@ -1,5 +1,5 @@
 line-length = 97
-target-version = "py310"
+target-version = "py311"
 
 [lint]
 select = [
@@ -44,7 +44,6 @@ ignore = [
   "SIM105",  # flake8-simplify: suppressible-exception
   "T201",  # `print` found
 ]
-preview = true
 # Avoid trying to fix flake8-bugbear (`B`) violations.
 unfixable = ["B"]
 

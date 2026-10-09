@@ -1,12 +1,12 @@
+import enum
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
-from enum import Enum
 from xml.etree.ElementTree import Element
 
 from pydantic import HttpUrl
 
 
-class DataFormat(str, Enum):
+class DataFormat(enum.StrEnum):
     json = "json"
     csv = "csv"
     csvt = "csvt"
