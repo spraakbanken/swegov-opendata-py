@@ -5,7 +5,7 @@ fail_fast: false
 
 exclude: |
   (?x)^(
-    .github/workflows/release-sentence-sentiment-kb-sent.yml
+    .github/workflows/release.yml
   )$
 
 repos:
