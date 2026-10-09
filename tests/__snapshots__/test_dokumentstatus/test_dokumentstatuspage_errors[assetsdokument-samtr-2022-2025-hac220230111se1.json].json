@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "20230111se1",
+      "datum": "2023-01-11",
+      "debattnamn": "Öppet seminarium",
+      "dok_id": "HAC220230111se1",
+      "doktyp": "sam-se",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/HAC220230111se1')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/HAC220230111se1/text')",
+      "dokumentnamn": "Öppet seminarium",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/HAC220230111se1')",
+      "hangar_id": "5163337",
+      "html": "<p>Detta är ett test på svenska.</p>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "1",
+      "organ": null,
+      "pretext": null,
+      "publicerad": "2023-01-11T13:00:45.000000",
+      "relaterat_id": null,
+      "rm": "2022/23",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "CMS",
+      "sourceid": "126287",
+      "status": null,
+      "subtitel": null,
+      "subtyp": "se",
+      "systemdatum": "2023-01-11T00:00:00.000000",
+      "tempbeteckning": "HAC220230111se",
+      "text": null,
+      "titel": "Testsändning svenska",
+      "typ": "samtr",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": null,
+          "datum": "2023-01-11T12:00:00.000000",
+          "debateurl": "/sv/webb-tv/video/oppet-seminarium/testsandning-svenska_HAC220230111se1",
+          "debatt_rm": "2022/23",
+          "debatt_typ": "se",
+          "debattsekunder": 7502,
+          "dok_beteckning": "Testsändning svenska",
+          "dok_id": "HAC220230111se1",
+          "downloadurl": null,
+          "inspelningstyp": "Inspelning",
+          "source": "Rim",
+          "systemdatum": "2023-01-11T16:29:38.000000",
+          "thumbnailurl": null,
+          "url": "https://mamstream.riksdagen.se/riksdagenlive/coder_2442301110030663421.sdp/playlist.m3u8?DVR&wowzadvrplayliststart=0&wowzadvrplaylistduration=7502880",
+          "videofileurl": "https://mamstream.riksdagen.se/riksdagenlive/coder_2442301110030663421.sdp/playlist.m3u8?DVR&wowzadvrplayliststart=0&wowzadvrplaylistduration=7502880",
+          "videostatus": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "stalldtill"
+        },
+        {
+          "intressent_id": "0000000000000",
+          "namn": null,
+          "ordning": "1",
+          "partibet": null,
+          "roll": "besvaradav"
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "370",
+      "datum": "2000-04-25",
+      "debattnamn": null,
+      "dok_id": "GN10370",
+      "doktyp": "ip",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/GN10370')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GN10370/text')",
+      "dokumentnamn": null,
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GN10370')",
+      "hangar_id": "2426010",
+      "html": "<FONT SIZE=3><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=windows-1252\"><META NAME=\"Generator\" CONTENT=\"Microsoft Word 97\"><TITLE>Pass  370</TITLE><META NAME=\"subject\" CONTENT=\"Snabbprotokoll\"><META NAME=\"Datum\" CONTENT=\"2000-04-25\"><META NAME=\"Nummer\" CONTENT=\"370\"><META NAME=\"FragestallareFnamn\" CONTENT=\"Jan-Evert\"><META NAME=\"FragestallareEnamn\" CONTENT=\"Rådhström\"><META NAME=\"Parti\" CONTENT=\"m\"><META NAME=\"BesvarasAv\" CONTENT=\"näringsminister Björn Rosengren\"><META NAME=\"Rubrik\" CONTENT=\"väntetid för kontrollbesiktning av fordon\"><META NAME=\"Template\" CONTENT=\"P:\\MSOFFICE\\MALLAR\\Prot5.dot\"></HEAD><BODY><I><FONT FACE=\"Courier New\"><P><A NAME=\"PassTempLäge\"></A>den 25 april</P></I><B><P>Interpellation 1999/2000:370</B> av <I>Jan-Evert R&aring;dhstr&ouml;m</I> (m) till n&auml;ringsminister Bj&ouml;rn Rosengren om v&auml;ntetid f&ouml;r kontrollbesiktning av fordon</P><P><A NAME=\"Temp\"></A>V&aring;ren &auml;r h&auml;r och d&auml;rmed &auml;ven allt l&auml;ngre k&ouml;er till landets bilprovningsanl&auml;ggningar. Den allt vanligare direktimporten av utl&auml;ndska bilar s&auml;tter ocks&aring; &ouml;kad press p&aring; anl&auml;ggningarna. N&auml;r man unders&ouml;ker v&auml;ntel&auml;get runtom i landet blir man f&ouml;rskr&auml;ckt &ouml;ver hur l&aring;ng tid man kan f&aring; v&auml;nta p&aring; en besiktningstid. M&aring;nga f&ouml;rhoppningsfulla husvagns&auml;gare med besiktningstid fram till i juni kan exempelvis f&aring; se hela sin semesterdr&ouml;m kraschad n&auml;r besiktning inte kan ske f&ouml;rr&auml;n kanske tidigast i september.</P><P>Av bilprovningarnas rapporter fr&aring;n vecka 14 framgick att v&auml;ntetiden f&ouml;r kontrollbesiktning d&aring; var upp till tio veckor p&aring; sina h&aring;ll. En annan intressant notering fr&aring;n n&auml;mnda rapporter var att &ouml;vertid var mera regel &auml;n undantag. Detta f&ouml;rekom b&aring;de p&aring; kv&auml;llar och p&aring; helgdagar. En annan vanlig kommentar var att nyrekrytering av personal p&aring;gick.</P><P>&Auml;ven yrkestrafiken reagerar p&aring; de l&aring;nga v&auml;ntetiderna hos bilprovningsanl&auml;ggningarna. &Aring;kerierna i Sk&aring;ne s&auml;ger sig kunna f&aring; permittera chauff&ouml;rer p&aring; grund av att bilarna inte kan besiktigas i tid. V&auml;rst st&auml;llt &auml;r det i nordv&auml;stra Sk&aring;ne som har en v&auml;ntetid till besiktning p&aring; upp till 79 dagar.</P><P>Till h&ouml;sten ska Bilprovningen i Helsingborg f&ouml;rs&ouml;ka l&ouml;sa krisen genom att hyra in sig i en &aring;kerilokal, d&auml;r en ny station f&ouml;r tung trafik &ouml;ppnar. I maj &ouml;ppnar &auml;ven en ny bokningscentral som kan f&ouml;rdela tiderna &ouml;ver landet. Lastbilschauff&ouml;rerna som k&ouml;r norr&ouml;ver ska d&aring; kunna besikta n&aring;gonstans efter v&auml;gen d&auml;r det &auml;r mindre belastning.</P><P>Inom det begr&auml;nsade handlingsutrymme som det statliga &auml;gandet och monopolsituationen ger Svensk Bilprovning f&ouml;rs&ouml;ker man m&ouml;ta kundernas krav. Tyv&auml;rr visar dock verkligheten att situationen &auml;nd&aring; blir bara s&auml;mre och s&auml;mre. </P><P>Vid den muntliga fr&aring;gestunden den 30&nbsp;mars tog jag upp Bilprovningens l&aring;nga v&auml;ntetider med bitr&auml;dande statsminister Lena Hjelm-Wall&eacute;n som d&aring; f&ouml;rf&auml;ktade den meningen att det redan finns privata akt&ouml;rer som kan ta upp konkurrensen med Svensk Bilprovning. Detta uttalande kom som en total &ouml;verraskning och f&ouml;refaller mig vara ett rent &ouml;nsket&auml;nkande fr&aring;n vice statsministerns sida. </P><P>Visserligen har m&aring;nga p&aring;pekat att regeringen borde sl&auml;ppa p&aring; fordonskontrollmonopolet, bl.a. Konkurrensverket, men &auml;nnu har det inte kommit n&aring;got f&ouml;rslag.</P><P>I andra sammanhang har dock regeringen numera insett att konkurrens &auml;r bra. S&aring; sent som i regeringens proposition 1999/2000:78 skrev N&auml;ringsdepartementet aprop&aring; SJ f&ouml;ljande:</P><P>&quot;Det &auml;r viktigt att SJ ges m&ouml;jlighet att p&aring; b&auml;sta s&auml;tt tillgodose kundernas krav p&aring; service, kvalitet och tillg&auml;nglighet samtidigt som f&ouml;ruts&auml;ttningarna f&ouml;r en effektiv konkurrens p&aring; marknaden f&ouml;rst&auml;rks och d&auml;rmed ocks&aring; f&ouml;ruts&auml;ttningarna f&ouml;r ytterligare kostnadsbesparingar och d&auml;rigenom priss&auml;nkningar f&ouml;r konsumenterna.&quot; </P><P>Den reflektion som kan g&ouml;ras &auml;r att regeringen inte behandlar det f&auml;rdmedel som st&aring;r f&ouml;r 80&nbsp;% av transporterna i landet p&aring; samma s&auml;tt som andra transportmedel. N&auml;r l&aring;nga k&ouml;er till fordonskontrollen drabbar motorcyklar och husvagnar m&aring; kanske ansvarige minister kunna rycka p&aring; axlarna, men n&auml;r n&auml;ringsverksamhet drabbas av st&ouml;rningar &auml;r det v&auml;l dags att dra &aring;t sig &ouml;ronen.</P><P>Jag vill d&auml;rf&ouml;r st&auml;lla f&ouml;ljande fr&aring;ga:</P><P>Vilka &aring;tg&auml;rder &auml;mnar n&auml;ringsministern vidta f&ouml;r att k&ouml;erna till kontrollbesiktningen ska minska?</P></FONT>",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": "näringsminister Björn Rosengren",
+      "nummer": "370",
+      "organ": "m",
+      "pretext": null,
+      "publicerad": "2000-04-25T00:00:00.000000",
+      "relaterat_id": null,
+      "rm": "1999/2000",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": null,
+      "sourceid": null,
+      "status": null,
+      "subtitel": "Rådhström, Jan-Evert (m)",
+      "subtyp": null,
+      "systemdatum": "2009-03-31T00:00:00.000000",
+      "tempbeteckning": "m",
+      "text": null,
+      "titel": "väntetid för kontrollbesiktning av fordon",
+      "typ": "ip",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

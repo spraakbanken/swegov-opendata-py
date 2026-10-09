@@ -1,0 +1,538 @@
+{
+  "dokumentstatus": {
+    "debatt": {
+      "anforande": [
+        {
+          "anf_beteckning": "2022/23:26-3",
+          "anf_datum": "2022-11-24T00:00:00.000000",
+          "anf_hangar_id": 5157651,
+          "anf_id": "8341A8E2-BA95-4A4B-BC5E-5C60493CC300",
+          "anf_klockslag": "12:23:37",
+          "anf_nummer": "3",
+          "anf_rm": "2022/23",
+          "anf_sekunder": 26,
+          "anf_text": "<p>Herr talman! Detta blir nog ett superkort anförande. Jag vill passa på att yrka bifall till Centerpartiets motion i detta betänkande - hela motionen som sådan.</p>",
+          "anf_typ": "speech",
+          "anf_video_id": "8341A8E2-BA95-4A4B-BC5E-5C60493CC300",
+          "datumtid": "2022-11-24T12:23:37.000000",
+          "debatt_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "debatt_titel": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+          "debatt_typ": "Arbetsplenum",
+          "dok_beteckning": "CU4",
+          "dok_id": "HA01CU4",
+          "dok_intressent": "CU",
+          "intressent_id": "4099ff9c-5d27-4605-b018-98fb229d94fa",
+          "kon": "male",
+          "parent_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "parti": "C",
+          "startpos": 17,
+          "systemdatum": "2022-11-24T12:32:15.000000",
+          "talare": "Alireza Akhondi (C)",
+          "talare_kort": "Alireza Akhondi",
+          "tumnagel": null,
+          "tumnagel_liten": null,
+          "tumnagel_medium": null,
+          "tumnagel_mini": null,
+          "tumnagel_stor": null,
+          "video_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "video_url": "2D243615-4165-4F55-ACBE-3175A421705A#17",
+          "videostatus": 2,
+          "voteringspunkt": null
+        },
+        {
+          "anf_beteckning": "2022/23:26-4",
+          "anf_datum": "2022-11-24T00:00:00.000000",
+          "anf_hangar_id": 5157652,
+          "anf_id": "CE5A125D-3389-4C9F-B323-EE8E9EE05795",
+          "anf_klockslag": "12:24:21",
+          "anf_nummer": "4",
+          "anf_rm": "2022/23",
+          "anf_sekunder": 35,
+          "anf_text": "<p>Herr talman! Ingen av oss hade förväntat sig att vi skulle ha en debatt i detta ärende. Eftersom varken något av regeringspartierna eller deras stödparti behagar vara i kammaren när detta ändå kommer upp känner jag mig, eftersom den förra regeringen jobbade med denna fråga, tvungen att yrka avslag på yrkandet och bifall till utskottets förslag.</p><p>(Applåder)</p><p>Överläggningen var härmed avslutad.</p><p>(Beslut fattades under § 8.)</p>",
+          "anf_typ": "speech",
+          "anf_video_id": "CE5A125D-3389-4C9F-B323-EE8E9EE05795",
+          "datumtid": "2022-11-24T12:24:21.000000",
+          "debatt_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "debatt_titel": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+          "debatt_typ": "Arbetsplenum",
+          "dok_beteckning": "CU4",
+          "dok_id": "HA01CU4",
+          "dok_intressent": "CU",
+          "intressent_id": "47705a06-b78d-469f-9ebe-8f7407607be6",
+          "kon": "male",
+          "parent_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "parti": "S",
+          "startpos": 61,
+          "systemdatum": "2022-11-24T12:24:56.000000",
+          "talare": "Denis Begic (S)",
+          "talare_kort": "Denis Begic",
+          "tumnagel": null,
+          "tumnagel_liten": null,
+          "tumnagel_medium": null,
+          "tumnagel_mini": null,
+          "tumnagel_stor": null,
+          "video_id": "2D243615-4165-4F55-ACBE-3175A421705A",
+          "video_url": "2D243615-4165-4F55-ACBE-3175A421705A#61",
+          "videostatus": 2,
+          "voteringspunkt": null
+        }
+      ]
+    },
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2022-10-20T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "UBE",
+          "namn": "Beredning",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-10T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "UBE",
+          "namn": "Beredning",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-17T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "JUS",
+          "namn": "Justering",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-18T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "TRY",
+          "namn": "Trycklov",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-23T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "B",
+          "namn": "Bordläggning",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-24T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "BEH",
+          "namn": "Behandling",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        },
+        {
+          "datum": "2022-11-24T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "BES",
+          "namn": "Beslut",
+          "ordning": "0",
+          "process": null,
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "HA01CU4",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/1A69CCBD-55EF-4742-91D9-ADD834E4D3A4')",
+          "filnamn": "2022_23_CU4_20221118102004_Publicering.pdf",
+          "filstorlek": "153007",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "Riksrevisionens rapport om fastighetsbildningen i Sverige"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": {
+      "referens": [
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "4777",
+          "ref_dok_dokumentnamn": "Motion",
+          "ref_dok_id": "H9024777",
+          "ref_dok_rm": "2021/22",
+          "ref_dok_subtitel": "av Ola Johansson (C)",
+          "ref_dok_subtyp": "mot",
+          "ref_dok_titel": "med anledning av skr. 2021/22:265 Riksrevisionens rapport om fastighetsbildningen i Sverige ",
+          "ref_dok_typ": "mot",
+          "referenstyp": "behandlar",
+          "uppgift": "motion 2021/22:4777 med anledning av skr. 2021/22:265 Riksrevisionens rapport om fastighetsbildningen i Sverige "
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "265",
+          "ref_dok_dokumentnamn": "Skrivelse",
+          "ref_dok_id": "H903265",
+          "ref_dok_rm": "2021/22",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": "skr",
+          "ref_dok_titel": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+          "ref_dok_typ": "prop",
+          "referenstyp": "behandlar",
+          "uppgift": "Skrivelse 2021/22:265 Riksrevisionens rapport om fastighetsbildningen i Sverige"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "CU4",
+          "ref_dok_dokumentnamn": "Votering",
+          "ref_dok_id": "HAC320221124CU4",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": "vo",
+          "ref_dok_titel": "Beslut",
+          "ref_dok_typ": "kammakt",
+          "referenstyp": "beslut_id",
+          "uppgift": "Beslut 2022/23:CU4"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "26",
+          "ref_dok_dokumentnamn": "Kammarens föredragningslistor",
+          "ref_dok_id": "HA0I26",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": "Torsdag den 24 november 2022",
+          "ref_dok_typ": "f-lista",
+          "referenstyp": "föredragningslista",
+          "uppgift": "föredragningslista 2022/23:26 Torsdag den 24 november 2022"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "26",
+          "ref_dok_dokumentnamn": "Protokoll",
+          "ref_dok_id": "HA0926",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": "Protokoll 2022/23:26 Torsdagen den 24 november",
+          "ref_dok_typ": "prot",
+          "referenstyp": "protokollbeslut",
+          "uppgift": "2022-11-24"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "26",
+          "ref_dok_dokumentnamn": "Protokoll",
+          "ref_dok_id": "HA0926",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": "Protokoll 2022/23:26 Torsdagen den 24 november",
+          "ref_dok_typ": "prot",
+          "referenstyp": "protokolldebatt",
+          "uppgift": "2022-11-24"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "38",
+          "ref_dok_dokumentnamn": "Riksdagsskrivelse",
+          "ref_dok_id": "HA0K38",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": "rskr",
+          "ref_dok_titel": "Riksdagsskrivelse 2022/23:38",
+          "ref_dok_typ": "rskr",
+          "referenstyp": "rskr",
+          "uppgift": null
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "20221124",
+          "ref_dok_dokumentnamn": "Talarlista",
+          "ref_dok_id": "HA0J20221124",
+          "ref_dok_rm": "2022/23",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": "Torsdag den 24 november 2022",
+          "ref_dok_typ": "t-lista",
+          "referenstyp": "talarlista",
+          "uppgift": "talarlista 2022/23:20221124 Torsdag den 24 november 2022"
+        }
+      ]
+    },
+    "dokument": {
+      "beteckning": "CU4",
+      "datum": "2022-11-18",
+      "debattnamn": "Debatt om förslag",
+      "dok_id": "HA01CU4",
+      "doktyp": "bet",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/HA01CU4')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HA01CU4/text')",
+      "dokumentnamn": "Betänkande",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HA01CU4')",
+      "hangar_id": "5149552",
+      "html": "<style><!--\r\n .w600px{width: 600px;font-family:Verdana, Geneva, sans-serif}\r\nh2.dtyp{font-size:1.5em !important;} \r\n/********************************************************************************************************/\r\n/* Styles for D:\\Logs\\DocumentConverter\\\\Output_96d13844-c5f8-420b-8295-acceed2f5f98\\HTML\\Dokument.html */\r\n/* Generated by Aspose.Words for .NET 15.3.0.0                                                          */\r\n/********************************************************************************************************/\r\n\r\n@page Section1 { size:467.8pt 686.05pt; margin:45.35pt 102.05pt 73.7pt 70.85pt }\r\ndiv.Section1 { page:Section1 }\r\nzbody { text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\nzh1, h2, h3, h4, h5, h6, p { margin:3.1pt 0pt 0pt }\r\nzli, table { margin-top:3.1pt; margin-bottom:0pt }\r\nzh1 { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt; font-weight:normal }\r\nzh2 { margin-top:20pt; margin-bottom:6pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:13.5pt; font-weight:normal }\r\nzh3 { margin-top:20pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\nzh4 { margin-top:15pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:normal; font-style:italic; color:#000000 }\r\nzh5 { margin-top:6.25pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\nzh6 { margin-top:6.25pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:normal; font-style:italic; color:#000000 }\r\n.Heading7 { margin-top:2pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:normal; font-style:italic; color:#243f60 }\r\n.Heading8 { margin-top:2pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9pt; font-weight:normal; color:#272727 }\r\n.Heading9 { margin-top:2pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9pt; font-weight:normal; font-style:italic; color:#272727 }\r\n.Avsnittsrubrik { margin-top:0pt; margin-bottom:27.7pt; text-align:left; page-break-before:always; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:16pt }\r\n.Avvikandemeningrubrik { margin-top:0pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.BalloonText { margin-top:3.1pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:Tahoma; font-size:8pt }\r\n.Bilaga { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-before:always; page-break-after:avoid; line-height:normal; widows:0; orphans:0; font-family:'Verdana'; font-size:8pt; font-variant:small-caps; text-decoration:underline }\r\n.Bilagerubrik { margin-top:0pt; margin-bottom:17.7pt; text-align:left; page-break-after:auto; line-height:normal; widows:0; orphans:0; font-family:'Verdana'; font-size:16pt }\r\n.Bild-Rubrik { margin-top:8pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:10pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\n.Bild-Underrubrik { margin-top:0pt; margin-bottom:1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:8pt; font-family:'Verdana'; font-size:8pt; font-weight:normal; font-style:italic }\r\n.BodyText { margin-top:3.1pt; margin-bottom:0pt; text-align:left; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.BodyTextIndent2 { margin-top:3.1pt; margin-left:14.15pt; margin-bottom:6pt; text-align:justify; line-height:200%; font-family:'Verdana'; font-size:9.5pt }\r\n.Citatindrag { margin-top:0pt; margin-left:14.2pt; margin-bottom:6.1pt; text-indent:14.2pt; text-align:justify; line-height:10pt; font-family:'Verdana'; font-size:9.5pt }\r\n.CommentText { margin-top:3.1pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:10pt }\r\n.Deltagare { margin-top:0pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:9.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Diagram-Rubrik { margin-top:8pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:10pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\n.Diagram-Underrubrik { margin-top:0pt; margin-bottom:1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:8pt; font-family:'Verdana'; font-size:8pt; font-weight:normal; font-style:italic }\r\n.DokumentRubrik { margin-top:6pt; margin-bottom:24pt; text-align:left; line-height:normal; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-bottom:4pt; font-family:'Verdana'; font-size:18pt }\r\n.Dokumentbeteckning { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Footer { margin-top:3.1pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.FootnoteText { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:8pt; font-family:'Verdana'; font-size:8pt }\r\n.Fotnotstextindrag { margin-top:0pt; margin-left:5.65pt; margin-bottom:0pt; text-align:left; line-height:8pt; font-family:'Verdana'; font-size:8pt }\r\n.Frslagspunkt { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\n.Frslagstext { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Frteckningsrubrik { margin-top:9.6pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:9.5pt; font-weight:normal; font-style:italic; color:#000000 }\r\n.Grupprubrik { margin-top:6pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.Grupprubrikindrag { margin-top:6pt; margin-left:22.1pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.Header { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:7.5pt; font-variant:small-caps }\r\n.Innehllsfrteckning { margin-top:0pt; margin-bottom:17.7pt; text-align:left; page-break-before:always; page-break-after:auto; line-height:normal; font-family:'Verdana'; font-size:16pt }\r\n.Kanslikommentar { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Kantrubrik { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:7.5pt }\r\n.ListBullet { margin-top:6.25pt; margin-left:17.85pt; margin-bottom:6.25pt; text-indent:-17.85pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.ListParagraph { margin-top:3.1pt; margin-left:28.35pt; margin-bottom:0pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Litentext { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:8pt }\r\n.Mellanrubrik { margin-top:11pt; margin-bottom:3.1pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.Mellanrum { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-before:auto; page-break-after:auto; line-height:1pt; widows:0; orphans:0; font-family:'Verdana'; font-size:1pt; font-variant:small-caps; text-decoration:none; color:#ffffff }\r\n.NormalIndent { margin-top:0pt; margin-bottom:0pt; text-indent:11.35pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Normalinskjuten { margin-top:0pt; margin-left:22.1pt; margin-bottom:0pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Normalinskjutenindrag { margin-top:0pt; margin-left:22.1pt; margin-bottom:0pt; text-indent:11.35pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Normalinskjutenkursiv { margin-top:6pt; margin-bottom:0pt; line-height:normal; font-family:'Verdana'; font-size:10pt; font-style:italic }\r\n.Normalkursiv { margin-top:3.1pt; margin-bottom:0pt; text-align:left; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.Normalruta { margin:3.1pt 5.65pt 0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; border-top-style:solid; border-top-width:0.75pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-top:4pt; padding-right:4pt; padding-left:4pt; padding-bottom:4pt; font-family:'Verdana'; font-size:10.5pt }\r\n.Normalrutafet { margin:3.1pt 5.65pt 0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; border-top-style:solid; border-top-width:0.75pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-top:4pt; padding-right:4pt; padding-left:4pt; padding-bottom:4pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.Normalrutaindrag { margin:0pt 5.65pt; text-indent:11.35pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; border-top-style:solid; border-top-width:0.75pt; border-top-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-right-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-left-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-bottom-color:#000000; padding-top:4pt; padding-right:4pt; padding-left:4pt; padding-bottom:4pt; font-family:'Verdana'; font-size:10.5pt }\r\n.Normalutanluftfre { margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.NormalNoll { margin-top:0pt; margin-bottom:3.1pt; text-align:left; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.NumlistaTOC { margin:3.1pt 28.35pt 0pt 0pt; text-indent:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.Ordfranden { margin-top:3.1pt; margin-bottom:22pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.OrtochDatum { margin-top:18pt; margin-bottom:18pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.Punktlistabomb { margin-top:6.25pt; margin-left:14.2pt; margin-bottom:6.25pt; text-indent:-14.2pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Punktlistagemener { margin-top:6.25pt; margin-left:14.2pt; margin-bottom:6.25pt; text-indent:-14.2pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Punktlistalinje { margin-top:6.25pt; margin-left:14.2pt; margin-bottom:6.25pt; text-indent:-14.2pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.Punktlistasiffra { margin-top:6.25pt; margin-left:14.2pt; margin-bottom:6.25pt; text-indent:-14.2pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.PVgnar { margin-top:3.1pt; margin-bottom:26pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.Quote { margin-top:6.1pt; margin-left:14.2pt; margin-bottom:0pt; text-align:justify; line-height:10pt; font-family:'Verdana'; font-size:9.5pt }\r\n.R1 { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.R1bilaga { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-after:auto; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.R2 { margin-top:20pt; margin-bottom:6pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:13.5pt }\r\n.R3 { margin-top:20pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.R4 { margin-top:15pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:normal; font-style:italic; color:#000000 }\r\n.R5 { margin-top:6.25pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\n.R6 { margin-top:6.25pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-weight:normal; font-style:italic; color:#000000 }\r\n.Reservationshnvisning { margin-top:0pt; margin-bottom:8pt; text-align:right; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\n.Reservationsrubrik { margin-top:0pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.Revision { margin-bottom:0pt; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.Rubrik1Dokumentinformation { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Rubrik1bilaga { margin-top:0pt; margin-bottom:27.7pt; text-align:left; page-break-after:auto; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Rubrik1medsidhuvud { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-before:always; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Rubrik1numrerat { margin-top:3.1pt; margin-left:0pt; margin-bottom:12pt; text-indent:0pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Rubrik1numreratmedsidhuvud { margin-top:0pt; margin-left:0pt; margin-bottom:16pt; text-indent:0pt; text-align:left; page-break-before:always; page-break-after:avoid; line-height:normal; font-family:'Verdana'; font-size:16pt }\r\n.Rubrik2bilaga { margin-top:20pt; margin-bottom:6pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:13.5pt }\r\n.Rubrik2numrerat { margin-top:20pt; margin-left:0pt; margin-bottom:6pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:13.5pt }\r\n.Rubrik3numrerat { margin-top:20pt; margin-left:0pt; margin-bottom:3.1pt; text-indent:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.Sammanfattning { margin-top:3.1pt; margin-bottom:12pt; text-align:left; page-break-after:auto; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Sidhuvudhgerstlld { margin-top:0pt; margin-bottom:0pt; text-align:right; line-height:normal; font-family:'Verdana'; font-size:7.5pt; font-variant:small-caps }\r\n.Sidhuvudvnsterstlld { margin-top:0pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:7.5pt; font-variant:small-caps }\r\n.Stdrubrik { margin-top:12pt; margin-bottom:0pt; line-height:12pt; font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\n.Srskiltyttranderubrik { margin-top:0pt; margin-bottom:3.1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\n.TOC1 { margin-top:0pt; margin-right:28.35pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC2 { margin:0pt 28.35pt 0pt 5.65pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC3 { margin:0pt 28.35pt 0pt 11.35pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC4 { margin:0pt 28.35pt 0pt 17pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC5 { margin:0pt 28.35pt 0pt 22.7pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC6 { margin-top:0pt; margin-left:47.65pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC7 { margin-top:0pt; margin-right:28.35pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC8 { margin-top:0pt; margin-right:28.35pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOC9 { margin-top:0pt; margin-left:8.5pt; margin-bottom:0pt; text-align:left; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TOCHeading { margin-top:3.1pt; margin-bottom:9pt; text-align:left; page-break-before:always; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Tabell-Kolumnrubrik { margin-bottom:0pt; line-height:12pt; font-family:'Verdana'; font-size:8pt; font-weight:bold }\r\n.Tabell-Klla { margin-top:2pt; margin-bottom:0pt; line-height:8pt; font-family:'Verdana'; font-size:7pt }\r\n.Tabell-Radrubrik { margin-bottom:0pt; line-height:12pt; font-family:'Verdana'; font-size:8pt }\r\n.Tabell-Rubrik { margin-top:12pt; margin-bottom:3pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:10pt; font-family:'Verdana'; font-size:9pt; font-weight:bold }\r\n.Tabell-Siffror { margin-bottom:0pt; text-align:right; line-height:12pt; font-family:'Verdana'; font-size:8pt }\r\n.Tabell-Text { margin-bottom:0pt; line-height:12pt; font-family:'Verdana'; font-size:8pt }\r\n.Tabell-Underrubrik { margin-top:0pt; margin-bottom:1pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:8pt; font-family:'Verdana'; font-size:8pt; font-weight:normal; font-style:italic }\r\n.TableofFigures { margin-top:3.1pt; margin-bottom:0pt; text-align:justify; line-height:normal; font-family:'Verdana'; font-size:9.5pt }\r\n.TillX-utskottet { margin-top:0pt; margin-bottom:12pt; text-align:left; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Title { margin-top:3.1pt; margin-bottom:1pt; text-align:left; line-height:12pt; font-family:'Verdana'; font-size:20pt; letter-spacing:-0.5pt }\r\n.Vapen { margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt; font-family:'Verdana'; font-size:16pt }\r\n.Yrkandelista { margin-top:3.1pt; margin-left:28.35pt; margin-bottom:0pt; text-indent:-28.35pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\n.YrkandelistaEtt { margin-top:3.1pt; margin-left:0pt; margin-bottom:0pt; text-indent:0pt; text-align:justify; line-height:12.5pt; font-family:'Verdana'; font-size:9.5pt }\r\nspan.BallongtextChar { font-family:Tahoma; font-size:8pt }\r\nspan.BilagaChar { font-family:'Verdana'; font-size:8pt; font-variant:small-caps; text-decoration:underline }\r\nspan.BrdtextChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.BrdtextChar1 { font-family:'Verdana'; font-size:9.5pt }\r\nspan.Brdtextmedindrag2Char { font-family:'Verdana'; font-size:9.5pt }\r\nspan.CitatChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.DokumentRubrikChar { font-family:'Verdana'; font-size:18pt }\r\nspan.FootnoteReference { vertical-align:super }\r\nspan.FotnotstextChar { font-family:'Verdana'; font-size:8pt }\r\nspan.FotnotstextindragChar { font-family:'Verdana'; font-size:8pt }\r\nspan.FrslagspunktChar { font-family:'Verdana'; font-size:9.5pt; font-weight:bold; font-style:normal }\r\nspan.Hyperlink { text-decoration:none; color:#000000 }\r\nspan.KommentarerChar { font-family:'Verdana'; font-size:10pt }\r\nspan.NormalkursivChar { font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\nspan.NormaltindragChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.OrdfrandenChar { font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\nspan.OrtochDatumChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.PlaceholderText { color:#808080 }\r\nspan.PVgnarChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.ReservationshnvisningChar { font-family:'Verdana'; font-size:9.5pt; font-style:italic }\r\nspan.Rubrik1Char { font-family:'Verdana'; font-size:16pt }\r\nspan.Rubrik1DokumentinformationChar { font-family:'Verdana'; font-size:16pt }\r\nspan.Rubrik2Char { font-family:'Verdana'; font-size:13.5pt }\r\nspan.Rubrik3Char { font-family:'Verdana'; font-size:10.5pt; font-weight:bold }\r\nspan.Rubrik4Char { font-family:'Verdana'; font-size:10.5pt; font-style:italic; color:#000000 }\r\nspan.Rubrik5Char { font-family:'Verdana'; font-size:9.5pt; font-weight:bold }\r\nspan.Rubrik6Char { font-family:'Verdana'; font-size:9.5pt; font-style:italic; color:#000000 }\r\nspan.Rubrik7Char { font-family:'Verdana'; font-size:9.5pt; font-style:italic; color:#243f60 }\r\nspan.Rubrik8Char { font-family:'Verdana'; font-size:9pt; color:#272727 }\r\nspan.Rubrik9Char { font-family:'Verdana'; font-size:9pt; font-style:italic; color:#272727 }\r\nspan.RubrikChar { font-family:'Verdana'; font-size:20pt; letter-spacing:-0.5pt }\r\nspan.SidfotChar { font-family:'Verdana'; font-size:9.5pt }\r\nspan.SidhuvudChar { font-family:'Verdana'; font-size:7.5pt; font-variant:small-caps }\r\nspan.Tabell-Upphjttecken { font-family:'Verdana'; font-variant:normal; text-decoration:none; text-transform:none; vertical-align:super; display:inline }\r\nspan.VapenChar { font-family:'Verdana'; font-size:16pt }\r\nspan.tBilagaJA { color:#000000 }\r\nspan.tSidrubrikJA { color:#000000 }\r\n.TableGrid {  }\r\n--></style>\r\n\r\n\t\t<div class=\"Section1\">\r\n\t\t\t<table cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse; margin-left:0pt\">\r\n\t\t\t\t<tr style=\"height:79.4pt\">\r\n\t\t\t\t\t<td style=\"vertical-align:top; width:297.7pt\">\r\n\t\t\t\t\t\t<p class=\"Rubrik1Dokumentinformation\" style=\"margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:16pt\">\r\n\t\t\t\t\t\t\t<a name=\"_Hlk116994639\"></a><a name=\"_Hlk118803390\"><span style=\"font-family:'Verdana'; font-size:16pt; -aw-sdt-tag:ccUtskott; -aw-sdt-title:'utskottsnamn Dokumentegenskap'\">Civilutskottet</span><span style=\"font-family:'Verdana'; font-size:16pt; -aw-sdt-tag:ccS; -aw-sdt-title:s\">s</span><span style=\"font-family:'Verdana'; font-size:16pt; -aw-sdt-tag:ccMellanslag; -aw-sdt-title:Mellanslag\"> </span></a><a name=\"Utlatande\"></a><span style=\"font-family:'Verdana'; font-size:16pt\">betänkande</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p class=\"Dokumentbeteckning\" style=\"margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:16pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size:16pt; -aw-sdt-tag:ccRiksmote; -aw-sdt-title:'riksmote Dokumentegenskap'\">2022/23</span><span style=\"font-family:'Verdana'; font-size:16pt; -aw-sdt-tag:ccKolon; -aw-sdt-title:Kolon\">:</span><a name=\"Utskottebeteckning\"></a><span style=\"font-family:'Verdana'; font-size:16pt\">CU4</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p class=\"Rubrik1Dokumentinformation\" style=\"margin-top:0pt; margin-bottom:0pt; text-align:left; page-break-inside:avoid; page-break-after:avoid; line-height:16pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size:16pt\"> </span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t<p class=\"DokumentRubrik\" style=\"-aw-sdt-tag:ccDokumentrubrik; -aw-sdt-title:'dokumentrubrik Dokumentegenskap'\">\r\n\t\t\t\t<span>Riksrevisionens rapport om fastighetsbildningen i Sverige</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Sammanfattning\">\r\n\t\t\t\t<a name=\"_Hlk116994640\"><span style=\"-aw-bookmark-end:_Hlk116994639\"></span><span class=\"tSidrubrikJA\">Sammanfattning</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Utskottet föreslår att riksdagen lägger regeringens skrivelse till handlingarna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Riksrevisionen har granskat de statliga insatserna inom fastighets</span><span>­</span><span>bildningen i Sverige. </span><span>Riksrevisionens övergripande slutsats är att de</span><span>ssa</span><span> insatser inte är tillräckligt effektiva</span><span>, och i rapporten lämnar Riksrevisionen ett antal rekommendationer till regeringen och Lantmäteriet</span><span>.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Regeringen välkomnar granskning</span><span>en</span><span> och anser att </span><span>Riksrevisionens </span><span>rapport </span><span>är</span><span> ett viktigt bidrag i det fortlöpande arbete som regeringen bedriver i syfte att utveckla och förbättra fastighetsbildningen.</span><span> </span><span>Enligt regeringen är digitalisering den insats som kommer att ha störst betydelse för fastighetsbildningens handläggningstider. Regeringen avser att prioritera</span><span> arbetet som krävs för den utvecklingen. Det kan vidare enligt regeringen finnas anledning till en översyn av delar av Lantmäteriets avgiftsmodell. Med skrivelsen anser regeringen att Riksrevisionens rapport är slutbehandlad. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Utskottet anser att riksdagen bör avslå motionsyrkandena.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Behandlade förslag</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>S</span><span>krivelse 2021/22:265 Riksrevisionens rapport om fastighetsbildningen i Sverige. </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Fyra yrkanden i en följdmotion.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Innehllsfrteckning\">\r\n\t\t\t\t<a name=\"_Hlk116994641\"><span style=\"-aw-bookmark-end:_Hlk116994640\"></span></a><a name=\"Innehållsförteckning\"></a><span class=\"tSidrubrikJA\">Innehållsförteckning</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC1\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595121\"><span class=\"Hyperlink\">Utskottets förslag till riksdagsbeslut</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC1\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595122\"><span class=\"Hyperlink\">Redogörelse för ärendet</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC1\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595123\"><span class=\"Hyperlink\">Utskottets överväganden</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC2\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595124\"><span class=\"Hyperlink\">Riksrevisionens rapport om fastighetsbildningen i Sverige</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC8\">\r\n\t\t\t\t<span class=\"Hyperlink\" style=\"font-style:italic\">Bilaga</span><br /><a style=\"color:#000000\" href=\"#_Toc119595125\"><span class=\"Hyperlink\">Förteckning över behandlade förslag</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC9\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595126\"><span class=\"Hyperlink\">Skrivelsen</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"TOC9\">\r\n\t\t\t\t<a style=\"color:#000000\" href=\"#_Toc119595127\"><span class=\"Hyperlink\">Följdmotionen</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Avsnittsrubrik\">\r\n\t\t\t\t<a name=\"_Hlk116994642\"><span style=\"-aw-bookmark-end:_Hlk116994641\"></span></a><a name=\"StopCC\"></a><a name=\"_Toc119595121\"><span style=\"-aw-bookmark-end:StopCC\"></span><span class=\"tSidrubrikJA\">Utskottets förslag till riksdagsbeslut</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<table cellspacing=\"0\" cellpadding=\"0\" style=\"border-collapse:collapse; margin-left:0pt; width:294.2pt\">\r\n\t\t\t\t<tr>\r\n\t\t\t\t\t<td style=\"vertical-align:top; width:22pt\">\r\n\t\t\t\t\t\t<p style=\"margin-top:3.1pt; margin-bottom:0pt; text-align:justify; page-break-inside:avoid; page-break-after:avoid; line-height:12.5pt\">\r\n\t\t\t\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10.5pt; font-weight:bold\">Riksrevisionens rapport om fastighetsbildningen i Sverige</span>\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t</td>\r\n\t\t\t\t</tr>\r\n\t\t\t</table>\r\n\t\t\t<p class=\"Normalutanluftfre\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>Riksdagen avslår motion </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanluftfre\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>2021/22:4777 av Ola Johansson (C) yrkandena 1–4 och </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Normalutanluftfre\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>lägger skrivelse 2021/22:265 till handlingarna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"OrtochDatum\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>Stockholm den 17 november 2022</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"PVgnar\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>På civilutskottets vägnar</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Ordfranden\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>Malcolm Momodou Jallow</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Deltagare\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span>Följande ledamöter har deltagit i beslutet: Malcolm Momodou Jallow (V), Mikael Eskilandersson (SD), Jennie Nilsson (S), David Josefsson (M), Leif Nysmed (S), Angelica Lundberg (SD), Laila Naraghi (S), Lars Beckman (M), Denis Begic (S), Roger Hedlund (SD), Anna-Belle Strömberg (S), Ellen Juntti (M), Larry Söder (KD), Martin Westmont (SD), Katarina Luhr (MP) och Jakob Olofsgård (L).</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\" style=\"-aw-sdt-tag:'dokumentavsnitt/utskottets förslag till riksdagsbeslut/-1500916921/1668676320579'; -aw-sdt-title:'utskottets förslag till riksdagsbeslut'\">\r\n\t\t\t\t<span style=\"font-size:9.5pt\"> </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Avsnittsrubrik\">\r\n\t\t\t\t<a name=\"_Hlk116994643\"><span style=\"-aw-bookmark-end:_Hlk116994642\"></span></a><a name=\"SlutUtskottsForslag\"></a><a name=\"_Toc119595122\"><span style=\"-aw-bookmark-end:SlutUtskottsForslag\"></span><span class=\"tSidrubrikJA\">Redogörelse för ärendet</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I betänkandet behandlar utskottet regeringens skrivelse </span><span>2021/22:265 Riksrevi</span><span>­</span><span>sionens rapport om fastighetsbildningen i Sverige. I skrivelsen redovisar regeringen sin bedömning av de </span><span>iakttagelser och rekommendationer som </span><a name=\"_Hlk116842002\"><span>Riksrevisionen har redovisat i rapporten Fastighetsbildningen </span></a><span>i Sverige – handläggningstider, avgifter och reformbehov (RiR 2022:3).</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Riksdagen överlämnade Riksrevi</span><span>sionens</span><span> rapport </span><span>om fastighetsbildningen i Sverige till regeringen den </span><span>1 mars 2022.</span><span> </span><span>Riksrevisor Helena Lindberg med medarbetare presenterade granskningsrapporten vid utskottssammanträde</span><span>t</span><span> den </span><span>7 april </span><span>2022. </span><span>Regeringen återkom till riksdagen med </span><span>den </span><span>ovannämnda skrivelse</span><span>n</span><span> den 21 juni 2022.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>En motion med fyra yrkanden har väckts med anledning av </span><span>skrivelsen. Förslagen i motionen finns i bilagan.</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Avsnittsrubrik\">\r\n\t\t\t\t<a name=\"_Hlk116994644\"><span style=\"-aw-bookmark-end:_Hlk116994643\"></span></a><a name=\"_Toc119595123\"><span class=\"tSidrubrikJA\">Utskottets överväganden</span></a>\r\n\t\t\t</p>\r\n\t\t\t<h2 style=\"-aw-sdt-tag:ba2b2696-23c6-4cdf-b22d-2fd4a0fd6ccf/förslagsrutor/1110015046/1664965680111; -aw-sdt-title:förslagsrutor\">\r\n\t\t\t\t<span style=\"-aw-bookmark-end:_Hlk116994644\"></span><a name=\"_Toc119595124\"></a><a name=\"_Hlk116994645\"><span>Riksrevisionens rapport om fastighetsbildningen i Sverige</span></a>\r\n\t\t\t</h2>\r\n\t\t\t<div style=\"border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; clear:both; margin:3.1pt 0.9pt 0pt\">\r\n\t\t\t\t<p class=\"Normalrutafet\" style=\"margin:0pt; padding-right:4pt; padding-left:4pt\">\r\n\t\t\t\t\t<span style=\"-aw-bookmark-end:_Toc119595124\"></span><span>Utskottets förslag i korthet</span>\r\n\t\t\t\t</p>\r\n\t\t\t\t<p class=\"Normalruta\" style=\"margin:0pt; padding-right:4pt; padding-left:4pt; padding-bottom:4pt\">\r\n\t\t\t\t\t<span>Riksdagen</span><span> lägger regeringens skrivelse till handlingarna</span><span> och avslår motionsyrkandena</span><span>.</span>\r\n\t\t\t\t</p>\r\n\t\t\t</div>\r\n\t\t\t<p class=\"Mellanrum\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\" style=\"margin-bottom:0pt\">\r\n\t\t\t\t<span>Bakgrund</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Fastighetsbildning </span><span>är en åtgärd som </span><span>innebär att fastighetsindelningen ändras</span><span>.</span><span> Det kan också handla om att rättigheter till fastigheter bildas, ändras eller upphävs. </span><span>Det finns ett flertal olika ärendetyper </span><span>för</span><span> fastighetsbildning, t.ex. avstyckning och klyvning</span><span> samt </span><span>olika typer av anläggningsåtgärder och ledningsrättsåtgärder. </span><span>Fastighetsbildning regleras i Sverige främst av fastighetsbildningslagen (1970:988)</span><span>. </span><span>En fråga om fastighetsbildning prövas vid en förrättning som handläggs av en lantmäterimyndighet</span><span>. </span><span>Lantmäteriförrättningar utförs av den statliga myndigheten Lantmäteriet men också av </span><span>för närvarande </span><span>39 kommunala lantmäterimyndigheter</span><a name=\"_ftnref1\"></a><a href=\"#_ftn1\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[1]</span></a><span>. En kommunal lantmäterimyndighet kan inrättas om vissa kriterier är uppfyllda</span><span>. </span><span>För att få tillstånd måste kommunen bl.a. visa att myndigheten får hela kommunen som sitt verksamhetsområde, att verksamheten beräknas få tillräcklig omfattning för att </span><span>kunna upprätthålla </span><span>nödvändig kompetens och att myndighetens informationssystem får sådan teknisk standard att informationsutbytet mellan stat</span><span>en</span><span> och kommun</span><span>en</span><span> kan säkerställas</span><span>,</span><span> </span><span>se</span><span> l</span><span>ag</span><span>en</span><span> (1995:1393) om kommunal lantmäterimyndighet</span><span>.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>En </span><span>l</span><span>antmäteriförrättning finansieras av sakägarna genom avgifter</span><span>.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\" style=\"margin-bottom:0pt\">\r\n\t\t\t\t<span>Riksrevisionens granskning</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\" style=\"margin-top:6pt\">\r\n\t\t\t\t<span>Granskningens syfte</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Syftet med Riksrevisionens granskning </span><span>har varit att bedöma om </span><span>de </span><a name=\"_Hlk116842557\"><span>statliga insatserna inom fastighetsbildningen </span><span>är effektiva.</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span style=\"-aw-bookmark-end:_Hlk116842557\"></span><span>Granskningen bygger på följande delfrågor:</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Är Lantmäteriets handläggning inom fastighetsbildning effektiv?</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Är Lantmäteriets avgiftssättning rimlig och förutsägbar?</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Är ansvarsfördelningen mellan stat och kommuner effektiv?</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Granskningens resultat</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Riksrevisionens övergripande slutsats är att de statliga insatserna inom fastighetsbildningen inte är tillräckligt effektiva.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Handläggningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Riksrevisionen </span><span>konstaterar</span><span> att det redan tidigare är känt att handläggnings</span><span>­</span><span>tiderna inom fastighetsbildningen är långa. </span><span>G</span><span>ranskning</span><span>en</span><span> visar att handlägg</span><span>­</span><span>ningstiderna dessutom blivit allt längre under en lång tid och att liggtiderna i ärendena är mycket omfattande. Riksrevisionens slutsats är därför att handläggningen inom Lantmäteriets fastighetsbildning inte är tillräckligt effektiv. Inom verksamheten beror detta främst på att Lantmäteriet har haft svårt att rekrytera tillräckligt många lantmätare och att det därför finns en obalans mellan resurser och insatser som ska utföras. Riksrevisionens bedömning är att det saknas möjligheter att på sikt lösa denna kompetensbrist. </span><span>Riksrevisionen anför vidare att r</span><span>egelverket för fastighetsbildningen är föråldrat och hindrar en enklare och effektivare ärendehandläggning. </span><span>Bristerna består bl</span><span>.a.</span><span> i att digitala koordinater i dag saknar rättsverkan, att ändamålsbestämmelserna </span><span>i fastighetsbildningslagen </span><span>är för omfattande och ålderdomliga, att anläggningslagen </span><span>(1973:1149) </span><span>är onödigt krånglig och att det finns hinder för Lantmäteriet att initiera en digital och automatiserad handläggningsprocess. </span><span>Riksrevisionens bedömning är därför att den viktigaste åtgärden för att minska handläggningstiderna är att modernisera regelverket.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Eftersom förrättningslantmätarens starka legala ställning kan </span><span>vara</span><span> ett hinder för automatisering och annan effektivisering av verksamheten behöver även denna fråga prövas.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Riksrevisionen bedömer </span><span>också</span><span> att Lantmäteriet inte ger information till sakägarna i samma omfattning oavsett ansökningsväg. Informationen är inte tillräcklig </span><span>på</span><span> pappersblanketterna eller Lantmäteriets </span><span>webbplats</span><span>. Informationen behöver därför utökas för sakägare som ansöker via blankett.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Avgiftssättningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>När det gäller Lantmäteriets avgiftssättning </span><span>anför Riksrevisionen att </span><span>g</span><span>ranskningen</span><span> </span><span>visar </span><span>att avgifterna för förrättningarna är höga</span><span> och att de under en lång tid har stigit i en högre takt än inflationen. </span><span>Riksrevisionen anser att avgifterna</span><span> har stigit i en betydligt högre takt än vad som kan betraktas som rimligt. </span><span>Enligt Riksrevisionen är </span><span>det viktigaste skälet</span><span> till denna utveckling </span><span>den avgiftsmodell som tillämpas</span><span>.</span><span> Avgiftsmodellen kännetecknas av att Lantmäte</span><span>­</span><span>riet har en monopolställning, att det ska råda full kostnadstäckning, att avgifterna</span><span> i huvudsak</span><span> sätts genom timtaxa och att Lantmäteriet får </span><span>både </span><span>besluta om och behålla avgifterna. </span><span>Riksrevisionen anför att </span><span>avgiftsmodell</span><span>en</span><span> ger låga incitament att kostnadseffektivisera verksamheten men att regeringen inte har tagit några initiativ till förändringar.</span><span> </span><span>Att Lantmäteriet tillämpar timtaxa och har svårt att på förhand säga hur många timmar ett ärende kommer att ta medför en oförutsägbarhet i avgiftssättningen som Riksrevisionen anser </span><span>är otillfredsställande. Riksrevisionen bedömer att avgiftsmodellen bör ses över i syfte att uppnå ett produktivitetstryck på Lantmäteriets förrättnings</span><span>­</span><span>verksamhet och åstadkomma en mer förutsägbar avgiftssättning.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Ansvarsfördelningen</span><span> mellan stat</span><span>en</span><span> och kommun</span><span>erna</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Organiseringen </span><span>av fastighetsbildningen med både statliga och kommunala huvudmän för en i princip identisk verksamhet är unik i svensk statsförvaltning.</span><span> </span><span>A</span><span>nsvarsfördelningen mellan stat</span><span>en</span><span> och kommun</span><span>erna</span><span> </span><span>är enligt Riksrevisionen i huvudsak rimlig ur effektivitetssynpunkt. När regeringen prövar om en kommun ska få bilda en egen lantmäterimyndighet anser Riksrevisionen </span><span>dock </span><span>att regeringen lägger väl stor vikt vid verksamhetens omfattning och att alltför lite hänsyn tas till en kommuns samhällsbyggnadsutveckling. </span><span>Det finns också vissa brister i </span><span>det </span><span>statisti</span><span>ska underlaget</span><span> som försämrar möjligheten för regeringen att bedöma huruvida ansvarsfördelningen mellan staten och kommunerna bidrar till en </span><span>effektiv handläggning. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Riksrevisionen anför även att </span><span>Lantmäteriet har minskat omfattningen av det stöd och den rådgivning som ges till kommunerna inom fastighetsbildnings</span><span>-</span><span>området och det riktade stödet till de kommunala lantmäterimyndigheterna. Enligt Riksrevisionen innebär det en risk för den fastighetsrättsliga kvaliteten i kommunala förrättningsbeslut och detaljplaner.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Riksrevisionens rekommendationer</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Riksrevisionen lämnar </span><span>följande rekommendationer</span><span> t</span><span>ill regeringen</span><span>:</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Genomför en översyn av hela regelverket för fastighetsbildningen. Följande delar bör ingå:</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistalinje\" style=\"margin-top:3pt; margin-left:28.4pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">–</span><span style=\"font:7.0pt 'Verdana'\">      </span><span>Se över relevanta författningar för att möjliggöra en successiv övergång till koordinatbestämda fastighetsgränser.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistalinje\" style=\"margin-top:0pt; margin-left:28.4pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">–</span><span style=\"font:7.0pt 'Verdana'\">      </span><span>Se över behovet av ändamålsbestämmelserna i fastighets</span><span>­</span><span>bildningslagen. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistalinje\" style=\"margin-top:0pt; margin-left:28.4pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">–</span><span style=\"font:7.0pt 'Verdana'\">      </span><span>Se över anläggningslagen i syfte att förenkla anmälningar och öka de dispositiva inslagen i nuvarande regler. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistalinje\" style=\"margin-top:0pt; margin-left:28.4pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">–</span><span style=\"font:7.0pt 'Verdana'\">      </span><span>Se över relevanta författningar för att möjliggöra automatiserade beslut.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Se över nuvarande avgiftsmodell, med syftet att åstadkomma en mer kostnadseffektiv verksamhet och en mer förutsägbar avgiftssättning.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Ta större hänsyn till samhällsbyggnadsutvecklingen, såsom befolkningsutveckling och antalet planprocesser, vid beslut om tillstånd att bilda en kommunal lantmäterimyndighet.</span>\r\n\t\t\t</p>\r\n\t\t\t<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:left; line-height:115%; font-size:9.5pt\">\r\n\t\t\t\t<br style=\"page-break-before:always; clear:both\" />\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Riksrevisionen lämnar följande rekommendationer t</span><span>ill Lantmäteriet</span><span>:</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Identifiera ytterligare möjligheter att bryta ökningstakten i kundernas avgifter.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Öka andelen fasta avgifter, i syfte att underlätta för sakägare att i förväg kunna bedöma kostnadsnivån.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Säkerställ enhetligare dokumentation i förrättningsärenden för ökad transparens i avgiftssättningen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Förtydliga informationen till sakägare som ansöker om förrättning via pappersblankett.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; margin-bottom:0pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Förbättra den tillgängliga statistiken om fastighetsbildningen från de kommunala lantmäterimyndigheterna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Punktlistabomb\" style=\"margin-top:0pt; margin-left:14.2pt; text-indent:-14.2pt\">\r\n\t\t\t\t<span style=\"font-family:'Verdana'; font-size:10pt\">•</span><span style=\"font:7.0pt 'Verdana'\">       </span><span>Följ upp vilka konsekvenser som minskningen av stöd och rådgivning får för den fastighetsrättsliga kvaliteten i kommunala förrättningsbeslut och detaljplaner.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\" style=\"margin-bottom:0pt\">\r\n\t\t\t\t<span>S</span><span>krivelse</span><span>n</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\" style=\"margin-top:6pt; margin-bottom:0pt\">\r\n\t\t\t\t<span>Regeringens bedömning av Riksrevisionens iakttagelser</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Regeringen välkomnar Riksrevisionens granskning och anser att rapporten </span><span>är</span><span> ett viktigt bidrag i det fortlöpande arbete som regeringen bedriver i syfte att utveckla och förbättra fastighetsbildningen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\" style=\"margin-top:6pt\">\r\n\t\t\t\t<span>Handläggningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Regeringen instämmer i Riksrevisionens bedömning att den största orsaken till de långa handläggningstiderna inom fastighetsbildningen beror på att Lantmäteriet har haft svårt att rekrytera tillräckligt många lantmätare</span><span>.</span><span> </span><span>För att komma till rätta med bristen på kompetens inleddes 2018 en utbyggnad av utbildningar inom bl.a. samhällsplanering, lantmäteriområdet och byggteknik. Inom ramen för satsningen tillfördes</span><span> </span><span>medel till Uppsala universitet för att inrätta ett nytt lantmätarprogram med juridisk och ekonomi</span><span>sk inriktning.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Regeringen anför vidare att Lantmäteriet har genomfört ett flertal ändringar i sitt arbetssätt för att nyttja kompetensen optimalt och korta handläggnings</span><span>­</span><span>tiderna. Enligt regeringen är det för tidigt att bedöma vilka effekter ändringarna har fått.</span><span style=\"background-color:#ffff00\"> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Förutom brist på tillräcklig kompetens framhåller regeringen att det finns många frågor att ta hänsyn till vid bedömningen av om handläggningen</span><span> vid fastighetsbildningsförrättningar är ineffektiv.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Regeringen håller med Riksrevisionen om att fastighetsbildningen har stor betydelse för byggandet av bostäder, samhällsfastigheter och kommersiella fastigheter samt generationsskiften på landsbygden och förvaltning av vägar, anläggningar och fastigheter. Enligt regeringen har fastighetsindelningen därutöver en grundläggande betydelse för äganderätten till mark, för fastighetskreditväsendet och för beskattning av fast egendom. Fastighets</span><span>­</span><span>bildningen kräver därför en balans mellan tid, kostnad och kvalitet. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>R</span><span>egeringen </span><span>anför </span><span>att bygglovsprocessen och fastighetsbildningsprocessen skiljer sig mycket från varandra. Prövningen av fastighetsbildningsärenden är mer att likna vid prövningen av dispositiva tvistemål i allmän domstol, med flertalet yrkanden och omständigheter att reda ut samt sammanträde med parter inför beslut. Fastighetsbildningsprocessen </span><span>behöver därför lämna utrymme för långtgående anpassningar i handläggningen efter vad som behövs i det enskilda fallet.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Regeringen anför även att det svenska förrättningsförfarandet har sin största fördel just vid komplexa förrättningar där lantmätaren aktivt kan söka lösningar som bygger på samförstånd mellan sakägarna. Förrättnings</span><span>­</span><span>förfarandet kan då utnyttjas för att med hög rättssäkerhet och jämförelsevis låga sammanlagda kostnader nå snabbare och mer flexibla lösningar än vid en domstolsprövning.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Vidare </span><span>anför regeringen att fastighetsbildning i hög grad är en funktion vars efterfrågan och innehåll styrs av yttre faktorer som inte direkt kan påverkas av lantmäterimyndigheterna. Omfattningen av frågor som måste lösas inom ramen för de skilda ärendena inom fastighetsbildningen påverkas av ändringar i annan lagstiftning, befolkningens utveckling och rörlighet, </span><span>en </span><span>förändrad typ av samhällsbyggande m.m. De yttre förändringarna påverkar handläggnings</span><span>-</span><span>tiderna, dels genom antalet inkomna ansökningar, dels genom tiden som behöver läggas ne</span><span>d</span><span> på varje enskilt ärende. Handläggningstider kan därmed variera över tid.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Ett sätt att bidra till kortare handläggningstider hos Lantmäteriet kan</span><span>, anför regeringen,</span><span> vara att se över i vilken mån det går att förenkla och modernisera regelverket. Flertalet fastighetsbildningsärenden är dock komplexa och genomförande av förenklingar i lagstiftningen förutsätter att tillräckliga krav på rättssäkerhet och respekt för allmänna och enskilda intressen upprätthålls. Den översyn av regelverket som Riksrevisionen rekommenderar är också omfattande och tidskrävande. De lagar som berörs och frågor som lyfts i Riksrevisionens rapport är av olika komplexitet och karaktär. Det krävs vidare analys för att bedöma i vilken mån en viss lagändring kan leda till effektivitetsvinster, och i längden exempelvis förkortade handläggningstider i Lantmäteriets förrättningsverksamhet. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Enligt regeringen är digitalisering en insats som, utan att göra omfattande reformer inom grundläggande principer för fastighetsbildning, kan bidra till att förkorta fastighetsbildningens handläggningstider. R</span><span>egeringen ser positivt</span><span> på förenklingar i lagstiftningen som syftar till att möjliggöra digitalisering. </span><span>Problemet med långa handläggningstider är dock till stor del en fråga</span><span> om Lantmäteriets kompetensförsörjning och regeringens bedömning är att det inte är möjligt att komma till rätta med denna problematik enbart genom regeländringar.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Avgiftssättningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Mot bakgrund av ärendenas skiftande omfattning och karaktär anser regeringen att det ligger i sakens natur att tidsåtgången varierar mellan olika ärenden. Som Lantmäteriet anger kan en orsak till att antalet nedlagda timmar i ärendena har ökat vara nyrekryteringen av medarbetare med delvis annan utbildning än förrättningslantmätare. Uppfattningen om höga avgifter kan även förstärkas av att en sökande bortser från de alternativa kostnaderna för att utreda och förhandla med berörda markägare själva t.ex. i de fall förrättningarna hanterar markåtkomst.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Regeringen anför att Lantmäteriets avgiftsmodell</span><span> över tid</span><span> </span><span>har </span><span>pendlat mellan debitering utifrån nedlagd tid och fasta saktaxor, dvs. fasta priser för definierade åtgärder. Oavsett avgiftsmodell har kritiken varit densamma – att </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\" style=\"text-indent:0pt\">\r\n\t\t\t\t<span>avgifterna är för höga och att avgifterna ökar kraftigt. Regeringen instämmer i Riksrevisionens bedömning att det vore önskvärt om avgifterna kunde vara mer förutsägbara för en kund men ser flera problem med saktaxor utifrån </span><span>tidigare </span><span>erfarenheter </span><span>av den modellen</span><span>.</span><span> </span><span>Enligt regeringen överväger fördelarna med att varje sakägare får betala de kostnader som den enskilda förrättningen ger upphov till nackdelar</span><span>na</span><span> med den oförutsägbarhet som blir följden.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>När det gäller </span><span>Riksrevisionen</span><span>s slutsats</span><span> </span><span>att </span><span>den nuvarande avgiftsmodellen </span><span>leder till </span><span>små incitament </span><span>för </span><span>att kostnadseffektivisera framgår </span><span>det </span><span>av Fastighetsbildningskostnadsutredningen</span><a name=\"_ftnref2\"></a><a href=\"#_ftn2\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[2]</span></a><span> och Lantmäteri- och inskrivnings</span><span>­</span><span>utredningens sammanfattning av slutbetänkandet Kart- och fastighetsverksamhet</span><a name=\"_ftnref3\"></a><a href=\"#_ftn3\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[3]</span></a><span> </span><span>att det</span><span> i princip </span><span>var </span><span>samma argument om incitament för effektivisering som låg till grund för att Lantmäteriet fick föreskriftsrätt om avgiftssättningen. </span><span>Bland</span><span> fördelarna framhölls att en delegering av beslutanderätten aktiverade intresset för resultattänkande hos myndigheten samt att det är naturligt att ansvar och befogenheter följs åt i en organisation. Därutöver framhölls det att avgifterna har behov av kontinuerlig anpassning för att kunna tillgodose kostnadstäckningskravet, vilket motiverar att ansvaret för avgiftssättningen ligger hos verksamhetsutövaren. Enligt regeringen kan det emellertid finnas skäl att överväga om denna avgiftsmodell alltjämt är ändamålsenlig.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Ansvarsfördelningen mellan stat</span><span>en</span><span> och kommun</span><span>erna</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Regeringen instämmer i Riksrevisionens bedömning att bristande statistik påverkar förutsättningarna att bedöma om ansvarsfördelningen mellan staten och kommunerna bidrar till en effektiv fastighetsbildningsverksamhet. För att få ett bättre underlag att bedöma effektiviteten </span><span>gav</span><span> regeringen därför i Lantmäteriets regleringsbrev för budgetåret 2018 myndigheten </span><span>i uppdrag</span><span> att lämna förslag på hur den statliga och de kommunala lantmäteri</span><span>-</span><span>myndigheternas ärendestockar kan delas upp i olika grupper, inom vilka handläggningstiden bör mätas och redovisas gemensamt.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\" style=\"margin-bottom:0pt\">\r\n\t\t\t\t<span>Regeringens åtgärder med anledning av Riksrevisionens iakttagelser</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I och med skrivelsen anser regeringen att Riksrevisionens rapport är slutbehandlad. Regeringen redovisar följande åtgärder med anledning av Riksrevisionens iakttagelser.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Handläggningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I kontakter med kommuner och fastighetsägare har regeringen fått indikationer på att sökanden har behov av mer information inför att en ansökan om fastighetsbildning ska ges in, särskilt utifrån de lokala förhållandena. Enligt regeringen kan sådan information leda till mer kompletta ansökningar och att förutsägbarheten i ärenden ökar, vilket i sin tur ger förutsättningar för en effektivare handläggning. Regeringen </span><span>gav</span><span> därför, i Lantmäteriets regleringsbrev för budgetåret 2022, </span><span>i </span><span>uppdrag åt Lantmäteriet att redogöra för hur myndigheten tillgodoser behovet av information till sökanden. Uppdraget ska redovisas den 5 januari 2023.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Genom ändringar i anläggningslagen som trädde i kraft den 1 juli 2022 kan andelstal </span><span>i gemensamhetsanläggningar</span><span> ändras på ett enklare sätt, utan förrättning</span><a name=\"_ftnref4\"></a><a href=\"#_ftn4\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[4]</span></a><span>. </span><span>Regeringen anför att ändringen utgör en förenkling av bestäm</span><span>­</span><span>melser i anläggningslagen, och på sikt kan leda till en minskad arbetsbörda för lantmäterimyndigheterna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Digitaliseringsåtgärder</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Enligt regeringen är digitalisering en insats som, utan att göra omfattande reformer inom grundläggande principer för fastighetsbildning, kan bidra till att förkorta fastighetsbildningens handläggningstider. Av de lagstiftnings</span><span>-</span><span>frågor som Riksrevisionen lyfter fram överväger regeringen särskilt att se över frågorna om elektroniska överlåtelsehandlingar vid köp av fastigheter och möjliggörande av automatiserade beslut. Båda dessa </span><span>är</span><span> delar i riktning mot en mer digitaliserad och förenklad handläggningsprocess hos Lantmäteriet. För att kunna utveckla digitala processer och tjänster krävs att den information som används inom processerna är standardiserade, digitaliserade och tillgängliga. Regeringen har tagit flera initiativ för en ökad digitalisering och avser att fortsätta detta arbete.</span><span> Myndigheten för digital förvaltning </span><span>har </span><span>tillsammans med Lantmäteriet och flera andra myndigheter fått i uppdrag att ta fram gemensamma lösningar för digitaliseringsåtgärder i offentlig förvaltning.</span><span> I uppdragen ingår </span><span>bl.a.</span><span> att ta fram myndighetsgemensamma lösningar för utbyte av digital information och digitala tjänster för t.ex. hantering av ombud som företräder någon annan med fullmakt eller den som är företrädare för en juridisk person. Denna sorts digitala tjänster är någonting som efterfrågas av Lantmäteriet då det kommer </span><span>att</span><span> bidra till en effektivisering av vissa moment i fastighetsbildningsprocessen.</span><span> </span><span>Myndigheten för digital </span><span>förvaltning </span><span>redovisade u</span><span>ppdragen att etablera en förvaltningsgemensam digital infrastruktur för informationsutbyte samt att etablera ett nationellt ramverk för grunddata inom den offentliga förvaltningen i en slutrapport i december 2021. Regeringen har nyligen gett myndigheterna ett förnyat uppdrag att fortsätta utvecklingsarbetet.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Vidare har Lantmäteriet tillsammans med andra myndigheter inom ramen för ett regeringsuppdrag som slutredovisades i januari 2022 etablerat en nationell plattform för tillgängliggörande av digital geografisk information </span><span>(geodata) som produceras och används inom olika delar av samhällsbyggnadsprocessen. Kommuner kan tillgängliggöra detaljplaner digitalt i plattformen sedan januari 2021 och byggnadsinformation sedan september sa</span><span>mma år.</span><span> Regeringen avser att ge myndigheterna ett förnyat uppdrag att fortsätta utvecklingsarbetet.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>5</span><span> miljoner kronor per år </span><span>har avsatts </span><span>till Lantmäteriet för att, tillsammans med länsstyrelserna och Naturvårdsverket, digitalisera strandskydds</span><span>-</span><span>bestämmelser. Strandskyddsbestämmelser är en viktig datamängd för samhällsbyggandet som, när arbetet är utfört, kommer </span><span>att </span><span>ha betydelse för handläggning av fastighetsbildningsärenden.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Avgiftssättningen</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\" style=\"text-indent:0pt\">\r\n\t\t\t\t<span>Som redovisats ovan överväger regeringen att utreda om den nuvarande avgiftsmodell</span><span>en</span><span> alltjämt är ändamålsenlig.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R4\">\r\n\t\t\t\t<span>Ansvarsfördelningen mellan stat</span><span>en</span><span> och kommun</span><span>erna</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>Enligt regeringen kan lagen om kommunal lantmäterimyndighet behöva ses över för att förtydliga det delade huvudmannaskapet. Vid en sådan översyn kan frågan om hur en kommuns samhällsbyggnadsutveckling bör beaktas i prövning</span><span>en</span><span> av om kommunen ska få inrätta en kommunal lantmäterimyndighet ingå.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\">\r\n\t\t\t\t<span>Motionen</span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span>I </span><span>kommittémotion 2021/22:4777</span><span> föreslår </span><span>Ola Johansson (C)</span><span> tillkännagivanden till regeringen </span><span>dels </span><span>om att </span><span>inleda ett reformarbete som innebär att lämpliga uppgifter som i dag utförs av det offentliga ska kunna utföras av andra aktörer (</span><span>yrkande</span><span> </span><span>1</span><span>), dels</span><span> </span><span>om </span><span>att det bör tas större hänsyn till samhälls</span><span>­</span><span>byggnadsutvecklingen i en kommun när regeringen prövar ett tillstånd för att bilda en kommunal lantmäterimyndighet (</span><span>yrkande 2</span><span>)</span><span> och dels om </span><span>att göra </span><span>en översyn av avgiftssättningen (</span><span>yrkande 3</span><span>)</span><span>. Motionären föreslår även ett tillkännagivande om att prioritera digitaliseringen av lantmäteri-verksamheterna</span><span> (</span><span>yrkande 4</span><span>).</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"R3\">\r\n\t\t\t\t<span>Utskottets ställningstagande</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\" style=\"text-indent:0pt\">\r\n\t\t\t\t<span>Lantmäteriets verksamhet är en viktig del av samhällsbyggnadsprocessen. </span><span>Som utskottet tidigare framhåll</span><span>it </span><span>är det av största vikt att Lantmäteriets verksamhet fungerar på ett effektivt och ändamålsenligt sätt</span><span>,</span><span> bl.a. för att möta behovet av bostäder</span><span> (se </span><span>t.ex. </span><span>bet</span><span>.</span><span> 2020/21:CU11</span><span>)</span><span>. </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Som regeringen anför</span><span> kan</span><span> digitalisering</span><span>en</span><span> bidra till att förkorta handläggningstider</span><span>na inom Lantmäteriets fastighetsbildning</span><span>. Utskottet ser positivt på de initiativ för en ökad digitalisering som regeringen hittills har tagit och </span><span>förutsätter</span><span> att </span><span>det</span><span>ta</span><span> arbete fortsätter. Utskottet vill i sammanhanget </span><span>även </span><span>peka på riksdagen</span><span>s tillkännagivande</span><span> </span><span>från våren 2021 om att regeringen bör prioritera att tillgängliggöra geodata och skynda på arbetet med standardiseringen av geodata (bet. 2020/21:CU11, rskr. 2020/21:224).</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>U</span><span>tskottet noterar att regeringen </span><span>överväger att utreda om den nuvarande avgiftsmodellen för lantmäteriförrättningar alltjämt är ändamålsenlig.</span><span> Enligt regeringen kan </span><span>vidare</span><span> lagen om kommunal lantmäterimyndighet behöva ses över för att förtydliga det delade huvudmannaskapet. </span><span>U</span><span>tskottet </span><span>utgår från </span><span>att regeringen</span><span> </span><span>kommer att beakta Riksrevisionens iakttagelser och rekommendationer vid</span><span> </span><span>dessa översyner</span><span>.</span><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Utskottet utgår från att regeringen kommer att fortsätta följa frågorna och vid behov vidta åtgärder</span><span> för att ytterligare utveckla och förbättra fastighetsbildningen</span><span>.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"NormalIndent\">\r\n\t\t\t\t<span>Mot bakgrund av det som sagts ovan ser inte utskottet skäl </span><span>till att göra</span><span> något tillkännagivande från riksdagen. Utskottet avstyrker </span><span>motionsyrkandena </span><span>och </span><span>föreslår att riksdagen </span><span>lägger regeringens skrivelse till handlingarna.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Bilaga\">\r\n\t\t\t\t<a name=\"_Hlk116994646\"><span style=\"-aw-bookmark-end:_Hlk116994645\"></span><span class=\"tBilagaJA\">Bilaga </span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Bilagerubrik\">\r\n\t\t\t\t<a name=\"_Toc119595125\"><span class=\"tSidrubrikJA\">Förteckning över behandlade förslag</span></a>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2bilaga\" style=\"-aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<a name=\"_Toc119595126\"><span>Skrivelsen</span></a><span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p style=\"-aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>Regeringens skrivelse 2021/22:265 Riksrevisionens rapport om fastighetsbildningen i Sverige.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Rubrik2bilaga\" style=\"-aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<a name=\"_Toc119595127\"><span>Följdmotionen</span></a>\r\n\t\t\t</p>\r\n\t\t\t<h4 style=\"-aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>2021/22:4777 av Ola Johansson (C):</span>\r\n\t\t\t</h4>\r\n\t\t\t<p class=\"Yrkandelista\" style=\"margin-bottom:0pt; -aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>1.</span><span style=\"width:21.22pt; text-indent:0pt; display:inline-block\"></span><span>Riksdagen ställer sig bakom det som anförs i motionen om fastighetsbildningens effektivitet och att lämpliga uppgifter som i dag utförs av det offentliga ska kunna utföras av andra aktörer och tillkännager detta för regeringen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Yrkandelista\" style=\"margin-top:0pt; margin-bottom:0pt; -aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>2.</span><span style=\"width:21.22pt; text-indent:0pt; display:inline-block\"></span><span>Riksdagen ställer sig bakom det som anförs i motionen om att större hänsyn bör tas till samhällsbyggnadsutvecklingen i en kommun när regeringen prövar tillståndet för att bilda en kommunal lantmäterimyndighet, och detta tillkännager riksdagen för regeringen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Yrkandelista\" style=\"margin-top:0pt; margin-bottom:0pt; -aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>3.</span><span style=\"width:21.22pt; text-indent:0pt; display:inline-block\"></span><span>Riksdagen ställer sig bakom det som anförs i motionen om en översyn av avgiftssättningen och tillkännager detta för regeringen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Yrkandelista\" style=\"margin-top:0pt; -aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span>4.</span><span style=\"width:21.22pt; text-indent:0pt; display:inline-block\"></span><span>Riksdagen ställer sig bakom det som anförs i motionen om digitaliseringen av lantmäteriverksamheterna och tillkännager detta för regeringen.</span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p class=\"Mellanrum\" style=\"-aw-sdt-tag:'dokumentavsnitt/förteckning över behandlade förslag/-1992335763/1668516871265'; -aw-sdt-title:'förteckning över behandlade förslag'\">\r\n\t\t\t\t<span> </span>\r\n\t\t\t</p>\r\n\t\t\t<p>\r\n\t\t\t\t<span style=\"-aw-bookmark-end:_Hlk116994646\"></span><span style=\"-aw-bookmark-end:_Hlk118803390\"></span><span> </span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t\t<hr style=\"width:33%; height:1px; text-align:left; -aw-footnote-numberstyle:0; -aw-footnote-startnumber:1; -aw-footnote-type:0\" />\r\n\t\t<div id=\"_ftn1\" style=\"-aw-footnote-isauto:1\">\r\n\t\t\t<p class=\"FootnoteText\">\r\n\t\t\t\t<a href=\"#_ftnref1\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[1]</span></a><span> Anm</span><span>.</span><span> </span><span>Regeringen </span><span>beviljade</span><span> den 28 oktober 2021 Eskilstuna kommuns ansökan om att inrätta </span><span>den 40:e</span><span> kommunal</span><span>a</span><span> lantmäterimyndighet</span><span>en</span><span>. Kommunen ska överta ansvaret för verksamheten fr.o.m. den 1 januari 2023.</span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t\t<div id=\"_ftn2\" style=\"-aw-footnote-isauto:1\">\r\n\t\t\t<p class=\"FootnoteText\">\r\n\t\t\t\t<a href=\"#_ftnref2\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[2]</span></a><span> </span><span>SOU 1990:9</span><span>.</span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t\t<div id=\"_ftn3\" style=\"-aw-footnote-isauto:1\">\r\n\t\t\t<p class=\"FootnoteText\">\r\n\t\t\t\t<a href=\"#_ftnref3\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[3]</span></a><span> </span><span>SOU 1994:90</span><span>.</span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t\t<div id=\"_ftn4\" style=\"-aw-footnote-isauto:1\">\r\n\t\t\t<p class=\"FootnoteText\">\r\n\t\t\t\t<a href=\"#_ftnref4\"><span class=\"FootnoteReference\" style=\"font-size:6.33pt\">[4]</span></a><span> P</span><span>rop. 2021/22:122, bet. 2021/22:CU16, rskr. 2021/22:258</span><span>.</span>\r\n\t\t\t</p>\r\n\t\t</div>\r\n\t",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "4",
+      "organ": "CU",
+      "pretext": null,
+      "publicerad": "2022-10-10T13:50:53.000000",
+      "relaterat_id": null,
+      "rm": "2022/23",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "RIM",
+      "sourceid": "3fa5649b-a08d-4b25-8da8-4681e6c73baa",
+      "status": "Webbpublicering",
+      "subtitel": null,
+      "subtyp": "bet",
+      "systemdatum": "2022-12-15T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+      "typ": "bet",
+      "typrubrik": "Betänkande 2022/23:CU4",
+      "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/HA01CU4"
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": "HA01CU4",
+          "kod": "arendestatuskammaren",
+          "namn": "Beslutat",
+          "systemdatum": "2022-11-24T16:11:33.000000",
+          "text": null
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "beslutssammanfattningusk",
+          "namn": "Utskottets förslag till beslut",
+          "systemdatum": "2022-11-18T10:20:44.000000",
+          "text": "Skrivelsen läggs till handlingarna. Avslag på motionen."
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "notis",
+          "namn": "Beslut i korthet",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "                           <p>Riksdagen har behandlat en skrivelse från den förra&nbsp;regeringen. Den handlar om Riksrevisionens granskning av de statliga insatserna inom fastighetsbildningen i Sverige. Riksrevisionens övergripande slutsats är att dessa inte är tillräckligt effektiva. I sin rapport lämnar Riksrevisionen ett antal rekommendationer till regeringen och Lantmäteriet.</p>\r\n<p>I skrivelsen välkomnar regeringen granskningen och anser att Riksrevisionens rapport är ett viktigt bidrag i det fortlöpande arbete som bedrivs i syfte att utveckla och förbättra fastighetsbildningen. Digitalisering bedöms vara den insats som kommer att ha störst betydelse för fastighetsbildningens handläggningstider och arbetet för den utvecklingen bör prioriteras. Det kan vidare finnas anledning till en översyn av delar av Lantmäteriets avgiftsmodell. Med skrivelsen anser regeringen att Riksrevisionens rapport är slutbehandlad.</p>\r\n<p>Riksdagen lade regeringens skrivelse till handlingarna, det vill säga avslutade ärendet.</p>\r\n                                            "
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "notisrubrik",
+          "namn": "Beslut",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "Fastighetsbildningen i Sverige har granskats (CU4)"
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "rdbeslut",
+          "namn": "Riksdagens beslut",
+          "systemdatum": "2022-11-24T16:11:33.000000",
+          "text": "Kammaren biföll utskottets förslag."
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "utsknotis",
+          "namn": "Utskottets förslag till beslut",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "                           <p>Civilutskottet har behandlat en skrivelse från den förra regeringen. Den handlar om Riksrevisionens granskning av de statliga insatserna inom fastighetsbildningen i Sverige. Riksrevisionens övergripande slutsats är att dessa inte är tillräckligt effektiva. I sin rapport lämnar Riksrevisionen ett antal rekommendationer till regeringen och Lantmäteriet.</p>\r\n<p>I skrivelsen välkomnar regeringen granskningen och anser att Riksrevisionens rapport är ett viktigt bidrag i det fortlöpande arbete som bedrivs i syfte att utveckla och förbättra fastighetsbildningen. Digitalisering bedöms vara den insats som kommer att ha störst betydelse för fastighetsbildningens handläggningstider och arbetet för den utvecklingen bör prioriteras. Det kan vidare finnas anledning till en översyn av delar av Lantmäteriets avgiftsmodell. Med skrivelsen anser regeringen att Riksrevisionens rapport är slutbehandlad.</p>\r\n<p>Civilutskottet föreslår att riksdagen avslår motionsyrkandena och lägger skrivelsen till handlingarna, det vill säga avslutar ärendet.</p>\r\n                                            "
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "utsknotisrubrik",
+          "namn": "Utskottets förslag",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "Fastighetsbildningen i Sverige har granskats (CU4)"
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "beslutdatumtid",
+          "namn": "Datum och tid för beslutet",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "2022-11-24 00:00:00"
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "debattdatumtid",
+          "namn": "Datum och tid för debatten",
+          "systemdatum": "2022-11-24T15:25:16.000000",
+          "text": "2022-11-24 00:00:00"
+        },
+        {
+          "dok_id": "HA01CU4",
+          "kod": "statustext",
+          "namn": "statustext",
+          "systemdatum": "2022-11-25T00:22:47.000000",
+          "text": "Ärendet är avslutat"
+        }
+      ]
+    },
+    "dokutskottsforslag": {
+      "utskottsforslag": [
+        {
+          "beslut": null,
+          "beslutsregelkvot": null,
+          "beslutsregelparagraf": null,
+          "beslutstyp": "röstning",
+          "bet": "CU4",
+          "beteckning": null,
+          "forslag": "<BR/>Riksdagen avslår motion \r\n\r\n2021/22:4777 av Ola Johansson (C) yrkandena 1-4 och \r\n\r\nlägger skrivelse 2021/22:265 till handlingarna.<BR/><BR/>",
+          "forslag_del2": null,
+          "motforslag_nummer": 0,
+          "motforslag_partier": null,
+          "punkt": 1,
+          "punkttyp": null,
+          "rm": "2022/23",
+          "rubrik": "Riksrevisionens rapport om fastighetsbildningen i Sverige",
+          "vinnare": "utskottet",
+          "votering_id": "9b322d1a-f43d-4f75-a7c0-397819b0fbe8",
+          "votering_ledamot_url_xml": null,
+          "votering_sammanfattning_html": {
+            "br": null,
+            "table": {
+              "caption": {
+                "b": "Omröstning i sakfrågan",
+                "br": null
+              },
+              "tbody": {
+                "tr": [
+                  {
+                    "td": [
+                      "94",
+                      "0",
+                      "0",
+                      "13"
+                    ],
+                    "th": "S"
+                  },
+                  {
+                    "td": [
+                      "62",
+                      "0",
+                      "0",
+                      "11"
+                    ],
+                    "th": "SD"
+                  },
+                  {
+                    "td": [
+                      "60",
+                      "0",
+                      "0",
+                      "8"
+                    ],
+                    "th": "M"
+                  },
+                  {
+                    "td": [
+                      "20",
+                      "0",
+                      "0",
+                      "4"
+                    ],
+                    "th": "V"
+                  },
+                  {
+                    "td": [
+                      "0",
+                      "20",
+                      "0",
+                      "4"
+                    ],
+                    "th": "C"
+                  },
+                  {
+                    "td": [
+                      "17",
+                      "0",
+                      "0",
+                      "2"
+                    ],
+                    "th": "KD"
+                  },
+                  {
+                    "td": [
+                      "16",
+                      "0",
+                      "0",
+                      "2"
+                    ],
+                    "th": "MP"
+                  },
+                  {
+                    "td": [
+                      "13",
+                      "0",
+                      "0",
+                      "3"
+                    ],
+                    "th": "L"
+                  }
+                ]
+              },
+              "tfooter": {
+                "tr": {
+                  "td": [
+                    "282",
+                    "20",
+                    "0",
+                    "47"
+                  ],
+                  "th": "Totalt"
+                }
+              },
+              "thead": {
+                "tr": {
+                  "th": [
+                    "Parti",
+                    "Ja",
+                    "Nej",
+                    "Avstående",
+                    "Frånvarande"
+                  ]
+                }
+              }
+            }
+          },
+          "votering_url_xml": "http://data.riksdagen.se/votering/9B322D1A-F43D-4F75-A7C0-397819B0FBE8",
+          "voteringskrav": "Enkel majoritet"
+        }
+      ]
+    },
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/HD/2442211240029868121_aud.mp3",
+          "datum": "2022-11-24T11:23:20.000000",
+          "debateurl": "/sv/webb-tv/video/debatt-om-forslag/riksrevisionens-rapport-om_HA01CU4",
+          "debatt_rm": "2022/23",
+          "debatt_typ": "Arbetsplenum",
+          "debattsekunder": 109,
+          "dok_beteckning": "CU4",
+          "dok_id": "HA01CU4",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/HD/2442211240029868121_720p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2022-11-24T12:29:01.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442211240029868121.jpg",
+          "url": "VOD1/HD/2442211240029868121",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:HD/2442211240029868121.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

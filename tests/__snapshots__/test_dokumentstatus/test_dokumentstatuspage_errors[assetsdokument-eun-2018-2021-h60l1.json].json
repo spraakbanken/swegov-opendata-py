@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H60N4C5984",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/B9EB352C-EE3C-4B54-9F0A-2CA394D1B720')",
+          "filnamn": "Dagordning för rådet ekonomiska och finansiella frågor.HTM",
+          "filstorlek": "3213",
+          "filtyp": "htm",
+          "subtitel": null,
+          "titel": "Dagordning för rådet ekonomiska och finansiella frågor"
+        },
+        {
+          "dok_id": "H60N4C5985",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/94D598FD-7500-4503-9F38-2F2AB3412A16')",
+          "filnamn": "Ekofin_Kommenterad_dagordning.pdf",
+          "filstorlek": "263547",
+          "filtyp": "pdf",
+          "subtitel": null,
+          "titel": "Ekofin_Kommenterad_dagordning"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "1",
+      "datum": "2018-09-28",
+      "debattnamn": "Kallelse och föredragningslista",
+      "dok_id": "H60L1",
+      "doktyp": "kf-lista",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H60L1')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H60L1/text')",
+      "dokumentnamn": "Kallelse och föredragningslista",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H60L1')",
+      "hangar_id": "0",
+      "html": "<h2>EU-nämnden</h2>\r\n<h3>Kallelse och föredragningslista samt utskick 2  2018/19:1</h3><br>\r\nMöte: Sammanträde med EU-nämnden<br>\r\nDatum: 2018-09-28 kl. 9:00:<br>\r\nPlats: Skandiasalen (N3), entré från Västerlånggatan 1<br>\r\n<br><h3>Föredragningslista</h3>\r\n<ol class=\"pabid1\"><li style=\"list-style-type: decimal;\"><b>Ekonomiska och finansiella frågor</b><br>Finansminister Magdalena Andersson<br>Återrapport från möte i rådet den 13 juli 2018<br>Återrapport från informellt möte i rådet den 7-8 september 2018<br>Information och samråd inför möte i rådet den 2 oktober 2018<li style=\"list-style-type: decimal;\"><b>Justering </b><br>Uppteckningar från sammanträdet den 14 september 2018 samt  protokoll från sammanträdena den 19 och 21 september.<li style=\"list-style-type: decimal;\"><b>(ev.) Övriga frågor<br><br>Anm.: </b>Konstituerande sammanträde äger rum <span style=\"text-decoration: underline; \"><b>onsdagen den<br>3 oktober kl. 08.00</b></span> i Skandiasalen.</ol>",
+      "htmlformat": "",
+      "images": null,
+      "metadata": null,
+      "mottagare": "",
+      "nummer": "1",
+      "organ": "EUN",
+      "pretext": null,
+      "publicerad": "2018-09-27T11:11:36.000000",
+      "relaterat_id": "",
+      "rm": "2018/19",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "eunsamdok",
+      "sourceid": "",
+      "status": "Kallelse och föredra",
+      "subtitel": "EU-nämndens sammanträde 2018-09-28",
+      "subtyp": "",
+      "systemdatum": "2018-09-27T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Kallelse och föredragningslista samt utskick 2  2018/19:1",
+      "typ": "kf-lista",
+      "typrubrik": "Kallelse och föredragningslista 2018/19:1 EU-nämndens sammanträde 2018-09-28",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

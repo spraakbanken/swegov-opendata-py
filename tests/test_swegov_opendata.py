@@ -9,6 +9,7 @@ def test_forslag_minimum_data(snapshot_json: SnapshotAssertion) -> None:
         beteckning=None,
         kammarbeslutstyp=None,
         kammaren=None,
+        lydelse="",
         lydelse2=None,
         nummer="123",
         utskottet=None,

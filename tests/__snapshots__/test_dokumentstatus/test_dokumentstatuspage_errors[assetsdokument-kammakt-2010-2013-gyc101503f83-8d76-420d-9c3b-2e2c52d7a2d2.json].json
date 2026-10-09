@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "01503F83-8D76-420D-9C3B-2E2C52D7A2D2",
+      "datum": "2011-08-25",
+      "debattnamn": "Övrigt kammaren",
+      "dok_id": "GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2",
+      "doktyp": "kam-zz",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2/text')",
+      "dokumentnamn": "Övrigt kammaren",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2')",
+      "hangar_id": "5144323",
+      "html": "<h2>Anmälan om uppteckningar</h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "",
+      "organ": "kamm",
+      "pretext": null,
+      "publicerad": "2022-08-02T14:46:09.000000",
+      "relaterat_id": "",
+      "rm": "2010/11",
+      "rubriker": null,
+      "slutnummer": "",
+      "source": "MHS",
+      "sourceid": "",
+      "status": "inträffat",
+      "subtitel": "",
+      "subtyp": "zz",
+      "systemdatum": "2022-08-02T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Anmälan om uppteckningar",
+      "typ": "kammakt",
+      "typrubrik": "",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442208020022013121_aud.mp3",
+          "datum": "2011-08-25T11:02:16.000000",
+          "debateurl": "/sv/webb-tv/video/ovrigt-kammaren/anmalan-om-uppteckningar_GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2",
+          "debatt_rm": "2010/11",
+          "debatt_typ": "Övrigt",
+          "debattsekunder": 14,
+          "dok_beteckning": "Anmälan om uppteckningar",
+          "dok_id": "GYC101503F83-8D76-420D-9C3B-2E2C52D7A2D2",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442208020022013121_480p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2022-08-02T14:46:09.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442208020022013121.jpg",
+          "url": "VOD1/PAL169/2442208020022013121",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:PAL169/2442208020022013121.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

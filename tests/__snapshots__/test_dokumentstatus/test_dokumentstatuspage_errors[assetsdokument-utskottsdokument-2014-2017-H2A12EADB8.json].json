@@ -1,0 +1,63 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H2A12EADB8",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/8FE14D63-24F2-4269-B483-69D53AB4011F')",
+          "filnamn": "209-2014#15.pdf",
+          "filstorlek": "108501",
+          "filtyp": "pdf",
+          "subtitel": "Annicka Engblom (M)",
+          "titel": "Granskning av deklarationen om Palestina i regeringsförklaringen"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "2EADB8",
+      "datum": "2014-10-06",
+      "debattnamn": "KU-anmälning",
+      "dok_id": "H2A12EADB8",
+      "doktyp": "ku-anm",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H2A12EADB8')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H2A12EADB8/text')",
+      "dokumentnamn": "utskottsdokument",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H2A12EADB8')",
+      "hangar_id": "3059135",
+      "html": "<div class=Section1>\r\n<p>ANNICKA ENGBLOM</p>\r\n<p>Riksdagsledamot (M)</p>\r\n<p>2014-10-06</p>\r\n<p>Dnr 209-2014/15</p>\r\n\r\n\r\n<p>Anmälan av deklarationen om Palestina i regeringsförklaringen</p>\r\n<p>I sin regeringsförklaring av den 3 oktober 2014 anförde tillträdande statsminister Stefan Löfven följande: \"Konflikten mellan Israel och Palestina kan endast lösas genom en tvåstatslösning, framförhandlad i enlighet med folkrättens principer. Den måste garantera såväl palestiniernas som israelernas legitima krav på nationellt självbestämmande och säkerhet. En tvåstatslösning förutsätter ömsesidigt erkännande och vilja till fredlig samexistens. Därför kommer Sverige att erkänna staten Palestina\".</p>\r\n<p>I regeringsformen 10 kap. 11 § stadgas följande: \"Regeringen ska fortlöpande hålla Utrikesnämnden underrättad om de utrikespolitiska förhållanden som kan få betydelse för riket och överlägga med nämnden om dessa så ofta som det behövs. I alla utrikesärenden av större vikt ska regeringen före avgörandet överlägga med nämnden, om det kan ske\".</p>\r\n<p>Att erkänna ett annat lands självständighet måste alltid anses vara ett utrikesärende av större vikt och före ett sådant ställningstagande ska regeringen därför överlägga med Utrikesnämnden. Det gäller i synnerhet i det nu aktuella fallet, eftersom ett erkännande av Palestina skulle innebära att den princip som Sverige tillämpat för erkännande av stater frångås. Sverige har hävdat att huvudkriteriet för att en stat ska kunna erkännas är ett definierat territorium som en administration eller regering har kontroll över. Detta är inte, åtminstone för närvarande, läget i Palestina. </p>\r\n<p>Även om något formellt regeringsbeslut om att erkänna Palestina ännu inte har fattats är deklarationen i regeringsförklaringen entydig, slutgiltig och reservationslös: \"Därför kommer Sverige att erkänna staten Palestina\". Därtill kommer att deklarationen framfördes av regeringschefen själv i riksdagens kammare, det vill säga av regeringens ledande företrädare i det mest formella och officiella forum som finns. I Sverige och utomlands har deklarationen uppfattats som att frågan om erkännande av Palestina är definitivt avgjord. </p>\r\n<p>Konstitutionsutskottet bör mot denna bakgrund granska om den tillträdande statsministern brutit mot regeringsformens stadgande genom att ärendet de facto avgjorts utan Utrikesnämndens hörande. </p>\r\n<p>Annicka Engblom (M) </p>\r\n\r\n\r\n<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;\r\ncolor:black'><o:p> </o:p></span></p>\r\n\r\n</div>\r\n\r\n",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "8",
+      "organ": "KU",
+      "pretext": null,
+      "publicerad": "2014-10-08T09:46:37.000000",
+      "relaterat_id": null,
+      "rm": "2014/15",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "webbkonvert",
+      "sourceid": null,
+      "status": null,
+      "subtitel": "Annicka Engblom (M)",
+      "subtyp": "KU-anmälan",
+      "systemdatum": "2014-10-13T00:00:00.000000",
+      "tempbeteckning": "209-2014/15",
+      "text": null,
+      "titel": "Granskning av deklarationen om Palestina i regeringsförklaringen",
+      "typ": "utskottsdokument",
+      "typrubrik": "KU-anmälning 2014/15:8 (209-2014/15) av Annicka Engblom (M)",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

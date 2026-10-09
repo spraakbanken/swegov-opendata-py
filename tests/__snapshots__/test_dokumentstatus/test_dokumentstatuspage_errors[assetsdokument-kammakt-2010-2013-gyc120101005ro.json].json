@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "20101005ro",
+      "datum": "2010-10-05",
+      "debattnamn": "Riksmötets öppnande",
+      "dok_id": "GYC120101005ro",
+      "doktyp": "kam-ro",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/GYC120101005ro')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GYC120101005ro/text')",
+      "dokumentnamn": "Riksmötets öppnande",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GYC120101005ro')",
+      "hangar_id": "2729169",
+      "html": "<h2>Riksmötets öppnande</h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": "",
+      "mottagare": "",
+      "nummer": "0",
+      "organ": "kamm",
+      "pretext": null,
+      "publicerad": "2010-10-05T14:00:00.000000",
+      "relaterat_id": "",
+      "rm": "2010/11",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "distdb",
+      "sourceid": "GYC120101005rö",
+      "status": "inträffat",
+      "subtitel": "",
+      "subtyp": "ro",
+      "systemdatum": "2011-09-12T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Riksmötets öppnande",
+      "typ": "kammakt",
+      "typrubrik": "",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": {
+      "media": [
+        {
+          "audiofileurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442208230025234021_aud.mp3",
+          "datum": "2010-10-05T11:33:45.000000",
+          "debateurl": "/sv/webb-tv/video/riksmotets-oppnande/riksmotets-oppnande_GYC120101005ro",
+          "debatt_rm": "2010/11",
+          "debatt_typ": null,
+          "debattsekunder": 6276,
+          "dok_beteckning": "Riksmötets",
+          "dok_id": "GYC120101005ro",
+          "downloadurl": "https://mhdownload.riksdagen.se/VOD1/PAL169/2442208230025234021_480p.mp4",
+          "inspelningstyp": "Kammarsystemet",
+          "source": "Rim",
+          "systemdatum": "2022-08-23T17:29:08.000000",
+          "thumbnailurl": "https://mhdownload.riksdagen.se/posterframe/2442208230025234021.jpg",
+          "url": "VOD1/PAL169/2442208230025234021",
+          "videofileurl": "https://mamstream.riksdagen.se/VOD1/_definst_/smil:PAL169/2442208230025234021.smil/playlist.m3u8",
+          "videostatus": 2
+        }
+      ]
+    }
+  }
+}

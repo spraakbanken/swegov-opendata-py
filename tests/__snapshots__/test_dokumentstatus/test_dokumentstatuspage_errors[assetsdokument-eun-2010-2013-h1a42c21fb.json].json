@@ -1,0 +1,63 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H1CC2E9F5E",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/00281FA5-A7C2-4932-B2B0-74125A7459BC')",
+          "filnamn": "Troliga A-punkter v 38 2013.docx",
+          "filstorlek": "56625",
+          "filtyp": "docx",
+          "subtitel": null,
+          "titel": "Troliga A-punkter v 38 2013"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "2C21FB",
+      "datum": "2013-09-20",
+      "debattnamn": null,
+      "dok_id": "H1A42C21FB",
+      "doktyp": "skrsam",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H1A42C21FB')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H1A42C21FB/text')",
+      "dokumentnamn": null,
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H1A42C21FB')",
+      "hangar_id": "2892288",
+      "html": "\r\n<div class=Section1>\r\n\r\n<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span\r\nstyle='font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Verdana;\r\ncolor:black;mso-font-kerning:14.0pt'>Skriftligt samråd om troliga A-punkter v.\r\n38<span style='mso-spacerun:yes'>   </span><o:p></o:p></span></b></p>\r\n\r\n<p class=MsoNormal><span style='font-size:10.0pt;font-family:Verdana;\r\ncolor:black'>Samrådet avslutades den 20 september. Det fanns stöd i nämnden för\r\nregeringens ståndpunkt. AM (SD)<o:p></o:p></span></p>\r\n\r\n</div>\r\n\r\n",
+      "htmlformat": null,
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "0",
+      "organ": "EUN",
+      "pretext": null,
+      "publicerad": "2013-10-08T16:09:06.000000",
+      "relaterat_id": null,
+      "rm": "2013/14",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "webbkonvert",
+      "sourceid": null,
+      "status": null,
+      "subtitel": null,
+      "subtyp": null,
+      "systemdatum": "2013-10-08T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Skriftligt samråd om troliga A-punkter v. 38",
+      "typ": "skrsam",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

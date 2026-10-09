@@ -1,0 +1,72 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "H606FPM1",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/D2B81D81-D388-4B1F-9BA3-9FB7318D7D85')",
+          "filnamn": "FPM_201819__1_.doc",
+          "filstorlek": "314880",
+          "filtyp": "doc",
+          "subtitel": "KOM(2018) 608",
+          "titel": "Förordning om fiskemöjligheter i Östersjön 2019"
+        },
+        {
+          "dok_id": "H606FPM1",
+          "fil_url": "HttpUrl('http://data.riksdagen.se/fil/660BCC58-0C88-4DA5-847D-2212BD062856')",
+          "filnamn": "FPM_201819__1_.pdf",
+          "filstorlek": "68528",
+          "filtyp": "pdf",
+          "subtitel": "KOM(2018) 608",
+          "titel": "Förordning om fiskemöjligheter i Östersjön 2019"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "FPM1",
+      "datum": "2018-10-02",
+      "debattnamn": "Fakta-PM om EU-förslag",
+      "dok_id": "H606FPM1",
+      "doktyp": "fpm",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H606FPM1')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H606FPM1/text')",
+      "dokumentnamn": "Fakta-PM om EU-förslag",
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H606FPM1')",
+      "hangar_id": "0",
+      "html": "<h1>Förordning om fiskemöjligheter i Östersjön 2019</h1>\r\n[konvertering pågår]",
+      "htmlformat": "base64",
+      "images": null,
+      "metadata": null,
+      "mottagare": "MJU",
+      "nummer": "1",
+      "organ": "Närings-dep",
+      "pretext": null,
+      "publicerad": "1900-01-01T00:00:00.000000",
+      "relaterat_id": "",
+      "rm": "2018/19",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "RIM",
+      "sourceid": "",
+      "status": "",
+      "subtitel": "KOM(2018) 608",
+      "subtyp": "",
+      "systemdatum": "2018-10-02T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": null,
+      "titel": "Förordning om fiskemöjligheter i Östersjön 2019",
+      "typ": "fpm",
+      "typrubrik": "Fakta-PM om EU-förslag 2018/19:FPM1 : KOM(2018) 608",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

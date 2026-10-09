@@ -1,0 +1,196 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2024-06-27T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "INL",
+          "namn": "Inlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2024-06-28T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "Överlämnad",
+          "namn": "Överlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2024-07-12T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "BESV",
+          "namn": "Besvarad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2024-07-12T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "BESV",
+          "namn": "Svarsdatum",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2024-07-12T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "SISVA",
+          "namn": "Sista svarsdatum",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2024-08-20T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "ANM",
+          "namn": "Anmäld",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": {
+      "bilaga": [
+        {
+          "dok_id": "HB111007",
+          "fil_url": "HttpUrl('https://data.riksdagen.se/fil/ED342CD4-2290-4211-B1A7-C91CD7DC6870')",
+          "filnamn": "fr_202324__1007.pdf",
+          "filstorlek": "87724",
+          "filtyp": "pdf",
+          "subtitel": "Lars Mejern Larsson (S)",
+          "titel": "Piratkopiering av film"
+        }
+      ]
+    },
+    "dokforslag": null,
+    "dokintressent": {
+      "intressent": [
+        {
+          "intressent_id": "0427321850912",
+          "namn": "Lars Mejern Larsson",
+          "ordning": "1",
+          "partibet": "S",
+          "roll": "undertecknare"
+        },
+        {
+          "intressent_id": "0647668663722",
+          "namn": "Kulturminister Parisa Liljestrand",
+          "ordning": "1",
+          "partibet": "M",
+          "roll": "stalldtill"
+        },
+        {
+          "intressent_id": "0897334717419",
+          "namn": "Justitieminister Gunnar Strömmer",
+          "ordning": "1",
+          "partibet": "M",
+          "roll": "besvaradav"
+        }
+      ]
+    },
+    "dokmotforslag": null,
+    "dokreferens": {
+      "referens": [
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "1007",
+          "ref_dok_dokumentnamn": "Svar på skriftlig fråga",
+          "ref_dok_id": "HB121007",
+          "ref_dok_rm": "2023/24",
+          "ref_dok_subtitel": "Justitieminister Gunnar Strömmer (M)",
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": "Piratkopiering av film",
+          "ref_dok_typ": "frs",
+          "referenstyp": "frågesvar",
+          "uppgift": "Svar på skriftlig fråga 2023/24:1007 Piratkopiering av film"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "1008",
+          "ref_dok_dokumentnamn": "Skriftlig fråga",
+          "ref_dok_id": "HB111008",
+          "ref_dok_rm": "2023/24",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": null,
+          "ref_dok_typ": "fr",
+          "referenstyp": "GemensamtBesvarad",
+          "uppgift": "Besvaras gemensamt med 2023/24:1008"
+        },
+        {
+          "hangar_id": null,
+          "ref_dok_bet": "1009",
+          "ref_dok_dokumentnamn": "Skriftlig fråga",
+          "ref_dok_id": "HB111009",
+          "ref_dok_rm": "2023/24",
+          "ref_dok_subtitel": null,
+          "ref_dok_subtyp": null,
+          "ref_dok_titel": null,
+          "ref_dok_typ": "fr",
+          "referenstyp": "GemensamtBesvarad",
+          "uppgift": "Besvaras gemensamt med 2023/24:1009"
+        }
+      ]
+    },
+    "dokument": {
+      "beteckning": "1007",
+      "datum": "2024-06-28",
+      "debattnamn": "Skriftlig fråga",
+      "dok_id": "HB111007",
+      "doktyp": "fr",
+      "dokument_url_html": "HttpUrl('https://data.riksdagen.se/dokument/HB111007')",
+      "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HB111007/text')",
+      "dokumentnamn": "Skriftlig fråga",
+      "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HB111007')",
+      "hangar_id": "5212592",
+      "html": "<h2>Fråga 2023/24:1007 Piratkopiering av film</h2>\r\n<p class=\"Av\">av <i>Lars Mejern Larsson (S)</i></p>\r\n<p class=\"Till\">till Kulturminister Parisa Liljestrand (M)</p>\r\n<p> </p>\r\n<p>Piratkopiering av film och tv-innehåll skadar innehavaren av rättigheterna ekonomiskt och påverkar därmed möjligheten för – och viljan till – ny produktion. Det är ett stort hot mot en livskraftig svensk filmindustri.</p>\r\n<p>I maj i år uppgav analysföretaget Mediavision att 28 procent av svenskar i åldrarna 15–74 år konsumerar olagligt nedladdad film och tv, antingen genom egen nedladdning eller genom att streama från olagligt nedladdat innehåll. Förra året var det 25 procent, och 2022 endast 20 procent som uppgav att de gjort det. Trenden går alltså tydligt åt fel håll, något som också visar sig i att det i den yngsta åldersgruppen (15–24 år) är hela 60 procent som använt olagliga källor för konsumtion av film och tv.</p>\r\n<p>Även Skatteverket har sagt att Sverige sticker ut med den högsta andelen av befolkningen som köper illegal tv, och man skattar denna till runt 600 000 personer. Marknaden omsätter 550 000 000 kronor.</p>\r\n<p>Det här är naturligtvis ett avgörande problem för den svenska filmindustrin, som går miste om intäkter som skulle täcka de ganska stora kostnader det innebär att spela in film. Men det är också ett problem för samhället i stort, då staten går miste om stora skatteintäkter och de pengar som skulle ha gått till svensk film i stället går till ljusskygg verksamhet ofta med kopplingar till annan och grövre kriminalitet. Lite hårdraget bidrar den som laddar ned film olagligt till den organiserade ekonomiska brottsligheten.</p><p>Med anledning av ovanstående vill jag fråga kulturminister Parisa Liljestrand:</p><p> </p>\r\n<p>Vad avser ministern, inom sitt verksamhetsområde, att göra för att stävja konsumtion av olagligt nedladdat upphovsrättsskyddat material?</p>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": "Justitieminister Gunnar Strömmer (M)",
+      "nummer": "1007",
+      "organ": "S",
+      "pretext": null,
+      "publicerad": "2024-06-28T00:00:00.000000",
+      "relaterat_id": null,
+      "rm": "2023/24",
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "Frips",
+      "sourceid": "01d048f4-7af0-4fe4-a05b-4a365dd39151",
+      "status": "Besvarad",
+      "subtitel": "Lars Mejern Larsson (S)",
+      "subtyp": null,
+      "systemdatum": "2024-07-12T00:00:00.000000",
+      "tempbeteckning": "S",
+      "text": null,
+      "titel": "Piratkopiering av film",
+      "typ": "fr",
+      "typrubrik": "Skriftlig fråga 2023/24:1007 av Lars Mejern Larsson (S)",
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": "HB111007",
+          "kod": "statustext",
+          "namn": "statustext",
+          "systemdatum": "2024-07-13T00:19:59.000000",
+          "text": "Frågan är besvarad"
+        }
+      ]
+    },
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

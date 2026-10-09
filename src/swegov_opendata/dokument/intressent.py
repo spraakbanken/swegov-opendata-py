@@ -2,33 +2,18 @@ import typing as t
 
 import pydantic
 
+from swegov_opendata import shared
 
-class Intressent(pydantic.BaseModel, frozen=True):
-    roll: str
-    namn: str
+
+class Intressent(pydantic.BaseModel):
+    roll: str | None
+    namn: str | None
     partibet: str | None
-    ordning: str
     intressent_id: str | None
+    ordning: str
 
-    @pydantic.field_validator("namn", mode="before")
-    @classmethod
-    def ensure_string(cls, value: t.Any) -> t.Any:
-        if value is None:
-            return ""
-        return value
+    model_config = pydantic.ConfigDict(extra="forbid")
 
 
 class DokIntressent(pydantic.BaseModel):
-    intressent: list[Intressent]
-
-    @pydantic.field_validator("intressent", mode="before")
-    @classmethod
-    def ensure_list(cls, value: t.Any) -> t.Any:
-        def _create_from_dict(v: t.Any) -> Intressent:
-            if isinstance(v, Intressent):
-                return v
-            return Intressent.model_validate(v)
-
-        if not isinstance(value, list):
-            return [_create_from_dict(value)]
-        return [_create_from_dict(v) for v in value]
+    intressent: t.Annotated[list[Intressent], pydantic.BeforeValidator(shared.ensure_list)]

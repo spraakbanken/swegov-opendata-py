@@ -1,0 +1,139 @@
+{
+  "dokumentstatus": {
+    "debatt": {
+      "anforande": [
+        {
+          "anf_beteckning": null,
+          "anf_datum": "1900-01-01T00:00:00.000000",
+          "anf_hangar_id": 0,
+          "anf_id": null,
+          "anf_klockslag": null,
+          "anf_nummer": "0",
+          "anf_rm": null,
+          "anf_sekunder": 0,
+          "anf_text": null,
+          "anf_typ": "zz",
+          "anf_video_id": "1100141104338768621",
+          "datumtid": "1899-01-01T00:00:00.000000",
+          "debatt_id": null,
+          "debatt_titel": null,
+          "debatt_typ": null,
+          "dok_beteckning": null,
+          "dok_id": null,
+          "dok_intressent": null,
+          "intressent_id": null,
+          "kon": null,
+          "parent_id": null,
+          "parti": null,
+          "startpos": null,
+          "systemdatum": null,
+          "talare": null,
+          "talare_kort": null,
+          "tumnagel": null,
+          "tumnagel_liten": null,
+          "tumnagel_medium": null,
+          "tumnagel_mini": null,
+          "tumnagel_stor": null,
+          "video_id": null,
+          "video_url": "1100141104338768621",
+          "videostatus": null,
+          "voteringspunkt": null
+        }
+      ]
+    },
+    "dokaktivitet": {
+      "aktivitet": [
+        {
+          "datum": "2014-10-16T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "INL",
+          "namn": "Inlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2014-10-19T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "Överlämnad",
+          "namn": "Överlämnad",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        },
+        {
+          "datum": "2014-10-21T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "ANM",
+          "namn": "Anmäld",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "planerat"
+        },
+        {
+          "datum": "2014-11-03T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "BESV",
+          "namn": "Svarsdatum",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "planerat"
+        },
+        {
+          "datum": "2014-11-10T00:00:00.000000",
+          "hangar_id": null,
+          "kod": "SISVA",
+          "namn": "Sista svarsdatum",
+          "ordning": "0",
+          "process": "behandling",
+          "status": "inträffat"
+        }
+      ]
+    },
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "beteckning": "999",
+      "datum": "1900-01-01",
+      "debattnamn": null,
+      "dok_id": "H210999",
+      "doktyp": "sam-zz",
+      "dokument_url_html": "HttpUrl('http://data.riksdagen.se/dokument/H210999')",
+      "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H210999/text')",
+      "dokumentnamn": null,
+      "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H210999')",
+      "hangar_id": "3084907",
+      "html": "<h2></h2>",
+      "htmlformat": "html",
+      "images": null,
+      "metadata": null,
+      "mottagare": null,
+      "nummer": "0",
+      "organ": null,
+      "pretext": "samtr :999  999 samtr H210999",
+      "publicerad": "2014-11-05T11:28:31.000000",
+      "relaterat_id": null,
+      "rm": null,
+      "rubriker": null,
+      "slutnummer": "0",
+      "source": "ardome",
+      "sourceid": null,
+      "status": "inträffat",
+      "subtitel": null,
+      "subtyp": "zz",
+      "systemdatum": "2014-11-05T00:00:00.000000",
+      "tempbeteckning": null,
+      "text": null,
+      "titel": "Test sändning",
+      "typ": "samtr",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokuppgift": null,
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}
