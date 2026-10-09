@@ -8,9 +8,35 @@ license = "MIT"
 authors = [
   { name = "Språkbanken", email = "sb-info@svenska.gu.se" },
 ]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  # "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Operating System :: MacOS",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: Implementation :: CPython",
+  # "uncomment if you test on these interpreters:",
+  # "Programming Language :: Python :: Implementation :: IronPython",
+  # "Programming Language :: Python :: Implementation :: Jython",
+  # "Programming Language :: Python :: Implementation :: Stackless",
+  "Topic :: Utilities",
+  "Typing :: Typed",
+]
 dependencies = [
   "pydantic>=2.12.5",
 ]
+
+[project.urls]
+Changelog = "https://github.com/spraakbanken/swegov-opendata-py/blob/main/CHANGELOG.md"
+Homepage = "https://spraakbanken.se"
+Issues = "https://github.com/spraakbanken/swegov-opendata-py/issues"
+Repository = "https://github.com/spraakbanken/swegov-opendata-py"
 
 [dependency-groups]
 dev = [{ include-group = "lint" }, { include-group = "test" }]
