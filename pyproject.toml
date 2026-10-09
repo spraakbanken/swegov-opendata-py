@@ -19,7 +19,7 @@ lint = [
   "ty>=0.0.84",
 ]
 test = [
-  "pytest>=8.4.2",
+  "pytest>=9.0.3",
   "pytest-cov>=7.0.0",
   "syrupy>=6.0.0",
 ]
