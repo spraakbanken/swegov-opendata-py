@@ -1,49 +1,32 @@
 [project]
 name = "swegov-opendata"
 version = "0.1.0"
-description = "Preprocessing of Swedish riksdagens öppna data (open data)"
+description = "Data models for handling Swedish riksdagens öppna data (open data)"
 readme = "README.md"
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 license = "MIT"
 authors = [
-  { name = "Språkbanken Text", email = "sb-info@svenska.gu.se" },
+  { name = "Språkbanken", email = "sb-info@svenska.gu.se" },
 ]
 dependencies = [
-  "beautifulsoup4>=4.12.2",
-  "bunyan-formatter>=1.0.1",
-  "json-arrays[orjson]>=0.15.0",
-  "lxml>=4.9.3",
   "pydantic>=2.12.5",
-  "python-json-logger>=4.0.0",
-  "resiliparse>=0.15.2",
-  "structlog>=25.5.0",
-  "tqdm>=4.67.3",
-  "trafilatura>=2.0.0",
-  "typer>=0.9.0",
 ]
-
-[project.scripts]
-preprocess-rd = "swegov_opendata.presentation.console.main:app"
 
 [dependency-groups]
 dev = [{ include-group = "lint" }, { include-group = "test" }]
 lint = [
-  "ruff>=0.15.1",
-  "ty>=0.0.17",
+  "ruff>=0.16.9",
+  "ty>=0.0.84",
 ]
 test = [
   "pytest>=8.4.2",
   "pytest-cov>=7.0.0",
   "syrupy>=5.1.0",
-  "types-lxml>=2026.2.16",
 ]
 
 [build-system]
-requires = ["uv_build>=0.10,<0.11"]
+requires = ["uv_build>=0.12,<0.13"]
 build-backend = "uv_build"
 
 [tool.uv]
 exclude-newer = "P7D"
-
-[tool.uv.sources]
-trafilatura = { git = "https://github.com/spraakbanken/trafilatura", branch = "main" }
