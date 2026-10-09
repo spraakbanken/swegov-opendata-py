@@ -26,7 +26,7 @@ pytest==9.0.2
     #   syrupy
 pytest-cov==7.0.0
 ruff==0.16.10
-syrupy==5.1.0
+syrupy==6.1.1
 tomli==2.4.0 ; python_full_version <= '3.11'
     # via coverage
 ty==0.0.84

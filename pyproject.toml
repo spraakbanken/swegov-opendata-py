@@ -21,7 +21,7 @@ lint = [
 test = [
   "pytest>=8.4.2",
   "pytest-cov>=7.0.0",
-  "syrupy>=5.1.0",
+  "syrupy>=6.0.0",
 ]
 
 [build-system]
