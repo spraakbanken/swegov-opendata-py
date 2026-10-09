@@ -2,12 +2,12 @@ from pathlib import Path
 
 import pytest
 from syrupy.assertion import SnapshotAssertion
-from syrupy.extensions.single_file import SingleFileAmberSnapshotExtension
+from syrupy.extensions.json import JSONSnapshotExtension
 
 
 @pytest.fixture
-def snapshot_single(snapshot: SnapshotAssertion) -> SnapshotAssertion:
-    return snapshot.use_extension(SingleFileAmberSnapshotExtension)
+def snapshot_json(snapshot: SnapshotAssertion) -> SnapshotAssertion:
+    return snapshot.use_extension(JSONSnapshotExtension)
 
 
 @pytest.fixture()
