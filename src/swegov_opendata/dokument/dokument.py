@@ -1,7 +1,7 @@
 import datetime
 import enum
+import logging
 import typing as t
-from pathlib import Path
 
 import pydantic
 
@@ -18,6 +18,7 @@ from swegov_opendata.dokument.media import WebbMedia
 from swegov_opendata.dokument.referens import DokReferens
 from swegov_opendata.dokument.uppgift import DokUppgift
 
+logger = logging.getLogger(__name__)
 _DOKUMENT_TYP_MAP: dict[str, str] = {
     "bet": "betänkande",
     "dir": "kommittéedirektiv",
@@ -200,14 +201,21 @@ class DokumentStatusPage(pydantic.BaseModel):
         try:
             return DokumentStatusPage.model_validate_json(src)
         except pydantic.ValidationError as exc:
-            print(f"error type: '{exc.errors()[0]['type']}'")
+            exc_type = exc.errors()[0]["type"]
             exc_msg = exc.errors()[0]["msg"]
-            print(f"error msg: '{exc_msg}'")
-            print(f"{exc=}")
-            if exc.errors()[0]["type"] != "json_invalid":
+            logger.debug(
+                "Validation failed. %s...",
+                "Retrying after further processing"
+                if exc_type == "json_invalid"
+                else "Re-raising error",
+                extra={
+                    "error.type": exc_type,
+                    "error.msg": exc_msg,
+                    "error.raw": str(exc),
+                },
+            )
+            if exc_type != "json_invalid":
                 raise
-                column = int(exc_msg.split()[-1])
-                print(f"{src[column - 50:column + 50]=}")
             new_src: str = src if isinstance(src, str) else src.decode("utf-8")
             new_src = (
                 new_src.replace("{/* RESERVATIONSTEXT */}", r'""')
@@ -221,15 +229,19 @@ class DokumentStatusPage(pydantic.BaseModel):
             try:
                 return DokumentStatusPage.model_validate_json(new_src)
             except pydantic.ValidationError as exc:
-                dt = datetime.datetime.now(tz=datetime.UTC).strftime("%Y-%m-%dT%H%M%S")
-                Path(f"new_src-{dt}.json").write_text(new_src)
-                print(f"error type: '{exc.errors()[0]['type']}'")
+                exc_type = exc.errors()[0]["type"]
                 exc_msg = exc.errors()[0]["msg"]
-                print(f"error msg: '{exc_msg}'")
-                print(f"{exc=}")
-                if exc.errors()[0]["type"] != "json_invalid":
-                    raise
-                column = int(exc_msg.split()[-1])
-                print(f"{new_src[column - 50:column + 50]=}")
-                # new_src = src.replace("{/* RESERVATIONSTEXT */}", "")
+                logger.error(
+                    "Validation failed again. Re-raising error",
+                    extra={
+                        "error.type": exc_type,
+                        "error.msg": exc_msg,
+                        "error.raw": str(exc),
+                        "orig_src": src.decode("utf-8")
+                        if isinstance(src, (bytearray, bytes))
+                        else src,
+                        "new_src": new_src,
+                    },
+                )
+
                 raise
