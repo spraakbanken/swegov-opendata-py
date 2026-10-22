@@ -10,7 +10,7 @@ class Referens(pydantic.BaseModel):
     referenstyp: str | None
     uppgift: str | None
     ref_dok_id: str
-    ref_dok_typ: str
+    ref_dok_typ: str | None
     ref_dok_rm: str | None
     ref_dok_bet: str | None
     ref_dok_titel: str | None = pydantic.Field(default="")
