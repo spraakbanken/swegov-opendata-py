@@ -22,6 +22,7 @@ def test_utskottsdokument_2006_2009_gua19e5(snapshot_json: SnapshotAssertion) ->
         "assets/dokument-bet-2002-2005-gq01ku12.json",
         "assets/dokument-bet-2002-2005-GT01NU16.json",
         "assets/dokument-bet-2010-2013-gz01fiu23.json",
+        "assets/dokument-bet-2014-2017-h201ku1.json",
         "assets/dokument-bet-2018-2021-h601ku14.json",
         "assets/dokument-bet-2022-2025-ha01cu4.json",
         "assets/dokument-eun-2000-2009-gv0l27.json",
