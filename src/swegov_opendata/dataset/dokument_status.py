@@ -3,19 +3,19 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata.dataset.aktivitet import DokAktivitet
-from swegov_opendata.dataset.bilaga import DokBilaga
-from swegov_opendata.dataset.debatt import Debatt
 from swegov_opendata.dataset.dokument import Dokument
-from swegov_opendata.dataset.forslag import (
+from swegov_opendata.value_objects.aktivitet import DokAktivitet
+from swegov_opendata.value_objects.bilaga import DokBilaga
+from swegov_opendata.value_objects.debatt import Debatt
+from swegov_opendata.value_objects.forslag import (
     DokForslag,
     DokMotForslag,
     DokUtskottsForslag,
 )
-from swegov_opendata.dataset.intressent import DokIntressent
-from swegov_opendata.dataset.media import WebbMedia
-from swegov_opendata.dataset.referens import DokReferens
-from swegov_opendata.dataset.uppgift import DokUppgift
+from swegov_opendata.value_objects.intressent import DokIntressent
+from swegov_opendata.value_objects.media import WebbMedia
+from swegov_opendata.value_objects.referens import DokReferens
+from swegov_opendata.value_objects.uppgift import DokUppgift
 
 logger = logging.getLogger(__name__)
 

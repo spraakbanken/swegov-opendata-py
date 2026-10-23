@@ -2,19 +2,19 @@ import logging
 
 import pydantic
 
-from swegov_opendata.dokument.aktivitet import DokAktivitet
-from swegov_opendata.dokument.bilaga import DokBilaga
-from swegov_opendata.dokument.debatt import Debatt
 from swegov_opendata.dokument.dokument import Dokument
-from swegov_opendata.dokument.forslag import (
+from swegov_opendata.value_objects.aktivitet import DokAktivitet
+from swegov_opendata.value_objects.bilaga import DokBilaga
+from swegov_opendata.value_objects.debatt import Debatt
+from swegov_opendata.value_objects.forslag import (
     DokForslag,
     DokMotForslag,
     DokUtskottsForslag,
 )
-from swegov_opendata.dokument.intressent import DokIntressent
-from swegov_opendata.dokument.media import WebbMedia
-from swegov_opendata.dokument.referens import DokReferens
-from swegov_opendata.dokument.uppgift import DokUppgift
+from swegov_opendata.value_objects.intressent import DokIntressent
+from swegov_opendata.value_objects.media import WebbMedia
+from swegov_opendata.value_objects.referens import DokReferens
+from swegov_opendata.value_objects.uppgift import DokUppgift
 
 logger = logging.getLogger(__name__)
 

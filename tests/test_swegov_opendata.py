@@ -1,6 +1,6 @@
 from syrupy.assertion import SnapshotAssertion
 
-from swegov_opendata.dokument.forslag import Forslag
+from swegov_opendata.value_objects.forslag import Forslag
 
 
 def test_forslag_minimum_data(snapshot_json: SnapshotAssertion) -> None:
