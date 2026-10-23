@@ -1,0 +1,96 @@
+{
+  "dokumentstatus": {
+    "debatt": null,
+    "dokaktivitet": null,
+    "dokbilaga": null,
+    "dokforslag": null,
+    "dokintressent": null,
+    "dokmotforslag": null,
+    "dokreferens": null,
+    "dokument": {
+      "avdelningar": {
+        "avdelning": [
+          "dokument"
+        ]
+      },
+      "beteckning": "1981:369",
+      "datum": "1981-08-10",
+      "debattnamn": null,
+      "dok_id": "sfs-1981-369",
+      "dokumentnamn": "Svensk författningssamling",
+      "hangar_id": "",
+      "html": "\n\n\n<style>\n.document div {\n    overflow: visible !important;\n    width: 550px !important;\n}\n</style>\n\n<b>SFS nr</b>:     \n1981:369<br />\n\n<b>Departement/myndighet</b>:   \nLandsbygds- och infrastrukturdepartementet RSL <br />  \n\n<b>Utfärdad</b>:   \n1981-08-10 <br />  \n\n\n\n<b>Ändringsregister</b>:   \n<a href=\"http://rkrattsbaser.gov.se/sfsr?bet=1981:369\">SFSR (Regeringskansliet)</a> <br />\n\n<b>Källa</b>: \n\n<a href=\"http://rkrattsbaser.gov.se/sfst?bet=1981:369\">Fulltext (Regeringskansliet)</a> \n\n\n<br />\n\n<hr />\n\n\n\n<div><p><a name=\"S1\"></a></p><a class=\"paragraf\" name=\"P1\"><b>1 §</b></a>   Skogsvårdsstyrelsernas fasta egendom, penningmedel, rättigheter och andra tillgångar övertas av staten utan ersättning den 1 juli 1981. Staten övertar samtidigt ansvaret för skogsvårdsstyrelsernas förbindelser.<p><a name=\"P1S2\"></a></p><a class=\"paragraf\" name=\"P2\"><b>2 §</b></a>   Det åligger skogsvårdsstyrelserna att meddela de upplysningar och överlämna de handlingar som behövs för att genomföra övertagandet enligt 1§.</div>",
+      "images": null,
+      "metadata": null,
+      "nummer": "369",
+      "organ": "Landsbygds- och infrastrukturdepartementet RSL",
+      "pretext": null,
+      "publicerad": "2025-10-17T04:36:06.000000",
+      "rm": "1981",
+      "rubriker": null,
+      "slutnummer": "0",
+      "status": "",
+      "subtitel": "",
+      "subtyp": "sfst",
+      "systemdatum": "2025-10-17T00:00:00.000000",
+      "tempbeteckning": "",
+      "text": "1 § Skogsvårdsstyrelsernas fasta egendom, penningmedel, rättigheter\r\noch andra tillgångar övertas av staten utan ersättning den 1 juli\r\n1981. Staten övertar samtidigt ansvaret för skogsvårdsstyrelsernas\r\nförbindelser.\r\n\r\n2 § Det åligger skogsvårdsstyrelserna att meddela de upplysningar och\r\növerlämna de handlingar som behövs för att genomföra övertagandet\r\nenligt 1§.",
+      "titel": "Lag (1981:369) om statens övertagande av skogsvårdsstyrelsernas egendom",
+      "typ": "sfs",
+      "typrubrik": null,
+      "utskottsforslag_url_xml": null
+    },
+    "dokumentuppgift": {
+      "uppgift": [
+        {
+          "dok_id": null,
+          "kod": "artal",
+          "namn": "artal",
+          "systemdatum": null,
+          "text": "1981"
+        },
+        {
+          "dok_id": null,
+          "kod": "utfardad",
+          "namn": "utfardad",
+          "systemdatum": null,
+          "text": "1981-08-10"
+        },
+        {
+          "dok_id": null,
+          "kod": "utdrag",
+          "namn": "utdrag",
+          "systemdatum": null,
+          "text": "1 § Skogsvårdsstyrelsernas fasta egendom, penningmedel, rättigheter\r\noch andra tillgångar övertas av staten utan ersättning den 1 juli\r\n1981. Staten övertar samtidigt ansvaret för skogsvårdsstyrelsernas\r\nförbindelser.\r\n\r\n2 § Det åligger skogsvårdsstyrelserna att meddela de"
+        }
+      ]
+    },
+    "dokuppgift": {
+      "uppgift": [
+        {
+          "dok_id": null,
+          "kod": "artal",
+          "namn": "artal",
+          "systemdatum": null,
+          "text": "1981"
+        },
+        {
+          "dok_id": null,
+          "kod": "utfardad",
+          "namn": "utfardad",
+          "systemdatum": null,
+          "text": "1981-08-10"
+        },
+        {
+          "dok_id": null,
+          "kod": "utdrag",
+          "namn": "utdrag",
+          "systemdatum": null,
+          "text": "1 § Skogsvårdsstyrelsernas fasta egendom, penningmedel, rättigheter\r\noch andra tillgångar övertas av staten utan ersättning den 1 juli\r\n1981. Staten övertar samtidigt ansvaret för skogsvårdsstyrelsernas\r\nförbindelser.\r\n\r\n2 § Det åligger skogsvårdsstyrelserna att meddela de"
+        }
+      ]
+    },
+    "dokutskottsforslag": null,
+    "webbmedia": null
+  }
+}

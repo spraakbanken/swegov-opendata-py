@@ -1,7 +1,5 @@
 import typing as t
 
-import pydantic
-
 
 def ensure_int_opt(value: t.Any) -> int | None:
     if value == "":
@@ -46,11 +44,3 @@ def ensure_str_opt(value: t.Any) -> str | None:
         return None
 
     return ensure_str(value)
-
-
-class Avdelning(pydantic.BaseModel):
-    text: str
-
-
-class Avdelningar(pydantic.BaseModel):
-    avdelning: list[str]

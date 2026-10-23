@@ -5,6 +5,7 @@ import pydantic
 
 from swegov_opendata import shared
 from swegov_opendata.dokument.dokument import DokumentTyp
+from swegov_opendata.value_objects.avdelning import Avdelningar
 
 
 class Fil(pydantic.BaseModel):
@@ -48,7 +49,7 @@ class DokumentListaDokument(pydantic.BaseModel):
     ardometyp: str | None
     audio: str | None
     avdelning: str
-    avdelningar: shared.Avdelningar | None
+    avdelningar: Avdelningar | None
     beredningsdag: str | None
     beslutad: str | None
     beslutsdag: str | None
