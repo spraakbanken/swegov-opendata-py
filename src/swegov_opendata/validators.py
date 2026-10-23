@@ -44,3 +44,26 @@ def ensure_str_opt(value: t.Any) -> str | None:
         return None
 
     return ensure_str(value)
+
+
+def split_space_take_first(value: t.Any) -> t.Any:
+    if isinstance(value, str):
+        return "" if not value else value.split()[0]
+    return value
+
+
+def ensure_none_if_empty(value: t.Any) -> t.Any:
+    if isinstance(value, str):
+        return None if value == "" else value
+    return value
+
+
+def ensure_string(value: t.Any) -> t.Any:
+    def _ensure_str(v: t.Any) -> str:
+        return v if isinstance(v, str) else str(v)
+
+    if isinstance(value, list):
+        if len(value) == 0:
+            return ""
+        return _ensure_str(value[0])
+    return _ensure_str(value)

@@ -4,8 +4,8 @@ import typing as t
 import pydantic
 
 from swegov_opendata import validators
-from swegov_opendata.dokument.dokument import DokumentTyp
 from swegov_opendata.value_objects.avdelning import Avdelningar
+from swegov_opendata.value_objects.dokument_typ import DokumentTyp
 
 
 class Fil(pydantic.BaseModel):
@@ -45,7 +45,9 @@ class SokData(pydantic.BaseModel):
     model_config = pydantic.ConfigDict(extra="forbid")
 
 
-class DokumentListaDokument(pydantic.BaseModel):
+class Dokument(pydantic.BaseModel):
+    """Dokument in DokumentLista."""
+
     ardometyp: str | None
     audio: str | None
     avdelning: str
@@ -137,7 +139,7 @@ class DokumentLista(pydantic.BaseModel):
     varning: str | None = pydantic.Field(None, alias="@varning")
     version: str = pydantic.Field(alias="@version")
     facettlista: str | None
-    dokument: list[DokumentListaDokument]
+    dokument: list[Dokument]
 
     model_config = pydantic.ConfigDict(extra="forbid")
 
