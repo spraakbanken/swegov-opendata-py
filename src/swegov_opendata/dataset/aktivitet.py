@@ -3,7 +3,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Aktivitet(pydantic.BaseModel):
@@ -19,6 +19,6 @@ class Aktivitet(pydantic.BaseModel):
 
 
 class DokAktivitet(pydantic.BaseModel):
-    aktivitet: t.Annotated[list[Aktivitet], pydantic.BeforeValidator(shared.ensure_list)]
+    aktivitet: t.Annotated[list[Aktivitet], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")

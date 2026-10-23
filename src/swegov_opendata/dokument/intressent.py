@@ -2,7 +2,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Intressent(pydantic.BaseModel):
@@ -16,4 +16,4 @@ class Intressent(pydantic.BaseModel):
 
 
 class DokIntressent(pydantic.BaseModel):
-    intressent: t.Annotated[list[Intressent], pydantic.BeforeValidator(shared.ensure_list)]
+    intressent: t.Annotated[list[Intressent], pydantic.BeforeValidator(validators.ensure_list)]

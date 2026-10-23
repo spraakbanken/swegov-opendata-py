@@ -3,7 +3,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 from swegov_opendata.dokument.dokument import DokumentTyp
 from swegov_opendata.value_objects.avdelning import Avdelningar
 
@@ -18,7 +18,7 @@ class Fil(pydantic.BaseModel):
 
 
 class FilBilaga(pydantic.BaseModel):
-    fil: t.Annotated[list[Fil] | None, pydantic.BeforeValidator(shared.ensure_list_opt)]
+    fil: t.Annotated[list[Fil] | None, pydantic.BeforeValidator(validators.ensure_list_opt)]
 
     model_config = pydantic.ConfigDict(extra="forbid")
 

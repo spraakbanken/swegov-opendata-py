@@ -3,7 +3,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class FilTyp(enum.StrEnum):
@@ -39,6 +39,6 @@ class Bilaga(pydantic.BaseModel):
 
 
 class DokBilaga(pydantic.BaseModel):
-    bilaga: t.Annotated[list[Bilaga], pydantic.BeforeValidator(shared.ensure_list)]
+    bilaga: t.Annotated[list[Bilaga], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")

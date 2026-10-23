@@ -3,13 +3,13 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Anforande(pydantic.BaseModel):
     anf_beteckning: str | None
     anf_datum: datetime.datetime
-    anf_hangar_id: t.Annotated[int | None, pydantic.BeforeValidator(shared.ensure_int_opt)]
+    anf_hangar_id: t.Annotated[int | None, pydantic.BeforeValidator(validators.ensure_int_opt)]
     anf_id: str | None = None
     anf_klockslag: str | None
     anf_nummer: str
@@ -33,9 +33,9 @@ class Anforande(pydantic.BaseModel):
     systemdatum: datetime.datetime | None = None
     talare: str | None
     talare_kort: str | None = None
-    tumnagel: t.Annotated[list[str] | None, pydantic.BeforeValidator(shared.ensure_list_opt)] = (
-        None
-    )
+    tumnagel: t.Annotated[
+        list[str] | None, pydantic.BeforeValidator(validators.ensure_list_opt)
+    ] = None
     tumnagel_mini: str | None = None
     tumnagel_liten: str | None = None
     tumnagel_medium: str | None = None
@@ -49,6 +49,6 @@ class Anforande(pydantic.BaseModel):
 
 
 class Debatt(pydantic.BaseModel):
-    anforande: t.Annotated[list[Anforande], pydantic.BeforeValidator(shared.ensure_list)]
+    anforande: t.Annotated[list[Anforande], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")

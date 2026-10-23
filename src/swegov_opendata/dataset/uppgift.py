@@ -3,7 +3,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Uppgift(pydantic.BaseModel):
@@ -17,6 +17,6 @@ class Uppgift(pydantic.BaseModel):
 
 
 class DokUppgift(pydantic.BaseModel):
-    uppgift: t.Annotated[list[Uppgift], pydantic.BeforeValidator(shared.ensure_list)]
+    uppgift: t.Annotated[list[Uppgift], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")
