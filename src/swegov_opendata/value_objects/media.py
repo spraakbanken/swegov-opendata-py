@@ -3,7 +3,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Media(pydantic.BaseModel):
@@ -28,6 +28,6 @@ class Media(pydantic.BaseModel):
 
 
 class WebbMedia(pydantic.BaseModel):
-    media: t.Annotated[list[Media], pydantic.BeforeValidator(shared.ensure_list)]
+    media: t.Annotated[list[Media], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")

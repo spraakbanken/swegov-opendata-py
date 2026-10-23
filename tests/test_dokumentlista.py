@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
-from swegov_opendata.dokument.dokumentlista import DokumentListaPage
+from swegov_opendata.dokumentlista import DokumentListaPage
 
 
 def test_dokumentlista_1(snapshot_json: SnapshotAssertion) -> None:

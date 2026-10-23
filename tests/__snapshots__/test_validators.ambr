@@ -1,0 +1,49 @@
+# serializer version: 1
+# name: test_ensure_str_if_list_only_one_unique_value[1]
+  '1'
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[None]
+  ''
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[]
+  ''
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[value3]
+  ''
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[value4]
+  ''
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[value5]
+  '1'
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value[value6]
+  'one'
+# ---
+# name: test_ensure_str_if_list_only_one_unique_value_raises_value_error[value0]
+  ValueError("Too many unique values: ['one', 'two']")
+# ---
+# name: test_ensure_str_if_list_take_first[1]
+  '1'
+# ---
+# name: test_ensure_str_if_list_take_first[None]
+  ''
+# ---
+# name: test_ensure_str_if_list_take_first[]
+  ''
+# ---
+# name: test_ensure_str_if_list_take_first[value3]
+  ''
+# ---
+# name: test_ensure_str_if_list_take_first[value4]
+  ''
+# ---
+# name: test_ensure_str_if_list_take_first[value5]
+  ''
+# ---
+# name: test_ensure_str_if_list_take_first[value6]
+  '1'
+# ---
+# name: test_ensure_str_if_list_take_first[value7]
+  'one'
+# ---

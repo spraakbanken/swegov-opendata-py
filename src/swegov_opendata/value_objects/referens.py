@@ -2,7 +2,7 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Referens(pydantic.BaseModel):
@@ -20,4 +20,4 @@ class Referens(pydantic.BaseModel):
 
 
 class DokReferens(pydantic.BaseModel):
-    referens: t.Annotated[list[Referens], pydantic.BeforeValidator(shared.ensure_list)]
+    referens: t.Annotated[list[Referens], pydantic.BeforeValidator(validators.ensure_list)]

@@ -2,14 +2,16 @@ import typing as t
 
 import pydantic
 
-from swegov_opendata import shared
+from swegov_opendata import validators
 
 
 class Forslag(pydantic.BaseModel):
     hangar_id: str | None = None
     nummer: int
     beteckning: str | None
-    lydelse: t.Annotated[str, pydantic.BeforeValidator(shared.ensure_str)]
+    lydelse: t.Annotated[
+        str, pydantic.BeforeValidator(validators.ensure_str_if_list_only_one_unique_value)
+    ]
     lydelse2: str | None
     utskottet: str | None
     kammaren: str | None
@@ -25,7 +27,7 @@ class Forslag(pydantic.BaseModel):
 
 
 class DokForslag(pydantic.BaseModel):
-    forslag: t.Annotated[list[Forslag], pydantic.BeforeValidator(shared.ensure_list)]
+    forslag: t.Annotated[list[Forslag], pydantic.BeforeValidator(validators.ensure_list)]
 
     model_config = pydantic.ConfigDict(extra="forbid")
 
@@ -41,7 +43,7 @@ class MotForslag(pydantic.BaseModel):
 
 
 class DokMotForslag(pydantic.BaseModel):
-    motforslag: t.Annotated[list[MotForslag], pydantic.BeforeValidator(shared.ensure_list)]
+    motforslag: t.Annotated[list[MotForslag], pydantic.BeforeValidator(validators.ensure_list)]
 
 
 class UtskottsForslag(pydantic.BaseModel):
@@ -69,5 +71,5 @@ class UtskottsForslag(pydantic.BaseModel):
 
 class DokUtskottsForslag(pydantic.BaseModel):
     utskottsforslag: t.Annotated[
-        list[UtskottsForslag], pydantic.BeforeValidator(shared.ensure_list)
+        list[UtskottsForslag], pydantic.BeforeValidator(validators.ensure_list)
     ]
