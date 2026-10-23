@@ -9,7 +9,9 @@ class Forslag(pydantic.BaseModel):
     hangar_id: str | None = None
     nummer: int
     beteckning: str | None
-    lydelse: t.Annotated[str, pydantic.BeforeValidator(validators.ensure_str)]
+    lydelse: t.Annotated[
+        str, pydantic.BeforeValidator(validators.ensure_str_if_list_only_one_unique_value)
+    ]
     lydelse2: str | None
     utskottet: str | None
     kammaren: str | None

@@ -9,7 +9,9 @@ from swegov_opendata import validators
 class Anforande(pydantic.BaseModel):
     anf_beteckning: str | None
     anf_datum: datetime.datetime
-    anf_hangar_id: t.Annotated[int | None, pydantic.BeforeValidator(validators.ensure_int_opt)]
+    anf_hangar_id: t.Annotated[
+        int | None, pydantic.BeforeValidator(validators.ensure_none_if_empty)
+    ]
     anf_id: str | None = None
     anf_klockslag: str | None
     anf_nummer: str

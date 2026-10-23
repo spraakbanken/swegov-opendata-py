@@ -7,7 +7,7 @@ from swegov_opendata._core.dokument_base import DokumentBase
 
 
 class Dokument(DokumentBase):
-    doktyp: t.Annotated[str, pydantic.BeforeValidator(validators.ensure_string)]
+    doktyp: t.Annotated[str, pydantic.BeforeValidator(validators.ensure_str_if_list_take_first)]
     dokument_url_html: pydantic.HttpUrl
     dokument_url_text: pydantic.HttpUrl
     dokumentstatus_url_xml: pydantic.HttpUrl
