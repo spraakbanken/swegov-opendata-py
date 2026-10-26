@@ -29,6 +29,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "10",
       "datum": "2010-11-17",
       "debattnamn": "Riksdagsskrivelse",
@@ -65,6 +66,7 @@
       "typrubrik": "Riksdagsskrivelse 2010/11:10",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

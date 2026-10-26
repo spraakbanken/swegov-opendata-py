@@ -32,6 +32,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "42",
       "datum": "2002-10-15",
       "debattnamn": "Skriftlig fråga",
@@ -68,6 +69,7 @@
       "typrubrik": "Skriftlig fråga 2002/03:42 av Nilsson Wigström, Cecilia (fp)",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

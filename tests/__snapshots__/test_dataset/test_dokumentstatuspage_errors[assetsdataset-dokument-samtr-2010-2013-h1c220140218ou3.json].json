@@ -50,6 +50,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20140218ou3",
       "datum": "1900-01-01",
       "debattnamn": "Öppen utfrågning",
@@ -86,6 +87,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

@@ -1,9 +1,8 @@
 import logging
-import typing as t
 
 import pydantic
 
-from swegov_opendata.dataset.dokument import Dokument
+from swegov_opendata.dokument import Dokument
 from swegov_opendata.value_objects.aktivitet import DokAktivitet
 from swegov_opendata.value_objects.bilaga import DokBilaga
 from swegov_opendata.value_objects.debatt import Debatt
@@ -20,29 +19,6 @@ from swegov_opendata.value_objects.uppgift import DokUppgift
 logger = logging.getLogger(__name__)
 
 
-def split_space_take_first(value: t.Any) -> t.Any:
-    if isinstance(value, str):
-        return "" if not value else value.split()[0]
-    return value
-
-
-def ensure_none_if_empty(value: t.Any) -> t.Any:
-    if isinstance(value, str):
-        return None if value == "" else value
-    return value
-
-
-def ensure_string(value: t.Any) -> t.Any:
-    def _ensure_str(v: t.Any) -> str:
-        return v if isinstance(v, str) else str(v)
-
-    if isinstance(value, list):
-        if len(value) == 0:
-            return ""
-        return _ensure_str(value[0])
-    return _ensure_str(value)
-
-
 class DokumentStatus(pydantic.BaseModel):
     debatt: Debatt | None = None
     dokaktivitet: DokAktivitet | None = None
@@ -53,6 +29,7 @@ class DokumentStatus(pydantic.BaseModel):
     dokreferens: DokReferens | None = None
     dokument: Dokument
     dokuppgift: DokUppgift | None = None
+    dokumentuppgift: DokUppgift | None = None
     dokutskottsforslag: DokUtskottsForslag | None = None
     webbmedia: WebbMedia | None = None
 

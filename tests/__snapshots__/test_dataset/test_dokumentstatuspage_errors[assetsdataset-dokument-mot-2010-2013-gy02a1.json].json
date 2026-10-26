@@ -187,6 +187,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "A1",
       "datum": "2010-10-11",
       "debattnamn": null,
@@ -223,6 +224,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

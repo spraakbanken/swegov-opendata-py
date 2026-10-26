@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "01503F83-8D76-420D-9C3B-2E2C52D7A2D2",
       "datum": "2011-08-25",
       "debattnamn": "Övrigt kammaren",
@@ -44,6 +45,7 @@
       "typrubrik": "",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

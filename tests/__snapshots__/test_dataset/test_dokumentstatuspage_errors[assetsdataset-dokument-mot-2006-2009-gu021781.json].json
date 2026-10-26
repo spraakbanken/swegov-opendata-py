@@ -79,6 +79,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1781",
       "datum": "2006-10-27",
       "debattnamn": null,
@@ -115,6 +116,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

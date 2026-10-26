@@ -20,6 +20,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "2EADB8",
       "datum": "2014-10-06",
       "debattnamn": "KU-anmälning",
@@ -56,6 +57,7 @@
       "typrubrik": "KU-anmälning 2014/15:8 (209-2014/15) av Annicka Engblom (M)",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

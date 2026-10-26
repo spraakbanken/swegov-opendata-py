@@ -32,6 +32,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "370",
       "datum": "2000-04-25",
       "debattnamn": null,
@@ -68,6 +69,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

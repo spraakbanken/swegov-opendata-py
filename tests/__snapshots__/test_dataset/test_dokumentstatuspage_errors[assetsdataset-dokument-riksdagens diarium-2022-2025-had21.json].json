@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": null,
       "datum": "2022-09-27",
       "debattnamn": "diarie",
@@ -44,6 +45,7 @@
       "typrubrik": "diarie 2022/23",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

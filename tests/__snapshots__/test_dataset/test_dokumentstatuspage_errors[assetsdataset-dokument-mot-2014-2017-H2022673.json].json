@@ -30,6 +30,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "2673",
       "datum": "2014-11-10",
       "debattnamn": "Motion",
@@ -66,6 +67,7 @@
       "typrubrik": "Motion 2014/15:2673",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

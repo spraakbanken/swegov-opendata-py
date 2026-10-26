@@ -96,6 +96,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "999",
       "datum": "1900-01-01",
       "debattnamn": null,
@@ -132,6 +133,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

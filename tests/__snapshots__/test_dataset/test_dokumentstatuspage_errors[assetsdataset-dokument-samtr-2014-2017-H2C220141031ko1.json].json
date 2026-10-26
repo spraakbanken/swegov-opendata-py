@@ -51,6 +51,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20141031ko1",
       "datum": "2014-10-31",
       "debattnamn": "Öppen konferens",
@@ -87,6 +88,7 @@
       "typrubrik": "samtr 2014/15:20141031ko1",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

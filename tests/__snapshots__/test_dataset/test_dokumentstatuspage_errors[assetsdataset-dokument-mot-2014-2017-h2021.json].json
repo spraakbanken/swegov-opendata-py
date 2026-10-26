@@ -111,6 +111,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2014-09-29",
       "debattnamn": "Motion",
@@ -147,6 +148,7 @@
       "typrubrik": "Motion 2014/15:1 av Anders Ahlgren och Anders Åkesson (C)",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

@@ -583,6 +583,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "KU12",
       "datum": "2003-11-14",
       "debattnamn": "Debatt om förslag",
@@ -619,6 +620,7 @@
       "typrubrik": "Betänkande 2002/03:KU12",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/GQ01KU12"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

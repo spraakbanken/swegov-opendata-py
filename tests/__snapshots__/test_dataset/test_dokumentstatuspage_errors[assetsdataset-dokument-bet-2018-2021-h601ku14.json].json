@@ -350,6 +350,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "KU14",
       "datum": "2019-01-31",
       "debattnamn": "Debatt om förslag",
@@ -386,6 +387,7 @@
       "typrubrik": "Betänkande 2018/19:KU14",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/H601KU14"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

@@ -51,6 +51,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20181114pk",
       "datum": "2018-11-14",
       "debattnamn": "Presskonferens",
@@ -87,6 +88,7 @@
       "typrubrik": "samtr 2018/19:20181114pk",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

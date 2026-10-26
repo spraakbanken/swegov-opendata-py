@@ -146,6 +146,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2014-10-03",
       "debattnamn": "Kallelse och föredragningslista",
@@ -182,6 +183,7 @@
       "typrubrik": "Kallelse och föredragningslista 2014/15:1 EU-nämndens sammanträde 2014-10-03",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

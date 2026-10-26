@@ -1263,6 +1263,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "",
       "datum": null,
       "debattnamn": null,
@@ -1299,6 +1300,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

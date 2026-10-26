@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "0060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9",
       "datum": "2023-02-22",
       "debattnamn": "Övrigt kammaren",
@@ -44,6 +45,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

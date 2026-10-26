@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "10188tt",
       "datum": "2013-01-31",
       "debattnamn": "Interpellationsdebatt",
@@ -44,6 +45,7 @@
       "typrubrik": "",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

@@ -260,6 +260,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2022-09-30",
       "debattnamn": "Motion",
@@ -296,6 +297,7 @@
       "typrubrik": "Motion 2022/23:1 av Lotta Johnsson Fornarve m.fl. (V)",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

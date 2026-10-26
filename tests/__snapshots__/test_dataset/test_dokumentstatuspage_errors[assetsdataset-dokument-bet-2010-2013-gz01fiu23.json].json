@@ -255,6 +255,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "FiU23",
       "datum": "2012-03-28",
       "debattnamn": "Debatt om förslag",
@@ -291,6 +292,7 @@
       "typrubrik": "Betänkande 2011/12:FiU23",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/GZ01FiU23"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

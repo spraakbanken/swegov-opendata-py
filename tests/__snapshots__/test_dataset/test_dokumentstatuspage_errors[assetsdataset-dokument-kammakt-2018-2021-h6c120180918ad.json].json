@@ -131,6 +131,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20180918ad",
       "datum": "2018-09-18",
       "debattnamn": "Aktuell debatt",
@@ -167,6 +168,7 @@
       "typrubrik": "kammakt 2018/19:20180918ad",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

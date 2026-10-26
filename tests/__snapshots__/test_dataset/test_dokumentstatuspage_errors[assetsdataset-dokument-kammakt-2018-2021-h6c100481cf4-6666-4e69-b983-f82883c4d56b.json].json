@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "",
       "datum": "2019-06-17",
       "debattnamn": "Övrigt kammaren",
@@ -44,6 +45,7 @@
       "typrubrik": "",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

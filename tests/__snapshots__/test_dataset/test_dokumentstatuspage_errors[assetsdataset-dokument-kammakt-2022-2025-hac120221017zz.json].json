@@ -360,6 +360,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20221017zz",
       "datum": "2022-10-17",
       "debattnamn": "Övrigt kammaren",
@@ -396,6 +397,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

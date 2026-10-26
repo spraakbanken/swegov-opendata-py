@@ -29,6 +29,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "FPM1",
       "datum": "2018-10-02",
       "debattnamn": "Fakta-PM om EU-förslag",
@@ -65,6 +66,7 @@
       "typrubrik": "Fakta-PM om EU-förslag 2018/19:FPM1 : KOM(2018) 608",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

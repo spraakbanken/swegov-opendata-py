@@ -672,6 +672,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "665",
       "datum": "2007-08-10",
       "debattnamn": null,
@@ -708,6 +709,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

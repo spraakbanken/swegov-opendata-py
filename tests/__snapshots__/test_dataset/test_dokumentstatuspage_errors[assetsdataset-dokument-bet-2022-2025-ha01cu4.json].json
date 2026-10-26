@@ -270,6 +270,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "CU4",
       "datum": "2022-11-18",
       "debattnamn": "Debatt om förslag",
@@ -306,6 +307,7 @@
       "typrubrik": "Betänkande 2022/23:CU4",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/HA01CU4"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "0005CF43-FCC4-436A-A7D4-112B03D70BEE",
       "datum": "2015-01-13",
       "debattnamn": "Övrigt kammaren",
@@ -44,6 +45,7 @@
       "typrubrik": "",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

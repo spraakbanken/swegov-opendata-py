@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
-from swegov_opendata.dataset.dokument_status import DokumentStatusPage
+from swegov_opendata.dokument_status import DokumentStatusPage
 
 
 def test_utskottsdokument_2006_2009_gua19e5(snapshot_json: SnapshotAssertion) -> None:

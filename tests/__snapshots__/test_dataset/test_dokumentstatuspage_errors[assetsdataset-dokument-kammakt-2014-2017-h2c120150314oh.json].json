@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20150314oh",
       "datum": "2015-03-14",
       "debattnamn": "Öppet hus",
@@ -44,6 +45,7 @@
       "typrubrik": "kalakt 2014/15:20150314oh",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

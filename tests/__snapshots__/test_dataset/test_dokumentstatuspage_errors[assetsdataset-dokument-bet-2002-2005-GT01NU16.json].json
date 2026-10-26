@@ -515,6 +515,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "NU16",
       "datum": "2006-05-09",
       "debattnamn": "Debatt om förslag",
@@ -551,6 +552,7 @@
       "typrubrik": "Betänkande 2005/06:NU16",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/GT01NU16"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

@@ -38,6 +38,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "153",
       "datum": "2005-06-18",
       "debattnamn": "Riksdagsskrivelse",
@@ -74,6 +75,7 @@
       "typrubrik": "Riksdagsskrivelse 2004/05:153",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

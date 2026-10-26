@@ -8,6 +8,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "20101005ro",
       "datum": "2010-10-05",
       "debattnamn": "Riksmötets öppnande",
@@ -44,6 +45,7 @@
       "typrubrik": "",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": {

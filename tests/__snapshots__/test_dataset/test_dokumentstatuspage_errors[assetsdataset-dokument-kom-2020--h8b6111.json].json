@@ -68,6 +68,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "111",
       "datum": "2020-03-13",
       "debattnamn": "EU-dokument",
@@ -104,6 +105,7 @@
       "typrubrik": "EU-dokument COM(2020) 111",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

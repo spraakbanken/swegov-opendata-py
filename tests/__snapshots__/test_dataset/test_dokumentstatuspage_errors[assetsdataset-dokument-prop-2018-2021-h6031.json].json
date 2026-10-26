@@ -2633,6 +2633,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2018-11-15",
       "debattnamn": "Proposition",
@@ -2669,6 +2670,7 @@
       "typrubrik": "Proposition 2018/19:1",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

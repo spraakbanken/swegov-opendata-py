@@ -45,6 +45,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2018-10-24",
       "debattnamn": "Riksdagsskrivelse",
@@ -81,6 +82,7 @@
       "typrubrik": "Riksdagsskrivelse 2018/19:1",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

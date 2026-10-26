@@ -45,6 +45,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2022-10-12",
       "debattnamn": "Riksdagsskrivelse",
@@ -81,6 +82,7 @@
       "typrubrik": "Riksdagsskrivelse 2022/23:1",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

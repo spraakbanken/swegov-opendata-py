@@ -29,6 +29,7 @@
     "dokmotforslag": null,
     "dokreferens": null,
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1",
       "datum": "2018-09-28",
       "debattnamn": "Kallelse och föredragningslista",
@@ -65,6 +66,7 @@
       "typrubrik": "Kallelse och föredragningslista 2018/19:1 EU-nämndens sammanträde 2018-09-28",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": null,
     "dokutskottsforslag": null,
     "webbmedia": null

@@ -143,6 +143,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "1007",
       "datum": "2024-06-28",
       "debattnamn": "Skriftlig fråga",
@@ -179,6 +180,7 @@
       "typrubrik": "Skriftlig fråga 2023/24:1007 av Lars Mejern Larsson (S)",
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

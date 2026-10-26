@@ -1287,6 +1287,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "KU1",
       "datum": "2014-11-28",
       "debattnamn": "Debatt om förslag",
@@ -1323,6 +1324,7 @@
       "typrubrik": "Betänkande 2014/15:KU1",
       "utskottsforslag_url_xml": "https://data.riksdagen.se/utskottsforslag/H201KU1"
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {

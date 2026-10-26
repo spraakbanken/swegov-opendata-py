@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
-from swegov_opendata.dokument.dokument_status import DokumentStatusPage
+from swegov_opendata.dokument_status import DokumentStatusPage
 
 
 @pytest.mark.parametrize(

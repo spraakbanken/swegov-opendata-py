@@ -319,6 +319,7 @@
       ]
     },
     "dokument": {
+      "avdelningar": null,
       "beteckning": "RR12",
       "datum": "2001-01-01",
       "debattnamn": null,
@@ -355,6 +356,7 @@
       "typrubrik": null,
       "utskottsforslag_url_xml": null
     },
+    "dokumentuppgift": null,
     "dokuppgift": {
       "uppgift": [
         {
