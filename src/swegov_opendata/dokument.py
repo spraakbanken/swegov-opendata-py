@@ -61,3 +61,12 @@ class Dokument(pydantic.BaseModel):
     utskottsforslag_url_xml: str | None = None
 
     model_config = pydantic.ConfigDict(extra="forbid")
+
+    def get_rm(self) -> str:
+        return self.rm or "rm-saknas"
+
+    def get_typ_short_name(self) -> str:
+        return self.typ.short_name() if self.typ else "typ-saknas"
+
+    def get_typ_long_name(self) -> str:
+        return self.typ.long_name() if self.typ else "typ-saknas"
