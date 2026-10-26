@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [unreleased]
+
+### 🚀 Features
+
+- Merge dataset.dokument and dokument.dokument to dokument
+- Merge dataset.dokument_status and dokument.dokument_status to dokument
+
 ## [0.2.0] - 2026-10-23
 
 ### 🚜 Refactor
@@ -21,7 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 💼 Other
 
-- *(deps-dev)* Update uv-build requirement
+- _(deps-dev)_ Update uv-build requirement
 
 ## [0.1.4] - 2026-10-22
 
