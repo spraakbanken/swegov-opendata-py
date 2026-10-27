@@ -1,0 +1,7 @@
+# serializer version: 1
+# name: test_datasetlista_from_xml_raises_value_error_on_bad_xml[<datasetlista><random></random></datasetlista>]
+  ValueError('Expected <dataset>, found <random>')
+# ---
+# name: test_datasetlista_from_xml_raises_value_error_on_bad_xml[<random></random>]
+  ValueError('Expected <datasetlista>, found <random>')
+# ---

@@ -1,0 +1,134 @@
+[
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "namn"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "typ"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "samling"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "rm"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "filnamn"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "storlek"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "filformat"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "uppdaterad"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "description"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "beskrivning"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {
+      "format": "json",
+      "url": "/dataset/perons.json.zip"
+    },
+    "loc": [
+      "upplysning"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  }
+]

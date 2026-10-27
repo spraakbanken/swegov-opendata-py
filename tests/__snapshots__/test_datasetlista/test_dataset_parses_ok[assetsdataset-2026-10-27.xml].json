@@ -1,0 +1,15 @@
+{
+  "beskrivning": null,
+  "description": "Anföranden som ledamöter hållit i kammaren.",
+  "filformat": "zip",
+  "filnamn": "anforande-202526.csv.zip",
+  "format": "csv",
+  "namn": "anforande",
+  "rm": "2025/26",
+  "samling": "anforande-202526",
+  "storlek": 211378,
+  "typ": "anforande",
+  "uppdaterad": "2026-10-27T10:34:26.000000",
+  "upplysning": null,
+  "url": "HttpUrl('https://data.riksdagen.se/dataset/anforande/anforande-202526.csv.zip')"
+}
