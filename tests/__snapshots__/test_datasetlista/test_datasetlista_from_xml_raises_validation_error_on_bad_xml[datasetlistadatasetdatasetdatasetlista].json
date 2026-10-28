@@ -1,0 +1,119 @@
+[
+  {
+    "input": {},
+    "loc": [
+      "namn"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "typ"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "samling"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "rm"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "filnamn"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "storlek"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "format"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "filformat"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "uppdaterad"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "url"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "description"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "beskrivning"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  },
+  {
+    "input": {},
+    "loc": [
+      "upplysning"
+    ],
+    "msg": "Field required",
+    "type": "missing",
+    "url": "https://errors.pydantic.dev/2.xx/v/missing"
+  }
+]

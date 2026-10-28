@@ -18,9 +18,9 @@ def test_dokumentstatuspage_errors(file_name: str, snapshot_json: SnapshotAssert
     with actual_path.open() as file:
         actual_dict = json.load(file)
         actual_contents = actual_dict["extra"]["contents"]
-        content_path = Path("tmp") / actual_path
-        content_path.parent.mkdir(parents=True, exist_ok=True)
-        content_path.write_text(actual_contents)
+        # content_path = Path("tmp") / actual_path
+        # content_path.parent.mkdir(parents=True, exist_ok=True)
+        # content_path.write_text(actual_contents)
         if isinstance(actual_contents, str):
             actual = DokumentStatusPage.deserialize_from_str(actual_contents)
         else:

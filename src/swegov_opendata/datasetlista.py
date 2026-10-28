@@ -1,9 +1,16 @@
+import datetime
 import enum
+import logging
+import typing as t
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass
+from urllib.parse import urljoin
 from xml.etree.ElementTree import Element
 
-from pydantic import HttpUrl
+import pydantic
+
+from swegov_opendata import constants
+
+logger = logging.getLogger(__name__)
 
 
 class DataFormat(enum.StrEnum):
@@ -16,44 +23,60 @@ class DataFormat(enum.StrEnum):
     xml = "xml"
 
 
-@dataclass
-class Dataset:
+def ensure_full_url(value: t.Any) -> str:
+    if isinstance(value, str):
+        return urljoin(constants.BASE_URL, value)
+    raise ValueError(f"Expected <str>, got '<{type(value)}>' (value={value})")
+
+
+class Dataset(pydantic.BaseModel):
+    namn: str
+    typ: str
+    samling: str
+    rm: str
+    filnamn: str
+    storlek: int
     format: DataFormat
-    url: HttpUrl
-    uppdaterad: str
+    filformat: str
+    uppdaterad: datetime.datetime
+    url: t.Annotated[pydantic.HttpUrl, pydantic.BeforeValidator(ensure_full_url)]
+    description: str | None
+    beskrivning: str | None
+    upplysning: str | None
+
+    model_config = pydantic.ConfigDict(extra="forbid")
 
     @classmethod
-    def from_elem(cls, elem: Element) -> "Dataset":
+    def from_elem(cls, elem: Element) -> t.Self:
         if elem.tag != "dataset":
-            raise RuntimeError(f"Expected <dataset>, found <{elem.tag}>")
-        format_ = None
-        url = None
-        uppdaterad = None
-        for child in elem:
-            if child.tag == "format":
-                format_ = DataFormat(child.text)
-            elif child.tag == "url":
-                url = child.text
-            elif child.tag == "uppdaterad":
-                uppdaterad = child.text
+            raise ValueError(f"Expected <dataset>, found <{elem.tag}>")
+        kwargs: dict[str, bytes | str | int | None] = {child.tag: child.text for child in elem}
 
-        if format_ is None:
-            raise RuntimeError("Dataset is missing 'format'")
-        if url is None:
-            raise RuntimeError("Dataset is missing 'url'")
-        if uppdaterad is None:
-            raise RuntimeError("Dataset is missing 'uppdaterad'")
-        return cls(format=format_, url=HttpUrl(url), uppdaterad=uppdaterad)
+        return cls(**kwargs)  # ty: ignore[invalid-argument-type]
+
+    @classmethod
+    def from_xml(cls, xml: str) -> t.Self:
+        root = ET.fromstring(xml)
+
+        try:
+            return cls.from_elem(root)
+        except Exception:
+            logger.exception("Failed to create Dataset from source", extra={"source": xml})
+            raise
 
 
-@dataclass
-class DatasetLista:
+class DatasetLista(pydantic.BaseModel):
     datasets: list[Dataset]
 
     @classmethod
-    def from_xml(cls, xml: str) -> "DatasetLista":
+    def from_xml(cls, xml: str) -> t.Self:
         root = ET.fromstring(xml)
         if root.tag != "datasetlista":
-            raise RuntimeError(f"Expected <datasetlista>, found <{root.tag}>")
-        datasets = [Dataset.from_elem(child) for child in root]
+            logger.error("Expected <datasetlista>, found <%s>", root.tag, extra={"source": xml})
+            raise ValueError(f"Expected <datasetlista>, found <{root.tag}>")
+        try:
+            datasets = [Dataset.from_elem(child) for child in root]
+        except (pydantic.ValidationError, ValueError):
+            logger.exception("Failed to create Dataset from source", extra={"source": xml})
+            raise
         return cls(datasets=datasets)
