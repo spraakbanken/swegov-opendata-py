@@ -1,6 +1,6 @@
 [project]
 name = "swegov-opendata"
-version = "0.4.2"
+version = "0.5.0"
 description = "Data models for handling Swedish riksdagens öppna data (open data)"
 readme = "README.md"
 requires-python = ">= 3.11"
