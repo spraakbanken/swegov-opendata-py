@@ -26,19 +26,26 @@ def test_datasetlista_from_xml_raises_value_error_on_bad_xml(
 
 PYDANTIC_VERSION: re.Pattern = re.compile(r"(https://errors.pydantic.dev/\d).\d\d(/v/[a-z]+)")
 
+BAD_XML: dict[str, str] = {
+    "empty_dataset": "<datasetlista><dataset></dataset></datasetlista>",
+    "dataset_w_only_format": "<datasetlista><dataset><format>json</format></dataset></datasetlista>",
+    "dataset_w_format_url": "<datasetlista><dataset><format>json</format><url>/dataset/perons.json.zip</url></dataset></datasetlista>",
+}
+
 
 @pytest.mark.parametrize(
-    "source",
+    "source_key",
     [
-        "<datasetlista><dataset></dataset></datasetlista>",
-        "<datasetlista><dataset><format>json</format></dataset></datasetlista>",
-        "<datasetlista><dataset><format>json</format><url>/dataset/perons.json.zip</url></dataset></datasetlista>",
+        "empty_dataset",
+        "dataset_w_only_format",
+        "dataset_w_format_url",
     ],
 )
 def test_datasetlista_from_xml_raises_validation_error_on_bad_xml(
-    source,
+    source_key: str,
     snapshot_json: SnapshotAssertion,
 ) -> None:
+    source = BAD_XML[source_key]
     with pytest.raises(pydantic.ValidationError) as exc_info:
         DatasetLista.from_xml(source)
     actual_value = exc_info.value
