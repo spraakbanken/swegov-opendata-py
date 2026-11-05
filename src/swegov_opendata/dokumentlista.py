@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import typing as t
 
 import pydantic
@@ -57,7 +57,7 @@ class Dokument(pydantic.BaseModel):
     beslutsdag: str | None
     beteckning: str | None
     database: str
-    datum: datetime.date
+    datum: dt.date
     debatt: str | None
     debattdag: str | None
     debattgrupp: str | None
@@ -86,7 +86,7 @@ class Dokument(pydantic.BaseModel):
     organ: str | None
     plats: str | None
     # TODO this field can contain date (2018-03-07) and datetime (2016-02-11 15:28:15)
-    publicerad: str
+    publicerad: t.Annotated[dt.date, pydantic.BeforeValidator(validators.split_space_take_first)]
     rddata: str | None
     rdrest: str | None
     relaterat_id: str | None
@@ -100,7 +100,7 @@ class Dokument(pydantic.BaseModel):
     struktur: str | None
     subtyp: str
     summary: str | None
-    systemdatum: datetime.datetime
+    systemdatum: dt.datetime
     tempbeteckning: str | None
     tilldelat: str | None
     titel: str
@@ -127,7 +127,7 @@ class DokumentLista(pydantic.BaseModel):
     d_pre: str = pydantic.Field(alias="@dPre")
     d_r: str = pydantic.Field(alias="@dR")
     d_sol: str = pydantic.Field(alias="@dSol")
-    datum: datetime.datetime = pydantic.Field(alias="@datum")
+    datum: dt.datetime = pydantic.Field(alias="@datum")
     ms: str = pydantic.Field(alias="@ms")
     nasta_sida: str | None = pydantic.Field(alias="@nasta_sida")
     q: str = pydantic.Field(alias="@q")
