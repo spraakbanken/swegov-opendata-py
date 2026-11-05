@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
-from src.swegov_opendata.anforande import AnforandePage
+from swegov_opendata.anforande import AnforandePage
 
 
 @pytest.mark.parametrize(
