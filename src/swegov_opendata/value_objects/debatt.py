@@ -1,4 +1,4 @@
-import datetime
+import datetime as dt
 import typing as t
 
 import pydantic
@@ -8,7 +8,7 @@ from swegov_opendata import validators
 
 class Anforande(pydantic.BaseModel):
     anf_beteckning: str | None
-    anf_datum: datetime.datetime
+    anf_datum: dt.datetime
     anf_hangar_id: t.Annotated[
         int | None, pydantic.BeforeValidator(validators.ensure_none_if_empty)
     ]
@@ -20,7 +20,7 @@ class Anforande(pydantic.BaseModel):
     anf_text: str | None = None
     anf_typ: str | None
     anf_video_id: str
-    datumtid: datetime.datetime
+    datumtid: dt.datetime
     debatt_id: str | None = None
     debatt_titel: str | None = None
     debatt_typ: str | None = None
@@ -32,7 +32,7 @@ class Anforande(pydantic.BaseModel):
     parent_id: str | None = None
     parti: str | None = None
     startpos: int | None = None
-    systemdatum: datetime.datetime | None = None
+    systemdatum: dt.datetime | None = None
     talare: str | None
     talare_kort: str | None = None
     tumnagel: t.Annotated[

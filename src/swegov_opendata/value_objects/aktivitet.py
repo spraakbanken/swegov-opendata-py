@@ -8,7 +8,7 @@ from swegov_opendata import validators
 
 class Aktivitet(pydantic.BaseModel):
     datum: datetime.datetime
-    hangar_id: str | None = None
+    hangar_id: int | None = None
     kod: str
     namn: str
     status: str | None

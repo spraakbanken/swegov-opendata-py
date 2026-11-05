@@ -6,7 +6,7 @@ from swegov_opendata import validators
 
 
 class Referens(pydantic.BaseModel):
-    hangar_id: str | None = None
+    hangar_id: int | None = None
     referenstyp: str | None
     uppgift: str | None
     ref_dok_id: str

@@ -47,7 +47,7 @@
           "dok_id": "H6031",
           "fil_url": "HttpUrl('http://data.riksdagen.se/fil/58CFD759-1F51-4B32-A9BE-23F637E90AFA')",
           "filnamn": "prop_201819__1.pdf",
-          "filstorlek": "32562892",
+          "filstorlek": 32562892,
           "filtyp": "pdf",
           "subtitel": null,
           "titel": "Budgetpropositionen för 2019"
@@ -56,7 +56,7 @@
           "dok_id": "H6031",
           "fil_url": "HttpUrl('http://data.riksdagen.se/fil/8CA3062B-C741-4C1A-B107-D53013632AAC')",
           "filnamn": "Prop1-1819-UO23-rättelseblad.pdf",
-          "filstorlek": "118201",
+          "filstorlek": 118201,
           "filtyp": "pdf",
           "subtitel": null,
           "titel": "Budgetpropositionen för 2019, Prop1-1819-UO23-rättelseblad"
@@ -65,7 +65,7 @@
           "dok_id": "H6031",
           "fil_url": "HttpUrl('http://data.riksdagen.se/fil/9D837B0F-B5BA-4623-B23C-B42AF4262265')",
           "filnamn": "Prop1-1819-UO25-rättelseblad.pdf",
-          "filstorlek": "256965",
+          "filstorlek": 256965,
           "filtyp": "pdf",
           "subtitel": null,
           "titel": "Budgetpropositionen för 2019, Prop1-1819-UO25-rättelseblad"
@@ -74,7 +74,7 @@
           "dok_id": "H6031",
           "fil_url": "HttpUrl('http://data.riksdagen.se/fil/0323078B-E6DD-4BD3-A51F-BA240EB59219')",
           "filnamn": "Rättelseblad prop 201819 vol 1_m_missiv .pdf",
-          "filstorlek": "306299",
+          "filstorlek": 306299,
           "filtyp": "pdf",
           "subtitel": null,
           "titel": "Budgetpropositionen för 2019, Rättelseblad prop 201819 vol 1_m_missiv "
@@ -2250,14 +2250,14 @@
         {
           "intressent_id": "0218878014918",
           "namn": "Stefan Löfven",
-          "ordning": "1",
+          "ordning": 1,
           "partibet": "S",
           "roll": "Statsråd1"
         },
         {
           "intressent_id": "098412828516",
           "namn": "Magdalena Andersson",
-          "ordning": "2",
+          "ordning": 2,
           "partibet": "S",
           "roll": "Statsråd2"
         }
@@ -2643,20 +2643,20 @@
       "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/H6031/text')",
       "dokumentnamn": "Proposition",
       "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/H6031')",
-      "hangar_id": "5009056",
+      "hangar_id": 5009056,
       "html": "Utdrag: <br />\r\n\r\nRegeringens proposition <br />\r\n2018/19:1<br />\r\nBudgetpropositionen för 2019<br />\r\nRegeringen överlämnar härmed enligt 9 kap. 2 § regeringsformen budgetpropositionen för 2019.<br />\r\nStockholm den 9 november 2018<br />\r\nStefan Löfven<br />\r\nMagdalena Andersson<br />\r\n(Finansdepartementet)<br />\r\nPropositionens huvudsakliga innehåll<br />\r\nBudgetpropositionen innehåller regeringens förslag till statens budget för 2019 samt de övriga förslag\r\noch bedömningar som följer av riksdagsordningen och budgetlagen (2011:203).\r\n\r\n",
       "htmlformat": "text",
       "images": null,
       "metadata": null,
       "mottagare": "FiU",
-      "nummer": "1",
+      "nummer": 1,
       "organ": "Finansdepartementet",
       "pretext": null,
       "publicerad": "2018-11-15T00:00:00.000000",
       "relaterat_id": "",
       "rm": "2018/19",
       "rubriker": null,
-      "slutnummer": "0",
+      "slutnummer": 0,
       "source": "prop-RIM",
       "sourceid": "307a09a8-5430-4af2-8205-169e7462eeaa",
       "status": "Klar",

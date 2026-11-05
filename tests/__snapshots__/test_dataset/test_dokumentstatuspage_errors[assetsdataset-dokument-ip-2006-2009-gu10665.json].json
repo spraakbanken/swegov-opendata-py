@@ -633,21 +633,21 @@
         {
           "intressent_id": "0284192765516",
           "namn": "Tomas Eneroth",
-          "ordning": "1",
+          "ordning": 1,
           "partibet": "S",
           "roll": "undertecknare"
         },
         {
           "intressent_id": "0603490586517",
           "namn": "Jan Björklund",
-          "ordning": "1",
+          "ordning": 1,
           "partibet": "FP",
           "roll": "stalldtill"
         },
         {
           "intressent_id": "0584659199514",
           "namn": "Göran Hägglund",
-          "ordning": "1",
+          "ordning": 1,
           "partibet": "KD",
           "roll": "besvaradav"
         }
@@ -682,20 +682,20 @@
       "dokument_url_text": "HttpUrl('http://data.riksdagen.se/dokument/GU10665/text')",
       "dokumentnamn": null,
       "dokumentstatus_url_xml": "HttpUrl('http://data.riksdagen.se/dokumentstatus/GU10665')",
-      "hangar_id": "2322298",
+      "hangar_id": 2322298,
       "html": " \r\n \r\n<div class=Section1> \r\n \r\n<p class=FrgeSvarDatum style='margin-top:0cm'><i style='mso-bidi-font-style: \r\nnormal'><font size=2 face=Verdana><span lang=SV style='font-size:10.0pt; \r\nfont-family:Verdana'>den 10 augusti<o:p></o:p></span></font></i></p> \r\n \r\n<p class=IPFRej align=left style='text-align:left'><b style='mso-bidi-font-weight: \r\nnormal'><font size=2 face=Verdana><span lang=SV style='font-size:10.0pt; \r\nfont-family:Verdana'>Interpellation <o:p></o:p></span></font></b></p> \r\n \r\n<p class=IPFR align=left style='text-align:left'><b style='mso-bidi-font-weight: \r\nnormal'><font size=2 face=Verdana><span lang=SV style='font-size:10.0pt; \r\nfont-family:Verdana'>2006/07:665 Vårdnadsbidragets effekter för språkstöd i \r\nförskolan<o:p></o:p></span></font></b></p> \r\n \r\n<p class=Av align=left style='text-align:left'><font size=2 face=Verdana><span \r\nlang=SV style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:SV'>av <i \r\nstyle='mso-bidi-font-style:normal'><span style='font-style:italic'>Tomas \r\nEneroth (s)<o:p></o:p></span></i></span></font></p> \r\n \r\n<p class=Till align=left style='text-align:left'><font size=2 face=Verdana><span \r\nlang=SV style='font-size:10.0pt;font-family:Verdana;mso-ansi-language:SV'>till \r\nstatsrådet Jan Björklund (fp)<o:p></o:p></span></font></p> \r\n \r\n<p class=MsoNormalIndent align=left style='text-align:left'><a name=Temp></a><font \r\nsize=2 face=Verdana><span lang=SV style='font-size:10.0pt;font-family:Verdana'>I \r\nNorge kan man nu se effekterna av det vårdnadsbidrag som den förra norska \r\nregeringen införde för ett antal år sedan. &#8221;Kontantstötte&#8221; kom att bli en \r\nreform som tog kvinnor från arbetsmarknaden &#8211; över 96 procent av bidragstagarna \r\nvar kvinnor. Det blev därmed också en reform som försvagade kvinnors förankring \r\npå arbetsmarknaden och ledde till att förvärvsfrekvensen sjönk. Värst utsatta \r\när kvinnor med utländsk bakgrund i storstadsområdena. Redan tidigare svag \r\narbetsmarknadsförankring försämrades ytterligare när vårdnadsbidraget blev den \r\nförsörjningsform som man hänvisades till &#8211; dessutom med kravet att barnen skulle \r\ntas från förskolan.<o:p></o:p></span></font></p> \r\n \r\n<p class=MsoNormalIndent align=left style='text-align:left'><font size=2 \r\nface=Verdana><span lang=SV style='font-size:10.0pt;font-family:Verdana'>I \r\nSverige har vi under lång tid gjort särskilda insatser för att barn med \r\nutländsk bakgrund tidigt ska<a name=PassTempLäge></a> komma in i förskolan och \r\nfå ta del av svenska språket. Med vårdnadsbidrag bryts en sådan utveckling och \r\nförskolor nedrustas i områden där de som bäst skulle behövas.<o:p></o:p></span></font></p> \r\n \r\n<p class=MsoNormalIndent align=left style='text-align:left'><font size=2 \r\nface=Verdana><span lang=SV style='font-size:10.0pt;font-family:Verdana'>Mot \r\nbakgrund av att regeringen överväger ett införande av ett vårdnadsbidrag blir \r\nmin fråga till statsrådet Jan Björklund följande:<o:p></o:p></span></font></p> \r\n \r\n<p class=MsoNormalIndent align=left style='text-align:left'><font size=2 \r\nface=Verdana><span lang=SV style='font-size:10.0pt;font-family:Verdana'>Har \r\nstatsrådet gjort det ställningstagandet att ett införande av vårdnadsbidrag \r\npåverkar förutsättningarna för barn med utländsk bakgrund att lära sig svenska \r\nspråket?<o:p></o:p></span></font></p> \r\n \r\n</div> \r\n \r\n",
       "htmlformat": null,
       "images": null,
       "metadata": null,
       "mottagare": "Jan Björklund (fp), statsråd",
-      "nummer": "665",
+      "nummer": 665,
       "organ": "s",
       "pretext": null,
       "publicerad": "2007-08-10T00:00:00.000000",
       "relaterat_id": null,
       "rm": "2006/07",
       "rubriker": null,
-      "slutnummer": "0",
+      "slutnummer": 0,
       "source": null,
       "sourceid": null,
       "status": "korrekturläst",

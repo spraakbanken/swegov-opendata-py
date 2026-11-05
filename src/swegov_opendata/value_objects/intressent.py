@@ -10,7 +10,7 @@ class Intressent(pydantic.BaseModel):
     namn: str | None
     partibet: str | None
     intressent_id: str | None
-    ordning: str
+    ordning: int
 
     model_config = pydantic.ConfigDict(extra="forbid")
 

@@ -18,7 +18,7 @@
       "dokument_url_text": "HttpUrl('https://data.riksdagen.se/dokument/HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9/text')",
       "dokumentnamn": "Övrigt kammaren",
       "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HAC10060B75D-1BA5-4ADA-95C4-6CF9D3F07BB9')",
-      "hangar_id": "5167475",
+      "hangar_id": 5167475,
       "html": "<h2>Justering av protokoll</h2>",
       "htmlformat": "html",
       "images": null,

@@ -31,7 +31,7 @@ class Bilaga(pydantic.BaseModel):
     titel: str | None = None
     subtitel: str | None
     filnamn: str
-    filstorlek: str
+    filstorlek: int
     filtyp: FilTyp
     fil_url: pydantic.HttpUrl
 
