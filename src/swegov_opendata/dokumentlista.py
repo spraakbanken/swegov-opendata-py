@@ -6,6 +6,7 @@ import pydantic
 from swegov_opendata import validators
 from swegov_opendata.value_objects.avdelning import Avdelningar
 from swegov_opendata.value_objects.dokument_typ import DokumentTyp
+from swegov_opendata.value_objects.intressent import DokIntressent
 
 
 class Fil(pydantic.BaseModel):
@@ -64,10 +65,13 @@ class Dokument(pydantic.BaseModel):
     debattnamn: str
     debattsekunder: str | None
     dok_id: str
-    dokintressent: str | None
+    dokintressent: DokIntressent | None
     doktyp: str
     dokument_url_html: str
     dokument_url_text: str
+    dokumentstatus_url_xml: t.Annotated[
+        pydantic.HttpUrl | None, pydantic.BeforeValidator(validators.ensure_full_url)
+    ] = None
     dokumentformat: str | None
     dokumentnamn: str
     domain: str

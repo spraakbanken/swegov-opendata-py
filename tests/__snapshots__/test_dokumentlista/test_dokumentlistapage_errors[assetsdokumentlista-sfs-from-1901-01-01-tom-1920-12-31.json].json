@@ -44,6 +44,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1904-48s1.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1904-48s1",
@@ -129,6 +130,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d4s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -223,6 +225,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d4s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -317,6 +320,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d2s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -411,6 +415,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d2s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -505,6 +510,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dgs0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -599,6 +605,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dgs0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -693,6 +700,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d3s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -787,6 +795,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d3s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -881,6 +890,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dfs0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -975,6 +985,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dfs0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1069,6 +1080,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d5s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1163,6 +1175,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dhs0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1257,6 +1270,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dhs0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1351,6 +1365,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d6s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1445,6 +1460,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d6s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1539,6 +1555,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d8s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1633,6 +1650,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/d8s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1727,6 +1745,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dbs8riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -1821,6 +1840,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/dbs8riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [

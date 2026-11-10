@@ -11,12 +11,12 @@ class Anforande(pydantic.BaseModel):
     dok_nummer: int
     dok_datum: dt.datetime
     avsnittsrubrik: str
-    underrubrik: str | None
+    underrubrik: str | None = None
     kammaraktivitet: str | None
     anforande_id: str
     anforande_nummer: int
     talare: str
-    parti: str
+    parti: str | None
     anforandetext: str
     intressent_id: str
     rel_dok_id: str | None
