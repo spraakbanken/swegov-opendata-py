@@ -173,3 +173,5 @@ requirements-dev.lock
 # Editors
 # vscode
 /.vscode/
+logs/
+tmp/
