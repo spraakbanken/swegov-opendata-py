@@ -13,7 +13,7 @@ from swegov_opendata.anforande import AnforandePage
         "assets/anforande-2026-27-HE097-23.json",
     ],
 )
-def test_dokumentstatuspage_errors(file_name: str, snapshot_json: SnapshotAssertion) -> None:
+def test_anforande_raw(file_name: str, snapshot_json: SnapshotAssertion) -> None:
     actual_path = Path(file_name)
     actual_contents = actual_path.read_text()
 
