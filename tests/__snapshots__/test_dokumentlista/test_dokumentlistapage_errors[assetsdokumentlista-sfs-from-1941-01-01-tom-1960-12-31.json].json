@@ -44,6 +44,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/ejs8riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -138,6 +139,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/e2s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -232,6 +234,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/e4s0riksb.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -326,6 +329,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/eds0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -420,6 +424,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/efs0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -514,6 +519,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/e9s0riksg.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": {
           "fil": [
@@ -608,6 +614,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-227.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-227",
@@ -693,6 +700,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1960-617.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1960-617",
@@ -778,6 +786,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1960-554.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1960-554",
@@ -863,6 +872,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1960-516.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1960-516",
@@ -948,6 +958,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1960-200.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1960-200",
@@ -1033,6 +1044,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1960-745.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1960-745",
@@ -1118,6 +1130,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-469.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-469",
@@ -1203,6 +1216,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-257.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-257",
@@ -1288,6 +1302,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-23.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-23",
@@ -1373,6 +1388,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-197.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-197",
@@ -1458,6 +1474,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1955-105.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1955-105",
@@ -1543,6 +1560,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1954-818.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1954-818",
@@ -1628,6 +1646,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1954-774.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1954-774",
@@ -1713,6 +1732,7 @@
         "dokument_url_text": "//data.riksdagen.se/dokument/sfs-1954-556.text",
         "dokumentformat": "",
         "dokumentnamn": "Svensk författningssamling",
+        "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
         "filbilaga": null,
         "id": "sfs-1954-556",

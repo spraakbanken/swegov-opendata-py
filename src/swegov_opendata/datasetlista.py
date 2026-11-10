@@ -3,12 +3,11 @@ import enum
 import logging
 import typing as t
 import xml.etree.ElementTree as ET
-from urllib.parse import urljoin
 from xml.etree.ElementTree import Element
 
 import pydantic
 
-from swegov_opendata import constants
+from swegov_opendata import validators
 
 logger = logging.getLogger(__name__)
 
@@ -23,12 +22,6 @@ class DataFormat(enum.StrEnum):
     xml = "xml"
 
 
-def ensure_full_url(value: t.Any) -> str:
-    if isinstance(value, str):
-        return urljoin(constants.BASE_URL, value)
-    raise ValueError(f"Expected <str>, got '<{type(value)}>' (value={value})")
-
-
 class Dataset(pydantic.BaseModel):
     namn: str
     typ: str
@@ -39,7 +32,7 @@ class Dataset(pydantic.BaseModel):
     format: DataFormat
     filformat: str
     uppdaterad: datetime.datetime
-    url: t.Annotated[pydantic.HttpUrl, pydantic.BeforeValidator(ensure_full_url)]
+    url: t.Annotated[pydantic.HttpUrl, pydantic.BeforeValidator(validators.ensure_full_url)]
     description: str | None
     beskrivning: str | None
     upplysning: str | None

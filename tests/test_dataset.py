@@ -83,7 +83,11 @@ def test_dokumentstatuspage_errors(file_name: str, snapshot_json: SnapshotAssert
     actual_path = Path(file_name)
     with actual_path.open() as file:
         actual_dict = json.load(file)
-        actual_contents = actual_dict["extra"]["filecontents"]
+        actual_dict_extra = actual_dict["extra"]
+        actual_contents = actual_dict_extra.get("filecontents") or actual_dict_extra.get(
+            "source"
+        )
+        assert actual_contents is not None
         print(f"{actual_contents=}")
         if isinstance(actual_contents, str):
             actual = DokumentStatusPage.deserialize_from_str(actual_contents)

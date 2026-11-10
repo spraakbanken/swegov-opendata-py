@@ -26,13 +26,16 @@ def test_dokumentlista_1(snapshot_json: SnapshotAssertion) -> None:
         "assets/dokumentlista-sfs-from-1981-01-01-tom-2000-12-31.json",
         "assets/dokumentlista-sfs-from-2001-01-01-tom-2020-12-31.json",
         "assets/dokumentlista-sfs-from-2021-01-01-tom-2026-12-31.json",
+        "assets/dokumentlista-doktyp-from-2026-09-01-tom-1.json",
+        "assets/dokumentlista-sfs-from-1901-01-01-tom-1920-12-31-p-6.json",
     ],
 )
 def test_dokumentlistapage_errors(file_name: str, snapshot_json: SnapshotAssertion) -> None:
     actual_path = Path(file_name)
     with actual_path.open() as file:
         actual_dict = json.load(file)
-        actual_contents = actual_dict["extra"]["contents"]
+        actual_dict_extra = actual_dict["extra"]
+        actual_contents = actual_dict_extra.get("contents") or actual_dict_extra["source"]
         if isinstance(actual_contents, str):
             actual = DokumentListaPage.model_validate_json(actual_contents)
         else:

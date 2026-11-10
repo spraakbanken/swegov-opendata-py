@@ -1,4 +1,13 @@
 import typing as t
+from urllib.parse import urljoin
+
+from swegov_opendata import constants
+
+
+def ensure_full_url(value: t.Any) -> str:
+    if isinstance(value, str):
+        return urljoin(constants.BASE_URL, value)
+    raise ValueError(f"Expected <str>, got '<{type(value)}>' (value={value})")
 
 
 def ensure_list(value: t.Any) -> list[t.Any]:
