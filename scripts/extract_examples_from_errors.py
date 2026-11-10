@@ -6,7 +6,7 @@
 #   "pydantic",
 # ]
 # ///
-import datetime
+import datetime as dt
 import re
 import sys
 from argparse import ArgumentParser
@@ -40,7 +40,7 @@ class BunyanRecord(pydantic.BaseModel):
     levelname: str
     hostname: str
     pid: int
-    time: datetime.datetime
+    time: dt.datetime
     target: str
     line: int
     file: str
@@ -66,18 +66,19 @@ def main() -> None:
             except pydantic.ValidationError as exc:
                 print(f"Error on line {lineno}: {exc}", file=sys.stderr)
                 raise
-            rel_path = bunyan_record.extra.get("rel_path", "")
+            bunyan_record_extra: dict[str, str] = bunyan_record.__pydantic_extra__["extra"]  # ty: ignore[not-subscriptable]
+            rel_path = bunyan_record_extra.get("rel_path", "")
             if rel_path.startswith("dokumentlista"):
-                if m := re.search(r"doktyp=(\w+)", bunyan_record.extra["rel_path"]):
+                if m := re.search(r"doktyp=(\w+)", bunyan_record_extra["rel_path"]):
                     doktyp = m.group(1).lower()
                 else:
                     doktyp = "doktyp"
-                if m := re.search(r"from=(\d+-\d+-\d+)", bunyan_record.extra["rel_path"]):
+                if m := re.search(r"from=(\d+-\d+-\d+)", bunyan_record_extra["rel_path"]):
                     from_ = m.group(1)
                 else:
                     from_counter += 1
                     from_ = f"{from_counter}"
-                if m := re.search(r"tom=(\d+-\d+-\d+)", bunyan_record.extra["rel_path"]):
+                if m := re.search(r"tom=(\d+-\d+-\d+)", bunyan_record_extra["rel_path"]):
                     tom = m.group(1)
                 else:
                     tom_counter += 1
@@ -85,24 +86,38 @@ def main() -> None:
                 output_path = output_dir / f"dokumentlista-{doktyp}-from-{from_}-tom-{tom}.json"
                 output_path.write_text(bunyan_record.model_dump_json())
             elif rel_path.startswith("dataset"):
+                if "Extracted file is empty" in bunyan_record.msg:
+                    continue
                 rel_path = (
-                    bunyan_record.extra["rel_path"]
+                    bunyan_record_extra["rel_path"]
                     .removesuffix(".json.zip")
                     .replace("/", "-")
                     .lower()
                 )
-                dok_id = bunyan_record.extra["zippath"].removesuffix(".json")
+                dok_id = bunyan_record_extra["zippath"].removesuffix(".json")
                 output_path = output_dir / f"{rel_path}-{dok_id}.json"
                 output_path.write_text(bunyan_record.model_dump_json())
             elif rel_path.startswith("dokument/"):
-                dok_id = bunyan_record.extra["rel_path"].replace("/", "-").lower()
+                dok_id = bunyan_record_extra["rel_path"].replace("/", "-").lower()
                 output_path = output_dir / f"{dok_id}"
                 output_path.write_text(bunyan_record.model_dump_json())
             else:
-                print(bunyan_record.model_dump())
+                url = (
+                    bunyan_record_extra["url"]
+                    .removeprefix("http:")
+                    .removeprefix("https:")
+                    .removeprefix("//")
+                    .removeprefix("data.riksdagen.se/")
+                    .replace("/", "-")
+                )
+                output_path = output_dir / url
+                output_path = output_path.with_suffix(".json")
+
+                output_path.write_text(bunyan_record.model_dump_json())
                 unknown_errors += 1
     print(f"Read {lineno} examples")
-    print(f"  added {lineno - unknown_errors} to '{output_path}'")
+    print(f"  added {lineno - unknown_errors} to '{output_dir}'")
+
     print(f"  found {unknown_errors} examples")
 
 

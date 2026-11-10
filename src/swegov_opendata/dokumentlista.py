@@ -133,7 +133,7 @@ class DokumentLista(pydantic.BaseModel):
     d_sol: str = pydantic.Field(alias="@dSol")
     datum: dt.datetime = pydantic.Field(alias="@datum")
     ms: str = pydantic.Field(alias="@ms")
-    nasta_sida: str | None = pydantic.Field(alias="@nasta_sida")
+    nasta_sida: str | None = pydantic.Field(alias="@nasta_sida", default=None)
     q: str = pydantic.Field(alias="@q")
     sida: int = pydantic.Field(alias="@sida")
     sidor: int = pydantic.Field(alias="@sidor")
