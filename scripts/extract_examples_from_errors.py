@@ -44,10 +44,9 @@ class BunyanRecord(pydantic.BaseModel):
     target: str
     line: int
     file: str
-    extra: dict[str, str]
     err: Err | None = None
 
-    model_config = pydantic.ConfigDict(extra="forbid")
+    model_config = pydantic.ConfigDict(extra="allow")
 
 
 def main() -> None:
@@ -58,8 +57,10 @@ def main() -> None:
 
     from_counter = 0
     tom_counter = 0
+    lineno = 0
+    unknown_errors = 0
     with filename.open(encoding="utf-8") as fp:
-        for lineno, line in enumerate(fp):
+        for lineno, line in enumerate(fp, start=1):
             try:
                 bunyan_record = BunyanRecord.model_validate_json(line)
             except pydantic.ValidationError as exc:
@@ -99,6 +100,10 @@ def main() -> None:
                 output_path.write_text(bunyan_record.model_dump_json())
             else:
                 print(bunyan_record.model_dump())
+                unknown_errors += 1
+    print(f"Read {lineno} examples")
+    print(f"  added {lineno - unknown_errors} to '{output_path}'")
+    print(f"  found {unknown_errors} examples")
 
 
 def _parse_args():
