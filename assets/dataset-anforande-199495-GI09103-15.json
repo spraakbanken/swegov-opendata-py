@@ -1,0 +1,23 @@
+{
+  "v": 0,
+  "name": "riksdagen",
+  "msg": "Validation failed",
+  "level": 50,
+  "levelname": "ERROR",
+  "hostname": "kark.spraakdata.gu.se",
+  "pid": 692051,
+  "time": "2026-11-11T14:05:51.604000Z",
+  "target": "riksdagen.spiders.rd_spider",
+  "line": 245,
+  "file": "/data/kb-sb-tmp/kb_sb_stack/oppna_data/riksdagen/src/riksdagen/spiders/rd_spider.py",
+  "err": null,
+  "extra": {
+    "url": "https://data.riksdagen.se/dataset/anforande/anforande-199495.json.zip",
+    "url.type": "zip",
+    "rel_path": "dataset/anforande/anforande-199495.json.zip",
+    "zippath": "GI09103-15.json",
+    "error.msg": "1 validation error for AnforandePage\nanforande.anforandetext\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "error.desc": "1 validation error for AnforandePage\nanforande.anforandetext\n  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_type",
+    "source": "{\r\n  \"anforande\": {\r\n    \"dok_hangar_id\": \"2349247\",\r\n    \"dok_id\": \"GI09103\",\r\n    \"dok_titel\": \"Riksdagens snabbprotokoll 1994/95:103 Torsdagen den 11 maj\",\r\n    \"dok_rm\": \"1994/95\",\r\n    \"dok_nummer\": \"103\",\r\n    \"dok_datum\": \"1995-05-11 00:00:00\",\r\n    \"avsnittsrubrik\": \"Försvarspolitiken 1995/96 \",\r\n    \"kammaraktivitet\": null,\r\n    \"anforande_id\": \"AED8DBCB-CDA4-4F25-AB4C-600EFD75EAC1\",\r\n    \"anforande_nummer\": \"15\",\r\n    \"talare\": \"ANDRE VICE TALMANNEN\",\r\n    \"parti\": null,\r\n    \"anforandetext\": null,\r\n    \"intressent_id\": \"0462649924092\",\r\n    \"rel_dok_id\": null,\r\n    \"replik\": \"N\",\r\n    \"systemdatum\": \"2010-01-01 00:00:00\"\r\n  }\r\n}"
+  }
+}

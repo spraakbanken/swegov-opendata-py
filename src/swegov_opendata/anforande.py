@@ -17,7 +17,7 @@ class Anforande(pydantic.BaseModel):
     anforande_nummer: int
     talare: str
     parti: str | None
-    anforandetext: str
+    anforandetext: str | None
     intressent_id: str
     rel_dok_id: str | None
     replik: bool

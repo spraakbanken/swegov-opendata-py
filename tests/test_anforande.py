@@ -26,6 +26,7 @@ def test_anforande_raw(file_name: str, snapshot_json: SnapshotAssertion) -> None
     "file_name",
     [
         "assets/dataset-anforande-199394-GH091-1.json",
+        "assets/dataset-anforande-199495-GI09103-15.json",
     ],
 )
 def test_anforande_from_bunyan_log(file_name: str, snapshot_json: SnapshotAssertion) -> None:
