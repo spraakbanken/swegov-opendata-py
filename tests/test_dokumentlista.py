@@ -28,6 +28,7 @@ def test_dokumentlista_1(snapshot_json: SnapshotAssertion) -> None:
         "assets/dokumentlista-sfs-from-2021-01-01-tom-2026-12-31.json",
         "assets/dokumentlista-doktyp-from-2026-09-01-tom-1.json",
         "assets/dokumentlista-sfs-from-1901-01-01-tom-1920-12-31-p-6.json",
+        "assets/dokumentlista-from=2026-09-01.json",
     ],
 )
 def test_dokumentlistapage_errors(file_name: str, snapshot_json: SnapshotAssertion) -> None:
