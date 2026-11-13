@@ -30,6 +30,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "8",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-15",
         "debatt": null,
@@ -46,6 +47,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -56,8 +58,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he098",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -68,6 +72,9 @@
         "notisrubrik": "Protokoll 2026/27:8 Torsdagen den 15 oktober",
         "nummer": "8",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-15",
         "rddata": null,
@@ -104,11 +111,13 @@
         "systemdatum": "2026-10-15T22:38:25.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:8 Torsdagen den 15 oktober",
         "traff": 1,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -125,6 +134,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "7",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-14",
         "debatt": null,
@@ -141,6 +151,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -151,8 +162,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he097",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -163,6 +176,9 @@
         "notisrubrik": "Protokoll 2026/27:7 Onsdagen den 14 oktober",
         "nummer": "7",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-14",
         "rddata": null,
@@ -199,11 +215,13 @@
         "systemdatum": "2026-10-14T23:27:17.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:7 Onsdagen den 14 oktober",
         "traff": 2,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -220,6 +238,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "7",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-05",
         "debatt": null,
@@ -295,6 +314,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -311,8 +331,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he027",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "bd312aa3-d922-44af-a010-c61e84188491",
         "kalla": "Filur",
@@ -323,6 +345,9 @@
         "notisrubrik": "med anledning av skr. 2025/26:268 Sveriges strategi för ett fredligt, säkert och hållbart Arktis",
         "nummer": "7",
         "organ": "UU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-05",
         "rddata": null,
@@ -359,11 +384,13 @@
         "systemdatum": "2026-10-20T15:03:25.000000",
         "tempbeteckning": "004",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "med anledning av skr. 2025/26:268 Sveriges strategi för ett fredligt, säkert och hållbart Arktis",
         "traff": 3,
         "typ": "mot",
         "undertitel": "av Nooshi Dadgostar m.fl. (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -380,6 +407,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "9",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-20",
         "debatt": null,
@@ -396,6 +424,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -406,8 +435,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he099",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -418,6 +449,9 @@
         "notisrubrik": "Protokoll 2026/27:9 Tisdagen den 20 oktober",
         "nummer": "9",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-20",
         "rddata": null,
@@ -454,11 +488,13 @@
         "systemdatum": "2026-10-20T19:09:15.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:9 Tisdagen den 20 oktober",
         "traff": 4,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -475,6 +511,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "10",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-21",
         "debatt": null,
@@ -491,6 +528,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -501,8 +539,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0910",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -513,6 +553,9 @@
         "notisrubrik": "Protokoll 2026/27:10 Onsdagen den 21 oktober",
         "nummer": "10",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-21",
         "rddata": null,
@@ -549,11 +592,13 @@
         "systemdatum": "2026-10-21T14:44:31.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:10 Onsdagen den 21 oktober",
         "traff": 5,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -570,6 +615,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "9",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-27",
         "debatt": null,
@@ -586,6 +632,7 @@
         "dokumentnamn": "Proposition",
         "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HE039.xml')",
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -596,8 +643,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he039",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "720304eb-6cb3-45fc-b802-ede5e3bf91cf",
         "kalla": "prop-RIM",
@@ -608,6 +657,9 @@
         "notisrubrik": "Skattskyldighet för samriskföretag och deras dotterföretag",
         "nummer": "9",
         "organ": "Finansdepartementet",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-27",
         "rddata": null,
@@ -644,11 +696,13 @@
         "systemdatum": "2026-10-29T16:37:42.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Skattskyldighet för samriskföretag och deras dotterföretag",
         "traff": 6,
         "typ": "prop",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -665,6 +719,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "10",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-27",
         "debatt": null,
@@ -681,6 +736,7 @@
         "dokumentnamn": "Proposition",
         "dokumentstatus_url_xml": "HttpUrl('https://data.riksdagen.se/dokumentstatus/HE0310.xml')",
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -691,8 +747,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0310",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "3714579d-1f5b-40e1-8439-9571d2ffcfbd",
         "kalla": "prop-RIM",
@@ -703,6 +761,9 @@
         "notisrubrik": "Avveckling av Skatteverkets id-kortsverksamhet",
         "nummer": "10",
         "organ": "Finansdepartementet",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-27",
         "rddata": null,
@@ -739,11 +800,13 @@
         "systemdatum": "2026-10-29T16:41:06.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Avveckling av Skatteverkets id-kortsverksamhet",
         "traff": 7,
         "typ": "prop",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -760,6 +823,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "11",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-30",
         "debatt": null,
@@ -776,6 +840,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -786,8 +851,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0911",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -798,6 +865,9 @@
         "notisrubrik": "Protokoll 2026/27:11 Fredagen den 30 oktober",
         "nummer": "11",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-30",
         "rddata": null,
@@ -834,11 +904,13 @@
         "systemdatum": "2026-10-30T11:23:54.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:11 Fredagen den 30 oktober",
         "traff": 8,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -855,6 +927,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "3",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-09-30",
         "debatt": null,
@@ -871,6 +944,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -881,8 +955,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he093",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -893,6 +969,9 @@
         "notisrubrik": "Protokoll 2026/27:3 Onsdagen den 30 september",
         "nummer": "3",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-09-30",
         "rddata": null,
@@ -929,11 +1008,13 @@
         "systemdatum": "2026-09-30T15:34:44.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:3 Onsdagen den 30 september",
         "traff": 9,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -950,6 +1031,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "1",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-09-28",
         "debatt": null,
@@ -966,6 +1048,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -976,8 +1059,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he091",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -988,6 +1073,9 @@
         "notisrubrik": "Protokoll 2026/27:1 Måndagen den 28 september",
         "nummer": "1",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-09-29",
         "rddata": null,
@@ -1024,11 +1112,13 @@
         "systemdatum": "2026-09-29T10:16:33.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:1 Måndagen den 28 september",
         "traff": 10,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1045,6 +1135,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "2",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-09-29",
         "debatt": null,
@@ -1061,6 +1152,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1071,8 +1163,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he092",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -1083,6 +1177,9 @@
         "notisrubrik": "Protokoll 2026/27:2 Tisdagen den 29 september",
         "nummer": "2",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-09-29",
         "rddata": null,
@@ -1119,11 +1216,13 @@
         "systemdatum": "2026-09-29T16:53:20.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:2 Tisdagen den 29 september",
         "traff": 11,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1140,6 +1239,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "4",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-06",
         "debatt": null,
@@ -1156,6 +1256,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1166,8 +1267,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he094",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -1178,6 +1281,9 @@
         "notisrubrik": "Protokoll 2026/27:4 Tisdagen den 6 oktober",
         "nummer": "4",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-06",
         "rddata": null,
@@ -1214,11 +1320,13 @@
         "systemdatum": "2026-10-07T10:03:04.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:4 Tisdagen den 6 oktober",
         "traff": 12,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1235,6 +1343,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "2",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-09-28",
         "debatt": null,
@@ -1408,6 +1517,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1424,8 +1534,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he022",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "46dafbdf-f804-41c8-b0b5-62be4ade4e16",
         "kalla": "Filur",
@@ -1436,6 +1548,9 @@
         "notisrubrik": "Stopp för tonårsutvisningar",
         "nummer": "2",
         "organ": "SfU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-09-28",
         "rddata": null,
@@ -1472,11 +1587,13 @@
         "systemdatum": "2026-10-06T10:13:22.000000",
         "tempbeteckning": "1001",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Stopp för tonårsutvisningar",
         "traff": 13,
         "typ": "mot",
         "undertitel": "av Daniel Helldén m.fl. (MP)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1493,6 +1610,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "5",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-12",
         "debatt": null,
@@ -1509,6 +1627,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1519,8 +1638,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he095",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -1531,6 +1652,9 @@
         "notisrubrik": "Protokoll 2026/27:5 Måndagen den 12 oktober",
         "nummer": "5",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-12",
         "rddata": null,
@@ -1567,11 +1691,13 @@
         "systemdatum": "2026-10-12T14:22:02.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:5 Måndagen den 12 oktober",
         "traff": 14,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1588,6 +1714,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-12",
         "debatt": null,
@@ -1604,6 +1731,7 @@
         "dokumentnamn": "KU-anmälan",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1614,8 +1742,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "hea1dnr342",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "Q",
@@ -1626,6 +1756,9 @@
         "notisrubrik": "Granskning av justitieministerns och utrikesministerns hantering av rättegången mot Joakim Medin",
         "nummer": "19",
         "organ": "KU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-13",
         "rddata": null,
@@ -1662,11 +1795,13 @@
         "systemdatum": "2026-10-13T14:29:20.000000",
         "tempbeteckning": "342-2026/27",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Granskning av justitieministerns och utrikesministerns hantering av rättegången mot Joakim Medin",
         "traff": 15,
         "typ": "utskottsdokument",
         "undertitel": "HÅKAN SVENNELING  (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1683,6 +1818,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "6",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-13",
         "debatt": null,
@@ -1699,6 +1835,7 @@
         "dokumentnamn": "Protokoll",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1709,8 +1846,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he096",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "RIM",
@@ -1721,6 +1860,9 @@
         "notisrubrik": "Protokoll 2026/27:6 Tisdagen den 13 oktober",
         "nummer": "6",
         "organ": "",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-13",
         "rddata": null,
@@ -1757,11 +1899,13 @@
         "systemdatum": "2026-10-13T15:45:54.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Protokoll 2026/27:6 Tisdagen den 13 oktober",
         "traff": 16,
         "typ": "prot",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1778,6 +1922,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "8",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-05",
         "debatt": null,
@@ -1853,6 +1998,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1869,8 +2015,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he028",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "1425d1aa-bd80-4d6e-b40c-5a7209c95ec2",
         "kalla": "Filur",
@@ -1881,6 +2029,9 @@
         "notisrubrik": "med anledning av prop. 2025/26:282 Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",
         "nummer": "8",
         "organ": "SkU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-05",
         "rddata": null,
@@ -1917,11 +2068,13 @@
         "systemdatum": "2026-10-07T14:19:39.000000",
         "tempbeteckning": "003",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "med anledning av prop. 2025/26:282 Effektivare kontrollmöjligheter i systemen för rot, rut, grön teknik och personalliggare",
         "traff": 17,
         "typ": "mot",
         "undertitel": "av Nooshi Dadgostar m.fl. (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1938,6 +2091,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "12",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-05",
         "debatt": null,
@@ -2006,6 +2160,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -2022,8 +2177,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0212",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "3bc823b1-dfd5-461e-8995-a35eb8656f8a",
         "kalla": "Filur",
@@ -2034,6 +2191,9 @@
         "notisrubrik": "med anledning av prop. 2025/26:286 Stärkt skydd för domstolarnas och domarnas oberoende",
         "nummer": "12",
         "organ": "JuU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-05",
         "rddata": null,
@@ -2070,11 +2230,13 @@
         "systemdatum": "2026-10-12T10:38:26.000000",
         "tempbeteckning": "001",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "med anledning av prop. 2025/26:286 Stärkt skydd för domstolarnas och domarnas oberoende",
         "traff": 18,
         "typ": "mot",
         "undertitel": "av Nooshi Dadgostar m.fl. (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -2091,6 +2253,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "11",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-05",
         "debatt": null,
@@ -2166,6 +2329,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -2182,8 +2346,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0211",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "cfa9505d-5b7f-4fd0-abb0-a6625535e4e9",
         "kalla": "Filur",
@@ -2194,6 +2360,9 @@
         "notisrubrik": "med anledning av skr. 2025/26:266 En god arbetsmiljö i ett föränderligt arbetsliv – regeringens arbetsmiljöstrategi för 2026–2031",
         "nummer": "11",
         "organ": "AU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-05",
         "rddata": null,
@@ -2230,11 +2399,13 @@
         "systemdatum": "2026-10-08T13:22:51.000000",
         "tempbeteckning": "006",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "med anledning av skr. 2025/26:266 En god arbetsmiljö i ett föränderligt arbetsliv – regeringens arbetsmiljöstrategi för 2026–2031",
         "traff": 19,
         "typ": "mot",
         "undertitel": "av Nooshi Dadgostar m.fl. (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -2251,6 +2422,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "10",
+        "bokstav": null,
         "database": "dokument",
         "datum": "2026-10-05",
         "debatt": null,
@@ -2319,6 +2491,7 @@
         "dokumentnamn": "Motion",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -2335,8 +2508,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "he0210",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "8ec86bee-f75a-49c9-b5a8-99bc60963ad8",
         "kalla": "Filur",
@@ -2347,6 +2522,9 @@
         "notisrubrik": "med anledning av skr. 2025/26:283 Ungdomspolitisk skrivelse",
         "nummer": "10",
         "organ": "KrU",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2026-10-05",
         "rddata": null,
@@ -2383,11 +2561,13 @@
         "systemdatum": "2026-10-09T09:49:46.000000",
         "tempbeteckning": "005",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "med anledning av skr. 2025/26:283 Ungdomspolitisk skrivelse",
         "traff": 20,
         "typ": "mot",
         "undertitel": "av Nooshi Dadgostar m.fl. (V)",
         "url": "",
+        "valkrets": null,
         "video": ""
       }
     ],

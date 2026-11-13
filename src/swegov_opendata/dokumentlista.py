@@ -4,6 +4,7 @@ import typing as t
 import pydantic
 
 from swegov_opendata import validators
+from swegov_opendata.person import PersonUppdrag, PersonUppgift
 from swegov_opendata.value_objects.avdelning import Avdelningar
 from swegov_opendata.value_objects.dokument_typ import DokumentTyp
 from swegov_opendata.value_objects.intressent import DokIntressent
@@ -67,12 +68,12 @@ class Dokument(pydantic.BaseModel):
     dok_id: str
     dokintressent: DokIntressent | None
     doktyp: str
-    dokument_url_html: str
-    dokument_url_text: str
+    dokument_url_html: str | None = None
+    dokument_url_text: str | None = None
     dokumentstatus_url_xml: t.Annotated[
         pydantic.HttpUrl | None, pydantic.BeforeValidator(validators.ensure_full_url)
     ] = None
-    dokumentformat: str | None
+    dokumentformat: str | None = None
     dokumentnamn: str
     domain: str
     filbilaga: FilBilaga | None
@@ -88,6 +89,8 @@ class Dokument(pydantic.BaseModel):
     notisrubrik: str
     nummer: str | None
     organ: str | None
+    personuppdrag: PersonUppdrag | None = None
+    personuppgift: PersonUppgift | None = None
     plats: str | None
     # TODO this field can contain date (2018-03-07) and datetime (2016-02-11 15:28:15)
     publicerad: t.Annotated[dt.date, pydantic.BeforeValidator(validators.split_space_take_first)]
@@ -109,21 +112,30 @@ class Dokument(pydantic.BaseModel):
     tilldelat: str | None
     titel: str
     traff: int
-    typ: DokumentTyp
+    typ: t.Annotated[
+        DokumentTyp | None, pydantic.BeforeValidator(validators.ensure_none_if_empty)
+    ]
     undertitel: str | None
     url: str | None
+    valkrets: str | None = None
     video: str | None
+    fodd_ar: str | None = None
+    iort: str | None = None
+    tilltalsnamn: str | None = None
+    parti: str | None = None
+    efternamn: str | None = None
+    bokstav: str | None = None
 
     model_config = pydantic.ConfigDict(extra="forbid")
 
     def get_rm(self) -> str:
-        return self.rm or "missing"
+        return self.rm or "rm-saknas"
 
     def get_typ_short_name(self) -> str:
-        return self.typ.short_name() if self.typ else "missing"
+        return self.typ.short_name() if self.typ else "typ-saknas"
 
     def get_typ_long_name(self) -> str:
-        return self.typ.long_name() if self.typ else "missing"
+        return self.typ.long_name() if self.typ else "typ-saknas"
 
 
 class DokumentLista(pydantic.BaseModel):

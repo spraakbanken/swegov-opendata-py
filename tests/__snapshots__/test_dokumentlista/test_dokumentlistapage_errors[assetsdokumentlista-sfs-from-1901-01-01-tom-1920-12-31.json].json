@@ -30,6 +30,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "1904:48s1",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1904-09-30",
         "debatt": null,
@@ -46,9 +47,12 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": null,
+        "fodd_ar": null,
         "id": "sfs-1904-48s1",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "",
         "kalla": "",
@@ -59,6 +63,9 @@
         "notisrubrik": "Lag (1904:48 s.1) om samäganderätt",
         "nummer": "48",
         "organ": "Justitiedepartementet L2",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2023-09-22",
         "rddata": null,
@@ -95,11 +102,13 @@
         "systemdatum": "2023-09-22T13:16:57.000000",
         "tempbeteckning": "",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Lag (1904:48 s.1) om samäganderätt",
         "traff": 1,
         "typ": "sfs",
         "undertitel": "t.o.m. SFS 2010:26",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -116,6 +125,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1907-06-01",
         "debatt": null,
@@ -132,6 +142,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -142,8 +153,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d4s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1907____",
         "kalla": "digitalisering",
@@ -154,6 +167,9 @@
         "notisrubrik": "utfårdadt vid slutet af 1907 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -190,11 +206,13 @@
         "systemdatum": "2018-03-07T16:50:24.000000",
         "tempbeteckning": "1273",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfårdadt vid slutet af 1907 års riksdag",
         "traff": 2,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -211,6 +229,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1907-05-29",
         "debatt": null,
@@ -227,6 +246,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -237,8 +257,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d4s0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1907____",
         "kalla": "digitalisering",
@@ -249,6 +271,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -285,11 +310,13 @@
         "systemdatum": "2018-03-07T16:50:23.000000",
         "tempbeteckning": "1273",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 3,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -306,6 +333,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1905-05-20",
         "debatt": null,
@@ -322,6 +350,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -332,8 +361,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d2s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1905____",
         "kalla": "digitalisering",
@@ -344,6 +375,9 @@
         "notisrubrik": "utfärdadt vid slutet af 1905 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -380,11 +414,13 @@
         "systemdatum": "2018-03-07T16:39:16.000000",
         "tempbeteckning": "1181",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdadt vid slutet af 1905 års riksdag",
         "traff": 4,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -401,6 +437,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1905-05-02",
         "debatt": null,
@@ -417,6 +454,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -427,8 +465,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d2s0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1905____",
         "kalla": "digitalisering",
@@ -439,6 +479,9 @@
         "notisrubrik": "för Riksbankens styrelse och förvaltning*",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -475,11 +518,13 @@
         "systemdatum": "2018-03-07T16:39:15.000000",
         "tempbeteckning": "1181",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för Riksbankens styrelse och förvaltning*",
         "traff": 5,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -496,6 +541,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1919-07-01",
         "debatt": null,
@@ -512,6 +558,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -522,8 +569,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dgs0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1919____",
         "kalla": "digitalisering",
@@ -534,6 +583,9 @@
         "notisrubrik": "utfärdat vid slutet av 1919 års lagtima riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-06",
         "rddata": null,
@@ -570,11 +622,13 @@
         "systemdatum": "2018-03-06T23:57:17.000000",
         "tempbeteckning": "1952",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdat vid slutet av 1919 års lagtima riksdag",
         "traff": 6,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -591,6 +645,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1919-06-06",
         "debatt": null,
@@ -607,6 +662,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -617,8 +673,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dgs0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1919____",
         "kalla": "digitalisering",
@@ -629,6 +687,9 @@
         "notisrubrik": "Om reglementet för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-06",
         "rddata": null,
@@ -665,11 +726,13 @@
         "systemdatum": "2018-03-06T23:57:16.000000",
         "tempbeteckning": "1952",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "Om reglementet för riksbankens styrelse och förvaltning",
         "traff": 7,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -686,6 +749,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1906-05-28",
         "debatt": null,
@@ -702,6 +766,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -712,8 +777,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d3s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1906____",
         "kalla": "digitalisering",
@@ -724,6 +791,9 @@
         "notisrubrik": "utfärdadt vid slutet af 1906 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -760,11 +830,13 @@
         "systemdatum": "2018-03-07T16:44:26.000000",
         "tempbeteckning": "1227",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdadt vid slutet af 1906 års riksdag",
         "traff": 8,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -781,6 +853,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1906-05-11",
         "debatt": null,
@@ -797,6 +870,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -807,8 +881,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d3s0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1906____",
         "kalla": "digitalisering",
@@ -819,6 +895,9 @@
         "notisrubrik": "för Riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -855,11 +934,13 @@
         "systemdatum": "2018-03-07T16:44:25.000000",
         "tempbeteckning": "1227",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för Riksbankens styrelse och förvaltning",
         "traff": 9,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -876,6 +957,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1918-01-01",
         "debatt": null,
@@ -892,6 +974,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -902,8 +985,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dfs0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1918____",
         "kalla": "digitalisering",
@@ -914,6 +999,9 @@
         "notisrubrik": "utfärdat Tid slutet av 1918 års lagtima riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-06",
         "rddata": null,
@@ -950,11 +1038,13 @@
         "systemdatum": "2018-03-06T23:13:09.000000",
         "tempbeteckning": "1878",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdat Tid slutet av 1918 års lagtima riksdag",
         "traff": 10,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -971,6 +1061,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1918-06-15",
         "debatt": null,
@@ -987,6 +1078,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -997,8 +1089,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dfs0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1918____",
         "kalla": "digitalisering",
@@ -1009,6 +1103,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-06",
         "rddata": null,
@@ -1045,11 +1142,13 @@
         "systemdatum": "2018-03-06T23:13:08.000000",
         "tempbeteckning": "1878",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 11,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1066,6 +1165,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1908-06-03",
         "debatt": null,
@@ -1082,6 +1182,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1092,8 +1193,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d5s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1908____",
         "kalla": "digitalisering",
@@ -1104,6 +1207,9 @@
         "notisrubrik": "utfärdad t vid slutet af 1908 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1140,11 +1246,13 @@
         "systemdatum": "2018-03-07T16:56:32.000000",
         "tempbeteckning": "1327",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdad t vid slutet af 1908 års riksdag",
         "traff": 12,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1161,6 +1269,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1920-01-01",
         "debatt": null,
@@ -1177,6 +1286,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1187,8 +1297,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dhs0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1920____",
         "kalla": "digitalisering",
@@ -1199,6 +1311,9 @@
         "notisrubrik": "utfärdat vid slutet av 1920 års lagtima riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1235,11 +1350,13 @@
         "systemdatum": "2018-03-07T00:10:40.000000",
         "tempbeteckning": "2022",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdat vid slutet av 1920 års lagtima riksdag",
         "traff": 13,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1256,6 +1373,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1920-06-19",
         "debatt": null,
@@ -1272,6 +1390,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1282,8 +1401,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dhs0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1920____",
         "kalla": "digitalisering",
@@ -1294,6 +1415,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1330,11 +1454,13 @@
         "systemdatum": "2018-03-07T00:10:38.000000",
         "tempbeteckning": "2022",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 14,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1351,6 +1477,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1909-05-25",
         "debatt": null,
@@ -1367,6 +1494,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1377,8 +1505,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d6s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1909____",
         "kalla": "digitalisering",
@@ -1389,6 +1519,9 @@
         "notisrubrik": "utfärdadt Tid slutet af 1909 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1425,11 +1558,13 @@
         "systemdatum": "2018-03-07T17:03:56.000000",
         "tempbeteckning": "1374",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdadt Tid slutet af 1909 års riksdag",
         "traff": 15,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1446,6 +1581,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1909-05-07",
         "debatt": null,
@@ -1462,6 +1598,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1472,8 +1609,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d6s0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1909____",
         "kalla": "digitalisering",
@@ -1484,6 +1623,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1520,11 +1662,13 @@
         "systemdatum": "2018-03-07T17:03:55.000000",
         "tempbeteckning": "1374",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 16,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1541,6 +1685,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1911-05-31",
         "debatt": null,
@@ -1557,6 +1702,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1567,8 +1713,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d8s0riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1911____",
         "kalla": "digitalisering",
@@ -1579,6 +1727,9 @@
         "notisrubrik": "utfärdadt vid slutet af 1911 års riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1615,11 +1766,13 @@
         "systemdatum": "2018-03-07T13:13:17.000000",
         "tempbeteckning": "1467",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdadt vid slutet af 1911 års riksdag",
         "traff": 17,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1636,6 +1789,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1911-01-01",
         "debatt": null,
@@ -1652,6 +1806,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1662,8 +1817,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "d8s0riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1911____",
         "kalla": "digitalisering",
@@ -1674,6 +1831,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1710,11 +1870,13 @@
         "systemdatum": "2018-03-07T13:13:16.000000",
         "tempbeteckning": "1467",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 18,
         "typ": "sfs",
         "undertitel": "",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1731,6 +1893,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1914-01-01",
         "debatt": null,
@@ -1747,6 +1910,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1757,8 +1921,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dbs8riksg",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksg_1914_b___",
         "kalla": "digitalisering",
@@ -1769,6 +1935,9 @@
         "notisrubrik": "utfärdat vid slutet af 1914 års senare riksdag",
         "nummer": "0",
         "organ": "riksg",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1805,11 +1974,13 @@
         "systemdatum": "2018-03-07T11:41:05.000000",
         "tempbeteckning": "1646",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "utfärdat vid slutet af 1914 års senare riksdag",
         "traff": 19,
         "typ": "sfs",
         "undertitel": " - b",
         "url": "",
+        "valkrets": null,
         "video": ""
       },
       {
@@ -1826,6 +1997,7 @@
         "beslutad": "",
         "beslutsdag": "",
         "beteckning": "",
+        "bokstav": null,
         "database": "dokument",
         "datum": "1914-09-10",
         "debatt": null,
@@ -1842,6 +2014,7 @@
         "dokumentnamn": "Svensk författningssamling",
         "dokumentstatus_url_xml": null,
         "domain": "rdwebb",
+        "efternamn": null,
         "filbilaga": {
           "fil": [
             {
@@ -1852,8 +2025,10 @@
             }
           ]
         },
+        "fodd_ar": null,
         "id": "dbs8riksb",
         "inlamnad": "",
+        "iort": null,
         "justeringsdag": "",
         "kall_id": "regl-riksb_1914_b___",
         "kalla": "digitalisering",
@@ -1864,6 +2039,9 @@
         "notisrubrik": "för riksbankens styrelse och förvaltning",
         "nummer": "0",
         "organ": "riksb",
+        "parti": null,
+        "personuppdrag": null,
+        "personuppgift": null,
         "plats": "",
         "publicerad": "2018-03-07",
         "rddata": null,
@@ -1900,11 +2078,13 @@
         "systemdatum": "2018-03-07T11:41:04.000000",
         "tempbeteckning": "1646",
         "tilldelat": "",
+        "tilltalsnamn": null,
         "titel": "för riksbankens styrelse och förvaltning",
         "traff": 20,
         "typ": "sfs",
         "undertitel": " - b",
         "url": "",
+        "valkrets": null,
         "video": ""
       }
     ],
